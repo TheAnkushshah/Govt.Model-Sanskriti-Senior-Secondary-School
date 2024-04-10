@@ -42,9 +42,9 @@ To get started with the project, follow these steps:
 
 5. **Deploy:** Finally, deploy the web application to your preferred hosting platform to make it accessible online.
 
-## Contributors
+## Contributors & Main
 
-- Ankush Shah (ankushsahvlogs@gmail.com)
+- Ankush Shah (ankushsahvlogs@gmail.com) (Main)
 
 ## Feedback
 
