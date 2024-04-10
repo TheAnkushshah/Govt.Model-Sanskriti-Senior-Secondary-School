@@ -27,13 +27,13 @@ To get started with the project, follow these steps:
 1. **Clone the Repository:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
     ```
-    git clone https://github.com/your-username/school-webapp.git
+    git clone https://github.com/TheAnkushshah/Govt.Model-Sanskriti-Senior-Secondary-School.git
     ```
 
 2. **Navigate to the Project Directory:** Once cloned, navigate into the project directory using the `cd` command:
 
     ```
-    cd school-webapp
+    cd Govt.Model-Sanskriti-Senior-Secondary-School
     ```
 
 3. **Open in Web Browser:** Open the `index.html` file in your preferred web browser to explore the web application locally.
