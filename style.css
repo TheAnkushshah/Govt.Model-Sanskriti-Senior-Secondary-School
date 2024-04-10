@@ -1,0 +1,2165 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*--HomePage CSS Starts--*/
+/*Custom Scrollbar CSS Starts*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/003/249/455/small/teacher-s-day-cartoon-background-free-vector.jpg);
+  border-radius: 10px;
+}
+/*Custom Scrollbar CSS Ends*/
+
+/*Newsletter CSS Starts*/
+.popup {
+  display: none;
+  position: fixed;
+  top: 95%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  width: 230px;
+  text-align: center;
+}
+
+.popup p {
+  margin: 0;
+  color: #333333;
+}
+/*Newsletter CSS Ends*/
+
+/*--Section 1st CSS Starts--*/
+.Section{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(HomePage/Campus.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding-right: 2%;
+  padding-left: 3%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+}
+.nav-links ul li::after{
+  content:"";
+  width: 0%;
+  height: 2px;
+  background: #ff8400;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.btnLogin-popup img{
+  width: 50px;
+  margin-top: -34%;
+  margin-left: 28%;
+  cursor: pointer;
+}
+.textbox{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.textbox h1{
+  font-size: 62px;
+}
+.textbox p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+.button{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: #ff8400;
+  position: relative;
+  cursor: pointer;
+}
+.button:hover{
+  border: 1px solid #ff8400;
+  background: transparent;
+  transition: 1s;
+}
+nav .fa{
+  display: none;
+}
+/*--Login Element CSS Starts--*/
+.wrapper {
+  position: absolute;
+  z-index: 2;
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(70px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: opacity .5s ease, height .2s ease;
+  margin-left: 39%;
+  margin-top: 5%;
+  visibility: hidden;
+  opacity: 0;
+}
+.wrapper:not(.hidden) {
+  visibility: visible;
+  opacity: 1;
+}
+.wrapper.active{
+  height: 520px;
+}
+.wrapper .form-box{
+  width: 100%;
+  padding: 40px;
+}
+.wrapper .form-box.login{
+  transition: transform .18s ease;
+  transform: translateX(0);
+}
+.wrapper.active .form-box.login{
+  position: absolute;
+  transform: translateX(-400px);
+}
+.wrapper .form-box.register{
+  position: absolute;
+  transition: none;
+  transform: translateX(400px);
+}
+.wrapper.active .form-box.register{
+  transition: transform .18s ease;
+  transform: translateX(0);
+}
+.wrapper .icon-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background: #000000;
+  font-size: 2em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.form-box h2{
+  font-size: 2em;
+  color: #000000;
+  text-align: center;
+}
+.input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #000000;
+  margin: 30px 0;
+}
+.form-box.register .input-box{
+  width: 80%;
+  margin-left: 9%;
+}
+.form-box.register .yes{
+  width: 80%;
+  margin-left: 9%;
+}
+.form-box.register .remember-forgot label{
+  margin-left: 9%;
+}
+.input-box label{
+  position: absolute;
+  top: 28%;
+  left: 5px;
+  transform: translateX(-505);
+  font-size: 1em;
+  color: #000000;
+  font-weight: 500;
+  pointer-events: none;
+  transition: .3s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+  top: -12px;
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #000000;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+}
+.input-box .icon{
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #000000;
+  top: 31%;
+}
+.remember-forgot{
+  font-size: .9em;
+  color: #000000;
+  font-weight: 500;
+  margin: -15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.remember-forgot label input{
+  accent-color: #000000;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.remember-forgot a{
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.remember-forgot a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.yes{
+  width: 100%;
+  height: 45px;
+  background: #000000;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login-register p{
+  font-size: .9em;
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  margin: 25px 0 10px;
+  cursor: pointer;
+}
+.login-register p a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.login-register p a:hover{
+  text-decoration: underline;
+}
+/*--Login Element CSS Ends--*/
+/*--sub-menu Element CSS stars--*/
+.sub-menu-wrap{
+  position: absolute;
+  top: 10%;
+  right: 1.5%;
+  width: 210px;
+  display: none;
+  opacity: 0;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.btnLogin-popup:hover + .sub-menu-wrap,
+    .sub-menu-wrap:hover {
+      display: block;
+      opacity: 1;
+    }
+.sub-menu{
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.user-info{
+  display: flex;
+  align-items: center;
+}
+.user-info h2{
+  font-weight: 600;
+}
+.user-info img{
+  width: 60px;
+  margin-right: 15px;
+}
+.sub-menu hr{
+  border: 0;
+  height: 1;
+  width: 100%;
+  background: #ccc;
+  margin: 13px 0 10px;
+}
+.sub-menu-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #525252;
+  margin: 12px 0;
+}
+.sub-menu-link p{
+  width: 100%;
+  font-size: 1em;
+  color: #000;
+}
+.sub-menu-link:hover p{
+  font-weight: 600;
+}
+.sub-menu-link img{
+  width: 25px;
+  background: #e5e5e5;
+  border-radius: 20%;
+  padding: 8px;
+  margin-right: 5px;
+}
+.sub-menu-link span{
+  transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+  transform: translateX(5px);
+}
+/*--sub-menu Element CSS Ends--*/
+/*--Section 1st CSS Ends--*/
+
+/*--Milestones as Section 2nd CSS Starts--*/
+.Milestones{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+}
+h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+p{
+  color: #777;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 5px;
+}
+.row{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.Milestones-col{
+  flex-basis: 18%;
+  background: #fff3f3;
+  border-radius: 10%;
+  margin-bottom: 5%;
+  padding: 4% 6%;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.Milestones-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.animated-number {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+/*--Milestones as Section 2nd CSS Ends--*/
+
+/*--Section 3rd as Campus CSS Starts--*/
+.Campus{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 0px;
+}
+.Campus-col{
+  margin-top: 16px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 3% 5%;
+}
+.Campus-col img{
+  width: 100%;
+  border-radius: 20px;
+}
+.layer{
+  border-radius: 20px;
+  background: transparent;
+  height: 89.7%;
+  width: 90.2%;
+  position: absolute;
+  top: 45;
+  left: 75;
+  transition: 0.5s;
+}
+.layer h2{
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+.layer:hover h2{
+  bottom: 49%;
+  opacity: 1;
+}
+/*--Section 3rd as Campus CSS Ends--*/
+
+/*--Section 4th as Facilities CSS Starts--*/
+.facilities{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: -67px;
+}
+.facilities-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+.facilities-col img{
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+.facilities-col h3{
+  padding-top: 20px;
+}
+.facilities-col p{
+  padding-bottom: 20px;
+}
+.hero-button{
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #000000;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: black;
+  position: relative;
+  cursor: pointer;
+}
+/*--Section 4th as Facilities CSS Ends--*/
+
+/*--Section 5th as Achivements CSS Ends--*/
+.Achivements{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1%;
+}
+.Achivements-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 4%;
+}
+.Achivements-col img{
+  width: 100%;
+  height: 73%;
+  border-radius: 10px;
+}
+.Achivements-col h3{
+  padding-top: 20px;
+}
+.Achivements-col p{
+  padding-bottom: 20px;
+}
+.hero2-button{
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #000000;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: black;
+  position: relative;
+  cursor: pointer;
+}
+/*--Section 5th as Achivements CSS Ends--*/
+
+/*--Ratings as Section 6th CSS Starts--*/
+.Ratings{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.Ratings-col{
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 0%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.Ratings-col img{
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.Ratings-col p{
+  font-size: 15px;
+}
+.Ratings-col h3{
+  margin-top: 5px;
+}
+.Ratings-col .fa{
+  color: #f44336;
+  margin-bottom: 15px;
+}
+.Ratings-col1{
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 0%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.Ratings-col1 img{
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.Ratings-col1 p{
+  font-size: 15px;
+}
+.Ratings-col1 h3{
+  margin-top: 5px;
+}
+.Ratings-col1 .fa{
+  color: #f44336;
+  margin-bottom: 15px;
+}
+/*--Ratings as Section 6th CSS Ends--*/
+
+/*--Lta as Section 7th CSS Starts--*/
+.Lta{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.Lta p{
+  padding-bottom: 63px;
+}
+.Lta-col img{
+  width: 90%;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+.Hero3-button{
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #000000;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: black;
+  position: relative;
+  cursor: pointer;
+}
+/*--Lta as Section 7th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 100%;
+  margin-bottom: 4%;
+  margin-top: -45.5;
+}
+.btt {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(20,20,20);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(18, 16, 255, 0.258);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+  margin-left: 95%;
+}
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+.svgIcon path {
+  fill: white;
+}
+.btt:hover .svgIcon {
+  transition-duration: 0.3s;
+  transform: translateY(-200%);
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  padding: 10px 0 30px;
+  border-top-left-radius: 125px;
+  border-top-right-radius: 125px;
+  line-height: 20px;
+  display: flex;
+}
+.footer-row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.logo{
+  width: 40%;
+  margin-left: -20px;
+}
+footer p{
+  color: #fff;
+  font-size: 15px;
+}
+.footer-col1{
+  padding-top: 40px;
+  margin-left: -160px;
+}
+.footer-col1 h3{
+  padding-bottom: 20px;
+}
+.footer-col1 h4{
+  padding-top: 9.9px;
+}
+.footer-col1 p{
+  margin-left: -5px;
+}
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+.footer-col2{
+  padding-top: 40px;
+  margin-left: -105px;
+}
+.footer-col2 h3{
+  padding-bottom: 26px;
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer-col3{
+  padding-top: 38px;
+  margin-left: -110px;
+}
+.footer-col3 h3{
+  padding-bottom: 19px;
+}
+.footer-col3 form{
+  padding-top: 11px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+.footer-col3 form .far{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.footer-col3 form input{
+  width: 100%;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  border: 0;
+}
+.footer-col3 form button{
+  background: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.footer-col3 form button .fas{
+  font-size: 16px;
+  color: #ccc;
+}
+.footer-col4{
+  padding-top: 150px;
+  margin-left: -480px;
+}
+.footer-col4 .fab{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 90%;
+  color: #000;
+  background: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.footer-col5{
+  padding-top: 36px;
+  margin-left: -250px;
+}
+.footer-col5 h3{
+  padding-bottom: 24px;
+}
+.footer-col5 p{
+  margin-left: -5px;
+}
+.underline1{
+  width: 4.3%;
+  height: 2%;
+  background: #767676;
+  border-radius: 9px;
+  position: absolute;
+  top: 76px;
+  overflow: hidden;
+}
+.underline2{
+  width: 2.7%;
+  height: 2%;
+  background: #767676;
+  border-radius: 9px;
+  position: absolute;
+  top: 76px;
+  overflow: hidden;
+}
+.underline3{
+  width: 5.5%;
+  height: 2%;
+  background: #767676;
+  border-radius: 9px;
+  position: absolute;
+  top: 76px;
+  overflow: hidden;
+}
+.underline4{
+  width: 5.3%;
+  height: 2%;
+  background: #767676;
+  border-radius: 9px;
+  position: absolute;
+  top: 76px;
+  overflow: hidden;
+}
+.underline1 span{
+  width: 25%;
+  height: 100%;
+  background: #fff;
+  border-radius: 9px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+.underline2 span{
+  width: 35%;
+  height: 100%;
+  background: #fff;
+  border-radius: 9px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+.underline3 span{
+  width: 20%;
+  height: 100%;
+  background: #fff;
+  border-radius: 9px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+.underline4 span{
+  width: 20%;
+  height: 100%;
+  background: #fff;
+  border-radius: 9px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving{
+  0%{
+    left: -20px;
+  }
+  100%{
+    left: 100%;
+  }
+}
+/*--Footer as Section 8th CSS Ends--*/
+/*--HomePage CSS Ends--*/
+
+/*--Aboutus Page CSS Starts--*/
+/*--Section 1st CSS Starts--*/
+.Aboutus{
+  min-height: 100vh;
+  width: 100%;
+  top: -8.5%;
+  background-image: url(AboutPage/Aboutuseful.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav{
+  height: 80;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  z-index: 1000;
+}
+.Aboutus nav .logohumain{
+  width: 92px;
+}
+.Aboutus .nav-links{
+  padding-top: 16;
+}
+.Aboutus .btnLogin-popup img{
+  margin-top: 0;
+}
+.Aboutus .sub-menu-wrap{
+  top: 85%;
+}
+.Aboutus .wrapper{
+  margin-top: 12%;
+}
+.littleaboutus{
+  width: 100%;
+  margin-top: 4.2%;
+  text-align: center;
+}
+.littleaboutus h1{
+  font-size: 65px;
+  padding-top: 320px;
+  color: #fff;
+}
+.littleaboutus p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 10px;
+  padding: 5px 10px;
+  padding-top: 0px;
+}
+.aboutusread{
+  margin-top: 22;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: #2FAAE5;
+  position: relative;
+  cursor: pointer;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.Fullaboutus h1{
+  text-align: center;
+}
+.ourmissiondesign{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+.ourmissiondesign-col img{
+  border-radius: 10px;
+}
+.ourmissiondesign-col p{
+  margin-top: 13%;
+  line-height: 170%;
+  font-weight: 400;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus1{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.Fullaboutus1 h1{
+  text-align: center;
+}
+.ourvisiondesign{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+.ourvisiondesign-col img{
+  border-radius: 10px;
+}
+.ourvisiondesign-col p{
+  margin-top: 20%;
+  line-height: 170%;
+  font-weight: 400;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus2{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+}
+.corevalue{
+  display: flex;
+  margin-top: 4.5%;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 20%;
+  text-align: center;
+}
+.corevalue-col img{
+  border-radius: 100%;
+  width: 80%;
+  margin-bottom: 4%;
+}
+.corevalue-col p{
+  padding-top: 4px;
+  font-weight: 400;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus3{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+}
+.history{
+  margin-top: 4%;
+  display: flex;
+}
+.history-col img{
+  width: 90%;
+  border-radius: 10px;
+}
+.history-col p{
+  font-weight: 400;
+  margin-top: 10%;
+  line-height: 150%;
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus4{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+}
+.leadershipteam{
+  margin-top: 4%;
+  display: flex;
+}
+.leadershipteam-col1 img{
+  width: 75%;
+  border-radius: 3%;
+}
+.leadershipteam-col1 p{
+  text-align: center;
+  padding-top: 20;
+  margin-right: 23%;
+}
+.leadershipteam-col h3{
+  margin-top: 6%;
+}
+.leadershipteam-col p{
+  line-height: 150%;
+  font-weight: 400;
+}
+.leadershipteam-col{
+  width: 90%;
+  margin-left: 5%;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Starts--*/
+.Fullaboutus5{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+.secondleadershipteam{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.secondleadershipteam-col img{
+  border-radius: 3%;
+  margin-left: 17%;
+}
+.secondleadershipteam-col h3{
+  margin-top: 12.5%;
+}
+.secondleadershipteam-col p{
+  line-height: 150%;
+  font-weight: 400;
+  padding-top: 20;
+  margin-left: 30%;
+  text-align: center;
+}
+.secondleadershipteam-col1{
+  margin-right: 10%;
+}
+.secondleadershipteam-col1 h3{
+  margin-top: 16.5%;
+}
+.secondleadershipteam-col1 p{
+  line-height: 150%;
+  font-weight: 400;
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus6{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.Fullaboutus6 h1{
+  text-align: center;
+}
+.teachers{
+  margin-top: 5%;
+  display: flex;
+  text-align: center;
+}
+.teachers-col img{
+  width: 80%;
+  border-radius: 10%;
+
+}
+.teachers-col p{
+  margin-top: 12px;
+  font-weight: 400;
+  color: #212122;
+  line-height: 150%;
+}
+.teachers-col img{
+  transition: 0.5s;
+}
+.teachers-col img:hover{
+  box-shadow: 0 0 20px 0px rgba(20,20,20,20);
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.Fullaboutus7{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+}
+.students{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.students-col img{
+  border-radius: 20px;
+}
+.students-col p{
+  margin-top: 4.7%;
+  font-weight: 400;
+  text-align: center;
+}
+.downloadpdf{
+  margin-top: 22;
+  margin-left: 40%;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Ends--*/
+.Fullaboutus8{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 6%;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+}
+.MPD-col{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  width: 750px;
+  height: 400px;
+  perspective: 1000px;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.cardcircle{
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+}
+.card-backcircle{
+  background: url(AboutPage/Affiliation.png);
+  border-radius: 100px;
+  transform: rotateY(180deg);
+}
+/*--Section 11th CSS Ends--*/
+
+/*--Section 12th CSS Starts--*/
+.card3D {
+  width: 300px;
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .character {
+  opacity: 1;
+  transform: translate3d(5%, -20%, 670px);
+}
+/*--Section 12th CSS Ends--*/
+
+/*--Section 13th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 70px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  text-align: center;
+  top: 80%;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 0px 0;
+  padding-bottom: 70px;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 13th CSS Ends--*/
+
+/*--Section 14th CSS Starts--*/
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 40%;
+  margin-top: -4%;
+}
+/*--Section 14th CSS Ends--*/
+/*--Aboutus Page CSS Ends--*/
+
+/*--Curriculam Page CSS Starts--*/
+
+/*--Section 1st CSS Starts--*/
+/*--The css of 1st section is too short so i did it in inline--*/
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Classroom{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4%;
+  margin-top: -0.5%;
+}
+.Classroom h1{
+  text-align: center;
+}
+.Classroom-col{
+  max-width: 1514px;
+  width: 100%;
+  position: relative;
+  padding-top: 4%;
+}
+.Classroom-col i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.Classroom-col i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.Classroom-col i:first-child{
+  left: -22px;
+}
+.Classroom-col i:last-child{
+  right: -22px;
+}
+.Classroom-col .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .Classroom-card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.Classroom-card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .Classroom-card {
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.carousel .Classroom-card .img {
+  background: #fece2f;
+  height: 148px;
+  width: 148px;
+  border-radius: 50%;
+}
+.Classroom-card .img img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+.carousel .Classroom-card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+}
+.carousel .Classroom-card span {
+  color: #6A6D78;
+  font-size: 1.31rem;
+}
+@media screen and (max-width: 900px) {
+  .Classroom-col .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .Classroom-col .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Board{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.Board h1{
+  text-align: center;
+}
+.Board-col{
+  display: flex;
+  justify-content: space-around;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.subjects{
+  width: 83%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.subjects h1{
+  text-align: center;
+}
+.subjects-card{
+  display: flex;
+  margin-top: 4.5%;
+  justify-content: space-between;
+}
+.subjects-col {
+  position: relative;
+  width: 330px;
+  height: 210px;
+  background: url(Curriculam/try\ 2.png);
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.subjects-col svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.subjects-col:hover {
+  transform: rotate(-5deg) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%) rotate(45deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.subjects-col:hover .card__content {
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 1;
+}
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+.subjects-col:hover svg {
+  scale: 0;
+  transform: rotate(-45deg);
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.books{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.books h1{
+  text-align: center;
+}
+.book-image{
+  display: none;
+}
+.books-modern-table{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+.books-showcase{
+  margin-top: 2%;
+}
+.classes-select-container{
+  width: calc(38%);
+}
+.subjects-select-container{
+  width: calc(38%);
+}
+select{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  width: 80%;
+}
+.buy-book{
+  margin-top: 3%;
+}
+.buy-book img{
+  border-radius: 15px;
+}
+.link-map area {
+  display: none;
+}
+.buy-link:hover .amazon-link,
+.buy-link:hover .myntra-link,
+.buy-link:hover .snapdeal-link,
+.buy-link:hover .walmart-link,
+.buy-link:hover .shopify-link,
+.buy-link:hover .target-link,
+.buy-link:hover .etsy-link,
+.buy-link:hover .flipkart-link {
+  display: block;
+}
+.buy-link:hover .amazon-link:hover,
+.buy-link:hover .myntra-link:hover,
+.buy-link:hover .snapdeal-link:hover,
+.buy-link:hover .walmart-link:hover,
+.buy-link:hover .shopify-link:hover,
+.buy-link:hover .target-link:hover,
+.buy-link:hover .etsy-link:hover,
+.buy-link:hover .flipkart-link:hover {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.buy-link:hover .amazon-link:hover {
+  left: 0;
+}
+.buy-link:hover .myntra-link:hover {
+  left: 125px;
+}
+.buy-link:hover .snapdeal-link:hover {
+  left: 250px;
+}
+.buy-link:hover .walmart-link:hover {
+  left: 375px;
+}
+.buy-link:hover .shopify-link:hover {
+  top: 125px;
+}
+.buy-link:hover .target-link:hover {
+  top: 125px;
+  left: 125px;
+}
+.buy-link:hover .etsy-link:hover {
+  top: 125px;
+  left: 250px;
+}
+.buy-link:hover .flipkart-link:hover {
+  top: 125px;
+  left: 375px;
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+/*--The css of 6th section is too short so i did it in inline--*/
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Starts--*/
+.Enroll-link{
+  width: 80%;
+  margin:auto;
+  margin-bottom: 4%;
+}
+.enroll-img{
+  text-align: center;
+  margin-bottom: 3.5%;
+}
+.enroll-img img{
+  width: 85%;
+  border-radius: 15px;
+  text-align: center;
+}
+.magic-button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.box {
+  width: 37px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  transition: all .8s;
+  cursor: pointer;
+  position: relative;
+  background: rgb(58, 165, 253);
+  overflow: hidden;
+}
+.box:before {
+  content: "D";
+  position: absolute;
+  top: 0;
+  background: #0f0f0f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: transform .4s;
+}
+.box:nth-child(2)::before {
+  transform: translateY(-100%);
+  content: 'R';
+}
+.box:nth-child(3)::before {
+  content: 'E';
+}
+.box:nth-child(4)::before {
+  transform: translateY(-100%);
+  content: 'A';
+}
+.box:nth-child(5)::before {
+  content: 'M';
+}
+.box:nth-child(6)::before {
+  transform: translateY(-100%);
+  content: 'S';
+}
+.magic-button:hover .box:before {
+  transform: translateY(0);
+}
+/*--Section 7th CSS Ends--*/
+/*--Curriculam Page CSS Ends--*/
+
+/*--Blog Page CSS Starts--*/
+/*--Section 1st CSS Starts--*/
+/*--The css of 1st section is too short so i did it in inline--*/
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.newsroom{
+  width: 89.3%;
+  margin: auto;
+  margin-bottom: 4%;
+  margin-top: -0.5%;
+}
+.newsroom h1{
+  text-align: center;
+}
+.newsroom-col{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.5%;
+  text-align: center;
+}
+.top-news-col img{
+  border-radius: 15px;
+  margin-bottom: 8%;
+  width: 70%;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.achieve-blogs{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.achieve-blogs h1{
+  text-align: center;
+}
+.achieve-blogs-col{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.5%;
+}
+.achieve-blogs-col img{
+  border-radius: 10px;
+}
+.blogs-text{
+  color: #333333;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.campus-news{
+  width: 85%;
+  margin: auto;
+  padding-bottom: 4%;
+}
+.campus-news h1{
+  text-align: center;
+}
+.campus-news-col{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.5%;
+}
+.campus-news-col img{
+  border-radius: 10px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.facility-news{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.facility-news h1{
+  text-align: center;
+}
+.facility-news-col{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.5%;
+}
+.facility-news-col img{
+  border-radius: 10px;
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Developer{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 6%;
+}
+.Developer h1{
+  text-align: center;
+}
+.developer-col{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4.5%;
+}
+.final-developer-col video{
+  width: 99%;
+  border-radius: 20px;
+}
+.final-developer-col img{
+  border-radius: 20px;
+}
+/*--Section 6th CSS Ends--*/
+/*--Blog Page CSS Ends--*/
+
+/*--Admission Page CSS Starts--*/
+/*--Section 1st CSS Starts--*/
+/*--The css of 1st section is too short so i did it in inline--*/
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Process-add{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4%;
+  margin-top: -0.5%;
+}
+.Process-add h1{
+  text-align: center;
+}
+.process-add-col{
+  text-align: center;
+}
+.process-add-col img{
+  width: 100%;
+  margin-left: 1%;
+  margin-top: 0.6%;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.fee{
+  width: 92%;
+  margin: auto;
+  margin-bottom: 4.2%;
+  margin-top: -1%;
+}
+.fee h1{
+  text-align: center;
+}
+.fee-col{
+  display: flex;
+  text-align: center;
+  margin-top: 4.5%;
+}
+.fee-col img{
+  width: 85%;
+  border-radius: 15px;
+  border: 1px solid rgb(194, 194, 194);
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.add-form{
+  width: 88.2%;
+  margin: auto;
+  margin-bottom: 0.8%;
+}
+.add-form h1{
+  text-align: center;
+}
+.form-col{
+  margin-top: 4.5%;
+  display: flex;
+  text-align: center;
+}
+.form-col-card img{
+  width: 90%;
+  border: 2px solid #d3d2d2;
+  border-radius: 15px;
+}
+/*--Section 4th CSS Ends--*/
+/*--Admission Page CSS Ends--*/
+
+/*--Contact Page CSS Starts--*/
+/*--Section 1st CSS Starts--*/
+/*--The css of 1st section is too short so i did it in inline--*/
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.maper{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4.5%;
+}
+.maper h1{
+  text-align: center;
+}
+.map-col{
+  margin-top: 4.5%;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.contact-form-imp{
+  width: 80%;
+  margin: auto;;
+}
+.contact-form-imp h1{
+  text-align: center;
+}
+.contact-form {
+  background: url(Contact/form-bg.gif);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 7px;
+  padding-left: 7px;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 4.5%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 8%;
+}
+
+.contact-form label {
+  color: rgb(255, 255, 255);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 260px;
+  width: 608px;
+  background-color: transparent;
+  color: white;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px orange;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+/*--Section 3rd CSS Ends--*/
+/*--Contact Page CSS Ends--*/

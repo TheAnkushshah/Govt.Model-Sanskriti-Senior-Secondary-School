@@ -1,0 +1,881 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Govt.Model Sanskriti Senior Secondary School
+        </title>
+        <link rel="icon" href="Main/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-opt.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/6b4461ca9b.js"></script>
+        <style>
+            .card-2:hover,.card-4:hover{
+              transform: rotate(5deg) scale(1.1);
+            }
+        </style>
+    </head>
+    <body>
+        <!--Section 1st Starts-->
+        <section class="Aboutus" style="background: url(Curriculam/Curri.png);">
+            <nav id="header">
+                <a href="Home.html"><img src="Main/logo.png" class="logohumain"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li style="text-shadow: 1px 1px 1px #333333;"><a href="Home.html"><b>HOME</a></li>
+                        <li style="text-shadow: 1px 1px 1px #333333;"><a href="About.html">ABOUT</a></li>
+                        <li style="text-shadow: 1px 1px 1px #333333;"><a href="Curriculam.html">CURRICULAM</a></li>
+                        <li style="text-shadow: 1px 1px 1px #333333;"><a href="Blog.html">BLOG</a></li>
+                        <li style="text-shadow: 1px 1px 1px #333333;"><a href="Admission.html">ADMISSION</a></li>
+                        <li style="text-shadow: 1px 1px 1px #333333;"><a href="Contact.html">CONTACT</b></a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+                <div class="btnLogin-popup" id="btnLoginPopup"><img src="Login-Signup/login.png" id="loginImage"></div>
+                <div class="sub-menu-wrap">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="Login-Signup/login.png">
+                            <h2>User</h2>
+                        </div>
+                        <hr>
+                        <a href="#" class="sub-menu-link">
+                            <img src="Login-Signup/profile.png">
+                            <p>Edit Profile</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="Login-Signup/Dashboard.png">
+                            <p>DashBoard</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="Login-Signup/logout.png">
+                            <p>Log Out</p>
+                            <span>></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <div class="wrapper hidden" id="wrapper">
+                <span class="icon-close" id="closeIcon"><ion-icon name="close"></ion-icon></span>
+                <div class="form-box login">
+                    <h2>Student</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" required>
+                            <label>SRN</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">I Agree to the terms & conditions</label>
+                        </div>
+                        <button type="submit" class="yes">Login</button>
+                        <div class="login-register">
+                            <p>Faculty Login ! <a href="#" class="register-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-box register">
+                    <h2>Faculty</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" required>
+                            <label>SRN</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">I Agree to the terms & conditions</label>
+                        </div>
+                        <button type="submit" class="yes">Login</button>
+                        <div class="login-register">
+                            <p>Student Login ! <a href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="littleaboutus">
+                <h1><b>Curriculam Designed For Innovators</b></h1>
+                <p><span class="text-formatting" style="background: #df8470">Embark on the Extraordinary: A Grand Expedition in Learning for Innovators in Our Thoughtfully Crafted </span><br>
+                   <span class="text-formatting1" style="background: #df8470">Curriculum Designed for Big Ideas and Bigger Dreams</span></p>
+                   <a href="#Fullaboutus" class="aboutusread" style="background-color: #c85025;">Way To Leadership</a>
+            </div>
+        </section>
+        <!--Section 1st Ends-->
+
+        <!--Section 2nd Starts-->
+        <section class="Classroom" id="Fullaboutus">
+            <h1>Our Classes</h1>
+            <div class="Classroom-col">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/1st class.png" draggable="false"></div>
+                    <h2>1st Class</h2>
+                    <span>Apple</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/2nd class.png" draggable="false"></div>
+                    <h2>2nd Class</h2>
+                    <span>Sunflower</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/3rd class.png" draggable="false"></div>
+                    <h2>3rd Class</h2>
+                    <span>Sunshine</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/4th class.png" draggable="false"></div>
+                    <h2>4th Class</h2>
+                    <span>Colourful</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/5th class.png" draggable="false"></div>
+                    <h2>5th Class</h2>
+                    <span>Explore</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/6th class.png" draggable="false"></div>
+                    <h2>6th Class</h2>
+                    <span>Engage</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/7th class.png" draggable="false"></div>
+                    <h2>7th Class</h2>
+                    <span>Enthusiastic</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/8th class.png" draggable="false"></div>
+                    <h2>8th Class</h2>
+                    <span>Adventure</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/9th class.png" draggable="false"></div>
+                    <h2>9th Class</h2>
+                    <span>Sophomore</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/10th class.png" draggable="false"></div>
+                    <h2>10th Class</h2>
+                    <span>Decennial</span>
+                  </li>
+                  <li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/11th class.png" draggable="false"></div>
+                    <h2>11th Class</h2>
+                    <span>Adolescents</span>
+                  </li><li class="Classroom-card">
+                    <div class="img"><img src="Curriculam/12th classs.png" draggable="false"></div>
+                    <h2>12th Class</h2>
+                    <span>Ambitious</span>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+              </div>
+        </section>
+        <!--Section 2nd Ends-->
+
+        <!--Section 3rd Starts-->
+        <Section class="Board">
+            <h1>Board Partner</h1>
+            <div class="Board-col">
+                <h1 style="font-size: 47px; padding-top: 9%; color: #212122; text-shadow: 2px 2px 2px #a1c3f0;"><b>(CBSE)<br>Central Board Of Secondary<br>Education</b></h1>
+                <img src="Curriculam/boards.gif" style="width: 35%; margin-top: -1%;">
+            </div>
+        </Section>
+        <!--Section 3rd Ends-->
+
+        <!--Section 4th Starts-->
+        <Section class="Subjects">
+            <h1>Our Subjects</h1>
+            <div class="subjects-card">
+                <div class="subjects-col" style="background: url(Curriculam/try\ 1.png); background-size: cover;">
+                    <div class="card__content">
+                      <p class="card__title">1st - 5th</p>
+                      <p class="card__description">English<br>Hindi<br>Maths<br>EVS (Not for 1st & 2nd)<br>Computer (Not Included In Exams)<br>Drawing (Not Included In Exams)</p>
+                    </div>
+                </div>
+                <div class="subjects-col card-2">
+                    <div class="card__content">
+                      <p class="card__title">6th - 8th</p>
+                      <p class="card__description">English<br>Hindi<br>Maths<br>Science<br>Social Science<br>Sanskrit</p>
+                    </div>
+                </div> 
+                <div class="subjects-col" style="background: url(Curriculam/try\ 3.png); background-size: cover;">
+                    <div class="card__content">
+                      <p class="card__title">9th - 10th</p>
+                      <p class="card__description">English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Optionals <img src="Curriculam/chevron.png" style="padding-top: 2px; position: fixed; width: 15px; margin-left: 4.5px;"><br>
+                        Hindi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. IT<br>
+                        Maths &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. HomeScience<br>
+                        Science &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Retail<br>
+                        Social Science &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Sanskrit<br>
+                        Optionals
+                      </p>
+                    </div>
+                </div> 
+                <div class="subjects-col card-4" style="background: url(Curriculam/try\ 4.png); background-size: cover;">
+                    <div class="card__content">
+                      <p class="card__title">Arts 11<sup>th</sup> - 12<sup>th</sup></p>
+                      <p class="card__description">English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Optionals <img src="Curriculam/chevron.png" style="padding-top: 2px; position: fixed; width: 15px; margin-left: 4.5px;"><br>
+                        History &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. IT<br>
+                        Political Science &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. HomeScience<br>
+                        Hindi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Geography<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Physchology<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Sanskrit</p>
+                </div>                   
+            </div>
+        </Section>
+        <Section class="Subjects" style="width: 49%;">
+            <div class="subjects-card" style="justify-content: space-evenly;">
+                <div class="subjects-col" style="background: url(Curriculam/try\ 5.png); background-size: cover;">
+                    <div class="card__content">
+                      <p class="card__title">Commerce 11<sup>th</sup> - 12<sup>th</sup></p>
+                      <p class="card__description">English or Hindi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Optionals <img src="Curriculam/chevron.png" style="padding-top: 2px; position: fixed; width: 15px; margin-left: 4.5px;"><br>
+                        Maths or Economics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. IT<br>
+                        Accountancy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. HomeScience<br>
+                        Bussiness Study &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  3. Sanskrit<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Physchology
+                      </p>
+                    </div>
+                </div> 
+                <div class="subjects-col card-4" style="background: url(Curriculam/try\ 6.png); background-size: cover;">
+                    <div class="card__content">
+                      <p class="card__title">Science 11<sup>th</sup> - 12<sup>th</sup></p>
+                      <p class="card__description">English or Hindi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Optionals <img src="Curriculam/chevron.png" style="padding-top: 2px; position: fixed; width: 15px; margin-left: 4.5px;"><br>
+                        Physics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. IT<br>
+                        Chemistry &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. HomeScience<br>
+                        Maths &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Sanskrit<br>
+                        Biology (Medical)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Physchology<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Computer Science
+                    </p>
+                </div>                   
+            </div>
+        </Section>
+        <!--Section 4th Ends-->
+
+        <!--Section 5th Starts-->  
+        <section class="Books">
+            <h1>Our Books</h1>
+            <div class="books-modern-table">
+                <div class="classes-select-container">
+                    <label for="class-selector">Class:</label>
+                    <select id="class-selector">
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                        <option value="V">V</option>
+                        <option value="VI">VI</option>
+                        <option value="VII">VII</option>
+                        <option value="VIII">VIII</option>
+                        <option value="IX">IX</option>
+                        <option value="X">X</option>
+                        <option value="XI_Arts">XI Arts</option>
+                        <option value="XI_Commerce">XI Commerce</option>
+                        <option value="XI_Science">XI Science</option>
+                        <option value="XII_Arts">XII Arts</option>
+                        <option value="XII_Commerce">XII Commerce</option>
+                        <option value="XII_Science">XII Science</option>
+                    </select>
+                </div>
+                
+                <div class="subjects-select-container">
+                    <label for="subject-selector">Subject:</label>
+                    <select id="subject-selector">
+                        <option value="" selected disabled hidden>English</option>
+                    </select>
+                </div>
+                
+                <div class="go-button-container">
+                    <button id="go-button" onclick="goButtonClicked()" style="padding: 18px; background: url(https://assets-v2.lottiefiles.com/a/a8134e5c-1175-11ee-b073-6f26925c7cd4/ret5Nep2m1.gif); background-size: cover; border-radius: 5px; border: 1px solid #ccc; cursor: pointer;"></button>
+                </div>
+            </div>
+            
+            <div class="books-showcase">
+                <img id="book-image" src="Curriculam/book-images/1st - 5th books/1st English.jpg"/>
+                <img id="book-image" alt="Book Image" style="display: none;">
+                <img src="Curriculam/books background.gif">
+            </div>
+
+            <div class="buy-book">
+                <img src="Curriculam/shop.png" usemap="#link-map" id="buy-link">
+                <map name="link-map" id="link-map">
+                    <area id="amazon-link" href="https://www.amazon.com" shape="rect" coords="100, 94, 46, 40" target="_blank">
+                    <area id="myntra-link" href="https://www.myntra.com" shape="rect" coords="236, 93, 184, 39" target="_blank">
+                    <area id="snapdeal-link" href="https://www.snapdeal.com" shape="rect" coords="391, 94, 336, 40" target="_blank">
+                    <area id="walmart-link" href="https://www.walmart.com" shape="rect" coords="558, 94, 504, 37" target="_blank">
+                    <area id="shopify-link" href="https://www.shopify.com" shape="rect" coords="1001, 94, 944, 37" target="_blank">
+                    <area id="target-link" href="https://www.target.com" shape="rect" coords="1154, 98, 1094, 41" target="_blank">
+                    <area id="etsy-link" href="https://www.etsy.com" shape="rect" coords="1304, 93, 1248, 40" target="_blank">
+                    <area id="flipkart-link" href="https://www.flipkart.com" shape="rect" coords="1462, 96, 1408, 40" target="_blank">
+                </map>
+            </div>
+        </section>
+        <!--Section 5th Ends-->
+
+        <!--Section 6th Starts-->
+        <section class="Fullaboutus8" style="margin-bottom: 0%; width: 90%;">
+            <h1 style="text-align: center;">Our Exam Results</h1>
+            <div class="lastyear">
+                <img src="AboutPage/lastyearresults.gif">
+                <h1 style="word-spacing: 5px; color: #363333; font-size: 70px;"><b>SOON TO BE UPLOADED</h1>
+            </div>
+        </section>
+        <!--Section 6th Ends-->
+
+        <!--Section 7th Starts-->
+        <section class="Enroll-link">
+            <h1 style="text-align: center; margin-bottom: 4%;">Join Dreams</h1>
+            <div class="enroll-img">
+                <img src="Curriculam/Enroll do it.png">
+            </div>
+            <a href="Admission.html" style="text-decoration: none;">
+            <div class="magic-button">
+                <div class="box" style= "border-top-left-radius: 10px; border-bottom-left-radius: 10px;">E</div>
+                <div class="box">N</div>
+                <div class="box">R</div>
+                <div class="box">O</div>
+                <div class="box">L</div>
+                <div class="box" style= "border-top-right-radius: 10px; border-bottom-right-radius: 10px;">L</div>
+            </div>
+            </a>
+        </section>
+        <!--Section 7th Ends-->
+
+        <!--btt as Section Starts-->
+        <section class="backtotop" style="margin-top: -5.9%;">
+            <button class="btt" id="backToTopBtn" onclick="scrollToTop()">
+                <svg class="svgIcon" viewBox="0 0 384 512">
+                    <path
+                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z">
+                    </path>
+                </svg>
+            </button>
+        </section>
+        <!--btt as Section Ends-->
+
+        <!--Footer as Section 8th Starts-->
+        <footer>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <img src="Main/logo.png" class="logo">
+                    <p>Empowering Minds, Igniting Curiosity, and Cultivating Excellence a Community with High Expectation and High Achievements
+                        Unleashing the Potential of Every Student on Our Campus!</p>
+                </div>
+                <div class="footer-col1">
+                    <h3>Address <div class="underline1"><span></span></div></h3>
+                    <p>Sector-43<br>
+                    Sushant Lok-1, Gurugram<br>
+                    Haryana, PIN-122002, India<br>
+                    </p>
+                    <p class="email-id">5520gmssss@gmail.com</p>
+                    <h4>+91-0124-2570289</h4>
+                </div>
+                <div class="footer-col2">
+                    <h3>Links<div class="underline2"><span></span></div></h3>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Curriculam.html">Curriculam</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                        <li><a href="Admission.html">Admission</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col3" style="z-index: 1000;">
+                    <h3>Newsletter<div class="underline3"><span></span></div></h3>
+                    <form id="subscribeForm">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" id="emailInput" placeholder="Enter your email id" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+                <div class="popup" id="popup">
+                    <p>🔔 Subscribed Successfully!</p>
+                </div>
+                <div class="footer-col4">
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/gmssss.ggn/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://in.linkedin.com/school/govt-model-sanskriti-senior-secondary-school/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-col5">
+                    <h3>Copyright<div class="underline4"><span></span></div></h3>
+                    <p>GMSSSS © 2007 - All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+        <!--Footer as Section 8th Ends-->
+    
+        <!--Javascript for Login start-->
+         <script src="Script.js"></script>
+         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+         <script>
+             const wrapper = document.querySelector('.wrapper');
+             const loginLink = document.querySelector('.login-link');
+             const registerLink = document.querySelector('.register-link');
+            
+             registerLink.addEventListener('click', ()=>{
+                 wrapper.classList.add('active');
+             });
+             
+             loginLink.addEventListener('click', ()=>{
+                 wrapper.classList.remove('active');
+             });
+         </script>
+         <script>
+             document.addEventListener('DOMContentLoaded', function () {
+               var btnLoginPopup = document.getElementById('btnLoginPopup');
+               var wrapper = document.getElementById('wrapper');
+               var closeIcon = document.getElementById('closeIcon');
+           
+               btnLoginPopup.addEventListener('click', function () {
+                 wrapper.classList.toggle('hidden');
+               });
+           
+               closeIcon.addEventListener('click', function () {
+                 wrapper.classList.add('hidden');
+               });
+             });
+           </script>          
+        <!--Javascript for Login Ends-->
+    
+        <!--Javascript for menu start-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showmenu(){ 
+                navLinks.style.right="0";
+            }
+            function hidemenu(){
+                navLinks.style.right="-210px";
+            }
+        </script>
+        <!--Javascript for menu ends-->
+    
+        <!-- Javascript for scroll nav section starts-->
+        <script>
+            // Function to set the initial styles based on scroll position
+            function setInitialStyles() {
+                const header = document.getElementById('header');
+                const navLinks = document.querySelectorAll('.nav-links a');
+                const scrollPosition = window.scrollY;
+        
+                if (scrollPosition > 50) {
+                    header.style.backgroundColor = '#212122';
+                    // Change the color of nav links to white
+                    navLinks.forEach(link => {
+                        link.style.color = '#ffffff';
+                    });
+                } else {
+                    header.style.backgroundColor = 'transparent';
+                    // Change the color of nav links to black
+                    navLinks.forEach(link => {
+                        link.style.color = '#ffffff';
+                    });
+                }
+            }
+        
+            window.addEventListener('scroll', function () {
+                const header = document.getElementById('header');
+                const navLinks = document.querySelectorAll('.nav-links a');
+                const scrollPosition = window.scrollY;
+        
+                if (scrollPosition > 50) {
+                    header.style.backgroundColor = '#212122';
+                    // Change the color of nav links to white
+                    navLinks.forEach(link => {
+                        link.style.color = '#ffffff';
+                    });
+                } else {
+                    header.style.backgroundColor = 'transparent';
+                    // Change the color of nav links to black
+                    navLinks.forEach(link => {
+                        link.style.color = '#ffffff';
+                    });
+                }
+            });
+        
+            // Call the setInitialStyles function on page load
+            window.addEventListener('load', setInitialStyles);
+        </script>
+        <!-- Javascript for scroll nav section Ends-->
+
+    
+        <!--Javascript for scroll into section start-->
+        <script>
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+        
+                    const targetSection = document.querySelector(this.getAttribute('href'));
+                    const offset = targetSection.offsetTop - 120;
+        
+                    window.scrollTo({
+                        top: offset,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+        <!--Javascript for Scroll into section ends-->
+
+        <!--Javascript for Classes section start-->
+        <script>
+        const Classroomcol = document.querySelector(".Classroom-col");
+        const carousel = document.querySelector(".carousel");
+        const firstCardWidth = carousel.querySelector(".Classroom-card").offsetWidth;
+        const arrowBtns = document.querySelectorAll(".Classroom-col i");
+        const carouselChildrens = [...carousel.children];
+        let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+        
+        let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+        
+        carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
+            carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+        });
+        
+        carouselChildrens.slice(0, cardPerView).forEach(card => {
+            carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+        });
+        
+        carousel.classList.add("no-transition");
+        carousel.scrollLeft = carousel.offsetWidth;
+        carousel.classList.remove("no-transition");
+        
+        arrowBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+        carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+    });
+});
+    const dragStart = (e) => {
+    isDragging = true;
+    carousel.classList.add("dragging");
+
+    startX = e.pageX;
+    startScrollLeft = carousel.scrollLeft;
+}
+    const dragging = (e) => {
+    if(!isDragging) return;
+    carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+}
+    const dragStop = () => {
+    isDragging = false;
+    carousel.classList.remove("dragging");
+}
+    const infiniteScroll = () => {
+    if(carousel.scrollLeft === 0) {
+        carousel.classList.add("no-transition");
+        carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+        carousel.classList.remove("no-transition");
+    }
+    else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+        carousel.classList.add("no-transition");
+        carousel.scrollLeft = carousel.offsetWidth;
+        carousel.classList.remove("no-transition");
+    }
+    clearTimeout(timeoutId);
+    if(!wrapper.matches(":hover")) autoPlay();
+}
+    const autoPlay = () => {
+    if(window.innerWidth < 800 || !isAutoPlay) return;
+    timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
+}
+    autoPlay();
+    carousel.addEventListener("mousedown", dragStart);
+    carousel.addEventListener("mousemove", dragging);
+    document.addEventListener("mouseup", dragStop);
+    carousel.addEventListener("scroll", infiniteScroll);
+    wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+    wrapper.addEventListener("mouseleave", autoPlay);
+    </script>
+    <!--Javascript for Classes section start-->
+
+    <!--Javascript for Books section start-->
+    <script>
+    
+    function setDefaultClassAndSubject() {
+        const defaultClass = "I";
+        const defaultSubject = "English";
+        const classSelector = document.getElementById("class-selector");
+        classSelector.value = defaultClass;
+        const subjectSelector = document.getElementById("subject-selector");
+        const defaultOption = subjectSelector.options[subjectSelector.options.length - 1];
+        defaultOption.value = defaultSubject;
+        subjectSelector.selectedIndex = subjectSelector.options.length - 1;
+        const bookImage = document.getElementById("book-image");
+        bookImage.src = `Curriculam/book-images/1st - 5th books/${defaultClass}-${defaultSubject}.jpg`;
+    }
+
+    const classElement = document.getElementById('class-selector');
+    classElement.addEventListener('change', function() {
+        updateSubjects(classElement.value);
+    });
+    
+    const BOOK_CATALOG = {
+        "I": {
+            "English": "Curriculam/book-images/1st - 5th books/1st English.jpg",
+            "Hindi": "Curriculam/book-images/1st - 5th books/1st Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/1st - 5th books/1st Maths.jpg"
+        },
+        "II": {
+            "English": "Curriculam/book-images/1st - 5th books/2nd English.jpg",
+            "Hindi": "Curriculam/book-images/1st - 5th books/2nd Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/1st - 5th books/2nd Maths.jpg"
+        },
+        "III": {
+            "English": "Curriculam/book-images/1st - 5th books/3rd English.jpg",
+            "Hindi": "Curriculam/book-images/1st - 5th books/3rd Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/1st - 5th books/3rd Maths.jpg",
+            "Enviormental Studies (EVS)": "Curriculam/book-images/1st - 5th books/3rd Evs.jpg"
+        },
+        "IV": {
+            "English": "Curriculam/book-images/1st - 5th books/4th English.jpg",
+            "Hindi": "Curriculam/book-images/1st - 5th books/4th Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/1st - 5th books/4th Maths.jpg",
+            "Enviormental Studies (EVS)": "Curriculam/book-images/1st - 5th books/4th Evs.jpg"
+        },
+        "V": {
+            "English": "Curriculam/book-images/1st - 5th books/5th English.jpg",
+            "Hindi": "Curriculam/book-images/1st - 5th books/5th Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/1st - 5th books/5th Maths.jpg",
+            "Enviormental Studies (EVS)": "Curriculam/book-images/1st - 5th books/5th Evs.jpg"
+        },
+        "VI": {
+            "English": "Curriculam/book-images/6th - 8th books/6th English.jpg",
+            "Hindi": "Curriculam/book-images/6th - 8th books/6th Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/6th - 8th books/6th Maths.jpg",
+            "Science": "Curriculam/book-images/6th - 8th books/6th Science.jpg",
+            "Social Science": "Curriculam/book-images/6th - 8th books/6th Social Science.jpg",
+            "Sanskrit": "Curriculam/book-images/6th - 8th books/6th Sanskrit.jpg"
+        },
+        "VII": {
+            "English": "Curriculam/book-images/6th - 8th books/7th English.jpg",
+            "Hindi": "Curriculam/book-images/6th - 8th books/7th Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/6th - 8th books/7th Maths.jpg",
+            "Science": "Curriculam/book-images/6th - 8th books/7th Science.jpg",
+            "Social Science": "Curriculam/book-images/6th - 8th books/7th Social Science.jpg",
+            "Sanskrit": "Curriculam/book-images/6th - 8th books/7th Sanskrit.jpg"
+        },
+        "VIII": {
+            "English": "Curriculam/book-images/6th - 8th books/8th English.jpg",
+            "Hindi": "Curriculam/book-images/6th - 8th books/8th Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/6th - 8th books/8th Maths.jpg",
+            "Science": "Curriculam/book-images/6th - 8th books/8th Science.jpg",
+            "Social Science": "Curriculam/book-images/6th - 8th books/8th Social Science.jpg",
+            "Sanskrit": "Curriculam/book-images/6th - 8th books/8th Sanskrit.jpg"
+        },
+        "IX": {
+            "English": "Curriculam/book-images/9th - 10th books/9th English.jpg",
+            "Hindi": "Curriculam/book-images/9th - 10th books/9th Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/9th - 10th books/9th Maths.jpg",
+            "Science": "Curriculam/book-images/9th - 10th books/9th Science.jpg",
+            "Social Science": "Curriculam/book-images/9th - 10th books/9th Social Science.jpg",
+            "Optionals": "Curriculam/book-images/9th - 10th books/9th Optionals.jpg"
+        },
+          "X": {
+            "English": "Curriculam/book-images/9th - 10th books/10th English.jpg",
+            "Hindi": "Curriculam/book-images/9th - 10th books/10th Hindi.jpg",
+            "Mathematics": "Curriculam/book-images/9th - 10th books/10th Maths.jpg",
+            "Science": "Curriculam/book-images/9th - 10th books/10th Science.jpg",
+            "Social Science": "Curriculam/book-images/9th - 10th books/10th Social Science.jpg",
+            "Optionals": "Curriculam/book-images/9th - 10th books/10th Optionals.jpg"
+        },
+        "XI_Arts": {
+            "English": "Curriculam/book-images/11th - 12th books/11th English.jpg",
+            "Hindi": "Curriculam/book-images/11th - 12th books/11th Hindi.jpg",
+            "Political Science": "Curriculam/book-images/11th - 12th books/11th Political Science.jpg",
+            "History": "Curriculam/book-images/11th - 12th books/11th History.jpg",
+            "Optionals": "Curriculam/book-images/11th - 12th books/11th Optionals1.jpg"
+        },
+          "XI_Commerce": {
+            "English or Hindi": "Curriculam/book-images/11th - 12th books/11th English or Hindi.jpg",
+            "Mathematics or Economics": "Curriculam/book-images/11th - 12th books/11th Maths or Eco.jpg",
+            "Business Studies": "Curriculam/book-images/11th - 12th books/11th Bussiness Studies.jpg",
+            "Accountancy": "Curriculam/book-images/11th - 12th books/11th Accountancy.jpg",
+            "Optionals": "Curriculam/book-images/11th - 12th books/11th Optionals2.jpg"
+        },
+        "XI_Science": {
+            "English or Hindi": "Curriculam/book-images/11th - 12th books/11th English or Hindi.jpg",
+            "Physics": "Curriculam/book-images/11th - 12th books/11th Physics.jpg",
+            "Chemistry": "Curriculam/book-images/11th - 12th books/11th Chemistry.jpg",
+            "Biology (Medical)": "Curriculam/book-images/11th - 12th books/11th Biology.jpg",
+            "Mathematics": "Curriculam/book-images/11th - 12th books/11th Maths.jpg",
+            "Optionals": "Curriculam/book-images/11th - 12th books/11th Optionals3.jpg"
+        },
+          "XII_Arts": {
+            "English": "Curriculam/book-images/11th - 12th books/12th English.jpg",
+            "Hindi": "Curriculam/book-images/11th - 12th books/12th Hindi.jpg",
+            "Political Science": "Curriculam/book-images/11th - 12th books/12th Political Science.jpg",
+            "History": "Curriculam/book-images/11th - 12th books/12th History.jpg",
+            "Optionals": "Curriculam/book-images/11th - 12th books/12th Optionals1.jpg"
+          },
+        "XII_Commerce": {
+            "English or Hindi": "Curriculam/book-images/11th - 12th books/12th English or Hindi.jpg",
+            "Mathematics or Economics": "Curriculam/book-images/11th - 12th books/12th Maths or Eco.jpg",
+            "Business Studies": "Curriculam/book-images/11th - 12th books/12th Bussiness Study.jpg",
+            "Accountancy": "Curriculam/book-images/11th - 12th books/12th Accountancy.jpg",
+            "Optionals": "Curriculam/book-images/11th - 12th books/12th Optionals2.jpg"
+        },
+        "XII_Science": {
+            "English or Hindi": "Curriculam/book-images/11th - 12th books/12th English or Hindi.jpg",
+            "Physics": "Curriculam/book-images/11th - 12th books/12th Physics.jpg",
+            "Chemistry": "Curriculam/book-images/11th - 12th books/12th Chemistry.jpg",
+            "Biology (Medical)": "Curriculam/book-images/11th - 12th books/12th Biology.jpg",
+            "Mathematics": "Curriculam/book-images/11th - 12th books/12th Maths.jpg",
+            "Optionals": "Curriculam/book-images/11th - 12th books/12th Optionals3.jpg"
+        }
+    };
+    
+    function updateSubjects(selectedClass) {
+        const subjectSelector = document.getElementById('subject-selector');
+        subjectSelector.innerHTML = '';
+        const classData = BOOK_CATALOG[selectedClass];
+        
+        for (const subject in classData) {
+            const option = document.createElement('option');
+            option.value = subject;
+            option.textContent = subject;
+            subjectSelector.appendChild(option);
+        }
+    }
+    
+    function goButtonClicked() {
+        const selectedClass = document.getElementById('class-selector').value;
+        const selectedSubject = document.getElementById('subject-selector').value;
+        
+        if (BOOK_CATALOG[selectedClass] && BOOK_CATALOG[selectedClass][selectedSubject]) {
+            const bookImageId = BOOK_CATALOG[selectedClass][selectedSubject];
+            const bookImageElement = document.getElementById('book-image');
+            bookImageElement.src = bookImageId;
+            bookImageElement.style.display = '';
+        }
+    } 
+    </script>
+    <!--Javascript for Books section End-->
+
+    <!--Javascript for buy link Starts-->
+    <script>
+    const image = document.getElementById('your-image-id');
+    const amazonLink = document.getElementById('amazon-link');
+    const myntraLink = document.getElementById('myntra-link');
+    const snapdealLink = document.getElementById('snapdeal-link');
+    const walmartLink = document.getElementById('walmart-link');
+    const shopifyLink = document.getElementById('shopify-link');
+    const targetLink = document.getElementById('target-link');
+    const etsyLink = document.getElementById('etsy-link');
+    const flipkartLink = document.getElementById('flipkart-link');
+    
+    image.addEventListener('mousemove', (event) => {
+        const rect = image.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        
+        const isLeftSide = x < rect.width / 2;
+        
+        amazonLink.style.display = isLeftSide ? 'block' : 'none';
+        myntraLink.style.display = isLeftSide ? 'block' : 'none';
+        snapdealLink.style.display = isLeftSide ? 'block' : 'none';
+        walmartLink.style.display = isLeftSide ? 'block' : 'none';
+        
+        shopifyLink.style.display = !isLeftSide ? 'block' : 'none';
+        targetLink.style.display = !isLeftSide ? 'block' : 'none';
+        etsyLink.style.display = !isLeftSide ? 'block' : 'none';
+        flipkartLink.style.display = !isLeftSide ? 'block' : 'none';
+        
+        amazonLink.style.left = `${x}px`;
+        amazonLink.style.top = `${y}px`;
+
+        myntraLink.style.left = `${x}px`;
+        myntraLink.style.top = `${y}px`;
+
+        snapdealLink.style.left = `${x}px`;
+        snapdealLink.style.top = `${y}px`;
+        
+        walmartLink.style.left = `${x}px`;
+        walmartLink.style.top = `${y}px`;
+
+        shopifyLink.style.left = `${event.clientX - rect.left + 125}px`;
+        shopifyLink.style.top = `${event.clientY - rect.top + 125}px`;
+
+        targetLink.style.left = `${event.clientX - rect.left + 125}px`;
+        targetLink.style.top = `${event.clientY - rect.top + 125}px`;
+
+        etsyLink.style.left = `${event.clientX - rect.left + 250}px`;
+        etsyLink.style.top = `${event.clientY - rect.top + 125}px`;
+
+        flipkartLink.style.left = `${event.clientX - rect.left + 375}px`;
+        flipkartLink.style.top = `${event.clientY - rect.top + 125}px`;
+    });
+    
+    image.addEventListener('mouseleave', () => {
+        amazonLink.style.display = 'none';
+        myntraLink.style.display = 'none'; 
+        snapdealLink.style.display = 'none';
+        walmartLink.style.display = 'none';  
+        shopifyLink.style.display = 'none';   
+        targetLink.style.display = 'none';  
+        etsyLink.style.display = 'none'; 
+        flipkartLink.style.display = 'none';
+        });
+    </script>
+    <!--Javascript for buy link End-->
+
+    <!--Javascript for scroll to top start-->
+    <script>
+        var mybutton = document.getElementById("backToTopBtn");
+    
+        window.onscroll = function() {
+          scrollFunction();
+        };
+    
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+    
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        }
+    </script>
+    <!--Javascript for Scroll to top ends-->
+
+    <!--Javascript for Newsletter Starts-->
+    <script>
+        document.getElementById('subscribeForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            showPopup(); // Show the popup
+        });
+
+        function showPopup() {
+        var popup = document.getElementById('popup');
+        popup.style.display = 'block'; // Display the popup
+
+        // Hide the popup after 3 seconds
+        setTimeout(function() {
+        popup.style.display = 'none';
+    }, 3000);
+}
+    </script>
+    <!--Javascript for Newsletter Ends-->
+    </body>
+</html>
