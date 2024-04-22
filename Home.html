@@ -6,6 +6,7 @@
         </title>
         <link rel="icon" href="Main/logo.png" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media-queries.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -177,7 +178,7 @@
         <!--Campus as Section 3rd Starts-->
         <section class="Campus">
             <h1>Our Global Campus</h1>
-            <p>"Unity in Learning, Strength in Diversity Our Campus, Your Tomorrow."</p>
+            <p id="text-content">"Unity in Learning, Strength in Diversity Our Campus, Your Tomorrow."</p>
                 <div class="Campus-col">
                     <img src="HomePage/Campushai.jpeg">
                     <div class="layer">
@@ -216,25 +217,25 @@
 
         <!--Achivements as Section 5th Starts-->
         <Section class="Achivements">
-            <h1>Our Exceptional Achivements</h1>
-            <p>"Celebrating Triumphs, Inspiring Excellence, Explore our School Achievements and witness the journey of success unfold!"</p>
+            <h1 id="text-content2">Our Exceptional Achivements</h1>
+            <p id="text-content3">"Celebrating Triumphs, Inspiring Excellence, Explore our School Achievements and witness the journey of success unfold!"</p>
             <div class="row">
                 <div class="Achivements-col">
                     <img src="Achievements/Award3.jpeg">
                     <h3>Solo Dance Competition</h3>
-                    <p>"Mamta Got 2nd Position In Solo Dance Kala Utsav<br>State Level<br>2019"</p>
+                    <p id="text-content7">"Mamta Got 2nd Position In Solo Dance Kala Utsav<br>State Level<br>2019"</p>
                     <a href="Blog.html" class="Hero2-button">Read More</a>
                 </div>
                 <div class="Achivements-col">
                     <img src="Achievements/Award1.jpeg">
                     <h3>National Level Creativity</h3>
-                    <p>"Kapil Singh Got 3rd Position In Creativity Kala Utsav<br>National Level<br>2018"</p>
+                    <p id="text-content8">"Kapil Singh Got 3rd Position In Creativity Kala Utsav<br>National Level<br>2018"</p>
                     <a href="Blog.html" class="Hero2-button">Read More</a>
                 </div>
                 <div class="Achivements-col">
                     <img src="Achievements/Award2.jpeg">
                     <h3>Baseball Championship Trophy</h3>
-                    <p>"Juniors Got 3rd Position In Softball Championship State Level<br>2019"</p>
+                    <p id="text-content9">"Juniors Got 3rd Position In Softball Championship<br> State Level<br>2019"</p>
                     <a href="Blog.html" class="Hero2-button">Read More</a>
                 </div>
             </div>
@@ -321,8 +322,8 @@
 
         <!--Lta as Section 7th Starts-->
         <section class="Lta">
-            <h1>Join Community of 1000+ Students</h1>
-            <p> Where Learning Knows No Limits! A Vibrant Community Dedicated to Fostering Creativity, Curiosity, and Excellence.<br>
+            <h1 id="text-content4">Join Community of 1000+ Students</h1>
+            <p id="text-content5"> Where Learning Knows No Limits! A Vibrant Community Dedicated to Fostering Creativity, Curiosity, and Excellence.<br>
                 Discover, Dream, and Achieve.
             </p>
             <div class="Lta-col">
@@ -381,7 +382,7 @@
                     </form>
                 </div>
                 <div class="popup" id="popup">
-                    <p>🔔 Subscribed Successfully!</p>
+                    <p id="text-content6">🔔 Subscribed Successfully!</p>
                 </div>
                 <div class="footer-col4">
                     <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
@@ -505,5 +506,48 @@
     }
         </script>
         <!--Javascript for Newsletter Ends-->
+
+        <!--Javascript for Custom Text Media Queries Starts-->
+        <script>
+            const textContent = document.getElementById("text-content");
+            const textContent2 = document.getElementById("text-content2");
+            const textContent3 = document.getElementById("text-content3");
+            const textContent4 = document.getElementById("text-content4");
+            const textContent5 = document.getElementById("text-content5");
+            const textContent6 = document.getElementById("text-content6");
+            
+            if (window.matchMedia("(max-width: 568px)").matches) {
+                textContent.textContent = "Unity in Learning, Strength in Diversity Our Campus and Yours Tomorrow";
+                textContent2.textContent = "Our Achievements";
+                textContent3.textContent = "Celebrating Triumphs, Inspiring Excellence, Explore us and witness journey of success unfold!";
+                textContent4.textContent = "Join 1000+ Students";
+                textContent5.textContent = "A Vibrant Community Dedicated to Fostering Creativity, Curiosity Excellence, Discover, Dream, and Achieve";
+                textContent6.textContent = "🔔 Subscribed!";
+            }
+        </script>
+        
+        <script>
+            const textContent7 = document.getElementById("text-content7")
+            const textContent8 = document.getElementById("text-content8")
+            const textContent9 = document.getElementById("text-content9")
+        
+            if (window.matchMedia("(min-width: 569px) and (max-width: 714px)").matches) {
+                textContent7.textContent = "Mamta Got 2nd Position In Solo Dance Kala Utsav State Level 2019";
+                textContent8.textContent = "Kapil Singh Got 3rd Position In Creativity Kala Utsav National Level 2018";
+                textContent9.textContent = "The Juniors Team Got 3rd Position In State Level Championship 2019";
+            }
+
+            if (window.matchMedia("(min-width: 1241px) and (max-width: 1440px)").matches) {
+                textContent7.textContent = "Mamta Got 2nd Position In Solo Dance Kala Utsav State Level 2019";
+                textContent8.textContent = "Kapil Singh Got 3rd Position In Creativity Kala Utsav National Level 2018";
+                textContent9.textContent = "The Juniors Team Got 3rd Position In State Level Championship 2019";
+            }
+            if (window.matchMedia("(min-width: 1025px) and (max-width: 1240px)").matches) {
+                textContent7.textContent = "Mamta Got 2nd Position In Solo Dance Kala Utsav State Level 2019";
+                textContent8.textContent = "Kapil Singh Got 3rd Position In Creativity Kala Utsav National Level 2018";
+                textContent9.textContent = "The Juniors Team Got 3rd Position In State Level Championship 2019";
+            }
+        </script>
+        <!--Javascript for Custom Text Media Queries Ends-->
     </body>
 </html>

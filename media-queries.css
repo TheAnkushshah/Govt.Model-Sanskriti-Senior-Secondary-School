@@ -1,0 +1,2984 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 1851px) and (max-width: 1919px) {
+  /*--Section 1st CSS Starts--*/
+.Section{
+  min-height: 203vh;
+  width: 202.1%;
+  }
+  .nav-links{
+    margin-right: 2%;
+    margin-top: 0.7%;
+  }
+  .nav-links ul li a{
+    font-size: 28px;
+  }
+  .nav-links ul li{
+    padding: 8px 20px;
+  }
+  nav img{
+  width: 230px;
+  margin-left: -8%;
+  }
+  .btnLogin-popup img{
+  margin-left: -45%;
+  margin-top: 4%;
+  width: 100px;
+  }
+  .textbox h1{
+  font-size: 112px;
+  }
+  .textbox p{
+  font-size: 33px;
+  line-height: 43px;
+  }
+  .button{
+    font-size: 25px;
+  }
+  /*--Login Element CSS Starts--*/
+  .wrapper {
+  margin-left: 49.5%;
+  margin-top: 40%;
+  z-index: 10;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  }
+  /*--Login Element CSS Ends--*/
+  /*--sub-menu Element CSS stars--*/
+  .sub-menu{
+  border-radius: 10px;
+  padding-bottom: 4px;
+  }
+  .sub-menu-wrap{
+  top: 6.5%;
+  right: 3.8%;
+  border: 0px;
+  z-index: 1;
+  }
+  .user-info h2{
+  font-weight: 600;
+  font-size: larger;
+  margin-left: -5;
+  }
+  .user-info img{
+  width: 48px;
+  margin-left: 1px;
+  }
+  .sub-menu hr{
+  margin: 13px 0 25px;
+  }
+  .sub-menu-link img{
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 1px;
+  }
+  /*--sub-menu Element CSS Ends--*/
+  /*--Section 1st CSS Ends--*/
+    
+    /*--Milestones as Section 2nd CSS Starts--*/
+    .Milestones{
+    width: 202%;
+    padding-top: 140px;
+    }
+    .Milestones h1{
+      font-size: 75px;
+    }
+    .Milestones p{
+      font-size: 32px;
+    }
+    .row{
+    margin-top: 5.2%;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .Milestones-col{
+    border-radius: 5px;
+    padding: 200px 3px;
+    }
+    /*--Milestones as Section 2nd CSS Ends--*/
+    
+     /*--Section 3rd as Campus CSS Starts--*/
+     .Campus{
+      width: 201.6%;
+      padding-top: 8px;
+    }
+    .Campus h1{
+      font-size: 75px;
+    }
+    .Campus p{
+      font-size: 32px;
+    }
+    .Campus-col{
+    margin-top: 2.3%;
+    margin-bottom: 12px;
+    }
+    .Campus-col img{
+    width: 100%;
+    }
+    .layer{
+    top: 80;
+    left: 105;
+    }
+    .layer h2{
+      font-size: 46px;
+    }
+    /*--Section 3rd as Campus CSS Ends--*/
+    
+    /*--Section 4th as Facilities CSS Starts--*/
+    .facilities{
+    width: 201.6%;
+    padding-top: 45px;
+    }
+    .facilities h1{
+      font-size: 75px;
+    }
+    .facilities p{
+      font-size: 32px;
+    }
+    .facilities-col h3{
+      font-size: 38px;
+      padding-top: 55px;
+    }
+    .facilities-col p{
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    .hero-button{
+      font-size: 28px;
+    }
+    .facilities-col{
+    margin-bottom: 8.4%;
+    }
+    .facilities-col img{
+    width: 980px;
+    height: 980px;
+    border-radius: 10px;
+    }
+    /*--Section 4th as Facilities CSS Ends--*/
+    
+    /*--Section 5th as Achivements CSS Ends--*/
+    .Achivements{
+    width: 201.6%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .Achivements h1{
+      font-size: 75px;
+    }
+    .Achivements p{
+      font-size: 32px;
+    }
+    .Achivements-col h3{
+      font-size: 38px;
+      padding-top: 55px;
+    }
+    .Achivements-col p{
+      padding-top: 20px;
+      padding-bottom: 40px;
+      line-height: 1.3;
+    }
+    .Hero2-button{
+      font-size: 28px;
+    }
+    .Achivements-col{
+    margin-bottom: 6%;
+    }
+    .Achivements-col img{
+    width: 980px;
+    height: 980px;
+    border-radius: 10px;
+    }
+    /*--Section 5th as Achivements CSS Ends--*/
+    
+    /*--Ratings as Section 6th CSS Starts--*/
+    .Ratings{
+    width: 201.6%;
+    padding-bottom: 6.2%;
+    }
+    .Ratings h1{
+      font-size: 75px;
+    }
+    .Ratings p{
+      font-size: 32px;
+    }
+    .Ratings-col{
+      padding: 70px;
+      margin-bottom: -34;
+    }
+    .Ratings-col img{
+      height: 60px;
+    }
+    .Ratings-col1 img{
+      height: 60px;
+    }
+    .Ratings-col p{
+      font-size: 20px;
+      line-height: 1.4;
+    }
+    .Ratings-col1 p{
+      font-size: 20px;
+      line-height: 1.4;
+    }
+    .Ratings .row{
+    padding: 35px;
+    margin-top: 2.3%;
+    margin-bottom: -79;
+    }
+    .Ratings-col1{
+    margin-bottom: -32;
+    margin-top: 0;
+    padding: 70px;
+    }
+    /*--Ratings as Section 6th CSS Ends--*/
+    
+    /*--Lta as Section 7th CSS Starts--*/
+    .Lta{
+    width: 201.6%;
+    margin-top: 140;
+    }
+    .Lta h1{
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 1.8;
+    }
+    .Lta p{
+    padding-bottom: 75px;
+    font-size: 32px;
+    line-height: 1.3;
+    }
+    .Lta-col img{
+    width: 93%;
+    margin-bottom: 3%;
+    }
+    .Hero3-button{
+      font-size: 30px;
+    }
+    /*--Lta as Section 7th CSS Ends--*/
+    
+    /*--btt CSS Starts--*/
+    .backtotop{
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: -50;
+    }
+    .btt {
+    width: 65px;
+    height: 65px;
+    margin-left: 188%;
+    }
+    .svgIcon {
+      width: 20px;
+    }
+    /*--btt CSS Ends--*/
+    
+    /*--Footer as Section 8th CSS Starts--*/
+    footer{
+    width: 201.6%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+    .footer-row{
+      width: 94%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer-col{
+      padding: 3px;
+      display: inline-block;
+    }
+    .logo{
+    width: 30%;
+    }
+    footer p{
+    font-size: 18px;
+    }
+    .footer-col1{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col2{
+    padding-top: 25px;
+    margin-left: 20px;
+    }
+    .footer-col3{
+    padding-top: 25px;
+    margin-left: 10px;
+    }
+    .footer-col3 h3{
+    padding-bottom: 19px;
+    }
+    .footer-col4{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col5{
+    padding-top: 36px;
+    margin-left: 46%;
+    }
+    .footer-col5 h3 {
+    padding-bottom: 10px;
+    }
+    .footer-col5 p {
+    margin-left: -85px;
+    }
+    .underline1{
+    display: none;
+    }
+    .underline2{
+    display: none;
+    }
+    .underline3{
+    display: none;
+    }
+    .underline4{
+    display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
+    
+    /*Newsletter CSS Starts*/
+    .popup {
+      top: 87%;
+      left: 71%;
+      width: 270px;
+    }
+    /*Newsletter CSS Ends*/
+  }
+
+@media (min-width: 1651px) and (max-width: 1850px) {
+/*--Section 1st CSS Starts--*/
+.Section{
+  min-height: 203vh;
+  width: 202.1%;
+  }
+  .nav-links{
+    margin-right: 2%;
+    margin-top: 0.7%;
+  }
+  .nav-links ul li a{
+    font-size: 28px;
+  }
+  .nav-links ul li{
+    padding: 8px 20px;
+  }
+  nav img{
+  width: 230px;
+  margin-left: -8%;
+  }
+  .btnLogin-popup img{
+  margin-left: -45%;
+  margin-top: 4%;
+  width: 100px;
+  }
+  .textbox h1{
+  font-size: 112px;
+  }
+  .textbox p{
+  font-size: 33px;
+  line-height: 43px;
+  }
+  .button{
+    font-size: 25px;
+  }
+  /*--Login Element CSS Starts--*/
+  .wrapper {
+  margin-left: 49.5%;
+  margin-top: 40%;
+  z-index: 10;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  }
+  /*--Login Element CSS Ends--*/
+  /*--sub-menu Element CSS stars--*/
+  .sub-menu{
+  border-radius: 10px;
+  padding-bottom: 4px;
+  }
+  .sub-menu-wrap{
+  top: 6.5%;
+  right: 3.8%;
+  border: 0px;
+  z-index: 1;
+  }
+  .user-info h2{
+  font-weight: 600;
+  font-size: larger;
+  margin-left: -5;
+  }
+  .user-info img{
+  width: 48px;
+  margin-left: 1px;
+  }
+  .sub-menu hr{
+  margin: 13px 0 25px;
+  }
+  .sub-menu-link img{
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 1px;
+  }
+  /*--sub-menu Element CSS Ends--*/
+  /*--Section 1st CSS Ends--*/
+    
+    /*--Milestones as Section 2nd CSS Starts--*/
+    .Milestones{
+    width: 202%;
+    padding-top: 140px;
+    }
+    .Milestones h1{
+      font-size: 75px;
+    }
+    .Milestones p{
+      font-size: 32px;
+    }
+    .row{
+    margin-top: 5.2%;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .Milestones-col{
+    border-radius: 5px;
+    padding: 200px 3px;
+    }
+    /*--Milestones as Section 2nd CSS Ends--*/
+    
+     /*--Section 3rd as Campus CSS Starts--*/
+     .Campus{
+      width: 201.6%;
+      padding-top: 8px;
+    }
+    .Campus h1{
+      font-size: 75px;
+    }
+    .Campus p{
+      font-size: 32px;
+    }
+    .Campus-col{
+    margin-top: 2.3%;
+    margin-bottom: 12px;
+    }
+    .Campus-col img{
+    width: 100%;
+    }
+    .layer{
+    top: 80;
+    left: 105;
+    }
+    .layer h2{
+      font-size: 46px;
+    }
+    /*--Section 3rd as Campus CSS Ends--*/
+    
+    /*--Section 4th as Facilities CSS Starts--*/
+    .facilities{
+    width: 201.6%;
+    padding-top: 45px;
+    }
+    .facilities h1{
+      font-size: 75px;
+    }
+    .facilities p{
+      font-size: 32px;
+    }
+    .facilities-col h3{
+      font-size: 38px;
+      padding-top: 55px;
+    }
+    .facilities-col p{
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    .hero-button{
+      font-size: 28px;
+    }
+    .facilities-col{
+    margin-bottom: 8.4%;
+    }
+    .facilities-col img{
+    width: 980px;
+    height: 980px;
+    border-radius: 10px;
+    }
+    /*--Section 4th as Facilities CSS Ends--*/
+    
+    /*--Section 5th as Achivements CSS Ends--*/
+    .Achivements{
+    width: 201.6%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .Achivements h1{
+      font-size: 75px;
+    }
+    .Achivements p{
+      font-size: 32px;
+    }
+    .Achivements-col h3{
+      font-size: 38px;
+      padding-top: 55px;
+    }
+    .Achivements-col p{
+      padding-top: 20px;
+      padding-bottom: 40px;
+      line-height: 1.3;
+    }
+    .Hero2-button{
+      font-size: 28px;
+    }
+    .Achivements-col{
+    margin-bottom: 6%;
+    }
+    .Achivements-col img{
+    width: 980px;
+    height: 980px;
+    border-radius: 10px;
+    }
+    /*--Section 5th as Achivements CSS Ends--*/
+    
+    /*--Ratings as Section 6th CSS Starts--*/
+    .Ratings{
+    width: 201.6%;
+    padding-bottom: 6.2%;
+    }
+    .Ratings h1{
+      font-size: 75px;
+    }
+    .Ratings p{
+      font-size: 32px;
+    }
+    .Ratings-col{
+      padding: 70px;
+      margin-bottom: -34;
+    }
+    .Ratings-col img{
+      height: 60px;
+    }
+    .Ratings-col1 img{
+      height: 60px;
+    }
+    .Ratings-col p{
+      font-size: 20px;
+      line-height: 1.4;
+    }
+    .Ratings-col1 p{
+      font-size: 20px;
+      line-height: 1.4;
+    }
+    .Ratings .row{
+    padding: 35px;
+    margin-top: 2.3%;
+    margin-bottom: -79;
+    }
+    .Ratings-col1{
+    margin-bottom: -32;
+    margin-top: 0;
+    padding: 70px;
+    }
+    /*--Ratings as Section 6th CSS Ends--*/
+    
+    /*--Lta as Section 7th CSS Starts--*/
+    .Lta{
+    width: 201.6%;
+    margin-top: 140;
+    }
+    .Lta h1{
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 1.8;
+    }
+    .Lta p{
+    padding-bottom: 75px;
+    font-size: 32px;
+    line-height: 1.3;
+    }
+    .Lta-col img{
+    width: 93%;
+    margin-bottom: 3%;
+    }
+    .Hero3-button{
+      font-size: 30px;
+    }
+    /*--Lta as Section 7th CSS Ends--*/
+    
+    /*--btt CSS Starts--*/
+    .backtotop{
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: -50;
+    }
+    .btt {
+    width: 65px;
+    height: 65px;
+    margin-left: 188%;
+    }
+    .svgIcon {
+      width: 20px;
+    }
+    /*--btt CSS Ends--*/
+    
+    /*--Footer as Section 8th CSS Starts--*/
+    footer{
+    width: 201.6%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+    .footer-row{
+      width: 94%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer-col{
+      padding: 3px;
+      display: inline-block;
+    }
+    .logo{
+    width: 30%;
+    }
+    footer p{
+    font-size: 18px;
+    }
+    .footer-col1{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col2{
+    padding-top: 25px;
+    margin-left: 20px;
+    }
+    .footer-col3{
+    padding-top: 25px;
+    margin-left: 10px;
+    }
+    .footer-col3 h3{
+    padding-bottom: 19px;
+    }
+    .footer-col4{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col5{
+    padding-top: 36px;
+    margin-left: 46%;
+    }
+    .footer-col5 h3 {
+    padding-bottom: 10px;
+    }
+    .footer-col5 p {
+    margin-left: -85px;
+    }
+    .underline1{
+    display: none;
+    }
+    .underline2{
+    display: none;
+    }
+    .underline3{
+    display: none;
+    }
+    .underline4{
+    display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
+    
+    /*Newsletter CSS Starts*/
+    .popup {
+      top: 87%;
+      left: 71%;
+      width: 270px;
+    }
+    /*Newsletter CSS Ends*/
+  }
+
+@media (min-width: 1441px) and (max-width: 1650px) {
+    /*--Section 1st CSS Starts--*/
+.Section{
+  min-height: 203vh;
+  width: 202.1%;
+  }
+  .nav-links{
+    margin-right: 2%;
+    margin-top: 0.7%;
+  }
+  .nav-links ul li a{
+    font-size: 22px;
+  }
+  .nav-links ul li{
+    padding: 8px 20px;
+  }
+  nav img{
+  width: 180px;
+  margin-left: -8%;
+  }
+  .btnLogin-popup img{
+  margin-left: -45%;
+  margin-top: 4%;
+  width: 75px;
+  }
+  .textbox h1{
+  font-size: 92px;
+  }
+  .textbox p{
+  font-size: 23px;
+  line-height: 33px;
+  }
+  .button{
+    font-size: 18px;
+  }
+  /*--Login Element CSS Starts--*/
+  .wrapper {
+  margin-left: 49.5%;
+  margin-top: 40%;
+  z-index: 10;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  }
+  /*--Login Element CSS Ends--*/
+  /*--sub-menu Element CSS stars--*/
+  .sub-menu{
+  border-radius: 10px;
+  padding-bottom: 4px;
+  }
+  .sub-menu-wrap{
+  top: 6.5%;
+  right: 3.8%;
+  border: 0px;
+  z-index: 1;
+  }
+  .user-info h2{
+  font-weight: 600;
+  font-size: larger;
+  margin-left: -5;
+  }
+  .user-info img{
+  width: 48px;
+  margin-left: 1px;
+  }
+  .sub-menu hr{
+  margin: 13px 0 25px;
+  }
+  .sub-menu-link img{
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 1px;
+  }
+  /*--sub-menu Element CSS Ends--*/
+  /*--Section 1st CSS Ends--*/
+  
+  /*--Milestones as Section 2nd CSS Starts--*/
+  .Milestones{
+  width: 202%;
+  padding-top: 140px;
+  }
+  .Milestones h1{
+    font-size: 75px;
+  }
+  .Milestones p{
+    font-size: 32px;
+  }
+  .row{
+  margin-top: 5.2%;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .Milestones-col{
+  border-radius: 5px;
+  padding: 200px 3px;
+  }
+  /*--Milestones as Section 2nd CSS Ends--*/
+  
+   /*--Section 3rd as Campus CSS Starts--*/
+   .Campus{
+    width: 201.6%;
+    padding-top: 8px;
+  }
+  .Campus h1{
+    font-size: 75px;
+  }
+  .Campus p{
+    font-size: 32px;
+  }
+  .Campus-col{
+  margin-top: 2.3%;
+  margin-bottom: 12px;
+  }
+  .Campus-col img{
+  width: 100%;
+  }
+  .layer{
+  top: 80;
+  left: 105;
+  }
+  .layer h2{
+    font-size: 46px;
+  }
+  /*--Section 3rd as Campus CSS Ends--*/
+  
+  /*--Section 4th as Facilities CSS Starts--*/
+  .facilities{
+  width: 201.6%;
+  padding-top: 45px;
+  }
+  .facilities h1{
+    font-size: 75px;
+  }
+  .facilities p{
+    font-size: 32px;
+  }
+  .facilities-col h3{
+    font-size: 38px;
+    padding-top: 55px;
+  }
+  .facilities-col p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .hero-button{
+    font-size: 28px;
+  }
+  .facilities-col{
+  margin-bottom: 8.4%;
+  }
+  .facilities-col img{
+  width: 780px;
+  height: 780px;
+  border-radius: 10px;
+  }
+  /*--Section 4th as Facilities CSS Ends--*/
+  
+  /*--Section 5th as Achivements CSS Ends--*/
+  .Achivements{
+  width: 201.6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  }
+  .Achivements h1{
+    font-size: 75px;
+  }
+  .Achivements p{
+    font-size: 32px;
+  }
+  .Achivements-col h3{
+    font-size: 38px;
+    padding-top: 55px;
+  }
+  .Achivements-col p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    line-height: 1.3;
+  }
+  .Hero2-button{
+    font-size: 28px;
+  }
+  .Achivements-col{
+  margin-bottom: 6%;
+  }
+  .Achivements-col img{
+  width: 780px;
+  height: 780px;
+  border-radius: 10px;
+  }
+  /*--Section 5th as Achivements CSS Ends--*/
+  
+  /*--Ratings as Section 6th CSS Starts--*/
+  .Ratings{
+  width: 201.6%;
+  padding-bottom: 6.2%;
+  }
+  .Ratings h1{
+    font-size: 75px;
+  }
+  .Ratings p{
+    font-size: 32px;
+  }
+  .Ratings-col{
+    padding: 70px;
+    margin-bottom: -34;
+  }
+  .Ratings-col img{
+    height: 60px;
+  }
+  .Ratings-col1 img{
+    height: 60px;
+  }
+  .Ratings-col p{
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .Ratings-col1 p{
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .Ratings .row{
+  padding: 35px;
+  margin-top: 2.3%;
+  margin-bottom: -79;
+  }
+  .Ratings-col1{
+  margin-bottom: -32;
+  margin-top: 0;
+  padding: 70px;
+  }
+  /*--Ratings as Section 6th CSS Ends--*/
+  
+  /*--Lta as Section 7th CSS Starts--*/
+  .Lta{
+  width: 201.6%;
+  margin-top: 140;
+  }
+  .Lta h1{
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 1.8;
+  }
+  .Lta p{
+  padding-bottom: 75px;
+  font-size: 32px;
+  line-height: 1.3;
+  }
+  .Lta-col img{
+  width: 93%;
+  margin-bottom: 3%;
+  }
+  .Hero3-button{
+    font-size: 30px;
+  }
+  /*--Lta as Section 7th CSS Ends--*/
+  
+  /*--btt CSS Starts--*/
+  .backtotop{
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: -50;
+  }
+  .btt {
+  width: 65px;
+  height: 65px;
+  margin-left: 188%;
+  }
+  .svgIcon {
+    width: 20px;
+  }
+  /*--btt CSS Ends--*/
+  
+  /*--Footer as Section 8th CSS Starts--*/
+  footer{
+  width: 201.6%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+  }
+  .logo{
+  width: 30%;
+  }
+  footer p{
+  font-size: 18px;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col3{
+  padding-top: 25px;
+  margin-left: 10px;
+  }
+  .footer-col3 h3{
+  padding-bottom: 19px;
+  }
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col5{
+  padding-top: 36px;
+  margin-left: 46%;
+  }
+  .footer-col5 h3 {
+  padding-bottom: 10px;
+  }
+  .footer-col5 p {
+  margin-left: -85px;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 87%;
+    left: 71%;
+    width: 270px;
+  }
+  /*Newsletter CSS Ends*/
+}
+
+@media (min-width: 1241px) and (max-width: 1440px) {
+  /*--Section 1st CSS Starts--*/
+.Section{
+  min-height: 203vh;
+  width: 202.1%;
+  }
+.nav-links{
+  margin-right: 1.5%;
+  margin-top: 0.7%;
+}
+.nav-links ul li a{
+  font-size: 20px;
+}
+  nav img{
+  width: 150px;
+  margin-left: -8%;
+  }
+  .btnLogin-popup img{
+  margin-left: -45%;
+  margin-top: 4%;
+  }
+  .textbox h1{
+  font-size: 92px;
+  }
+  .textbox p{
+  font-size: 23px;
+  line-height: 33px;
+  }
+  .button{
+    font-size: 18px;
+  }
+  /*--Login Element CSS Starts--*/
+  .wrapper {
+  margin-left: 49.5%;
+  margin-top: 40%;
+  z-index: 10;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  }
+  /*--Login Element CSS Ends--*/
+  /*--sub-menu Element CSS stars--*/
+  .sub-menu{
+  border-radius: 10px;
+  padding-bottom: 4px;
+  }
+  .sub-menu-wrap{
+  top: 6.5%;
+  right: 3.8%;
+  border: 0px;
+  z-index: 1;
+  }
+  .user-info h2{
+  font-weight: 600;
+  font-size: larger;
+  margin-left: -5;
+  }
+  .user-info img{
+  width: 48px;
+  margin-left: 1px;
+  }
+  .sub-menu hr{
+  margin: 13px 0 25px;
+  }
+  .sub-menu-link img{
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 1px;
+  }
+  /*--sub-menu Element CSS Ends--*/
+  /*--Section 1st CSS Ends--*/
+  
+  /*--Milestones as Section 2nd CSS Starts--*/
+  .Milestones{
+  width: 202%;
+  padding-top: 140px;
+  }
+  .Milestones h1{
+    font-size: 75px;
+  }
+  .Milestones p{
+    font-size: 32px;
+  }
+  .row{
+  margin-top: 5.2%;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .Milestones-col{
+  border-radius: 5px;
+  padding: 180px 3px;
+  }
+  /*--Milestones as Section 2nd CSS Ends--*/
+  
+   /*--Section 3rd as Campus CSS Starts--*/
+   .Campus{
+    width: 201.6%;
+    padding-top: 8px;
+  }
+  .Campus h1{
+    font-size: 75px;
+  }
+  .Campus p{
+    font-size: 32px;
+  }
+  .Campus-col{
+  margin-top: 2.3%;
+  margin-bottom: 12px;
+  }
+  .Campus-col img{
+  width: 100%;
+  }
+  .layer{
+  top: 80;
+  left: 105;
+  }
+  .layer h2{
+    font-size: 46px;
+  }
+  /*--Section 3rd as Campus CSS Ends--*/
+  
+  /*--Section 4th as Facilities CSS Starts--*/
+  .facilities{
+  width: 201.6%;
+  padding-top: 45px;
+  }
+  .facilities h1{
+    font-size: 75px;
+  }
+  .facilities p{
+    font-size: 32px;
+  }
+  .facilities-col h3{
+    font-size: 38px;
+    padding-top: 55px;
+  }
+  .facilities-col p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .hero-button{
+    font-size: 21px;
+  }
+  .facilities-col{
+  margin-bottom: 8.4%;
+  }
+  .facilities-col img{
+  width: 780px;
+  height: 780px;
+  border-radius: 10px;
+  }
+  /*--Section 4th as Facilities CSS Ends--*/
+  
+  /*--Section 5th as Achivements CSS Ends--*/
+  .Achivements{
+  width: 201.6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  }
+  .Achivements h1{
+    font-size: 75px;
+  }
+  .Achivements p{
+    font-size: 32px;
+  }
+  .Achivements-col h3{
+    font-size: 38px;
+    padding-top: 55px;
+  }
+  .Achivements-col p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    line-height: 1.3;
+  }
+  .Hero2-button{
+    font-size: 21px;
+  }
+  .Achivements-col{
+  margin-bottom: 6%;
+  }
+  .Achivements-col img{
+  width: 780px;
+  height: 780px;
+  border-radius: 10px;
+  }
+  /*--Section 5th as Achivements CSS Ends--*/
+  
+  /*--Ratings as Section 6th CSS Starts--*/
+  .Ratings{
+    width: 201.6%;
+    padding-bottom: 6.2%;
+    }
+    .Ratings h1{
+      font-size: 75px;
+    }
+    .Ratings p{
+      font-size: 32px;
+    }
+    .Ratings-col{
+      padding: 50px;
+      margin-bottom: -14;
+    }
+    .Ratings-col img{
+      height: 60px;
+    }
+    .Ratings-col1 img{
+      height: 60px;
+    }
+    .Ratings-col p{
+      font-size: 20px;
+      line-height: 1.4;
+    }
+    .Ratings-col1 p{
+      font-size: 20px;
+      line-height: 1.4;
+    }
+    .Ratings .row{
+    padding: 35px;
+    margin-top: 2.3%;
+    margin-bottom: -79;
+    }
+    .Ratings-col1{
+    margin-bottom: -13;
+    margin-top: 0;
+    padding: 50px;
+    }
+  /*--Ratings as Section 6th CSS Ends--*/
+  
+  /*--Lta as Section 7th CSS Starts--*/
+  .Lta{
+  width: 201.6%;
+  margin-top: 120;
+  }
+  .Lta h1{
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 1.8;
+  }
+  .Lta p{
+  padding-bottom: 75px;
+  font-size: 32px;
+  line-height: 1.3;
+  }
+  .Lta-col img{
+  width: 93%;
+  margin-bottom: 3%;
+  }
+  .Hero3-button{
+    font-size: 30px;
+  }
+  /*--Lta as Section 7th CSS Ends--*/
+  
+  /*--btt CSS Starts--*/
+  .backtotop{
+  width: 100%;
+  margin-bottom: 13%;
+  margin-top: -50;
+  }
+  .btt {
+  width: 65px;
+  height: 65px;
+  margin-left: 188%;
+  }
+  .svgIcon {
+    width: 20px;
+  }
+  /*--btt CSS Ends--*/
+  
+  /*--Footer as Section 8th CSS Starts--*/
+  footer{
+  width: 201.6%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+  }
+  .logo{
+  width: 30%;
+  }
+  footer p{
+  font-size: 18px;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col3{
+  padding-top: 25px;
+  margin-left: 10px;
+  }
+  .footer-col3 h3{
+  padding-bottom: 19px;
+  }
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col5{
+  padding-top: 36px;
+  margin-left: 46%;
+  }
+  .footer-col5 h3 {
+  padding-bottom: 10px;
+  }
+  .footer-col5 p {
+  margin-left: -85px;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 87%;
+    left: 71%;
+    width: 270px;
+  }
+  /*Newsletter CSS Ends*/
+}
+
+@media (min-width: 1025px) and (max-width: 1240px) {
+  /*--Section 1st CSS Starts--*/
+.Section{
+  min-height: 203vh;
+  width: 202.1%;
+  }
+  .nav-links{
+  display: none;
+  }
+  nav img{
+  width: 150px;
+  margin-left: -8%;
+  }
+  .btnLogin-popup img{
+  margin-left: -45%;
+  margin-top: 4%;
+  }
+  .textbox h1{
+  font-size: 92px;
+  }
+  .textbox p{
+  font-size: 23px;
+  line-height: 33px;
+  }
+  .button{
+    font-size: 18px;
+  }
+  /*--Login Element CSS Starts--*/
+  .wrapper {
+  margin-left: 49.5%;
+  margin-top: 40%;
+  z-index: 10;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  }
+  /*--Login Element CSS Ends--*/
+  /*--sub-menu Element CSS stars--*/
+  .sub-menu{
+  border-radius: 10px;
+  padding-bottom: 4px;
+  }
+  .sub-menu-wrap{
+  top: 6.5%;
+  right: 3.8%;
+  border: 0px;
+  z-index: 1;
+  }
+  .user-info h2{
+  font-weight: 600;
+  font-size: larger;
+  margin-left: -5;
+  }
+  .user-info img{
+  width: 48px;
+  margin-left: 1px;
+  }
+  .sub-menu hr{
+  margin: 13px 0 25px;
+  }
+  .sub-menu-link img{
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 1px;
+  }
+  /*--sub-menu Element CSS Ends--*/
+  /*--Section 1st CSS Ends--*/
+  
+  /*--Milestones as Section 2nd CSS Starts--*/
+  .Milestones{
+  width: 202%;
+  padding-top: 130px;
+  }
+  .Milestones h1 {
+    font-size: 65px;
+}
+.Milestones p {
+  font-size: 32px;
+}
+  .row{
+  margin-top: 5.2%;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .Milestones-col{
+  border-radius: 5px;
+  padding: 130px 3px;
+  }
+  /*--Milestones as Section 2nd CSS Ends--*/
+  
+   /*--Section 3rd as Campus CSS Starts--*/
+   .Campus{
+    width: 201.6%;
+    padding-top: 8px;
+  }
+  .Campus h1 {
+    font-size: 65px;
+}
+.Campus p {
+  font-size: 32px;
+}
+
+  .Campus-col{
+  margin-top: 2.3%;
+  margin-bottom: 12px;
+  }
+  .Campus-col img{
+  width: 100%;
+  }
+  .layer{
+    top: 80;
+    left: 105;
+  }
+  .layer h2 {
+    font-size: 36px;
+}
+  /*--Section 3rd as Campus CSS Ends--*/
+  
+  /*--Section 4th as Facilities CSS Starts--*/
+  .facilities{
+  width: 201.6%;
+  padding-top: 15px;
+  }
+  .facilities h1 {
+    font-size: 65px;
+}
+.facilities p {
+  font-size: 32px;
+}
+.facilities-col h3 {
+  font-size: 30px;
+  padding-top: 40px;
+}
+.facilities-col p {
+  padding-top: 14px;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+.hero-button {
+  font-size: 21px;
+}
+  .facilities-col{
+  margin-bottom: 9.1%;
+  }
+  .facilities-col img{
+  width: 650px;
+  height: 650px;
+  border-radius: 10px;
+  }
+  /*--Section 4th as Facilities CSS Ends--*/
+  
+  /*--Section 5th as Achivements CSS Ends--*/
+  .Achivements{
+  width: 201.6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  }
+  .Achivements h1 {
+    font-size: 65px;
+}
+.Achivements p {
+  font-size: 32px;
+}
+.Achivements-col h3 {
+  font-size: 30px;
+  padding-top: 40px;
+}
+.Achivements-col p {
+  padding-top: 14px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  line-height: 1.3;
+}
+.Hero2-button {
+  font-size: 21px;
+}
+  .Achivements-col{
+  margin-bottom: 6.2%;
+  }
+  .Achivements-col img{
+  width: 650px;
+  height: 650px;
+  border-radius: 10px;
+  }
+  /*--Section 5th as Achivements CSS Ends--*/
+  
+  /*--Ratings as Section 6th CSS Starts--*/
+  .Ratings{
+  width: 201.6%;
+  padding-bottom: 4%;
+  }
+  .Ratings h1{
+    font-size: 65px;
+  }
+  .Ratings p{
+    font-size: 30px;
+  }
+  .Ratings-col p {
+    font-size: 15px;
+}
+.Ratings-col1 p {
+  font-size: 15px;
+}
+  .Ratings .row{
+  padding: 35px;
+  margin-top: 2.3%;
+  margin-bottom: -79;
+  }
+  .Ratings-col1{
+  margin-bottom: 3;
+  margin-top: 0;
+  }
+  /*--Ratings as Section 6th CSS Ends--*/
+  
+  /*--Lta as Section 7th CSS Starts--*/
+  .Lta{
+  width: 201.6%;
+  margin-top: 110;
+  }
+  .Lta h1{
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 1.8;
+  }
+  .Lta p{
+    padding-bottom: 75px;
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  .Lta-col img{
+  width: 93%;
+  margin-bottom: 3%;
+  }
+  .Hero3-button{
+    font-size: 19px;
+  }
+  /*--Lta as Section 7th CSS Ends--*/
+  
+  /*--btt CSS Starts--*/
+  .backtotop{
+  width: 100%;
+  margin-bottom: 13%;
+  margin-top: -43;
+  }
+  .btt {
+  width: 40px;
+  height: 40px;
+  margin-left: 188%;
+  }
+  /*--btt CSS Ends--*/
+  
+  /*--Footer as Section 8th CSS Starts--*/
+  footer{
+  width: 201.6%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+  }
+  .logo{
+  width: 30%;
+  }
+  footer p{
+  font-size: 16px;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col3{
+  padding-top: 25px;
+  margin-left: 10px;
+  }
+  .footer-col3 h3{
+  padding-bottom: 19px;
+  }
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col5{
+  padding-top: 36px;
+  margin-left: 46%;
+  }
+  .footer-col5 h3 {
+  padding-bottom: 10px;
+  }
+  .footer-col5 p {
+  margin-left: -85px;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 87%;
+    left: 71%;
+    width: 270px;
+  }
+  /*Newsletter CSS Ends*/
+}
+
+/* 1024px - Tablets, laptops, and desktops */
+@media only screen and (max-width: 1024px) {
+/*--Section 1st CSS Starts--*/
+.Section{
+  min-height: 203vh;
+  width: 202.1%;
+  }
+  .nav-links{
+  display: none;
+  }
+  nav img{
+  width: 150px;
+  margin-left: -8%;
+  }
+  .btnLogin-popup img{
+  margin-left: -45%;
+  margin-top: 4%;
+  }
+  .textbox h1{
+  font-size: 92px;
+  }
+  .textbox p{
+  font-size: 23px;
+  line-height: 33px;
+  }
+  .button{
+    font-size: 18px;
+  }
+  /*--Login Element CSS Starts--*/
+  .wrapper {
+  margin-left: 49.5%;
+  margin-top: 40%;
+  z-index: 10;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  }
+  /*--Login Element CSS Ends--*/
+  /*--sub-menu Element CSS stars--*/
+  .sub-menu{
+  border-radius: 10px;
+  padding-bottom: 4px;
+  }
+  .sub-menu-wrap{
+  top: 6.5%;
+  right: 3.8%;
+  border: 0px;
+  z-index: 1;
+  }
+  .user-info h2{
+  font-weight: 600;
+  font-size: larger;
+  margin-left: -5;
+  }
+  .user-info img{
+  width: 48px;
+  margin-left: 1px;
+  }
+  .sub-menu hr{
+  margin: 13px 0 25px;
+  }
+  .sub-menu-link img{
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 1px;
+  }
+  /*--sub-menu Element CSS Ends--*/
+  /*--Section 1st CSS Ends--*/
+  
+  /*--Milestones as Section 2nd CSS Starts--*/
+  .Milestones{
+  width: 202%;
+  padding-top: 105px;
+  }
+  .row{
+  margin-top: 5.2%;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .Milestones-col{
+  border-radius: 5px;
+  padding: 130px 3px;
+  }
+  /*--Milestones as Section 2nd CSS Ends--*/
+  
+   /*--Section 3rd as Campus CSS Starts--*/
+   .Campus{
+    width: 201.6%;
+    padding-top: 8px;
+  }
+  .Campus-col{
+  margin-top: 2.3%;
+  margin-bottom: 12px;
+  }
+  .Campus-col img{
+  width: 100%;
+  }
+  .layer{
+  top: 40;
+  left: 70;
+  }
+  /*--Section 3rd as Campus CSS Ends--*/
+  
+  /*--Section 4th as Facilities CSS Starts--*/
+  .facilities{
+  width: 201.6%;
+  padding-top: 15px;
+  }
+  .facilities-col{
+  margin-bottom: 8.3%;
+  }
+  .facilities-col img{
+  width: 550px;
+  height: 550px;
+  border-radius: 10px;
+  }
+  /*--Section 4th as Facilities CSS Ends--*/
+  
+  /*--Section 5th as Achivements CSS Ends--*/
+  .Achivements{
+  width: 201.6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  }
+  .Achivements-col{
+  margin-bottom: 4.9%;
+  }
+  .Achivements-col img{
+  width: 550px;
+  height: 550px;
+  border-radius: 10px;
+  }
+  /*--Section 5th as Achivements CSS Ends--*/
+  
+  /*--Ratings as Section 6th CSS Starts--*/
+  .Ratings{
+  width: 201.6%;
+  padding-bottom: 4%;
+  }
+  .Ratings .row{
+  padding: 35px;
+  margin-top: 2.3%;
+  margin-bottom: -79;
+  }
+  .Ratings-col1{
+  margin-bottom: 3;
+  margin-top: 0;
+  }
+  /*--Ratings as Section 6th CSS Ends--*/
+  
+  /*--Lta as Section 7th CSS Starts--*/
+  .Lta{
+  width: 201.6%;
+  margin-top: 110;
+  }
+  .Lta h1{
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 1.8;
+  }
+  .Lta p{
+  padding-bottom: 75px;
+  }
+  .Lta-col img{
+  width: 93%;
+  margin-bottom: 3%;
+  }
+  .Hero3-button{
+    font-size: 19px;
+  }
+  /*--Lta as Section 7th CSS Ends--*/
+  
+  /*--btt CSS Starts--*/
+  .backtotop{
+  width: 100%;
+  margin-bottom: 13%;
+  margin-top: -43;
+  }
+  .btt {
+  width: 40px;
+  height: 40px;
+  margin-left: 188%;
+  }
+  /*--btt CSS Ends--*/
+  
+  /*--Footer as Section 8th CSS Starts--*/
+  footer{
+  width: 201.6%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+  }
+  .logo{
+  width: 30%;
+  }
+  footer p{
+  font-size: 16px;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col3{
+  padding-top: 25px;
+  margin-left: 10px;
+  }
+  .footer-col3 h3{
+  padding-bottom: 19px;
+  }
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col5{
+  padding-top: 36px;
+  margin-left: 46%;
+  }
+  .footer-col5 h3 {
+  padding-bottom: 10px;
+  }
+  .footer-col5 p {
+  margin-left: -85px;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 87%;
+    left: 71%;
+    width: 270px;
+  }
+  /*Newsletter CSS Ends*/
+}
+
+@media (min-width: 851px) and (max-width: 980px) {
+  /*--Section 1st CSS Starts--*/
+.Section{
+min-height: 203vh;
+width: 202.1%;
+}
+.nav-links{
+display: none;
+}
+nav img{
+width: 150px;
+margin-left: -8%;
+}
+.btnLogin-popup img{
+margin-left: -45%;
+margin-top: 4%;
+}
+.textbox h1{
+font-size: 82px;
+}
+.textbox p{
+font-size: 24px;
+line-height: 33px;
+}
+.button{
+  font-size: 16px;
+}
+/*--Login Element CSS Starts--*/
+.wrapper {
+margin-left: 49.5%;
+margin-top: 40%;
+z-index: 10;
+position: fixed;
+transform: translate(-50%, -50%);
+}
+/*--Login Element CSS Ends--*/
+/*--sub-menu Element CSS stars--*/
+.sub-menu{
+border-radius: 10px;
+padding-bottom: 4px;
+}
+.sub-menu-wrap{
+top: 6.5%;
+right: 3.8%;
+border: 0px;
+z-index: 1;
+}
+.user-info h2{
+font-weight: 600;
+font-size: larger;
+margin-left: -5;
+}
+.user-info img{
+width: 48px;
+margin-left: 1px;
+}
+.sub-menu hr{
+margin: 13px 0 25px;
+}
+.sub-menu-link img{
+width: 20px;
+margin-right: 5px;
+margin-left: 1px;
+}
+/*--sub-menu Element CSS Ends--*/
+/*--Section 1st CSS Ends--*/
+
+/*--Milestones as Section 2nd CSS Starts--*/
+.Milestones{
+width: 202%;
+padding-top: 95px;
+}
+.row{
+margin-top: 5.2%;
+display: flex;
+justify-content: space-evenly;
+}
+.Milestones-col{
+border-radius: 5px;
+padding: 90px 3px;
+}
+/*--Milestones as Section 2nd CSS Ends--*/
+
+ /*--Section 3rd as Campus CSS Starts--*/
+ .Campus{
+  width: 201.6%;
+  padding-top: 8px;
+}
+.Campus-col{
+margin-top: 2.3%;
+margin-bottom: 12px;
+}
+.Campus-col img{
+width: 99%;
+}
+.layer{
+top: 40;
+left: 70;
+}
+/*--Section 3rd as Campus CSS Ends--*/
+
+/*--Section 4th as Facilities CSS Starts--*/
+.facilities{
+width: 201.6%;
+padding-top: 15px;
+}
+.facilities-col{
+margin-bottom: 8.6%;
+}
+.facilities-col img{
+width: 530px;
+height: 530px;
+border-radius: 10px;
+}
+/*--Section 4th as Facilities CSS Ends--*/
+
+/*--Section 5th as Achivements CSS Ends--*/
+.Achivements{
+width: 201.6%;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+.Achivements-col{
+margin-bottom: 5.6%;
+}
+.Achivements-col img{
+width: 530px;
+height: 530px;
+border-radius: 10px;
+}
+/*--Section 5th as Achivements CSS Ends--*/
+
+/*--Ratings as Section 6th CSS Starts--*/
+.Ratings{
+width: 201.6%;
+padding-bottom: 4%;
+}
+.Ratings .row{
+padding: 35px;
+margin-top: 2.3%;
+margin-bottom: -79;
+}
+.Ratings-col1{
+margin-bottom: 3;
+margin-top: 0;
+}
+/*--Ratings as Section 6th CSS Ends--*/
+
+/*--Lta as Section 7th CSS Starts--*/
+.Lta{
+width: 201.6%;
+margin-top: 98;
+}
+.Lta h1{
+font-size: 37px;
+font-weight: 600;
+line-height: 1.8;
+}
+.Lta p{
+padding-bottom: 55px;
+}
+.Lta-col img{
+width: 93%;
+margin-bottom: 3%;
+}
+.Hero3-button{
+  font-size: 19px;
+}
+/*--Lta as Section 7th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+width: 100%;
+margin-bottom: 16%;
+margin-top: -43;
+}
+.btt {
+width: 40px;
+height: 40px;
+margin-left: 188%;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+width: 201.6%;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+}
+.footer-row{
+  width: 94%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-col{
+  padding: 3px;
+  display: inline-block;
+}
+.logo{
+width: 30%;
+}
+footer p{
+font-size: 16px;
+}
+.footer-col1{
+padding-top: 25px;
+margin-left: 0px;
+}
+.footer-col2{
+padding-top: 25px;
+margin-left: 20px;
+}
+.footer-col3{
+padding-top: 25px;
+margin-left: 10px;
+}
+.footer-col3 h3{
+padding-bottom: 19px;
+}
+.footer-col4{
+padding-top: 25px;
+margin-left: 0px;
+}
+.footer-col5{
+padding-top: 36px;
+margin-left: 46%;
+}
+.footer-col5 h3 {
+padding-bottom: 10px;
+}
+.footer-col5 p {
+margin-left: -85px;
+}
+.underline1{
+display: none;
+}
+.underline2{
+display: none;
+}
+.underline3{
+display: none;
+}
+.underline4{
+display: none;
+}
+/*--Footer as Section 8th CSS Ends--*/
+
+/*Newsletter CSS Starts*/
+.popup {
+  top: 87%;
+  left: 71%;
+  width: 270px;
+}
+/*Newsletter CSS Ends*/
+}
+
+/* 850px - Tablets, iPads */
+@media only screen and (max-width: 850px) {
+  /*--Section 1st CSS Starts--*/
+.Section{
+min-height: 203vh;
+width: 202.1%;
+}
+.nav-links{
+display: none;
+}
+nav img{
+width: 150px;
+margin-left: -8%;
+}
+.btnLogin-popup img{
+margin-left: -45%;
+margin-top: 4%;
+}
+.textbox h1{
+font-size: 62px;
+}
+.textbox p{
+font-size: 19px;
+line-height: 33px;
+}
+.button{
+  font-size: 16px;
+}
+/*--Login Element CSS Starts--*/
+.wrapper {
+margin-left: 49.5%;
+margin-top: 40%;
+z-index: 10;
+position: fixed;
+transform: translate(-50%, -50%);
+}
+/*--Login Element CSS Ends--*/
+/*--sub-menu Element CSS stars--*/
+.sub-menu{
+border-radius: 10px;
+padding-bottom: 4px;
+}
+.sub-menu-wrap{
+top: 6.5%;
+right: 3.8%;
+border: 0px;
+z-index: 1;
+}
+.user-info h2{
+font-weight: 600;
+font-size: larger;
+margin-left: -5;
+}
+.user-info img{
+width: 48px;
+margin-left: 1px;
+}
+.sub-menu hr{
+margin: 13px 0 25px;
+}
+.sub-menu-link img{
+width: 20px;
+margin-right: 5px;
+margin-left: 1px;
+}
+/*--sub-menu Element CSS Ends--*/
+/*--Section 1st CSS Ends--*/
+
+/*--Milestones as Section 2nd CSS Starts--*/
+.Milestones{
+width: 202%;
+padding-top: 85px;
+}
+.row{
+margin-top: 5.2%;
+display: flex;
+justify-content: space-evenly;
+}
+.Milestones-col{
+border-radius: 5px;
+padding: 90px 3px;
+}
+/*--Milestones as Section 2nd CSS Ends--*/
+
+ /*--Section 3rd as Campus CSS Starts--*/
+ .Campus{
+  width: 201.6%;
+  padding-top: 8px;
+}
+.Campus-col{
+margin-top: 2.3%;
+margin-bottom: 12px;
+}
+.Campus-col img{
+width: 95%;
+}
+.layer{
+top: 40;
+left: 70;
+}
+/*--Section 3rd as Campus CSS Ends--*/
+
+/*--Section 4th as Facilities CSS Starts--*/
+.facilities{
+width: 201.6%;
+padding-top: 15px;
+}
+.facilities-col{
+margin-bottom: 10.2%;
+}
+.facilities-col img{
+width: 420px;
+height: 420px;
+border-radius: 10px;
+}
+/*--Section 4th as Facilities CSS Ends--*/
+
+/*--Section 5th as Achivements CSS Ends--*/
+.Achivements{
+width: 201.6%;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+.Achivements-col{
+margin-bottom: 6.2%;
+}
+.Achivements-col img{
+width: 420px;
+height: 420px;
+border-radius: 10px;
+}
+/*--Section 5th as Achivements CSS Ends--*/
+
+/*--Ratings as Section 6th CSS Starts--*/
+.Ratings{
+width: 201.6%;
+padding-bottom: 5.8%;
+}
+.Ratings .row{
+padding: 35px;
+margin-top: 2.3%;
+margin-bottom: -79;
+}
+.Ratings-col1{
+margin-bottom: 3;
+margin-top: 0;
+}
+/*--Ratings as Section 6th CSS Ends--*/
+
+/*--Lta as Section 7th CSS Starts--*/
+.Lta{
+width: 201.6%;
+margin-top: 95;
+}
+.Lta h1{
+font-size: 37px;
+font-weight: 600;
+line-height: 1.8;
+}
+.Lta p{
+padding-bottom: 55px;
+}
+.Lta-col img{
+width: 93%;
+margin-bottom: 3%;
+}
+.Hero3-button{
+  font-size: 19px;
+}
+/*--Lta as Section 7th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+width: 100%;
+margin-bottom: 16%;
+margin-top: -43;
+}
+.btt {
+width: 40px;
+height: 40px;
+margin-left: 188%;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+width: 201.6%;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+}
+.footer-row{
+  width: 94%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-col{
+  padding: 3px;
+  display: inline-block;
+}
+.logo{
+width: 30%;
+}
+footer p{
+font-size: 16px;
+}
+.footer-col1{
+padding-top: 25px;
+margin-left: 0px;
+}
+.footer-col2{
+padding-top: 25px;
+margin-left: 20px;
+}
+.footer-col3{
+padding-top: 25px;
+margin-left: 10px;
+}
+.footer-col3 h3{
+padding-bottom: 19px;
+}
+.footer-col4{
+padding-top: 25px;
+margin-left: 0px;
+}
+.footer-col5{
+padding-top: 36px;
+margin-left: 46%;
+}
+.footer-col5 h3 {
+padding-bottom: 10px;
+}
+.footer-col5 p {
+margin-left: -85px;
+}
+.underline1{
+display: none;
+}
+.underline2{
+display: none;
+}
+.underline3{
+display: none;
+}
+.underline4{
+display: none;
+}
+/*--Footer as Section 8th CSS Ends--*/
+
+/*Newsletter CSS Starts*/
+.popup {
+  top: 87%;
+  left: 71%;
+  width: 270px;
+}
+/*Newsletter CSS Ends*/
+}
+
+@media (min-width: 569px) and (max-width: 714px) {
+    /*--Section 1st CSS Starts--*/
+.Section{
+  min-height: 203vh;
+  width: 253%;
+  }
+  .nav-links{
+  display: none;
+  }
+  nav img{
+  width: 150px;
+  margin-left: -8%;
+  }
+  .btnLogin-popup img{
+  margin-left: -45%;
+  margin-top: 4%;
+  }
+  .textbox h1{
+  font-size: 62px;
+  }
+  .textbox p{
+  font-size: 18px;
+  }
+  /*--Login Element CSS Starts--*/
+  .wrapper {
+  margin-left: 49.5%;
+  margin-top: 40%;
+  z-index: 10;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  }
+  /*--Login Element CSS Ends--*/
+  /*--sub-menu Element CSS stars--*/
+  .sub-menu{
+  border-radius: 10px;
+  padding-bottom: 4px;
+  }
+  .sub-menu-wrap{
+  top: 6.5%;
+  right: 3.8%;
+  border: 0px;
+  z-index: 1;
+  }
+  .user-info h2{
+  font-weight: 600;
+  font-size: larger;
+  margin-left: -5;
+  }
+  .user-info img{
+  width: 48px;
+  margin-left: 1px;
+  }
+  .sub-menu hr{
+  margin: 13px 0 25px;
+  }
+  .sub-menu-link img{
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 1px;
+  }
+  /*--sub-menu Element CSS Ends--*/
+  /*--Section 1st CSS Ends--*/
+  
+  /*--Milestones as Section 2nd CSS Starts--*/
+  .Milestones{
+  width: 253%;
+  padding-top: 85px;
+  }
+  .row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .Milestones-col{
+  border-radius: 5px;
+  padding: 90px 3px;
+  }
+  /*--Milestones as Section 2nd CSS Ends--*/
+  
+  /*--Section 3rd as Campus CSS Starts--*/
+  .Campus{
+    width: 253%;
+    padding-top: 8px;
+  }
+  .Campus-col{
+  margin-top: 2.3%;
+  margin-bottom: 12px;
+  }
+  .Campus-col img{
+  width: 95%;
+  }
+  .layer{
+  top: 40;
+  left: 70;
+  }
+  /*--Section 3rd as Campus CSS Ends--*/
+  
+  /*--Section 4th as Facilities CSS Starts--*/
+  .facilities{
+  width: 253%;
+  padding-top: 15px;
+  }
+  .facilities-col{
+  margin-bottom: 10.7%;
+  }
+  .facilities-col img{
+  width: 420px;
+  height: 420px;
+  border-radius: 10px;
+  }
+  /*--Section 4th as Facilities CSS Ends--*/
+  
+  /*--Section 5th as Achivements CSS Ends--*/
+  .Achivements{
+  width: 253%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  }
+  .Achivements-col{
+  margin-bottom: 6.2%;
+  }
+  .Achivements-col img{
+  width: 420px;
+  height: 420px;
+  border-radius: 10px;
+  }
+  /*--Section 5th as Achivements CSS Ends--*/
+  
+  /*--Ratings as Section 6th CSS Starts--*/
+  .Ratings{
+  width: 253%;
+  padding-bottom: 4%;
+  }
+  .Ratings .row{
+  padding: 35px;
+  margin-top: 2.3%;
+  margin-bottom: -79;
+  }
+  .Ratings-col1{
+  margin-bottom: 4;
+  margin-top: 0;
+  }
+  /*--Ratings as Section 6th CSS Ends--*/
+  
+  /*--Lta as Section 7th CSS Starts--*/
+  .Lta{
+  width: 252.9%;
+  margin-top: 103;
+  }
+  .Lta h1{
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 1.8;
+  }
+  .Lta p{
+  padding-bottom: 55px;
+  }
+  .Lta-col img{
+  width: 93%;
+  margin-bottom: 3%;
+  }
+  .Hero3-button{
+    font-size: 19px;
+  }
+  /*--Lta as Section 7th CSS Ends--*/
+  
+  /*--btt CSS Starts--*/
+  .backtotop{
+  width: 100%;
+  margin-bottom: 20%;
+  margin-top: -43;
+  }
+  .btt {
+  width: 40px;
+  height: 40px;
+  margin-left: 236%;
+  }
+  /*--btt CSS Ends--*/
+  
+  /*--Footer as Section 8th CSS Starts--*/
+  footer{
+  width: 253%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+  }
+  .logo{
+  width: 30%;
+  }
+  footer p{
+  font-size: 16px;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col3{
+  padding-top: 25px;
+  margin-left: 10px;
+  }
+  .footer-col3 h3{
+  padding-bottom: 19px;
+  }
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col5{
+  padding-top: 36px;
+  margin-left: 46%;
+  }
+  .footer-col5 h3 {
+  padding-bottom: 10px;
+  }
+  .footer-col5 p {
+  margin-left: -85px;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 89%;
+    left: 72.3%;
+    width: 270px;
+  }
+  /*Newsletter CSS Ends*/
+  }
+
+/* 568px - Mobile devices */
+@media only screen and (max-width: 568px) {
+    /*--Section 1st CSS Starts--*/
+.Section{
+    min-height: 203vh;
+    width: 202%;
+  }
+  .nav-links{
+    display: none;
+  }
+  nav img{
+    width: 150px;
+    margin-left: -8%;
+  }
+  .btnLogin-popup img{
+    margin-left: -45%;
+    margin-top: 4%;
+  }
+  .textbox h1{
+    font-size: 32px;
+  }
+  .textbox p{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .button{
+    font-size: 14px;
+  }
+  /*--Login Element CSS Starts--*/
+  .wrapper {
+    margin-left: 49.5%;
+    margin-top: 40%;
+    z-index: 10;
+    position: fixed;
+    transform: translate(-50%, -50%);
+  }
+  /*--Login Element CSS Ends--*/
+  /*--sub-menu Element CSS stars--*/
+  .sub-menu{
+    border-radius: 10px;
+    padding-bottom: 4px;
+  }
+  .sub-menu-wrap{
+    top: 9.4%;
+    right: 5.5%;
+    border: 0px;
+    z-index: 1;
+  }
+  .user-info h2{
+    font-weight: 600;
+    font-size: larger;
+    margin-left: -5;
+  }
+  .user-info img{
+    width: 48px;
+    margin-left: 1px;
+  }
+  .sub-menu hr{
+    margin: 13px 0 25px;
+  }
+  .sub-menu-link img{
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 1px;
+  }
+  /*--sub-menu Element CSS Ends--*/
+  /*--Section 1st CSS Ends--*/
+
+  /*--Milestones as Section 2nd CSS Starts--*/
+.Milestones{
+    width: 200%;
+    padding-top: 55px;
+  }
+  .row{
+    margin-top: 7.1%;
+    display: inline-block;
+  }
+  .Milestones-col{
+    border-radius: 5px;
+    padding: 40px 195px;
+  }
+  /*--Milestones as Section 2nd CSS Ends--*/
+
+  /*--Section 3rd as Campus CSS Starts--*/
+.Campus{
+    width: 200%;
+    padding-top: 40px;
+  }
+  .Campus-col{
+    margin-top: 3%;
+    margin-bottom: 12px;
+  }
+  .Campus-col img{
+    width: 90%;
+  }
+  .layer{
+    top: 30;
+    left: 33;
+  }
+  /*--Section 3rd as Campus CSS Ends--*/
+
+  /*--Section 4th as Facilities CSS Starts--*/
+.facilities{
+    width: 201.6%;
+    padding-top: 24.2px;
+  }
+  .facilities-col{
+    margin-bottom: 14%;
+  }
+  .facilities-col img{
+    width: 480px;
+    height: 480px;
+    border-radius: 10px;
+  }
+  /*--Section 4th as Facilities CSS Ends--*/
+
+  /*--Section 5th as Achivements CSS Ends--*/
+.Achivements{
+    width: 201.6%;
+    padding-top: 62px;
+    padding-bottom: 0px;
+  }
+  .Achivements-col{
+    margin-bottom: 11.5%;
+  }
+  .Achivements-col img{
+    width: 480px;
+    height: 480px;
+    border-radius: 10px;
+  }
+  /*--Section 5th as Achivements CSS Ends--*/
+
+  /*--Ratings as Section 6th CSS Starts--*/
+.Ratings{
+    width: 201.6%;
+    padding-bottom: 4%;
+  }
+  .Ratings-col{
+    margin-bottom: 33;
+  }
+  .Ratings .row{
+    padding: 35px;
+    margin-top: 3%;
+  }
+  .Ratings-col1{
+    margin-bottom: 34;
+    margin-top: -25;
+  }
+  /*--Ratings as Section 6th CSS Ends--*/
+
+  /*--Lta as Section 7th CSS Starts--*/
+.Lta{
+    width: 201.6%;
+  }
+  .Lta h1{
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-top: -33;
+  }
+  .Lta p{
+    padding-bottom: 55px;
+  }
+  .Lta-col img{
+    width: 90%;
+    margin-bottom: 4%;
+  }
+  /*--Lta as Section 7th CSS Ends--*/
+
+  /*--btt CSS Starts--*/
+.backtotop{
+    width: 100%;
+    margin-bottom: 20%;
+    margin-top: -35.5;
+  }
+  .btt {
+    width: 30px;
+    height: 30px;
+    margin-left: 185%;
+  }
+  /*--btt CSS Ends--*/
+
+  /*--Footer as Section 8th CSS Starts--*/
+footer{
+    width: 202%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .footer-row{
+    width: 85%;
+    margin: auto;
+    display: inline-block;
+  }
+  .footer-col{
+    padding: 3px;
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    width: 30%;
+  }
+  footer p{
+    font-size: 16px;
+  }
+  .footer-col1{
+    padding-top: 25px;
+    margin-left: 10px;
+  }
+  .footer-col2{
+    padding-top: 50px;
+    margin-left: 10px;
+  }
+  .footer-col3{
+    padding-top: 38px;
+    margin-left: 10px;
+  }
+  .footer-col3 h3{
+    padding-bottom: 19px;
+  }
+  .footer-col4{
+    padding-top: 0px;
+    margin-left: 6px;
+  }
+  .footer-col5{
+    padding-top: 36px;
+    margin-left: 10px;
+  }
+  .footer-col5 p{
+    margin-left: -5;
+  }
+  .underline1{
+    display: none;
+  }
+  .underline2{
+    display: none;
+  }
+  .underline3{
+    display: none;
+  }
+  .underline4{
+    display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+
+  /*Newsletter CSS Starts*/
+.popup {
+  top: 82%;
+  left: 85%;
+  width: 140px;
+  }
+  /*Newsletter CSS Ends*/
+}

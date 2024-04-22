@@ -105,7 +105,7 @@ nav img{
   font-size: 62px;
 }
 .textbox p{
-  margin: 10px 0 40px;
+  margin: 6px 0 16px;
   font-size: 14px;
   color: #fff;
 }
@@ -374,10 +374,10 @@ nav .fa{
 
 /*--Milestones as Section 2nd CSS Starts--*/
 .Milestones{
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 90px;
 }
 h1{
   font-size: 40px;
@@ -398,7 +398,7 @@ p{
 .Milestones-col{
   flex-basis: 18%;
   background: #fff3f3;
-  border-radius: 10%;
+  border-radius: 3%;
   margin-bottom: 5%;
   padding: 4% 6%;
   box-sizing: border-box;
@@ -423,14 +423,14 @@ p{
 
 /*--Section 3rd as Campus CSS Starts--*/
 .Campus{
-  width: 80%;
+  width: 85%;
   margin: auto;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 13px;
 }
 .Campus-col{
   margin-top: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
   position: relative;
   overflow: hidden;
   padding: 3% 5%;
@@ -469,7 +469,7 @@ p{
 
 /*--Section 4th as Facilities CSS Starts--*/
 .facilities{
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: center;
   margin-bottom: -67px;
@@ -506,7 +506,7 @@ p{
 
 /*--Section 5th as Achivements CSS Ends--*/
 .Achivements{
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: center;
   padding-bottom: 1%;
@@ -543,15 +543,15 @@ p{
 
 /*--Ratings as Section 6th CSS Starts--*/
 .Ratings{
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: center;
-  padding-bottom: 4%;
+  padding-bottom: 8%;
 }
 .Ratings-col{
-  flex-basis: 44%;
+  flex-basis: 46.5%;
   border-radius: 10px;
-  margin-bottom: 0%;
+  margin-bottom: -3%;
   text-align: left;
   background: #fff3f3;
   padding: 25px;
@@ -575,12 +575,12 @@ p{
   margin-bottom: 15px;
 }
 .Ratings-col1{
-  flex-basis: 44%;
+  flex-basis: 46.3%;
   border-radius: 10px;
-  margin-bottom: 0%;
+  margin-bottom: -3%;
   text-align: left;
   background: #fff3f3;
-  padding: 25px;
+  padding: 27px;
   cursor: pointer;
   display: flex;
 }
@@ -604,7 +604,7 @@ p{
 
 /*--Lta as Section 7th CSS Starts--*/
 .Lta{
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: center;
 }
@@ -673,13 +673,11 @@ footer{
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
   padding: 10px 0 30px;
-  border-top-left-radius: 125px;
-  border-top-right-radius: 125px;
   line-height: 20px;
   display: flex;
 }
 .footer-row{
-  width: 85%;
+  width: 93%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -786,7 +784,7 @@ ul li a{
 }
 .footer-col5{
   padding-top: 36px;
-  margin-left: -250px;
+  margin-left: -190px;
 }
 .footer-col5 h3{
   padding-bottom: 24px;
