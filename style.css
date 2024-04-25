@@ -922,7 +922,7 @@ ul li a{
 }
 .littleaboutus h1{
   font-size: 65px;
-  padding-top: 320px;
+  padding-top: 350px;
   color: #fff;
 }
 .littleaboutus p{
@@ -958,57 +958,78 @@ ul li a{
 
 /*--Section 2nd CSS Starts--*/
 .Fullaboutus{
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 5.3%;
 }
 .Fullaboutus h1{
   text-align: center;
 }
-.ourmissiondesign{
+.MPD-col{
+  margin-top: 5%;
   display: flex;
-  justify-content: space-between;
-  margin-top: 4%;
+  justify-content: space-around;
 }
-.ourmissiondesign-col img{
+.card{
+  width: 750px;
+  height: 400px;
+  perspective: 1000px;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
   border-radius: 10px;
+  transform: rotateY(0deg);
 }
-.ourmissiondesign-col p{
-  margin-top: 13%;
-  line-height: 170%;
-  font-weight: 400;
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
 }
 /*--Section 2nd CSS Ends--*/
 
 /*--Section 3rd CSS Starts--*/
-.Fullaboutus1{
-  width: 80%;
-  margin: auto;
-  margin-bottom: 4%;
-}
-.Fullaboutus1 h1{
-  text-align: center;
-}
-.ourvisiondesign{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 4%;
-}
-.ourvisiondesign-col img{
-  border-radius: 10px;
-}
-.ourvisiondesign-col p{
-  margin-top: 20%;
-  line-height: 170%;
-  font-weight: 400;
-}
-/*--Section 3rd CSS Ends--*/
-
-/*--Section 4th CSS Starts--*/
 .Fullaboutus2{
   width: 90%;
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 4.8%;
 }
 .Fullaboutus2 h1{
   text-align: center;
@@ -1023,148 +1044,100 @@ ul li a{
   text-align: center;
 }
 .corevalue-col img{
-  border-radius: 100%;
-  width: 80%;
-  margin-bottom: 4%;
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
 }
 .corevalue-col p{
   padding-top: 4px;
   font-weight: 400;
 }
-/*--Section 4th CSS Ends--*/
+/*--Section 3rd CSS Ends--*/
 
-/*--Section 5th CSS Starts--*/
+/*--Section 4th CSS Starts--*/
 .Fullaboutus3{
-  width: 80%;
+  width: 84%;
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 4.8%;
 }
 .Fullaboutus3 h1{
   text-align: center;
 }
 .history{
-  margin-top: 4%;
-  display: flex;
+  margin-top: 5.3%;
+}
+.history-col{
+  text-align: center;
 }
 .history-col img{
-  width: 90%;
+  width: 101.7%;
   border-radius: 10px;
 }
-.history-col p{
-  font-weight: 400;
-  margin-top: 10%;
-  line-height: 150%;
-}
-/*--Section 5th CSS Ends--*/
+/*--Section 4th CSS Ends--*/
 
-/*--Section 6th CSS Starts--*/
+/*--Section 5th CSS Starts--*/
 .Fullaboutus4{
-  width: 80%;
+  width: 84%;
   margin: auto;
-  margin-bottom: 3%;
+  margin-bottom: 0.7%;
 }
 .Fullaboutus4 h1{
   text-align: center;
 }
 .leadershipteam{
-  margin-top: 4%;
+  margin-top: 5.2%;
   display: flex;
 }
-.leadershipteam-col1 img{
-  width: 75%;
+.leadershipteam-col img{
+  width: 136%;
   border-radius: 3%;
-}
-.leadershipteam-col1 p{
-  text-align: center;
-  padding-top: 20;
-  margin-right: 23%;
-}
-.leadershipteam-col h3{
-  margin-top: 6%;
 }
 .leadershipteam-col p{
-  line-height: 150%;
-  font-weight: 400;
-}
-.leadershipteam-col{
-  width: 90%;
-  margin-left: 5%;
-}
-/*--Section 6th CSS Ends--*/
-
-/*--Section 7th CSS Starts--*/
-.Fullaboutus5{
-  width: 80%;
-  margin: auto;
-  margin-bottom: 3%;
-}
-.secondleadershipteam{
-  margin-top: 4%;
-  display: flex;
-  justify-content: space-between;
-}
-.secondleadershipteam-col img{
-  border-radius: 3%;
-  margin-left: 17%;
-}
-.secondleadershipteam-col h3{
-  margin-top: 12.5%;
-}
-.secondleadershipteam-col p{
-  line-height: 150%;
-  font-weight: 400;
-  padding-top: 20;
-  margin-left: 30%;
   text-align: center;
+  padding-top: 30;
+  margin-left: 23%;
 }
-.secondleadershipteam-col1{
-  margin-right: 10%;
+.accordion{
+  margin-left: 10%;
 }
-.secondleadershipteam-col1 h3{
-  margin-top: 16.5%;
+.accordion li{
+  list-style: none;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  border-radius: 7px;
+  background: #e3edf7;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
-.secondleadershipteam-col1 p{
-  line-height: 150%;
-  font-weight: 400;
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }
-/*--Section 7th CSS Ends--*/
+.accordion label::before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 24px;
+  margin-top: -3;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+}
+.accordion .contentser p{
+  font-size: 16px;
+}
+/*--Section 5th CSS Ends--*/
 
 /*--Section 8th CSS Starts--*/
-.Fullaboutus6{
-  width: 90%;
-  margin: auto;
-  margin-bottom: 4%;
-}
-.Fullaboutus6 h1{
-  text-align: center;
-}
-.teachers{
-  margin-top: 5%;
-  display: flex;
-  text-align: center;
-}
-.teachers-col img{
-  width: 80%;
-  border-radius: 10%;
-
-}
-.teachers-col p{
-  margin-top: 12px;
-  font-weight: 400;
-  color: #212122;
-  line-height: 150%;
-}
-.teachers-col img{
-  transition: 0.5s;
-}
-.teachers-col img:hover{
-  box-shadow: 0 0 20px 0px rgba(20,20,20,20);
-}
-/*--Section 8th CSS Ends--*/
-
-/*--Section 9th CSS Starts--*/
 .Fullaboutus7{
-  width: 85%;
+  width: 84.8%;
   margin: auto;
   margin-bottom: 5%;
 }
@@ -1172,12 +1145,12 @@ ul li a{
   text-align: center;
 }
 .students{
-  margin-top: 5%;
+  margin-top: 5.2%;
   display: flex;
   justify-content: space-between;
 }
 .students-col img{
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .students-col p{
   margin-top: 4.7%;
@@ -1197,9 +1170,9 @@ ul li a{
   cursor: pointer;
   position: relative;
 }
-/*--Section 9th CSS Ends--*/
+/*--Section 8th CSS Ends--*/
 
-/*--Section 10th CSS Ends--*/
+/*--Section 9th CSS Ends--*/
 .Fullaboutus8{
   width: 85%;
   margin: auto;
@@ -1266,9 +1239,9 @@ ul li a{
   border-radius: 10px;
   transform: rotateY(180deg);
 }
-/*--Section 10th CSS Ends--*/
+/*--Section 9th CSS Ends--*/
 
-/*--Section 11th CSS Starts--*/
+/*--Section 10th CSS Starts--*/
 .cardcircle{
   width: 200px;
   height: 200px;
@@ -1301,9 +1274,9 @@ ul li a{
   border-radius: 100px;
   transform: rotateY(180deg);
 }
-/*--Section 11th CSS Ends--*/
+/*--Section 10th CSS Ends--*/
 
-/*--Section 12th CSS Starts--*/
+/*--Section 11th CSS Starts--*/
 .card3D {
   width: 300px;
   height: 455px;
@@ -1410,9 +1383,9 @@ ul li a{
   opacity: 1;
   transform: translate3d(5%, -20%, 670px);
 }
-/*--Section 12th CSS Ends--*/
+/*--Section 11th CSS Ends--*/
 
-/*--Section 13th CSS Starts--*/
+/*--Section 12th CSS Starts--*/
 
 @keyframes slide {
   from {
@@ -1433,7 +1406,7 @@ ul li a{
 .logos10:after {
   position: absolute;
   top: 0;
-  width: 250px;
+  width: 100px;
   height: 100%;
   content: "";
   z-index: 2;
@@ -1490,9 +1463,9 @@ ul li a{
 .logos10:hover .logos-slide {
   animation-play-state: paused;
 }
-/*--Section 13th CSS Ends--*/
+/*--Section 12th CSS Ends--*/
 
-/*--Section 14th CSS Starts--*/
+/*--Section 13th CSS Starts--*/
 .lastyear{
   text-align: center;
   display: flex;
@@ -1503,7 +1476,7 @@ ul li a{
   width: 40%;
   margin-top: -4%;
 }
-/*--Section 14th CSS Ends--*/
+/*--Section 13th CSS Ends--*/
 /*--Aboutus Page CSS Ends--*/
 
 /*--Curriculam Page CSS Starts--*/
