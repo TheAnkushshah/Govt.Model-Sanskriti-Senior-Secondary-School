@@ -1085,17 +1085,18 @@ ul li a{
   text-align: center;
 }
 .leadershipteam{
-  margin-top: 5.2%;
+  margin-top: 4.5%;
   display: flex;
 }
 .leadershipteam-col img{
-  width: 136%;
+  width: 145%;
   border-radius: 3%;
+  margin-top: 7%;
 }
 .leadershipteam-col p{
   text-align: center;
   padding-top: 30;
-  margin-left: 23%;
+  margin-left: 38%;
 }
 .accordion{
   margin-left: 10%;
@@ -1103,10 +1104,10 @@ ul li a{
 .accordion li{
   list-style: none;
   width: 100%;
-  margin: 0px;
+  margin: 20px;
   padding: 10px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
   border-radius: 7px;
-  background: #e3edf7;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
             -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
@@ -1129,9 +1130,19 @@ input[type="radio"]{
 }
 .accordion .contentser{
   padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
 }
 .accordion .contentser p{
   font-size: 16px;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 10px 10px 10px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
 }
 /*--Section 5th CSS Ends--*/
 
