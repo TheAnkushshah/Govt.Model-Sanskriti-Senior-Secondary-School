@@ -1146,7 +1146,7 @@ input[type="radio"]:checked + label::before{
 }
 /*--Section 5th CSS Ends--*/
 
-/*--Section 8th CSS Starts--*/
+/*--Section 6th CSS Starts--*/
 .Fullaboutus7{
   width: 84.8%;
   margin: auto;
@@ -1181,11 +1181,11 @@ input[type="radio"]:checked + label::before{
   cursor: pointer;
   position: relative;
 }
-/*--Section 8th CSS Ends--*/
+/*--Section 6th CSS Ends--*/
 
-/*--Section 9th CSS Ends--*/
+/*--Section 7th CSS Ends--*/
 .Fullaboutus8{
-  width: 85%;
+  width: 90%;
   margin: auto;
   margin-bottom: 6%;
 }
@@ -1201,6 +1201,14 @@ input[type="radio"]:checked + label::before{
   width: 750px;
   height: 400px;
   perspective: 1000px;
+}
+.asus1{
+  margin-left: 70%;
+  margin-top: -4%;
+}
+.asus{
+  margin-left: 66.5%;
+  margin-top: -4%;
 }
 .card-inner{
   width: 100%;
@@ -1250,9 +1258,9 @@ input[type="radio"]:checked + label::before{
   border-radius: 10px;
   transform: rotateY(180deg);
 }
-/*--Section 9th CSS Ends--*/
+/*--Section 7th CSS Ends--*/
 
-/*--Section 10th CSS Starts--*/
+/*--Section 8th CSS Starts--*/
 .cardcircle{
   width: 200px;
   height: 200px;
@@ -1267,6 +1275,10 @@ input[type="radio"]:checked + label::before{
 }
 .cardcircle:hover .card-inner{
   transform: rotateY(180deg);
+}
+.asus3 {
+  margin-left: 58.1%;
+  margin-top: -1.6%;
 }
 .card-frontcircle,
 .card-backcircle{
@@ -1285,9 +1297,13 @@ input[type="radio"]:checked + label::before{
   border-radius: 100px;
   transform: rotateY(180deg);
 }
-/*--Section 10th CSS Ends--*/
+/*--Section 8th CSS Ends--*/
 
-/*--Section 11th CSS Starts--*/
+/*--Section 9th CSS Starts--*/
+.asus4 {
+  margin-left: 58.2%;
+  margin-top: -1.7%;
+}
 .card3D {
   width: 300px;
   height: 455px;
@@ -1394,9 +1410,9 @@ input[type="radio"]:checked + label::before{
   opacity: 1;
   transform: translate3d(5%, -20%, 670px);
 }
-/*--Section 11th CSS Ends--*/
+/*--Section 9th CSS Ends--*/
 
-/*--Section 12th CSS Starts--*/
+/*--Section 10th CSS Starts--*/
 
 @keyframes slide {
   from {
@@ -1405,6 +1421,11 @@ input[type="radio"]:checked + label::before{
   to {
     transform: translateX(-100%);
   }
+}
+
+.asus5{
+  margin-left: 56.5%;
+  margin-top: -6.3%;
 }
 
 .logos10 {
@@ -1474,9 +1495,13 @@ input[type="radio"]:checked + label::before{
 .logos10:hover .logos-slide {
   animation-play-state: paused;
 }
-/*--Section 12th CSS Ends--*/
+/*--Section 10th CSS Ends--*/
 
-/*--Section 13th CSS Starts--*/
+/*--Section 11th CSS Starts--*/
+.asus6{
+  margin-left: 56.3%;
+  margin-top: -1.6%;
+}
 .lastyear{
   text-align: center;
   display: flex;
@@ -1487,7 +1512,7 @@ input[type="radio"]:checked + label::before{
   width: 40%;
   margin-top: -4%;
 }
-/*--Section 13th CSS Ends--*/
+/*--Section 11th CSS Ends--*/
 /*--Aboutus Page CSS Ends--*/
 
 /*--Curriculam Page CSS Starts--*/

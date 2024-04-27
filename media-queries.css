@@ -2935,13 +2935,16 @@ display: none;
   /*--btt CSS Starts--*/
 .backtotop{
     width: 100%;
-    margin-bottom: 20%;
-    margin-top: -35.5;
+    margin-bottom: 30%;
+    margin-top: -40;
   }
   .btt {
     width: 30px;
     height: 30px;
     margin-left: 185%;
+  }
+  .svgIcon {
+    width: 10px;
   }
   /*--btt CSS Ends--*/
 

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 1851px) and (max-width: 1919px) {
+
+}
+
+@media (min-width: 1651px) and (max-width: 1850px) {
+
+}
+
+@media (min-width: 1441px) and (max-width: 1650px) {
+
+}
+
+@media (min-width: 1241px) and (max-width: 1440px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1240px) {
+
+}
+
+/* 1024px - Tablets, laptops, and desktops */
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media (min-width: 851px) and (max-width: 980px) {
+
+}
+
+@media (min-width: 569px) and (max-width: 714px) {
+
+}
+
+/* 568px - Mobile devices */
+@media only screen and (max-width: 568px) {
+
+}
