@@ -141,8 +141,9 @@
     justify-content: space-around;
   }
   .card{
-    width: 1080px;
-    height: 600px;
+    width: 47%; /* Make the cards occupy full width on smaller screens */
+    max-width: none; /* Reset max-width */
+    height: 650px;
     perspective: 1000px;
     padding-bottom: 55px;
   }
@@ -169,6 +170,7 @@
     border-radius: 10px;
     transform: rotateY(0deg);
     background-size: cover;
+    background-position: bottom;
   }
   .card-back2{
     background: url(AboutPage/Missonback.png);
@@ -176,6 +178,7 @@
     border-radius: 10px;
     transform: rotateY(180deg);
     background-size: contain;
+    background-position: center;
   }
   .card-front3,
   .card-back3{
@@ -186,6 +189,7 @@
   }
   .card-front3{
     background: url(AboutPage/Vision.png);
+    background-position: revert;
     border: 1px solid #d8d8d8;
     border-radius: 10px;
     transform: rotateY(0deg);
@@ -193,6 +197,7 @@
   }
   .card-back3{
     background: url(AboutPage/Visionback.png);
+    background-position: center;
     border: 1px solid #d8d8d8;
     border-radius: 10px;
     background-size: contain;
@@ -385,8 +390,9 @@
     justify-content: space-around;
   }
   .card{
-    width: 1080px;
-    height: 600px;
+    width: 47%; /* Make the cards occupy full width on smaller screens */
+    max-width: none; /* Reset max-width */
+    height: 650px;
     perspective: 1000px;
     padding-bottom: 120px;
   }
@@ -412,6 +418,7 @@
   }
   .card-front{
     background: url(AboutPage/Information.png);
+    background-position: center;
     border: 1px solid #d8d8d8;
     border-radius: 10px;
     transform: rotateY(0deg);
@@ -419,6 +426,7 @@
   }
   .card-back{
     background: url(AboutPage/Details.png);
+    background-position: center;
     border: 1px solid #d8d8d8;
     border-radius: 10px;
     background-size: cover;
@@ -433,6 +441,7 @@
   }
   .card-front1{
     background: url(AboutPage/Information1.png);
+    background-position: center;
     border: 1px solid #d8d8d8;
     background-size: cover;
     border-radius: 10px;
@@ -440,6 +449,7 @@
   }
   .card-back1{
     background: url(AboutPage/Details1.png);
+    background-position: center;
     border: 1px solid #d8d8d8;
     background-size: cover;
     border-radius: 10px;

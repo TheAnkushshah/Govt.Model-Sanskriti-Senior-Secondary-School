@@ -971,8 +971,8 @@ ul li a{
   justify-content: space-around;
 }
 .card{
-  width: 750px;
-  height: 400px;
+  width: 100%; /* Adjusted to take 30% of the container's width */
+  height: 400px; /* Adjusted to auto height */
   perspective: 1000px;
 }
 .card-inner{
@@ -996,6 +996,7 @@ ul li a{
   background: url(AboutPage/Mission.png);
   border: 1px solid #d8d8d8;
   border-radius: 10px;
+  background-position: center;
   transform: rotateY(0deg);
 }
 .card-back2{
@@ -1003,6 +1004,7 @@ ul li a{
   border: 1px solid #d8d8d8;
   border-radius: 10px;
   transform: rotateY(180deg);
+  background-position: center;
 }
 .card-front3,
 .card-back3{
@@ -1016,12 +1018,14 @@ ul li a{
   border: 1px solid #d8d8d8;
   border-radius: 10px;
   transform: rotateY(0deg);
+  background-position: center;
 }
 .card-back3{
   background: url(AboutPage/Visionback.png);
   border: 1px solid #d8d8d8;
   border-radius: 10px;
   transform: rotateY(180deg);
+  background-position: center;
 }
 /*--Section 2nd CSS Ends--*/
 
