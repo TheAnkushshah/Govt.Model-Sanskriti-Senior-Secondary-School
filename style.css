@@ -1202,14 +1202,6 @@ input[type="radio"]:checked + label::before{
   height: 400px;
   perspective: 1000px;
 }
-.asus1{
-  margin-left: 70%;
-  margin-top: -4%;
-}
-.asus{
-  margin-left: 66.5%;
-  margin-top: -4%;
-}
 .card-inner{
   width: 100%;
   height: 100%;
@@ -1276,10 +1268,6 @@ input[type="radio"]:checked + label::before{
 .cardcircle:hover .card-inner{
   transform: rotateY(180deg);
 }
-.asus3 {
-  margin-left: 58.1%;
-  margin-top: -1.6%;
-}
 .card-frontcircle,
 .card-backcircle{
   position: absolute;
@@ -1300,10 +1288,6 @@ input[type="radio"]:checked + label::before{
 /*--Section 8th CSS Ends--*/
 
 /*--Section 9th CSS Starts--*/
-.asus4 {
-  margin-left: 58.2%;
-  margin-top: -1.7%;
-}
 .card3D {
   width: 300px;
   height: 455px;
@@ -1423,11 +1407,6 @@ input[type="radio"]:checked + label::before{
   }
 }
 
-.asus5{
-  margin-left: 56.5%;
-  margin-top: -6.3%;
-}
-
 .logos10 {
   overflow: hidden;
   white-space: nowrap;
@@ -1498,10 +1477,7 @@ input[type="radio"]:checked + label::before{
 /*--Section 10th CSS Ends--*/
 
 /*--Section 11th CSS Starts--*/
-.asus6{
-  margin-left: 56.3%;
-  margin-top: -1.6%;
-}
+
 .lastyear{
   text-align: center;
   display: flex;

@@ -34,40 +34,44 @@
 }
 
 @media (min-width: 569px) and (max-width: 714px) {
-
+/*--Section 1st CSS Starts--*/
+/*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
 }
-
-/* 568px - Mobile devices */
-@media only screen and (max-width: 568px) {
-    /*--Section 1st CSS Starts--*/
-.Aboutus{
-    min-height: 405vh;
-    width: 400%;
-    top: -10%;
-    background-image: url(AboutPage/Aboutuseful.png);
-    background-position: center;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .Aboutus nav{
-    height: 150;
-    background-color: transparent;
-    transition: background-color 3600s ease;
-    position: absolute;
-    top: 20;
-    width: 92%;
-    z-index: 1000;
-  }
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(AboutPage/Aboutuseful.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 150;
+  background-color: transparent;
+  transition: background-color 3600s ease;
+  position: absolute;
+  top: 85;
+  width: 92%;
+  z-index: 1000;
+}
   .Aboutus nav .logohumain{
-    width: 170px;
+    width: 295px;
     margin-left: -8%;
   }
   .Aboutus .nav-links{
     display: none;
   }
   .Aboutus .btnLogin-popup img{
-    margin-top: 15;
+    margin-top: 10;
+    margin-left: 55;
+  }
+  .btnLogin-popup img {
+    width: 100px;
   }
   .Aboutus .sub-menu-wrap{
     top: 85%;
@@ -76,14 +80,793 @@
     margin-top: 70%;
     transform: translate(-15%);
   }
-  .littleaboutus{
+  .littleaboutus {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  .littleaboutus h1{
+    font-size: 95px;
+    padding-top: 60px;
+    color: #fff;
+  }
+  .littleaboutus p{
+    color: #fff;
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  .text-formatting{
+    background: #E9AF38;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  .text-formatting1{
+    background: #E9AF38;
+    border-radius: 10px;
+    padding: 5px 10px;
+    padding-top: 0px;
+  }
+  .aboutusread{
+    margin-top: 22;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 25px;
+    background: #2FAAE5;
+    position: relative;
+    cursor: pointer;
+  }
+  /*--Section 1st CSS Ends--*/
+  
+  /*--Section 2nd CSS Starts--*/
+  .Fullaboutus{
+    width: 399%;
+    margin: auto;
+    padding-top: 130px;
+  }
+  .Fullaboutus h1{
+    text-align: center;
+    font-size: 70px;
+  }
+  .MPD-col{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card{
+    width: 1080px;
+    height: 600px;
+    perspective: 1000px;
+    padding-bottom: 55px;
+  }
+  .card-inner{
     width: 100%;
-    margin-top: 4.2%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  .card:hover .card-inner{
+    transform: rotateY(180deg);
+  }
+  .card-front2,
+  .card-back2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .card-front2{
+    background: url(AboutPage/Mission.png);
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    transform: rotateY(0deg);
+    background-size: cover;
+  }
+  .card-back2{
+    background: url(AboutPage/Missonback.png);
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    background-size: contain;
+  }
+  .card-front3,
+  .card-back3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .card-front3{
+    background: url(AboutPage/Vision.png);
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    transform: rotateY(0deg);
+    background-size: cover;
+  }
+  .card-back3{
+    background: url(AboutPage/Visionback.png);
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    background-size: contain;
+    transform: rotateY(180deg);
+  }
+  /*--Section 2nd CSS Ends--*/
+  
+  /*--Section 3rd CSS Starts--*/
+  .Fullaboutus2{
+    width: 399%;
+    margin: auto;
+    padding-top: 0px;
+  }
+  .Fullaboutus2 h1{
+    text-align: center;
+    font-size: 70px;
+  }
+  .corevalue{
+    display: flex;
+    margin-top: 6%;
+    justify-content: space-around;
+  }
+  .corevalue-col{
+    width: 65%;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  .corevalue-col img{
+    border-radius: 50%;
+    width: 75%;
+    margin-bottom: 8%;
+  }
+  .corevalue-col p{
+    padding-top: 54px;
+    font-weight: 400;
+    font-size: 40;
+  }
+  /*--Section 3rd CSS Ends--*/
+  
+  /*--Section 4th CSS Starts--*/
+  .Fullaboutus3{
+    width: 399%;
+    margin: auto;
+    margin-top: -18%;
+  }
+  .Fullaboutus3 h1{
+    text-align: center;
+    font-size: 70px;
+  }
+  .history{
+    margin-top: 5.5%;
+  }
+  .history-col{
     text-align: center;
   }
+  .history-col img{
+    width: 97%;
+    border-radius: 10px;
+  }
+  /*--Section 4th CSS Ends--*/
+  
+  /*--Section 5th CSS Starts--*/
+  .Fullaboutus4{
+    width: 399%;
+    margin: auto;
+    padding-top: 22%;
+  }
+  .Fullaboutus4 h1{
+    text-align: center;
+    font-size: 70px;
+  }
+  .leadershipteam{
+    margin: auto;
+    width: 96.5%;
+    padding-top: 5%;
+    display: flex;
+  }
+  .leadershipteam-col img{
+    width: 156.5%;
+    border-radius: 3%;
+    margin-top: 4%;
+  }
+  .leadershipteam-col p{
+    text-align: center;
+    padding-top: 25;
+    margin-left: 0%;
+    width: 150%;
+  }
+  .accordion{
+    margin-left: 11%;
+  }
+  .accordion li{
+    list-style: none;
+    width: 97%;
+    margin: 20px;
+    padding: 10px;
+    background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+    border-radius: 7px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+              -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+  .accordion li label{
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .accordion label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    margin-top: -3;
+    font-weight: 600;
+  }
+  input[type="radio"]{
+    display: none;
+  }
+  .accordion .contentser{
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+  }
+  .accordion .contentser p{
+    font-size: 16px;
+  }
+  input[type="radio"]:checked + label + .contentser{
+    max-height: 400px;
+    padding: 10px 10px 10px;
+  }
+  input[type="radio"]:checked + label::before{
+    content: '-';
+  }
+  /*--Section 5th CSS Ends--*/
+  
+  /*--Section 6th CSS Starts--*/
+  .Fullaboutus7{
+    width: 399%;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .Fullaboutus7 h1{
+    text-align: center;
+    font-size: 70px;
+  }
+  .students{
+    margin-top: 5.5%;
+    display: grid;
+    justify-content: normal;
+  }
+  .students-col{
+    text-align: center;
+  }
+  .students-col img{
+    border-radius: 10px;
+    width: 97%;
+  }
+  .students-col p{
+    display: none;
+  }
+  .downloadpdf{
+    margin-top: 50;
+    margin-left: 0%;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 35px;
+    background: #2FAAE5;
+    cursor: pointer;
+    position: relative;
+  }
+  /*--Section 6th CSS Ends--*/
+  
+  /*--Section 7th CSS Ends--*/
+  .Fullaboutus8{
+    width: 399%;
+    margin: auto;
+    padding-top: 22%;
+  }
+  .Fullaboutus8 h1{
+    text-align: center;
+    font-size: 70px;
+  }
+  .MPD-col{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card{
+    width: 1080px;
+    height: 600px;
+    perspective: 1000px;
+    padding-bottom: 120px;
+  }
+  .card p{
+    font-size: 28px;
+  }
+  .card-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  .card:hover .card-inner{
+    transform: rotateY(180deg);
+  }
+  .card-front,
+  .card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .card-front{
+    background: url(AboutPage/Information.png);
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    transform: rotateY(0deg);
+    background-size: cover;
+  }
+  .card-back{
+    background: url(AboutPage/Details.png);
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    background-size: cover;
+    transform: rotateY(180deg);
+  }
+  .card-front1,
+  .card-back1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .card-front1{
+    background: url(AboutPage/Information1.png);
+    border: 1px solid #d8d8d8;
+    background-size: cover;
+    border-radius: 10px;
+    transform: rotateY(0deg);
+  }
+  .card-back1{
+    background: url(AboutPage/Details1.png);
+    border: 1px solid #d8d8d8;
+    background-size: cover;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+  }
+  /*--Section 7th CSS Ends--*/
+  
+  /*--Section 8th CSS Starts--*/
+  .Fullaboutus8 p{
+    font-size: 28px;
+  }
+  .upabove{
+    margin-top: -3%;
+  }
+  .cardcircle p {
+    padding-top: 7%;
+    font-size: 25;
+  }
+  .cardcircle{
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+    padding-bottom: 140;
+  }
+  .card-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  .cardcircle:hover .card-inner{
+    transform: rotateY(180deg);
+  }
+  .card-frontcircle,
+  .card-backcircle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .card-frontcircle{
+    background: url(AboutPage/Approved.png);
+    border-radius: 100px;
+    transform: rotateY(0deg);
+    background-size: cover;
+  }
+  .card-backcircle{
+    border-radius: 100px;
+    background: url(AboutPage/Affiliation.png);
+    transform: rotateY(180deg);
+    background-size: 550%;
+  }
+  /*--Section 8th CSS Ends--*/
+  
+  /*--Section 9th CSS Starts--*/
+  .totallydiffer2{
+    left: -40;
+  }
+  .upabove2{
+    margin-top: -4%;
+    margin-bottom: -65;
+  }
+  .card3D {
+    width: 450px;
+    height: 455px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 36px;
+    margin-top: 50%;
+    margin-bottom: 35%;
+    perspective: 2500px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  .card3dtext{
+    padding-bottom: 10%;
+  }
+  .cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .wrapper3D {
+    transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background: #000;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  .wrapper3D img {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  .card3D:hover .wrapper3D {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  }
+  
+  .wrapper3D::before,
+  .wrapper3D::after {
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .wrapper3D::before {
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+  }
+  
+  .wrapper3D::after {
+    bottom: 0;
+    opacity: 1;
+    background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+  }
+  
+  .card3D:hover .wrapper3D::before,
+  .wrapper3D::after {
+    opacity: 1;
+  }
+  
+  .card3D:hover .wrapper3D::after {
+    height: 120px;
+  }
+  
+  .card3D .logo {
+    display: none;
+    width: 100%;
+    transition: transform 0.5s;
+    position: absolute;
+    left: 7%;
+    color: aliceblue;
+    bottom: 10px;
+  }
+  
+  .card3D:hover .logo {
+    transform: translate3d(0%, -50px, 100px);
+  }
+  
+  .card3D:hover .cover-image {
+    opacity: 0.3;
+  }
+  
+  .character {
+    width: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    filter: drop-shadow(2px 2px 2px #000);
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .card3D:hover .totallydiffer {
+    opacity: 1;
+    transform: translate3d(10%, -20%, 670px);
+  }
+  /*--Section 9th CSS Ends--*/
+  
+  /*--Section 10th CSS Starts--*/
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .upabove3{
+    margin-top: -3%;
+  }
+
+  .logos10 {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -3%;
+  }
+  
+  .logos10:before,
+  .logos10:after {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos10:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos10:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    margin: 0 70px;
+  }
+  
+  .logo-container p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    line-height: 1.3;
+    text-align: center;
+  }
+  
+  .logo-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 80px 30;
+    padding-bottom: 130px;
+  }
+  
+  .logo-container img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .logo-container:hover img {
+    transform: translateX(0);
+  }
+  
+  .logos10:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  /*--Section 10th CSS Ends--*/
+  
+  /*--Section 11th CSS Starts--*/
+  .upabove4{
+    margin-top: -2%;
+  }
+
+  .lastyear{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .lastyear img{
+    width: 40%;
+    margin-top: 3%;
+  }
+  /*--Section 11th CSS Ends--*/
+
+  /*--btt CSS Starts--*/
+  .backtotop{
+    width: 200%;
+    margin-bottom: 30%;
+    margin-top: -200;
+  }
+  .btt {
+    width: 80px;
+    height: 80px;
+    margin-left: 185%;
+  }
+  .svgIcon {
+    width: 25px;
+  }
+/*--btt CSS Ends--*/
+
+  /*--Footer as Section 8th CSS Starts--*/
+  footer{
+    width: 400%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+    .footer-row{
+      width: 94%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer-col{
+      padding: 3px;
+      display: inline-block;
+    }
+    .logo{
+    width: 30%;
+    }
+    footer p{
+    font-size: 16px;
+    }
+    .footer-col1{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col2{
+    padding-top: 25px;
+    margin-left: 20px;
+    }
+    .footer-col3{
+    padding-top: 25px;
+    margin-left: 10px;
+    }
+    .footer-col3 h3{
+    padding-bottom: 19px;
+    }
+    .footer-col4{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col5{
+    padding-top: 36px;
+    margin-left: 46%;
+    }
+    .footer-col5 h3 {
+    padding-bottom: 10px;
+    }
+    .footer-col5 p {
+    margin-left: -85px;
+    }
+    .underline1{
+    display: none;
+    }
+    .underline2{
+    display: none;
+    }
+    .underline3{
+    display: none;
+    }
+    .underline4{
+    display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
+    
+    /*Newsletter CSS Starts*/
+    .popup {
+      top: 93%;
+      left: 73.6%;
+      width: 250px;
+    }
+    /*Newsletter CSS Ends*/
+}
+
+/* 568px - Mobile devices */
+@media only screen and (max-width: 568px) {
+/*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(AboutPage/Aboutuseful.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 150;
+  background-color: transparent;
+  transition: background-color 3600s ease;
+  position: absolute;
+  top: 85;
+  width: 92%;
+  z-index: 1000;
+}
+  .Aboutus nav .logohumain{
+    width: 295px;
+    margin-left: -8%;
+  }
+  .Aboutus .nav-links{
+    display: none;
+  }
+  .Aboutus .btnLogin-popup img{
+    margin-top: 10;
+    margin-left: 55;
+  }
+  .btnLogin-popup img {
+    width: 100px;
+  }
+  .Aboutus .sub-menu-wrap{
+    top: 85%;
+  }
+  .Aboutus .wrapper{
+    margin-top: 70%;
+    transform: translate(-15%);
+  }
+  .littleaboutus {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
   .littleaboutus h1{
     font-size: 65px;
-    padding-top: 1100px;
+    padding-top: 150px;
     color: #fff;
   }
   .littleaboutus p{
@@ -121,7 +904,7 @@
   .Fullaboutus{
     width: 399%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 120px;
   }
   .Fullaboutus h1{
     text-align: center;
@@ -238,14 +1021,10 @@
   }
   .history-col{
     text-align: center;
-    background: url(AboutPage/School\ Replacement.png);
-    background-size: cover;
-    width: 88%;
-    margin: auto;
-    height: 200%
   }
   .history-col img{
-    width: 0%;
+    width: 90%;
+    content: url(AboutPage/School\ Replacement.png);
     border-radius: 10px;
   }
   /*--Section 4th CSS Ends--*/
@@ -254,7 +1033,7 @@
   .Fullaboutus4{
     width: 399%;
     margin: auto;
-    padding-top: 35%;
+    padding-top: 34%;
   }
   .Fullaboutus4 h1{
     text-align: center;
@@ -389,14 +1168,6 @@
   .card p{
     font-size: 28px;
   }
-  .asus {
-    margin-left: 67.5%;
-    margin-top: -2.5%;
-  }
-  .asus1 {
-    margin-left: 71.4%;
-    margin-top: -2.5%;
-  }
   .card-inner{
     width: 100%;
     height: 100%;
@@ -458,10 +1229,6 @@
   .upabove{
     margin-top: -5%;
   }
-  .asus3 {
-    margin-left: 66.7%;
-    margin-top: -2.2%;
-}
   .cardcircle{
     width: 500px;
     height: 500px;
@@ -505,10 +1272,6 @@
   }
   .upabove2{
     margin-top: -4%;
-  }
-  .asus4 {
-    margin-left: 66.5%;
-    margin-top: -2.2%;
   }
   .card3D {
     width: 550px;
@@ -638,11 +1401,6 @@
     margin-top: -6%;
   }
 
-  .asus5 {
-    margin-left: 62.7%;
-    margin-top: -6.7%;
-  }
-
   .logos10 {
     overflow: hidden;
     white-space: nowrap;
@@ -717,10 +1475,7 @@
   .upabove4{
     margin-top: -2%;
   }
-  .asus6{
-    margin-left: 62.6%;
-    margin-top: -2.2%;
-  }
+
   .lastyear{
     text-align: center;
     display: block;
@@ -767,6 +1522,7 @@
   }
   .logo{
     width: 30%;
+    margin-left: -30px;
   }
   footer p{
     font-size: 16px;
