@@ -1610,14 +1610,25 @@ input[type="radio"]:checked + label::before{
 .Board{
   width: 80%;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 .Board h1{
   text-align: center;
 }
 .Board-col{
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
+}
+.Board-col h1{
+  font-size: 47px;
+  padding-top: 9%;
+  color: #212122;
+  text-shadow: 2px 2px 2px #a1c3f0;
+}
+.Board-col img{
+  width: 35%;
+  margin-top: -1%;
 }
 /*--Section 3rd CSS Ends--*/
 
@@ -1788,7 +1799,9 @@ select{
 /*--Section 5th CSS Ends--*/
 
 /*--Section 6th CSS Starts--*/
-/*--The css of 6th section is too short so i did it in inline--*/
+.lastyear h1{
+  font-size: 70px;
+}
 /*--Section 6th CSS Ends--*/
 
 /*--Section 7th CSS Starts--*/

@@ -740,7 +740,7 @@
     /*--btt CSS Starts--*/
     .backtotop{
       width: 200%;
-      margin-bottom: 30%;
+      margin-bottom: 190px;
       margin-top: -200;
     }
     .btt {
@@ -754,77 +754,149 @@
   /*--btt CSS Ends--*/
   
     /*--Footer as Section 8th CSS Starts--*/
-    footer{
-      width: 400%;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      }
-      .footer-row{
-        width: 94%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-      }
-      .footer-col{
-        padding: 3px;
-        display: inline-block;
-      }
-      .logo{
-      width: 30%;
-      }
-      footer p{
-      font-size: 16px;
-      }
-      .footer-col1{
-      padding-top: 25px;
+  footer{
+    width: 400%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+    .footer-row {
+      width: 94%;
+      margin: auto;
+      display: flex;
+      padding-top: 60;
+      justify-content: space-between;
+  }
+    .footer-col{
+      padding: 3px;
+      display: inline-block;
+      flex-basis: 27%;
+    }
+    .logo{
+    width: 30%;
+    margin-left: -26px;
+    }
+    footer p{
+    font-size: 36px;
+    line-height: 1.3;
+    }
+    .footer-col1{
+    padding-top: 25px;
+    margin-left: -5px;
+    }
+    .footer-col1 h3 {
+      padding-bottom: 60px;
+      font-size: 42px;
+    }
+    .footer-col1 p {
+      padding-bottom: 30px;
+      line-height: 1.4;
+    }
+    .email-id {
+      border-bottom: 2px solid #ccc;
+    }
+    .footer-col1 h4 {
+      padding-top: 55px;
+      font-size: 40;
+    }  
+    .footer-col2{
+    padding-top: 25px;
+    margin-left: 20px;
+    }
+    .footer-col2 h3 {
+      padding-bottom: 80px;
+      font-size: 42px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 38px;
+    }
+    .footer-col2 ul li a {
+      font-size: 36;
+      font-weight: 400;
+    }      
+    .footer-col3{
+      padding-top: 25px;      
       margin-left: 0px;
-      }
-      .footer-col2{
-      padding-top: 25px;
-      margin-left: 20px;
-      }
-      .footer-col3{
-      padding-top: 25px;
-      margin-left: 10px;
-      }
-      .footer-col3 h3{
-      padding-bottom: 19px;
-      }
-      .footer-col4{
-      padding-top: 25px;
-      margin-left: 0px;
-      }
-      .footer-col5{
-      padding-top: 36px;
-      margin-left: 46%;
-      }
-      .footer-col5 h3 {
-      padding-bottom: 10px;
-      }
-      .footer-col5 p {
-      margin-left: -85px;
-      }
-      .underline1{
-      display: none;
-      }
-      .underline2{
-      display: none;
-      }
-      .underline3{
-      display: none;
-      }
-      .underline4{
-      display: none;
-      }
-      /*--Footer as Section 8th CSS Ends--*/
-      
-      /*Newsletter CSS Starts*/
-      .popup {
-        top: 93%;
-        left: 73.6%;
-        width: 250px;
-      }
-      /*Newsletter CSS Ends*/
+    }
+    .footer-col3 h3 {
+      padding-bottom: 45px;
+      font-size: 42;
+    }
+    .footer-col3 form {
+      padding-top: 11px;
+      padding-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 50px;
+    }
+    .footer-col3 form .far {
+      font-size: 33px;
+      margin-right: 16px;
+    }
+    .footer-col3 form input {
+      width: 100%;
+      background: transparent;
+      outline: none;
+      color: #fff;
+      font-size: 35;
+      border: 0;
+    }
+    .footer-col3 form button .fas {
+      font-size: 32px;
+      color: #ccc;
+    }  
+    .footer-col4{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col4 .fab {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 90px;
+      font-size: 180%;
+      color: #000;
+      background: #fff;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .footer-col5{
+    padding-top: 36px;
+    margin-left: 46%;
+    }
+    .footer-col5 h3 {
+      padding-bottom: 38px;
+      font-size: 38;
+      padding-top: 50px;
+    }
+    .footer-col5 p {
+    margin-left: -200px;
+    padding-bottom: 40px;
+    }
+    .underline1{
+    display: none;
+    }
+    .underline2{
+    display: none;
+    }
+    .underline3{
+    display: none;
+    }
+    .underline4{
+    display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
+    
+    /*Newsletter CSS Starts*/
+    .popup {
+      top: 2250px;
+      left: 72.7%;
+      width: 550px;
+    }
+    /*Newsletter CSS Ends*/
 }
 
 @media (min-width: 821px) and (max-width: 850px) {
@@ -1549,7 +1621,7 @@
   /*--btt CSS Starts--*/
   .backtotop{
     width: 200%;
-    margin-bottom: 30%;
+    margin-bottom: 180px;
     margin-top: -200;
   }
   .btt {
@@ -1568,50 +1640,121 @@
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     }
-    .footer-row{
+    .footer-row {
       width: 94%;
       margin: auto;
       display: flex;
+      padding-top: 30;
       justify-content: space-between;
-    }
+  }
     .footer-col{
       padding: 3px;
       display: inline-block;
+      flex-basis: 27%;
     }
     .logo{
     width: 30%;
+    margin-left: -26px;
     }
     footer p{
-    font-size: 16px;
+    font-size: 27px;
+    line-height: 1.3;
     }
     .footer-col1{
     padding-top: 25px;
-    margin-left: 0px;
+    margin-left: -5px;
     }
+    .footer-col1 h3 {
+      padding-bottom: 40px;
+      font-size: 31.9px;
+    }
+    .footer-col1 p {
+      padding-bottom: 13px;
+      line-height: 1.4;
+    }
+    .email-id {
+      border-bottom: 2px solid #ccc;
+    }
+    .footer-col1 h4 {
+      padding-top: 35px;
+      font-size: 31.9;
+    }  
     .footer-col2{
     padding-top: 25px;
     margin-left: 20px;
     }
+    .footer-col2 h3 {
+      padding-bottom: 52.5px;
+      font-size: 31.9px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 30px;
+    }
+    .footer-col2 ul li a {
+      font-size: 27;
+      font-weight: 400;
+    }      
     .footer-col3{
-    padding-top: 25px;
-    margin-left: 10px;
+      padding-top: 25px;      
+      margin-left: 0px;
     }
-    .footer-col3 h3{
-    padding-bottom: 19px;
+    .footer-col3 h3 {
+      padding-bottom: 45px;
+      font-size: 31.9;
     }
+    .footer-col3 form {
+      padding-top: 11px;
+      padding-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 50px;
+    }
+    .footer-col3 form .far {
+      font-size: 28px;
+      margin-right: 16px;
+    }
+    .footer-col3 form input {
+      width: 100%;
+      background: transparent;
+      outline: none;
+      color: #fff;
+      font-size: 22;
+      border: 0;
+    }
+    .footer-col3 form button .fas {
+      font-size: 27px;
+      color: #ccc;
+    }  
     .footer-col4{
     padding-top: 25px;
     margin-left: 0px;
     }
+    .footer-col4 .fab {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 70px;
+      font-size: 130%;
+      color: #000;
+      background: #fff;
+      margin-right: 10px;
+      cursor: pointer;
+    }  
     .footer-col5{
     padding-top: 36px;
     margin-left: 46%;
     }
     .footer-col5 h3 {
-    padding-bottom: 10px;
+      padding-bottom: 38px;
+      font-size: 31;
     }
     .footer-col5 p {
-    margin-left: -85px;
+    margin-left: -150px;
+    padding-bottom: 30;
     }
     .underline1{
     display: none;
@@ -1629,9 +1772,9 @@
     
     /*Newsletter CSS Starts*/
     .popup {
-      top: 93%;
-      left: 73.6%;
-      width: 250px;
+      top: 2250px;
+      left: 72.7%;
+      width: 450px;
     }
     /*Newsletter CSS Ends*/
 }
@@ -2357,7 +2500,7 @@
   /*--btt CSS Starts--*/
   .backtotop{
     width: 200%;
-    margin-bottom: 30%;
+    margin-bottom: 160px;
     margin-top: -200;
   }
   .btt {
@@ -2376,50 +2519,121 @@
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     }
-    .footer-row{
+    .footer-row {
       width: 94%;
       margin: auto;
       display: flex;
+      padding-top: 30;
       justify-content: space-between;
-    }
+  }
     .footer-col{
       padding: 3px;
       display: inline-block;
+      flex-basis: 27%;
     }
     .logo{
     width: 30%;
+    margin-left: -26px;
     }
     footer p{
-    font-size: 16px;
+    font-size: 27px;
+    line-height: 1.3;
     }
     .footer-col1{
     padding-top: 25px;
-    margin-left: 0px;
+    margin-left: -5px;
     }
+    .footer-col1 h3 {
+      padding-bottom: 40px;
+      font-size: 31.9px;
+    }
+    .footer-col1 p {
+      padding-bottom: 13px;
+      line-height: 1.4;
+    }
+    .email-id {
+      border-bottom: 2px solid #ccc;
+    }
+    .footer-col1 h4 {
+      padding-top: 35px;
+      font-size: 31.9;
+    }  
     .footer-col2{
     padding-top: 25px;
     margin-left: 20px;
     }
+    .footer-col2 h3 {
+      padding-bottom: 52.5px;
+      font-size: 31.9px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 30px;
+    }
+    .footer-col2 ul li a {
+      font-size: 27;
+      font-weight: 400;
+    }      
     .footer-col3{
-    padding-top: 25px;
-    margin-left: 10px;
+      padding-top: 25px;      
+      margin-left: 0px;
     }
-    .footer-col3 h3{
-    padding-bottom: 19px;
+    .footer-col3 h3 {
+      padding-bottom: 45px;
+      font-size: 31.9;
     }
+    .footer-col3 form {
+      padding-top: 11px;
+      padding-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 50px;
+    }
+    .footer-col3 form .far {
+      font-size: 28px;
+      margin-right: 16px;
+    }
+    .footer-col3 form input {
+      width: 100%;
+      background: transparent;
+      outline: none;
+      color: #fff;
+      font-size: 22;
+      border: 0;
+    }
+    .footer-col3 form button .fas {
+      font-size: 27px;
+      color: #ccc;
+    }  
     .footer-col4{
     padding-top: 25px;
     margin-left: 0px;
     }
+    .footer-col4 .fab {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 70px;
+      font-size: 130%;
+      color: #000;
+      background: #fff;
+      margin-right: 10px;
+      cursor: pointer;
+    }  
     .footer-col5{
     padding-top: 36px;
     margin-left: 46%;
     }
     .footer-col5 h3 {
-    padding-bottom: 10px;
+      padding-bottom: 38px;
+      font-size: 31;
     }
     .footer-col5 p {
-    margin-left: -85px;
+    margin-left: -150px;
+    padding-bottom: 30;
     }
     .underline1{
     display: none;
@@ -2437,9 +2651,9 @@
     
     /*Newsletter CSS Starts*/
     .popup {
-      top: 93%;
-      left: 73.6%;
-      width: 250px;
+      top: 2250px;
+      left: 72.7%;
+      width: 450px;
     }
     /*Newsletter CSS Ends*/
 }
@@ -3127,7 +3341,7 @@
   /*--btt CSS Starts--*/
   .backtotop{
     width: 200%;
-    margin-bottom: 40%;
+    margin-bottom: 150px;
     margin-top: -75;
   }
   .btt {
