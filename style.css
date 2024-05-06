@@ -1503,7 +1503,7 @@ input[type="radio"]:checked + label::before{
 
 /*--Section 2nd CSS Starts--*/
 .Classroom{
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-bottom: 4%;
   margin-top: -0.7%;
@@ -1512,7 +1512,7 @@ input[type="radio"]:checked + label::before{
   text-align: center;
 }
 .Classroom-col{
-  max-width: 1514px;
+  max-width: 3000px;
   width: 100%;
   position: relative;
   padding-top: 4%;
@@ -1608,9 +1608,9 @@ input[type="radio"]:checked + label::before{
 
 /*--Section 3rd CSS Starts--*/
 .Board{
-  width: 80%;
+  width: 95%;
   margin: auto;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 .Board h1{
   text-align: center;
@@ -1621,22 +1621,22 @@ input[type="radio"]:checked + label::before{
   justify-content: space-around;
 }
 .Board-col h1{
-  font-size: 47px;
-  padding-top: 9%;
+  font-size: 55px;
+  padding-top: 10%;
   color: #212122;
   text-shadow: 2px 2px 2px #a1c3f0;
 }
 .Board-col img{
-  width: 35%;
+  width: 37%;
   margin-top: -1%;
 }
 /*--Section 3rd CSS Ends--*/
 
 /*--Section 4th CSS Starts--*/
 .subjects{
-  width: 83%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 4.5%;
 }
 .subjects h1{
   text-align: center;
@@ -1704,16 +1704,23 @@ input[type="radio"]:checked + label::before{
 /*--Section 4th CSS Ends--*/
 
 /*--Section 5th CSS Starts--*/
+.general{
+  padding: 18px;
+  margin-left: -32px;
+}
 .books{
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 4.5%;
 }
 .books h1{
   text-align: center;
 }
 .book-image{
   display: none;
+}
+img#book-image{
+  width: 65%;
 }
 .books-modern-table{
   display: flex;
@@ -1724,10 +1731,12 @@ input[type="radio"]:checked + label::before{
   margin-top: 2%;
 }
 .classes-select-container{
-  width: calc(38%);
+  width: calc(48%);
+  margin-left: -32px;
 }
 .subjects-select-container{
-  width: calc(38%);
+  width: calc(48%);
+  margin-left: -43px;
 }
 select{
   border-radius: 5px;
@@ -1738,8 +1747,12 @@ select{
 .buy-book{
   margin-top: 3%;
 }
+.cooler{
+  width: 31.3%;
+}
 .buy-book img{
   border-radius: 15px;
+  width: 99.9%;
 }
 .link-map area {
   display: none;
@@ -1806,7 +1819,7 @@ select{
 
 /*--Section 7th CSS Starts--*/
 .Enroll-link{
-  width: 80%;
+  width: 100%;
   margin:auto;
   margin-bottom: 4%;
 }
@@ -1815,7 +1828,7 @@ select{
   margin-bottom: 3.5%;
 }
 .enroll-img img{
-  width: 85%;
+  width: 88%;
   border-radius: 15px;
   text-align: center;
 }
