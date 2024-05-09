@@ -103,10 +103,13 @@ nav img{
 }
 .textbox h1{
   font-size: 62px;
+  font-weight: bold;
 }
 .textbox p{
-  margin: 6px 0 16px;
-  font-size: 14px;
+  margin: 4px 0 16px;
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 400;
   color: #fff;
 }
 .button{
@@ -114,8 +117,9 @@ nav img{
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
-  padding: 12px 34px;
-  font-size: 13px;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 50px;
   background: #ff8400;
   position: relative;
   cursor: pointer;
@@ -633,7 +637,7 @@ p{
 /*--btt CSS Starts--*/
 .backtotop{
   width: 100%;
-  margin-bottom: 4%;
+  margin-bottom: 4.5%;
   margin-top: -45.5;
 }
 .btt {
@@ -1610,7 +1614,7 @@ input[type="radio"]:checked + label::before{
 .Board{
   width: 95%;
   margin: auto;
-  margin-bottom: 1%;
+  margin-bottom: 0.5%;
 }
 .Board h1{
   text-align: center;

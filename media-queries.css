@@ -31,18 +31,22 @@
   }
   .textbox h1{
   font-size: 112px;
+  font-weight: bold;
   }
   .textbox p{
-  font-size: 33px;
-  line-height: 43px;
+    font-size: 45px;
+    line-height: 1.6;
+    padding-bottom: 22px;
+    font-weight: 400;
   }
   .button{
-    font-size: 25px;
+    font-size: 33px;
+    border-radius: 15px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
-  margin-left: 49.5%;
-  margin-top: 40%;
+  margin-left: 50%;
+  margin-top: 22%;
   z-index: 10;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -264,12 +268,12 @@
     /*--btt CSS Starts--*/
     .backtotop{
     width: 100%;
-    margin-bottom: 10%;
-    margin-top: -50;
+    margin-bottom: 165px;
+    margin-top: -78;
     }
     .btt {
-    width: 65px;
-    height: 65px;
+    width: 75px;
+    height: 75px;
     margin-left: 188%;
     }
     .svgIcon {
@@ -344,8 +348,8 @@
     
     /*Newsletter CSS Starts*/
     .popup {
-      top: 87%;
-      left: 71%;
+      top: 96%;
+      left: 94%;
       width: 270px;
     }
     /*Newsletter CSS Ends*/
@@ -378,18 +382,22 @@
   }
   .textbox h1{
   font-size: 112px;
+  font-weight: bold;
   }
   .textbox p{
-  font-size: 33px;
-  line-height: 43px;
+    font-size: 45px;
+    line-height: 1.6;
+    font-weight: 400;
+    padding-bottom: 22px;
   }
   .button{
-    font-size: 25px;
+    font-size: 33px;
+    border-radius: 12px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
-  margin-left: 49.5%;
-  margin-top: 40%;
+  margin-left: 50%;
+  margin-top: 21%;
   z-index: 10;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -611,12 +619,12 @@
     /*--btt CSS Starts--*/
     .backtotop{
     width: 100%;
-    margin-bottom: 10%;
-    margin-top: -50;
+    margin-bottom: 135px;
+    margin-top: -68;
     }
     .btt {
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     margin-left: 188%;
     }
     .svgIcon {
@@ -691,8 +699,8 @@
     
     /*Newsletter CSS Starts*/
     .popup {
-      top: 87%;
-      left: 71%;
+      top: 96%;
+      left: 94%;
       width: 270px;
     }
     /*Newsletter CSS Ends*/
@@ -724,19 +732,23 @@
   width: 75px;
   }
   .textbox h1{
-  font-size: 92px;
+  font-size: 98px;
+  font-weight: bold;
   }
   .textbox p{
-  font-size: 23px;
-  line-height: 33px;
+    font-size: 42px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-weight: 400;
   }
   .button{
-    font-size: 18px;
+    font-size: 30px;
+    border-radius: 13px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
-  margin-left: 49.5%;
-  margin-top: 40%;
+  margin-left: 50%;
+  margin-top: 24%;
   z-index: 10;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -958,12 +970,12 @@
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
-  margin-bottom: 10%;
-  margin-top: -50;
+  margin-bottom: 130px;
+  margin-top: -68;
   }
   .btt {
-  width: 65px;
-  height: 65px;
+  width: 70px;
+  height: 70px;
   margin-left: 188%;
   }
   .svgIcon {
@@ -1038,8 +1050,8 @@
   
   /*Newsletter CSS Starts*/
   .popup {
-    top: 87%;
-    left: 71%;
+    top: 96%;
+    left: 93%;
     width: 270px;
   }
   /*Newsletter CSS Ends*/
@@ -1068,18 +1080,22 @@
   }
   .textbox h1{
   font-size: 92px;
+  font-weight: bold;
   }
   .textbox p{
-  font-size: 23px;
-  line-height: 33px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-bottom: 25px;
   }
   .button{
-    font-size: 18px;
+    font-size: 29px;
+    border-radius: 10px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
-  margin-left: 49.5%;
-  margin-top: 40%;
+  margin-left: 50%;
+  margin-top: 29%;
   z-index: 10;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -1134,7 +1150,7 @@
   }
   .Milestones-col{
   border-radius: 5px;
-  padding: 180px 3px;
+  padding: 170px 3px;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
   
@@ -1301,8 +1317,8 @@
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
-  margin-bottom: 13%;
-  margin-top: -50;
+  margin-bottom: 125;
+  margin-top: -60;
   }
   .btt {
   width: 65px;
@@ -1381,8 +1397,8 @@
   
   /*Newsletter CSS Starts*/
   .popup {
-    top: 87%;
-    left: 71%;
+    top: 96%;
+    left: 92%;
     width: 270px;
   }
   /*Newsletter CSS Ends*/
@@ -1407,18 +1423,22 @@
   }
   .textbox h1{
   font-size: 92px;
+  font-weight: bold;
   }
   .textbox p{
-  font-size: 23px;
-  line-height: 33px;
+  font-size: 35px;
+  line-height: 1.7;
+  font-weight: 400;
+  padding-bottom: 25;
   }
   .button{
-    font-size: 18px;
+    font-size: 28px;
+    border-radius: 12px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
-  margin-left: 49.5%;
-  margin-top: 40%;
+  margin-left: 50%;
+  margin-top: 33%;
   z-index: 10;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -1633,12 +1653,12 @@
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
-  margin-bottom: 13%;
-  margin-top: -43;
+  margin-bottom: 110px;
+  margin-top: -50;
   }
   .btt {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-left: 188%;
   }
   /*--btt CSS Ends--*/
@@ -1710,8 +1730,8 @@
   
   /*Newsletter CSS Starts*/
   .popup {
-    top: 87%;
-    left: 71%;
+    top: 96%;
+    left: 90%;
     width: 270px;
   }
   /*Newsletter CSS Ends*/
@@ -1737,18 +1757,22 @@
   }
   .textbox h1{
   font-size: 92px;
+  font-weight: bold;
   }
   .textbox p{
-  font-size: 23px;
-  line-height: 33px;
+    font-size: 35px;
+    line-height: 1.7;
+    font-weight: 400;
+    padding-bottom: 22;
   }
   .button{
-    font-size: 18px;
+    font-size: 28px;
+    border-radius: 15px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
-  margin-left: 49.5%;
-  margin-top: 40%;
+  margin-left: 50%;
+  margin-top: 33%;
   z-index: 10;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -1788,7 +1812,7 @@
   /*--Milestones as Section 2nd CSS Starts--*/
   .Milestones{
   width: 202%;
-  padding-top: 105px;
+  padding-top: 102px;
   }
   .row{
   margin-top: 5.2%;
@@ -1797,7 +1821,7 @@
   }
   .Milestones-col{
   border-radius: 5px;
-  padding: 130px 3px;
+  padding: 120px 3px;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
   
@@ -1874,7 +1898,7 @@
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
   width: 201.6%;
-  margin-top: 110;
+  margin-top: 100;
   }
   .Lta h1{
   font-size: 37px;
@@ -1896,12 +1920,12 @@
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
-  margin-bottom: 13%;
-  margin-top: -43;
+  margin-bottom: 110px;
+  margin-top: -50;
   }
   .btt {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-left: 188%;
   }
   /*--btt CSS Ends--*/
@@ -1973,8 +1997,8 @@
   
   /*Newsletter CSS Starts*/
   .popup {
-    top: 87%;
-    left: 71%;
+    top: 92%;
+    left: 90%;
     width: 270px;
   }
   /*Newsletter CSS Ends*/
@@ -1999,13 +2023,17 @@ margin-top: 4%;
 }
 .textbox h1{
 font-size: 82px;
+font-weight: bold;
 }
 .textbox p{
-font-size: 24px;
-line-height: 33px;
+  font-size: 32px;
+  line-height: 1.7;
+  font-weight: 400;
+  padding-bottom: 18;
 }
 .button{
-  font-size: 16px;
+  font-size: 25px;
+  border-radius: 10px;
 }
 /*--Login Element CSS Starts--*/
 .wrapper {
@@ -2158,12 +2186,12 @@ margin-bottom: 3%;
 /*--btt CSS Starts--*/
 .backtotop{
 width: 100%;
-margin-bottom: 16%;
-margin-top: -43;
+margin-bottom: 110px;
+margin-top: -50;
 }
 .btt {
-width: 40px;
-height: 40px;
+width: 50px;
+height: 50px;
 margin-left: 188%;
 }
 /*--btt CSS Ends--*/
@@ -2235,8 +2263,8 @@ display: none;
 
 /*Newsletter CSS Starts*/
 .popup {
-  top: 87%;
-  left: 71%;
+  top: 91%;
+  left: 89%;
   width: 270px;
 }
 /*Newsletter CSS Ends*/
@@ -2262,13 +2290,17 @@ margin-top: 4%;
 }
 .textbox h1{
 font-size: 62px;
+font-weight: bold;
 }
 .textbox p{
-font-size: 19px;
-line-height: 33px;
+font-size: 28px;
+line-height: 1.66;
+font-weight: 500;
+padding-bottom: 10;
 }
 .button{
-  font-size: 16px;
+  font-size: 20px;
+  border-radius: 50px;
 }
 /*--Login Element CSS Starts--*/
 .wrapper {
@@ -2322,7 +2354,7 @@ justify-content: space-evenly;
 }
 .Milestones-col{
 border-radius: 5px;
-padding: 90px 3px;
+padding: 85px 3px;
 }
 /*--Milestones as Section 2nd CSS Ends--*/
 
@@ -2399,7 +2431,7 @@ flex-basis: 44%;
 /*--Lta as Section 7th CSS Starts--*/
 .Lta{
 width: 201.6%;
-margin-top: 95;
+margin-top: 85;
 }
 .Lta h1{
 font-size: 37px;
@@ -2421,12 +2453,12 @@ margin-bottom: 3%;
 /*--btt CSS Starts--*/
 .backtotop{
 width: 100%;
-margin-bottom: 16%;
-margin-top: -43;
+margin-bottom: 85px;
+margin-top: -48;
 }
 .btt {
-width: 40px;
-height: 40px;
+width: 50px;
+height: 50px;
 margin-left: 188%;
 }
 /*--btt CSS Ends--*/
@@ -2498,8 +2530,8 @@ display: none;
 
 /*Newsletter CSS Starts*/
 .popup {
-  top: 87%;
-  left: 71%;
+  top: 90%;
+  left: 87%;
   width: 270px;
 }
 /*Newsletter CSS Ends*/
@@ -2522,16 +2554,27 @@ display: none;
   margin-left: -45%;
   margin-top: 4%;
   }
+  .textbox {
+    top: 48%;
+  }
   .textbox h1{
   font-size: 62px;
+  font-weight: bold;
   }
   .textbox p{
-  font-size: 18px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.7;
+    padding-bottom: 5;
+  }
+  .button{
+    font-size: 18px;
+    border-radius: 50px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
   margin-left: 49.5%;
-  margin-top: 40%;
+  margin-top: 60%;
   z-index: 10;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -2580,7 +2623,7 @@ display: none;
   }
   .Milestones-col{
   border-radius: 5px;
-  padding: 90px 3px;
+  padding: 80px 3px;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
   
@@ -2679,12 +2722,12 @@ display: none;
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
-  margin-bottom: 20%;
-  margin-top: -43;
+  margin-bottom: 88px;
+  margin-top: -48;
   }
   .btt {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-left: 236%;
   }
   /*--btt CSS Ends--*/
@@ -2756,8 +2799,8 @@ display: none;
   
   /*Newsletter CSS Starts*/
   .popup {
-    top: 89%;
-    left: 72.3%;
+    top: 92%;
+    left: 88%;
     width: 270px;
   }
   /*Newsletter CSS Ends*/
@@ -2786,10 +2829,13 @@ display: none;
   }
   .textbox p{
     font-size: 14px;
-    line-height: 22px;
+    line-height: 1.9;
+    font-weight: 500;
+    padding-bottom: 0;
   }
   .button{
     font-size: 14px;
+    border-radius: 50px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -2797,7 +2843,7 @@ display: none;
     margin-top: 40%;
     z-index: 10;
     position: fixed;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
   }
   /*--Login Element CSS Ends--*/
   /*--sub-menu Element CSS stars--*/
@@ -2834,7 +2880,7 @@ display: none;
   /*--Milestones as Section 2nd CSS Starts--*/
 .Milestones{
     width: 200%;
-    padding-top: 55px;
+    padding-top: 60px;
   }
   .row{
     margin-top: 7.1%;
@@ -2883,7 +2929,7 @@ display: none;
 .Achivements{
     width: 201.6%;
     padding-top: 62px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
   }
   .Achivements-col{
     margin-bottom: 11.5%;
@@ -2935,13 +2981,13 @@ display: none;
   /*--btt CSS Starts--*/
 .backtotop{
     width: 100%;
-    margin-bottom: 100px;
-    margin-top: -40;
+    margin-bottom: 65px;
+    margin-top: -49;
   }
   .btt {
-    width: 30px;
-    height: 30px;
-    margin-left: 185%;
+    width: 50px;
+    height: 50px;
+    margin-left: 176%;
   }
   .svgIcon {
     width: 10px;
@@ -3012,8 +3058,8 @@ footer{
 
   /*Newsletter CSS Starts*/
 .popup {
-  top: 82%;
-  left: 85%;
+  top: 77%;
+  left: 80%;
   width: 140px;
   }
   /*Newsletter CSS Ends*/
