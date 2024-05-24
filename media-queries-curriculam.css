@@ -4211,6 +4211,9 @@ footer{
     margin-top: -80px;
     margin-left: 0;
   }
+  .card__description {
+    margin: 15px 0 0;
+  }
   /*--Section 4th CSS Ends--*/
   
   /*--Section 5th CSS Starts--*/
