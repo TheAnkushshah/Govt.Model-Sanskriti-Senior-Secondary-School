@@ -108,7 +108,7 @@ nav img{
 .textbox p{
   margin: 4px 0 16px;
   font-size: 20px;
-  line-height: 1.7;
+  line-height: 2.4;
   font-weight: 400;
   color: #fff;
 }
@@ -117,7 +117,7 @@ nav img{
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
-  padding: 8px 20px;
+  padding: 10px 20px;
   font-size: 16px;
   border-radius: 50px;
   background: #ff8400;
@@ -389,10 +389,11 @@ h1{
 }
 p{
   color: #777;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 22px;
   padding: 5px;
+  padding-top: 15;
 }
 .row{
   margin-top: 4%;
@@ -430,10 +431,10 @@ p{
   width: 85%;
   margin: auto;
   text-align: center;
-  padding-top: 13px;
+  padding-top: 1px;
 }
 .Campus-col{
-  margin-top: 16px;
+  margin-top: 18px;
   margin-bottom: 45px;
   position: relative;
   overflow: hidden;
@@ -476,7 +477,8 @@ p{
   width: 90%;
   margin: auto;
   text-align: center;
-  margin-bottom: -67px;
+  margin-bottom: -41px;
+  margin-top: -6px;
 }
 .facilities-col{
   flex-basis: 31%;
@@ -489,19 +491,22 @@ p{
   border-radius: 10px;
 }
 .facilities-col h3{
-  padding-top: 20px;
+  padding-top: 30px;
+  font-size: 30px;
 }
 .facilities-col p{
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  font-size: 22px;
+  font-weight: 300;
 }
 .hero-button{
-  border-radius: 10px;
+  border-radius: 50px;
   display: inline-block;
   text-decoration: none;
   color: #fff;
   border: 1px solid #000000;
   padding: 12px 34px;
-  font-size: 13px;
+  font-size: 17px;
   background: black;
   position: relative;
   cursor: pointer;
@@ -513,7 +518,7 @@ p{
   width: 90%;
   margin: auto;
   text-align: center;
-  padding-bottom: 1%;
+  padding-bottom: 1.1%;
 }
 .Achivements-col{
   flex-basis: 31%;
@@ -522,14 +527,18 @@ p{
 }
 .Achivements-col img{
   width: 100%;
-  height: 73%;
+  height: 65%;
   border-radius: 10px;
 }
 .Achivements-col h3{
-  padding-top: 20px;
+  padding-top: 30px;
+  font-size: 30px;
 }
 .Achivements-col p{
   padding-bottom: 20px;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 300;
 }
 .hero2-button{
   border-radius: 10px;
@@ -538,7 +547,7 @@ p{
   color: #fff;
   border: 1px solid #000000;
   padding: 12px 34px;
-  font-size: 13px;
+  font-size: 17px;
   background: black;
   position: relative;
   cursor: pointer;
@@ -550,7 +559,7 @@ p{
   width: 90%;
   margin: auto;
   text-align: center;
-  padding-bottom: 8%;
+  padding-bottom: 7.2%;
 }
 .Ratings-col{
   flex-basis: 46.5%;
@@ -570,9 +579,11 @@ p{
 }
 .Ratings-col p{
   font-size: 15px;
+  line-height: 1.7;
 }
 .Ratings-col h3{
   margin-top: 5px;
+  padding-bottom: 8px;
 }
 .Ratings-col .fa{
   color: #f44336;
@@ -596,9 +607,11 @@ p{
 }
 .Ratings-col1 p{
   font-size: 15px;
+  line-height: 1.7;
 }
 .Ratings-col1 h3{
   margin-top: 5px;
+  padding-bottom: 8px;
 }
 .Ratings-col1 .fa{
   color: #f44336;
@@ -614,20 +627,21 @@ p{
 }
 .Lta p{
   padding-bottom: 63px;
+  line-height: 1.9;
 }
 .Lta-col img{
   width: 90%;
   border-radius: 20px;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 .Hero3-button{
-  border-radius: 10px;
+  border-radius: 50px;
   display: inline-block;
   text-decoration: none;
   color: #fff;
   border: 1px solid #000000;
-  padding: 12px 34px;
-  font-size: 13px;
+  padding: 12px 40px;
+  font-size: 18px;
   background: black;
   position: relative;
   cursor: pointer;
@@ -2084,9 +2098,9 @@ select{
 
 /*--Section 2nd CSS Starts--*/
 .maper{
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 4.5%;
+  margin-bottom: 6%;
 }
 .maper h1{
   text-align: center;
@@ -2095,78 +2109,4 @@ select{
   margin-top: 4.5%;
 }
 /*--Section 2nd CSS Ends--*/
-
-/*--Section 3rd CSS Starts--*/
-.contact-form-imp{
-  width: 80%;
-  margin: auto;;
-}
-.contact-form-imp h1{
-  text-align: center;
-}
-.contact-form {
-  background: url(Contact/form-bg.gif);
-  background-size: cover;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 7px;
-  padding-left: 7px;
-  border-radius: 10px;
-  width: 80%;
-  margin-top: 4.5%;
-  display: flex;
-  justify-content: space-around;
-  margin-left: 8%;
-}
-
-.contact-form label {
-  color: rgb(255, 255, 255);
-}
-
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form label {
-  margin-bottom: 10px;
-}
-
-textarea {
-  resize: none;
-  height: 260px;
-  width: 608px;
-  background-color: transparent;
-  color: white;
-}
-
-.contact-form input, .contact-form textarea {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.contact-form input:focus, .contact-form textarea:focus {
-  outline: none;
-  box-shadow: 0 0 5px orange;
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
-}
-
-.contact-form button[type="submit"] {
-  background-color: orange;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.contact-form button[type="submit"]:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-}
-/*--Section 3rd CSS Ends--*/
 /*--Contact Page CSS Ends--*/

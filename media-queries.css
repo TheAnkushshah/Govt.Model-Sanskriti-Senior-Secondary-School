@@ -35,13 +35,14 @@
   }
   .textbox p{
     font-size: 45px;
-    line-height: 1.6;
+    line-height: 2.1;
     padding-bottom: 22px;
     font-weight: 400;
   }
   .button{
     font-size: 33px;
-    border-radius: 15px;
+    border-radius: 50px;
+    padding: 22px 32px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -86,46 +87,63 @@
     /*--Milestones as Section 2nd CSS Starts--*/
     .Milestones{
     width: 202%;
-    padding-top: 140px;
+    padding-top: 150px;
     }
     .Milestones h1{
       font-size: 75px;
     }
-    .Milestones p{
-      font-size: 32px;
+    .Milestones p {
+      font-size: 42px;
+      font-weight: 400;
+      padding-top: 45px;
+    }
+    .Milestones-col p{
+      font-weight: 300;
+      font-size: 40;
+      padding-top: 32px;
+    }
+    .Milestones-col h3{
+      font-size: 2.9em;
+    }
+    .Milestones-col p.bush {
+      padding-left: 70px;
     }
     .row{
-    margin-top: 5.2%;
-    display: flex;
-    justify-content: space-evenly;
+      margin-top: 140;
+      display: flex;
+      justify-content: space-evenly;
     }
     .Milestones-col{
     border-radius: 5px;
     padding: 200px 3px;
+    margin-bottom: 0;
     }
     /*--Milestones as Section 2nd CSS Ends--*/
     
      /*--Section 3rd as Campus CSS Starts--*/
      .Campus{
       width: 201.6%;
-      padding-top: 8px;
+      padding-top: 150px;
     }
     .Campus h1{
       font-size: 75px;
     }
-    .Campus p{
-      font-size: 32px;
+    .Campus p {
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 1.6;
+      padding-top: 24px;
     }
     .Campus-col{
-    margin-top: 2.3%;
-    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 0;
     }
     .Campus-col img{
     width: 100%;
     }
     .layer{
     top: 80;
-    left: 105;
+    left: 200;
     }
     .layer h2{
       font-size: 46px;
@@ -140,22 +158,31 @@
     .facilities h1{
       font-size: 75px;
     }
-    .facilities p{
-      font-size: 32px;
+    .facilities p {
+      font-size: 42px;
+      font-weight: 400;
+      padding-top: 45px;
     }
-    .facilities-col h3{
-      font-size: 38px;
-      padding-top: 55px;
+    .facilities .row {
+      margin-top: 145px;
     }
-    .facilities-col p{
-      padding-top: 20px;
-      padding-bottom: 40px;
+    .facilities-col h3 {
+      padding-top: 60px;
+      font-size: 65px;
     }
-    .hero-button{
-      font-size: 28px;
+    .facilities-col p {
+      padding-bottom: 75px;
+      padding-top: 46px;
+      font-size: 48px;
+      font-weight: 300;
+    }
+    .hero-button {
+      border-radius: 50px;
+      padding: 20px 55px;
+      font-size: 35px;
     }
     .facilities-col{
-    margin-bottom: 8.4%;
+    margin-bottom: 0;
     }
     .facilities-col img{
     width: 980px;
@@ -167,29 +194,42 @@
     /*--Section 5th as Achivements CSS Ends--*/
     .Achivements{
     width: 201.6%;
-    padding-top: 0px;
+    padding-top: 195px;
     padding-bottom: 0px;
     }
     .Achivements h1{
       font-size: 75px;
     }
-    .Achivements p{
-      font-size: 32px;
+    .Achivements P{
+      line-height: 1.7;
+      font-weight: 400;
+      padding-top: 24px;
+      margin: auto;
+      width: 85%;
+      font-size: 42px;
     }
-    .Achivements-col h3{
-      font-size: 38px;
-      padding-top: 55px;
+    .Achivements-col h3 {
+      padding-top: 55;
+      font-size: 63px;
     }
-    .Achivements-col p{
-      padding-top: 20px;
+    .Achivements-col p {
       padding-bottom: 40px;
-      line-height: 1.3;
+      font-size: 49px;
+      padding-top: 26px;
+      width: 100%;
+      line-height: 1.7;
+      font-weight: 300;
     }
-    .Hero2-button{
-      font-size: 28px;
+    .hero2-button {
+      border-radius: 10px;
+      padding: 20px 55px;
+      font-size: 35px;
+    }
+    .Achivements .row {
+      margin-top: 123px;
     }
     .Achivements-col{
-    margin-bottom: 6%;
+      margin-bottom: 0;
     }
     .Achivements-col img{
     width: 980px;
@@ -201,13 +241,18 @@
     /*--Ratings as Section 6th CSS Starts--*/
     .Ratings{
     width: 201.6%;
-    padding-bottom: 6.2%;
+    padding-bottom: 0;
+    padding-top: 145px;
     }
     .Ratings h1{
       font-size: 75px;
     }
     .Ratings p{
-      font-size: 32px;
+      line-height: 1.7;
+      margin-bottom: -10;
+      font-weight: 400;
+      padding-top: 20px;
+      font-size: 42px;
     }
     .Ratings-col{
       padding: 70px;
@@ -220,13 +265,19 @@
     .Ratings-col1 img{
       height: 60px;
     }
-    .Ratings-col p{
-      font-size: 20px;
-      line-height: 1.4;
-    }
     .Ratings-col1 p{
-      font-size: 20px;
-      line-height: 1.4;
+      font-size: 28px;
+      line-height: 1.7;
+      font-weight: 300;
+      margin-bottom: 0;
+      padding-top: 0;
+    }
+    .Ratings-col p {
+      font-size: 28px;
+      line-height: 1.7;
+      margin-bottom: 0;
+      font-weight: 300;
+      padding-top: 0;
     }
     .Ratings .row{
     padding: 35px;
@@ -239,12 +290,32 @@
     padding: 70px;
     flex-basis: 44%;
     }
+    .Ratings-col1 h3 {
+      margin-top: 5px;
+      font-size: 32;
+      padding-bottom: 18;
+    }
+    .Ratings-col1 .fa {
+      color: #f44336;
+      margin-bottom: 15px;
+      font-size: 30;
+    }
+    .Ratings-col h3 {
+      margin-top: 5px;
+      font-size: 32;
+      padding-bottom: 18;
+    }
+    .Ratings-col .fa {
+      color: #f44336;
+      margin-bottom: 15px;
+      font-size: 30;
+    }
     /*--Ratings as Section 6th CSS Ends--*/
     
     /*--Lta as Section 7th CSS Starts--*/
     .Lta{
     width: 201.6%;
-    margin-top: 140;
+    margin-top: 220;
     }
     .Lta h1{
     font-size: 75px;
@@ -252,37 +323,45 @@
     line-height: 1.8;
     }
     .Lta p{
-    padding-bottom: 75px;
-    font-size: 32px;
-    line-height: 1.3;
+      padding-bottom: 120px;
+      line-height: 2;
+      padding-top: 15px;
+      font-weight: 400;
+      width: 90%;
+      margin: auto;
+      font-size: 42px;
     }
     .Lta-col img{
     width: 93%;
     margin-bottom: 3%;
     }
     .Hero3-button{
-      font-size: 30px;
+      font-size: 35px;
     }
+    .Hero3-button {
+      border-radius: 50px;
+      padding: 25px 65px;
+  }
     /*--Lta as Section 7th CSS Ends--*/
     
     /*--btt CSS Starts--*/
     .backtotop{
-    width: 100%;
-    margin-bottom: 165px;
-    margin-top: -78;
-    }
-    .btt {
-    width: 75px;
-    height: 75px;
-    margin-left: 188%;
-    }
-    .svgIcon {
-      width: 20px;
-    }
+      width: 100%;
+      margin-bottom: 150px;
+      margin-top: -106;
+      }
+      .btt {
+      width: 105px;
+      height: 105px;
+      margin-left: 188%;
+      }
+      .svgIcon {
+        width: 26px;
+      }
     /*--btt CSS Ends--*/
     
-    /*--Footer as Section 8th CSS Starts--*/
-    footer{
+     /*--Footer as Section 8th CSS Starts--*/
+  footer{
     width: 201.6%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -292,6 +371,7 @@
       margin: auto;
       display: flex;
       justify-content: space-between;
+      padding-top: 30px;
     }
     .footer-col{
       padding: 3px;
@@ -301,36 +381,83 @@
     width: 30%;
     }
     footer p{
-    font-size: 18px;
+    font-size: 29px;
+    line-height: 1.4;
     }
     .footer-col1{
     padding-top: 25px;
-    margin-left: 0px;
+    margin-left: 35px;
+    }
+    .footer-col1 h3{
+      font-size: 36;
+      padding-bottom: 35px;
+    }
+    .footer-col1 p{
+      font-size: 30;
+      line-height: 1.5;
+    }
+    .email-id{
+      padding-bottom: 16;
+    }
+    .footer-col1 h4{
+      font-size: 32;
+      padding-top: 30px;
     }
     .footer-col2{
     padding-top: 25px;
-    margin-left: 20px;
+    margin-left: 35px;
     }
+    .footer-col2 h3{
+      font-size: 36;
+      padding-bottom: 52px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 37px;
+    }
+    .footer-col2 ul li a {
+      font-size: 32;
+    }      
     .footer-col3{
     padding-top: 25px;
-    margin-left: 10px;
+    margin-left: 20px;
     }
     .footer-col3 h3{
-    padding-bottom: 19px;
+    padding-bottom: 30px;
+    font-size: 34px;
     }
+    .footer-col3 form .far {
+      font-size: 32px;
+      margin-right: 15px;
+  }
+  .footer-col3 form input {
+    font-size: 30;
+  }
+  .footer-col3 form button .fas {
+    font-size: 29px;
+  }
     .footer-col4{
     padding-top: 25px;
     margin-left: 0px;
     }
+    .footer-col4 .fab {
+      width: 90px;
+      height: 90px;
+      line-height: 94px;
+      font-size: 200%;
+      margin-right: 20px;
+    }
     .footer-col5{
-    padding-top: 36px;
-    margin-left: 46%;
+    padding-top: 30px;
+    margin-left: 46.6%;
     }
     .footer-col5 h3 {
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+    font-size: 32px;
     }
     .footer-col5 p {
-    margin-left: -85px;
+    margin-left: -165px;
+    padding-bottom: 15px;
     }
     .underline1{
     display: none;
@@ -349,8 +476,8 @@
     /*Newsletter CSS Starts*/
     .popup {
       top: 96%;
-      left: 94%;
-      width: 270px;
+      left: 92%;
+      width: 470px;
     }
     /*Newsletter CSS Ends*/
   }
@@ -386,13 +513,14 @@
   }
   .textbox p{
     font-size: 45px;
-    line-height: 1.6;
+    line-height: 2.1;
     font-weight: 400;
     padding-bottom: 22px;
   }
   .button{
     font-size: 33px;
-    border-radius: 12px;
+    border-radius: 50px;
+    padding: 22px 30px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -437,46 +565,63 @@
     /*--Milestones as Section 2nd CSS Starts--*/
     .Milestones{
     width: 202%;
-    padding-top: 140px;
+    padding-top: 150px;
     }
     .Milestones h1{
       font-size: 75px;
     }
-    .Milestones p{
-      font-size: 32px;
+    .Milestones p {
+      font-size: 42px;
+      font-weight: 400;
+      padding-top: 45px;
+    }
+    .Milestones-col p{
+      font-weight: 300;
+      font-size: 38;
+      padding-top: 28px;
+    }
+    .Milestones-col h3{
+      font-size: 2.6em;
+    }
+    .Milestones-col p.bush {
+      padding-left: 70px;
     }
     .row{
-    margin-top: 5.2%;
-    display: flex;
-    justify-content: space-evenly;
+      margin-top: 140;
+      display: flex;
+      justify-content: space-evenly;
     }
     .Milestones-col{
     border-radius: 5px;
     padding: 200px 3px;
+    margin-bottom: 0;
     }
     /*--Milestones as Section 2nd CSS Ends--*/
     
      /*--Section 3rd as Campus CSS Starts--*/
      .Campus{
       width: 201.6%;
-      padding-top: 8px;
+      padding-top: 150px;
     }
     .Campus h1{
       font-size: 75px;
     }
-    .Campus p{
-      font-size: 32px;
+    .Campus p {
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 1.6;
+      padding-top: 22px;
     }
     .Campus-col{
-    margin-top: 2.3%;
-    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 0;
     }
     .Campus-col img{
     width: 100%;
     }
     .layer{
     top: 80;
-    left: 105;
+    left: 170;
     }
     .layer h2{
       font-size: 46px;
@@ -491,22 +636,32 @@
     .facilities h1{
       font-size: 75px;
     }
-    .facilities p{
-      font-size: 32px;
+    .facilities p {
+      font-size: 42px;
+      font-weight: 400;
+      padding-top: 45px;
+    
     }
-    .facilities-col h3{
-      font-size: 38px;
-      padding-top: 55px;
+    .facilities .row {
+      margin-top: 145px;
+  }
+    .facilities-col h3 {
+      padding-top: 60px;
+      font-size: 65px;
     }
-    .facilities-col p{
-      padding-top: 20px;
-      padding-bottom: 40px;
+    .facilities-col p {
+      padding-bottom: 75px;
+        padding-top: 46px;
+        font-size: 46px;
+        font-weight: 300;
     }
-    .hero-button{
-      font-size: 28px;
+    .hero-button {
+      border-radius: 50px;
+        padding: 20px 55px;
+        font-size: 35px;
     }
     .facilities-col{
-    margin-bottom: 8.4%;
+    margin-bottom: 0;
     }
     .facilities-col img{
     width: 980px;
@@ -518,29 +673,42 @@
     /*--Section 5th as Achivements CSS Ends--*/
     .Achivements{
     width: 201.6%;
-    padding-top: 0px;
+    padding-top: 187px;
     padding-bottom: 0px;
     }
     .Achivements h1{
       font-size: 75px;
     }
-    .Achivements p{
-      font-size: 32px;
+    .Achivements P{
+      line-height: 1.7;
+      font-weight: 400;
+      padding-top: 24px;
+      margin: auto;
+      width: 85%;
+      font-size: 42px;
     }
-    .Achivements-col h3{
-      font-size: 38px;
-      padding-top: 55px;
+    .Achivements-col h3 {
+      padding-top: 55;
+      font-size: 63px;
     }
-    .Achivements-col p{
-      padding-top: 20px;
-      padding-bottom: 40px;
-      line-height: 1.3;
+    .Achivements-col p {
+      padding-bottom: 42px;
+      font-size: 48px;
+      padding-top: 26px;
+      width: 100%;
+      line-height: 1.7;
+      font-weight: 300;
     }
-    .Hero2-button{
-      font-size: 28px;
+    .hero2-button {
+      border-radius: 10px;
+      padding: 20px 55px;
+      font-size: 35px;
+    }
+    .Achivements .row {
+      margin-top: 123px;
     }
     .Achivements-col{
-    margin-bottom: 6%;
+    margin-bottom: 0;
     }
     .Achivements-col img{
     width: 980px;
@@ -552,13 +720,32 @@
     /*--Ratings as Section 6th CSS Starts--*/
     .Ratings{
     width: 201.6%;
-    padding-bottom: 6.2%;
+    padding-bottom: 0;
+    padding-top: 145px;
     }
     .Ratings h1{
       font-size: 75px;
     }
     .Ratings p{
-      font-size: 32px;
+      line-height: 1.7;
+      margin-bottom: -10;
+      font-weight: 400;
+      padding-top: 20px;
+      font-size: 42px;
+    }
+    .Ratings-col1 p{
+      font-size: 26px;
+      line-height: 1.7;
+      font-weight: 300;
+      margin-bottom: 0;
+      padding-top: 0;
+    }
+    .Ratings-col p {
+      font-size: 26px;
+      line-height: 1.7;
+      margin-bottom: 0;
+      font-weight: 300;
+      padding-top: 0;
     }
     .Ratings-col{
       padding: 70px;
@@ -571,14 +758,6 @@
     .Ratings-col1 img{
       height: 60px;
     }
-    .Ratings-col p{
-      font-size: 20px;
-      line-height: 1.4;
-    }
-    .Ratings-col1 p{
-      font-size: 20px;
-      line-height: 1.4;
-    }
     .Ratings .row{
     padding: 35px;
     margin-top: 2.3%;
@@ -590,12 +769,32 @@
     padding: 70px;
     flex-basis: 44%;
     }
+    .Ratings-col1 h3 {
+      margin-top: 5px;
+      font-size: 30;
+      padding-bottom: 17;
+    }
+    .Ratings-col1 .fa {
+      color: #f44336;
+      margin-bottom: 15px;
+      font-size: 28;
+    }
+    .Ratings-col h3 {
+      margin-top: 5px;
+      font-size: 30;
+      padding-bottom: 17;
+    }
+    .Ratings-col .fa {
+      color: #f44336;
+      margin-bottom: 15px;
+      font-size: 28;
+    }
     /*--Ratings as Section 6th CSS Ends--*/
     
     /*--Lta as Section 7th CSS Starts--*/
     .Lta{
     width: 201.6%;
-    margin-top: 140;
+    margin-top: 220;
     }
     .Lta h1{
     font-size: 75px;
@@ -603,37 +802,45 @@
     line-height: 1.8;
     }
     .Lta p{
-    padding-bottom: 75px;
-    font-size: 32px;
-    line-height: 1.3;
+      padding-bottom: 115px;
+      line-height: 1.8;
+      padding-top: 15px;
+      font-weight: 400;
+      width: 90%;
+      margin: auto;
+      font-size: 42px;
     }
     .Lta-col img{
     width: 93%;
     margin-bottom: 3%;
     }
     .Hero3-button{
-      font-size: 30px;
+      font-size: 35px;
     }
+    .Hero3-button {
+      border-radius: 50px;
+      padding: 25px 55px;
+  }
     /*--Lta as Section 7th CSS Ends--*/
     
     /*--btt CSS Starts--*/
     .backtotop{
     width: 100%;
-    margin-bottom: 135px;
-    margin-top: -68;
+    margin-bottom: 150px;
+    margin-top: -105;
     }
     .btt {
-    width: 70px;
-    height: 70px;
+    width: 105px;
+    height: 105px;
     margin-left: 188%;
     }
     .svgIcon {
-      width: 20px;
+      width: 26px;
     }
     /*--btt CSS Ends--*/
     
     /*--Footer as Section 8th CSS Starts--*/
-    footer{
+  footer{
     width: 201.6%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -643,6 +850,7 @@
       margin: auto;
       display: flex;
       justify-content: space-between;
+      padding-top: 30px;
     }
     .footer-col{
       padding: 3px;
@@ -652,36 +860,83 @@
     width: 30%;
     }
     footer p{
-    font-size: 18px;
+    font-size: 29px;
+    line-height: 1.4;
     }
     .footer-col1{
     padding-top: 25px;
-    margin-left: 0px;
+    margin-left: 35px;
+    }
+    .footer-col1 h3{
+      font-size: 36;
+      padding-bottom: 35px;
+    }
+    .footer-col1 p{
+      font-size: 30;
+      line-height: 1.5;
+    }
+    .email-id{
+      padding-bottom: 16;
+    }
+    .footer-col1 h4{
+      font-size: 32;
+      padding-top: 30px;
     }
     .footer-col2{
     padding-top: 25px;
-    margin-left: 20px;
+    margin-left: 35px;
     }
+    .footer-col2 h3{
+      font-size: 36;
+      padding-bottom: 52px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 37px;
+    }
+    .footer-col2 ul li a {
+      font-size: 32;
+    }      
     .footer-col3{
     padding-top: 25px;
-    margin-left: 10px;
+    margin-left: 20px;
     }
     .footer-col3 h3{
-    padding-bottom: 19px;
+    padding-bottom: 30px;
+    font-size: 34px;
     }
+    .footer-col3 form .far {
+      font-size: 32px;
+      margin-right: 15px;
+  }
+  .footer-col3 form input {
+    font-size: 30;
+  }
+  .footer-col3 form button .fas {
+    font-size: 29px;
+  }
     .footer-col4{
     padding-top: 25px;
     margin-left: 0px;
     }
+    .footer-col4 .fab {
+      width: 90px;
+      height: 90px;
+      line-height: 94px;
+      font-size: 200%;
+      margin-right: 20px;
+    }
     .footer-col5{
-    padding-top: 36px;
-    margin-left: 46%;
+    padding-top: 30px;
+    margin-left: 46.6%;
     }
     .footer-col5 h3 {
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+    font-size: 32px;
     }
     .footer-col5 p {
-    margin-left: -85px;
+    margin-left: -165px;
+    padding-bottom: 15px;
     }
     .underline1{
     display: none;
@@ -700,8 +955,8 @@
     /*Newsletter CSS Starts*/
     .popup {
       top: 96%;
-      left: 94%;
-      width: 270px;
+      left: 91%;
+      width: 470px;
     }
     /*Newsletter CSS Ends*/
   }
@@ -737,13 +992,14 @@
   }
   .textbox p{
     font-size: 42px;
-    line-height: 1.5;
+    line-height: 2;
     padding-bottom: 20px;
     font-weight: 400;
   }
   .button{
     font-size: 30px;
-    border-radius: 13px;
+    border-radius: 50px;
+    padding: 22px 40px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -793,41 +1049,58 @@
   .Milestones h1{
     font-size: 75px;
   }
-  .Milestones p{
-    font-size: 32px;
+  .Milestones p {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 40px;
+  }
+  .Milestones-col p{
+    font-weight: 300;
+    font-size: 36;
+    padding-top: 28px;
+  }
+  .Milestones-col h3{
+    font-size: 2.2em;
+  }
+  .Milestones-col p.bush {
+    padding-left: 60px;
   }
   .row{
-  margin-top: 5.2%;
+  margin-top: 130px;
   display: flex;
   justify-content: space-evenly;
   }
   .Milestones-col{
   border-radius: 5px;
-  padding: 200px 3px;
+  padding: 170px 3px;
+  margin-bottom: 0;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
   
    /*--Section 3rd as Campus CSS Starts--*/
    .Campus{
     width: 201.6%;
-    padding-top: 8px;
+    padding-top: 138px;
   }
   .Campus h1{
     font-size: 75px;
   }
-  .Campus p{
-    font-size: 32px;
+  .Campus p {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-top: 20px;
   }
   .Campus-col{
-  margin-top: 2.3%;
-  margin-bottom: 12px;
+  margin-top: 12px;
+  margin-bottom: 0;
   }
   .Campus-col img{
   width: 100%;
   }
   .layer{
   top: 80;
-  left: 105;
+  left: 145;
   }
   .layer h2{
     font-size: 46px;
@@ -837,27 +1110,37 @@
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
   width: 201.6%;
-  padding-top: 45px;
+  padding-top: 46px;
   }
   .facilities h1{
     font-size: 75px;
   }
-  .facilities p{
-    font-size: 32px;
+  .facilities .row {
+    margin-top: 130px;
+}
+  .facilities p {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 40px;
+  
   }
-  .facilities-col h3{
-    font-size: 38px;
-    padding-top: 55px;
+  .facilities-col h3 {
+    padding-top: 60px;
+    font-size: 55px;
   }
-  .facilities-col p{
-    padding-top: 20px;
-    padding-bottom: 40px;
+  .facilities-col p {
+    padding-bottom: 70px;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: 300;
   }
-  .hero-button{
-    font-size: 28px;
+  .hero-button {
+    border-radius: 50px;
+    padding: 20px 55px;
+    font-size: 30px;
   }
   .facilities-col{
-  margin-bottom: 8.4%;
+  margin-bottom: 0;
   }
   .facilities-col img{
   width: 780px;
@@ -869,30 +1152,43 @@
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
   width: 201.6%;
-  padding-top: 0px;
+  padding-top: 167px;
   padding-bottom: 0px;
   }
   .Achivements h1{
     font-size: 75px;
   }
-  .Achivements p{
-    font-size: 32px;
+  .Achivements P{
+    line-height: 1.7;
+    font-weight: 400;
+    padding-top: 22px;
+    margin: auto;
+    width: 85%;
+    font-size: 40px;
   }
-  .Achivements-col h3{
-    font-size: 38px;
-    padding-top: 55px;
+  .Achivements-col h3 {
+    padding-top: 55;
+    font-size: 55px;
   }
-  .Achivements-col p{
+  .Achivements-col p {
+    padding-bottom: 35px;
+    font-size: 45px;
     padding-top: 20px;
-    padding-bottom: 40px;
-    line-height: 1.3;
+    width: 100%;
+    line-height: 1.6;
+    font-weight: 300;
   }
-  .Hero2-button{
+  .hero2-button {
+    border-radius: 10px;
+    padding: 20px 55px;
     font-size: 28px;
   }
-  .Achivements-col{
-  margin-bottom: 6%;
+  .Achivements .row {
+    margin-top: 108px;
   }
+    .Achivements-col{
+    margin-bottom: 0;
+    }
   .Achivements-col img{
   width: 780px;
   height: 780px;
@@ -903,14 +1199,34 @@
   /*--Ratings as Section 6th CSS Starts--*/
   .Ratings{
   width: 201.6%;
-  padding-bottom: 6.2%;
+  padding-bottom: 0;
+  padding-top: 140px;
   }
   .Ratings h1{
     font-size: 75px;
   }
   .Ratings p{
-    font-size: 32px;
+    line-height: 1.7;
+    margin-bottom: -14;
+    font-weight: 400;
+    padding-top: 18px;
+    font-size: 40px;
   }
+  .Ratings-col1 p{
+    font-size: 23px;
+    line-height: 1.77;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .Ratings-col p {
+    font-size: 23px;
+    line-height: 1.7;
+    margin-bottom: 0;
+    font-weight: 300;
+    padding-top: 0;
+  }
+
   .Ratings-col{
     padding: 70px;
     margin-bottom: -34;
@@ -921,14 +1237,6 @@
   }
   .Ratings-col1 img{
     height: 60px;
-  }
-  .Ratings-col p{
-    font-size: 20px;
-    line-height: 1.4;
-  }
-  .Ratings-col1 p{
-    font-size: 20px;
-    line-height: 1.4;
   }
   .Ratings .row{
   padding: 35px;
@@ -941,41 +1249,69 @@
   padding: 70px;
   flex-basis: 44%;
   }
+  .Ratings-col1 h3 {
+    margin-top: 5px;
+    font-size: 27;
+    padding-bottom: 15;
+  }
+  .Ratings-col1 .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 26;
+  }
+  .Ratings-col h3 {
+    margin-top: 5px;
+    font-size: 27;
+    padding-bottom: 15;
+  }
+  .Ratings-col .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 26;
+  }
   /*--Ratings as Section 6th CSS Ends--*/
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
   width: 201.6%;
-  margin-top: 140;
+  margin-top: 210;
   }
   .Lta h1{
   font-size: 75px;
   font-weight: 600;
   line-height: 1.8;
   }
-  .Lta p{
-  padding-bottom: 75px;
-  font-size: 32px;
-  line-height: 1.3;
-  }
+.Lta p{
+  padding-bottom: 110px;
+  line-height: 1.9;
+  padding-top: 18px;
+  font-weight: 400;
+  width: 90%;
+  margin: auto;
+  font-size: 40px;
+}
   .Lta-col img{
   width: 93%;
   margin-bottom: 3%;
   }
   .Hero3-button{
-    font-size: 30px;
+    font-size: 32px;
   }
+  .Hero3-button {
+    border-radius: 50px;
+    padding: 22px 55px;
+}
   /*--Lta as Section 7th CSS Ends--*/
   
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
   margin-bottom: 130px;
-  margin-top: -68;
+  margin-top: -89;
   }
   .btt {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   margin-left: 188%;
   }
   .svgIcon {
@@ -985,76 +1321,124 @@
   
   /*--Footer as Section 8th CSS Starts--*/
   footer{
-  width: 201.6%;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+    width: 201.6%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+    .footer-row{
+      width: 94%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+    }
+    .footer-col{
+      padding: 3px;
+      display: inline-block;
+    }
+    .logo{
+    width: 30%;
+    }
+    footer p{
+    font-size: 27px;
+    line-height: 1.4;
+    }
+    .footer-col1{
+    padding-top: 25px;
+    margin-left: 35px;
+    }
+    .footer-col1 h3{
+      font-size: 31;
+      padding-bottom: 25px;
+    }
+    .footer-col1 p{
+      font-size: 26;
+      line-height: 1.5;
+    }
+    .email-id{
+      padding-bottom: 13;
+    }
+    .footer-col1 h4{
+      font-size: 28;
+      padding-top: 26px;
+    }
+    .footer-col2{
+    padding-top: 25px;
+    margin-left: 35px;
+    }
+    .footer-col2 h3{
+      font-size: 31;
+      padding-bottom: 40px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 35px;
+    }
+    .footer-col2 ul li a {
+      font-size: 28;
+    }      
+    .footer-col3{
+    padding-top: 25px;
+    margin-left: 20px;
+    }
+    .footer-col3 h3{
+    padding-bottom: 23px;
+    font-size: 31px;
+    }
+    .footer-col3 form .far {
+      font-size: 30px;
+      margin-right: 15px;
   }
-  .footer-row{
-    width: 94%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+  .footer-col3 form input {
+    font-size: 28;
   }
-  .footer-col{
-    padding: 3px;
-    display: inline-block;
+  .footer-col3 form button .fas {
+    font-size: 27px;
   }
-  .logo{
-  width: 30%;
-  }
-  footer p{
-  font-size: 18px;
-  }
-  .footer-col1{
-  padding-top: 25px;
-  margin-left: 0px;
-  }
-  .footer-col2{
-  padding-top: 25px;
-  margin-left: 20px;
-  }
-  .footer-col3{
-  padding-top: 25px;
-  margin-left: 10px;
-  }
-  .footer-col3 h3{
-  padding-bottom: 19px;
-  }
-  .footer-col4{
-  padding-top: 25px;
-  margin-left: 0px;
-  }
-  .footer-col5{
-  padding-top: 36px;
-  margin-left: 46%;
-  }
-  .footer-col5 h3 {
-  padding-bottom: 10px;
-  }
-  .footer-col5 p {
-  margin-left: -85px;
-  }
-  .underline1{
-  display: none;
-  }
-  .underline2{
-  display: none;
-  }
-  .underline3{
-  display: none;
-  }
-  .underline4{
-  display: none;
-  }
-  /*--Footer as Section 8th CSS Ends--*/
-  
-  /*Newsletter CSS Starts*/
-  .popup {
-    top: 96%;
-    left: 93%;
-    width: 270px;
-  }
-  /*Newsletter CSS Ends*/
+    .footer-col4{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col4 .fab {
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      font-size: 200%;
+      margin-right: 20px;
+    }
+    .footer-col5{
+    padding-top: 30px;
+    margin-left: 46%;
+    }
+    .footer-col5 h3 {
+    padding-bottom: 21px;
+    font-size: 30px;
+    }
+    .footer-col5 p {
+    margin-left: -155px;
+    padding-bottom: 15px;
+    }
+    .underline1{
+    display: none;
+    }
+    .underline2{
+    display: none;
+    }
+    .underline3{
+    display: none;
+    }
+    .underline4{
+    display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
+    
+    /*Newsletter CSS Starts*/
+    .popup {
+      top: 96%;
+      left: 91%;
+      width: 400px;
+    }
+    /*Newsletter CSS Ends*/
 }
 
 @media (min-width: 1241px) and (max-width: 1440px) {
@@ -1085,12 +1469,13 @@
   .textbox p{
     font-size: 40px;
     font-weight: 400;
-    line-height: 1.7;
+    line-height: 2;
     padding-bottom: 25px;
   }
   .button{
     font-size: 29px;
-    border-radius: 10px;
+    border-radius: 50px;
+    padding: 20px 28px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -1140,41 +1525,58 @@
   .Milestones h1{
     font-size: 75px;
   }
-  .Milestones p{
-    font-size: 32px;
+  .Milestones p {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 50px;
+  }
+  .Milestones-col p{
+    font-weight: 300;
+    font-size: 32;
+    padding-top: 28px;
+  }
+  .Milestones-col h3{
+    font-size: 2em;
+  }
+  .Milestones-col p.bush {
+    padding-left: 45px;
   }
   .row{
-  margin-top: 5.2%;
+  margin-top: 120px;
   display: flex;
   justify-content: space-evenly;
   }
   .Milestones-col{
   border-radius: 5px;
-  padding: 170px 3px;
+  padding: 150px 3px;
+  margin-bottom: 0;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
   
    /*--Section 3rd as Campus CSS Starts--*/
    .Campus{
     width: 201.6%;
-    padding-top: 8px;
+    padding-top: 136px;
   }
   .Campus h1{
     font-size: 75px;
   }
-  .Campus p{
-    font-size: 32px;
+  .Campus p {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-top: 26px;
   }
   .Campus-col{
-  margin-top: 2.3%;
-  margin-bottom: 12px;
+    margin-top: 13px;
+    margin-bottom: 0;
   }
   .Campus-col img{
   width: 100%;
   }
-  .layer{
-  top: 80;
-  left: 105;
+  .layer {
+    top: 80;
+    left: 120;
   }
   .layer h2{
     font-size: 46px;
@@ -1184,27 +1586,36 @@
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
   width: 201.6%;
-  padding-top: 45px;
+  padding-top: 52px;
   }
   .facilities h1{
     font-size: 75px;
   }
-  .facilities p{
-    font-size: 32px;
+  .facilities .row {
+    margin-top: 115px;
   }
-  .facilities-col h3{
-    font-size: 38px;
-    padding-top: 55px;
+  .facilities p {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 47px;
   }
-  .facilities-col p{
-    padding-top: 20px;
-    padding-bottom: 40px;
+  .facilities-col h3 {
+    padding-top: 60px;
+    font-size: 50px;
   }
-  .hero-button{
-    font-size: 21px;
+  .facilities-col p {
+    padding-bottom: 66px;
+    padding-top: 45px;
+    font-size: 39px;
+    font-weight: 300;
+  }
+  .hero-button {
+    border-radius: 50px;
+    padding: 19px 39px;
+    font-size: 30px;
   }
   .facilities-col{
-  margin-bottom: 8.4%;
+  margin-bottom: 0;
   }
   .facilities-col img{
   width: 780px;
@@ -1216,30 +1627,43 @@
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
   width: 201.6%;
-  padding-top: 0px;
+  padding-top: 162px;
   padding-bottom: 0px;
   }
   .Achivements h1{
     font-size: 75px;
   }
-  .Achivements p{
-    font-size: 32px;
+  .Achivements P{
+    line-height: 1.7;
+    font-weight: 400;
+    padding-top: 30px;
+    margin: auto;
+    width: 85%;
+    font-size: 40px;
   }
-  .Achivements-col h3{
-    font-size: 38px;
-    padding-top: 55px;
+  .Achivements-col h3 {
+    padding-top: 53;
+    font-size: 48px;
   }
-  .Achivements-col p{
-    padding-top: 20px;
-    padding-bottom: 40px;
-    line-height: 1.3;
+  .Achivements-col p {
+    padding-bottom: 45px;
+    font-size: 39px;
+    padding-top: 25px;
+    width: 100%;
+    line-height: 1.7;
+    font-weight: 300;
   }
-  .Hero2-button{
-    font-size: 21px;
+  .hero2-button {
+    border-radius: 10px;
+    padding: 19px 39px;
+    font-size: 30px;
   }
-  .Achivements-col{
-  margin-bottom: 6%;
+  .Achivements .row {
+    margin-top: 85px;
   }
+    .Achivements-col{
+    margin-bottom: 0;
+    }
   .Achivements-col img{
   width: 780px;
   height: 780px;
@@ -1250,13 +1674,32 @@
   /*--Ratings as Section 6th CSS Starts--*/
   .Ratings{
     width: 201.6%;
-    padding-bottom: 6.2%;
+    padding-bottom: 0;
+    padding-top: 125;
     }
     .Ratings h1{
       font-size: 75px;
     }
     .Ratings p{
-      font-size: 32px;
+      line-height: 1.7;
+      margin-bottom: -14;
+      font-weight: 400;
+      padding-top: 25px;
+      font-size: 40px;
+    }
+    .Ratings-col1 p{
+      font-size: 22px;
+      line-height: 1.7;
+      font-weight: 300;
+      margin-bottom: 0;
+      padding-top: 0;
+    }
+    .Ratings-col p {
+      font-size: 22px;
+      line-height: 1.7;
+      margin-bottom: 0;
+      font-weight: 300;
+      padding-top: 0;
     }
     .Ratings-col{
       padding: 50px;
@@ -1269,14 +1712,6 @@
     .Ratings-col1 img{
       height: 60px;
     }
-    .Ratings-col p{
-      font-size: 20px;
-      line-height: 1.4;
-    }
-    .Ratings-col1 p{
-      font-size: 20px;
-      line-height: 1.4;
-    }
     .Ratings .row{
     padding: 35px;
     margin-top: 2.3%;
@@ -1288,12 +1723,32 @@
     padding: 50px;
     flex-basis: 44%;
     }
+    .Ratings-col1 h3 {
+      margin-top: 5px;
+      font-size: 28;
+      padding-bottom: 12;
+    }
+    .Ratings-col1 .fa {
+      color: #f44336;
+      margin-bottom: 15px;
+      font-size: 25;
+    }
+    .Ratings-col h3 {
+      margin-top: 5px;
+      font-size: 28;
+      padding-bottom: 12;
+    }
+    .Ratings-col .fa {
+      color: #f44336;
+      margin-bottom: 15px;
+      font-size: 25;
+    }
   /*--Ratings as Section 6th CSS Ends--*/
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
   width: 201.6%;
-  margin-top: 120;
+  margin-top: 170;
   }
   .Lta h1{
   font-size: 75px;
@@ -1301,107 +1756,163 @@
   line-height: 1.8;
   }
   .Lta p{
-  padding-bottom: 75px;
-  font-size: 32px;
-  line-height: 1.3;
+    padding-bottom: 70px;
+    line-height: 1.9;
+    padding-top: 15px;
+    font-weight: 400;
+    width: 92%;
+    margin: auto;
+    font-size: 40px;
   }
   .Lta-col img{
   width: 93%;
   margin-bottom: 3%;
   }
   .Hero3-button{
-    font-size: 30px;
+    font-size: 35px;
   }
+  .Hero3-button {
+    border-radius: 50px;
+    padding: 18px 45px;
+}
   /*--Lta as Section 7th CSS Ends--*/
   
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
-  margin-bottom: 125;
-  margin-top: -60;
-  }
-  .btt {
-  width: 65px;
-  height: 65px;
-  margin-left: 188%;
+  margin-bottom: 130;
+  margin-top: -89;
   }
   .svgIcon {
-    width: 20px;
-  }
+    width: 21px;
+}
+.btt {
+width: 85px;
+height: 85px;
+margin-left: 187%;
+}
   /*--btt CSS Ends--*/
-  
-  /*--Footer as Section 8th CSS Starts--*/
-  footer{
-  width: 201.6%;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+    
+    /*--Footer as Section 8th CSS Starts--*/
+    footer{
+    width: 201.6%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+    .footer-row{
+      width: 94%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+    }
+    .footer-col{
+      padding: 3px;
+      display: inline-block;
+    }
+    .logo{
+    width: 30%;
+    }
+    footer p{
+    font-size: 27px;
+    line-height: 1.4;
+    }
+    .footer-col1{
+    padding-top: 25px;
+    margin-left: 35px;
+    }
+    .footer-col1 h3{
+      font-size: 31;
+      padding-bottom: 25px;
+    }
+    .footer-col1 p{
+      font-size: 26;
+      line-height: 1.5;
+    }
+    .email-id{
+      padding-bottom: 13;
+    }
+    .footer-col1 h4{
+      font-size: 28;
+      padding-top: 26px;
+    }
+    .footer-col2{
+    padding-top: 25px;
+    margin-left: 35px;
+    }
+    .footer-col2 h3{
+      font-size: 31;
+      padding-bottom: 40px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 35px;
+    }
+    .footer-col2 ul li a {
+      font-size: 28;
+    }      
+    .footer-col3{
+    padding-top: 25px;
+    margin-left: 20px;
+    }
+    .footer-col3 h3{
+    padding-bottom: 23px;
+    font-size: 31px;
+    }
+    .footer-col3 form .far {
+      font-size: 30px;
+      margin-right: 15px;
   }
-  .footer-row{
-    width: 94%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+  .footer-col3 form input {
+    font-size: 28;
   }
-  .footer-col{
-    padding: 3px;
-    display: inline-block;
+  .footer-col3 form button .fas {
+    font-size: 27px;
   }
-  .logo{
-  width: 30%;
-  }
-  footer p{
-  font-size: 18px;
-  }
-  .footer-col1{
-  padding-top: 25px;
-  margin-left: 0px;
-  }
-  .footer-col2{
-  padding-top: 25px;
-  margin-left: 20px;
-  }
-  .footer-col3{
-  padding-top: 25px;
-  margin-left: 10px;
-  }
-  .footer-col3 h3{
-  padding-bottom: 19px;
-  }
-  .footer-col4{
-  padding-top: 25px;
-  margin-left: 0px;
-  }
-  .footer-col5{
-  padding-top: 36px;
-  margin-left: 46%;
-  }
-  .footer-col5 h3 {
-  padding-bottom: 10px;
-  }
-  .footer-col5 p {
-  margin-left: -85px;
-  }
-  .underline1{
-  display: none;
-  }
-  .underline2{
-  display: none;
-  }
-  .underline3{
-  display: none;
-  }
-  .underline4{
-  display: none;
-  }
-  /*--Footer as Section 8th CSS Ends--*/
-  
-  /*Newsletter CSS Starts*/
-  .popup {
-    top: 96%;
-    left: 92%;
-    width: 270px;
-  }
-  /*Newsletter CSS Ends*/
+    .footer-col4{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col4 .fab {
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      font-size: 200%;
+      margin-right: 20px;
+    }
+    .footer-col5{
+    padding-top: 30px;
+    margin-left: 46%;
+    }
+    .footer-col5 h3 {
+    padding-bottom: 21px;
+    font-size: 30px;
+    }
+    .footer-col5 p {
+    margin-left: -155px;
+    padding-bottom: 15px;
+    }
+    .underline1{
+    display: none;
+    }
+    .underline2{
+    display: none;
+    }
+    .underline3{
+    display: none;
+    }
+    .underline4{
+    display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
+    
+    /*Newsletter CSS Starts*/
+    .popup {
+      top: 96%;
+      left: 88%;
+      width: 450px;
+    }
+    /*Newsletter CSS Ends*/
 }
 
 @media (min-width: 1025px) and (max-width: 1240px) {
@@ -1427,13 +1938,14 @@
   }
   .textbox p{
   font-size: 35px;
-  line-height: 1.7;
+  line-height: 2;
   font-weight: 400;
   padding-bottom: 25;
   }
   .button{
     font-size: 28px;
-    border-radius: 12px;
+    border-radius: 50px;
+    padding: 23px 25px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -1478,40 +1990,56 @@
   /*--Milestones as Section 2nd CSS Starts--*/
   .Milestones{
   width: 202%;
-  padding-top: 130px;
+  padding-top: 120px;
   }
   .Milestones h1 {
     font-size: 65px;
 }
 .Milestones p {
   font-size: 32px;
+  font-weight: 400;
+  padding-top: 25px;
+}
+.Milestones-col p{
+  font-weight: 300;
+  font-size: 32;
+  padding-top: 28px;
+}
+.Milestones-col h3{
+  font-size: 2em;
+}
+.Milestones-col p.bush {
+  padding-left: 40px;
 }
   .row{
-  margin-top: 5.2%;
+  margin-top: 105;
   display: flex;
   justify-content: space-evenly;
   }
   .Milestones-col{
   border-radius: 5px;
-  padding: 130px 3px;
+  padding: 110px 3px;
+  margin-bottom: 0;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
   
    /*--Section 3rd as Campus CSS Starts--*/
    .Campus{
     width: 201.6%;
-    padding-top: 8px;
+    padding-top: 115px;
   }
   .Campus h1 {
     font-size: 65px;
 }
 .Campus p {
   font-size: 32px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-top: 15px;
 }
-
   .Campus-col{
-  margin-top: 2.3%;
-  margin-bottom: 12px;
+  margin-top: 15px;
+  margin-bottom: 0;
   }
   .Campus-col img{
   width: 100%;
@@ -1528,28 +2056,37 @@
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
   width: 201.6%;
-  padding-top: 15px;
+  padding-top: 50px;
   }
+  .facilities .row {
+    margin-top: 102px;
+}
   .facilities h1 {
     font-size: 65px;
 }
 .facilities p {
   font-size: 32px;
+  font-weight: 400;
+  padding-top: 31px;
+
 }
 .facilities-col h3 {
-  font-size: 30px;
-  padding-top: 40px;
+  padding-top: 50px;
+  font-size: 40px;
 }
 .facilities-col p {
-  padding-top: 14px;
-  padding-bottom: 30px;
-  font-size: 30px;
+  padding-bottom: 56px;
+  padding-top: 35px;
+  font-size: 32px;
+  font-weight: 300;
 }
 .hero-button {
-  font-size: 21px;
+  border-radius: 50px;
+  padding: 15px 36px;
+  font-size: 28px;
 }
   .facilities-col{
-  margin-bottom: 9.1%;
+  margin-bottom: 0;
   }
   .facilities-col img{
   width: 650px;
@@ -1561,30 +2098,42 @@
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
   width: 201.6%;
-  padding-top: 0px;
+  padding-top: 152px;
   padding-bottom: 0px;
   }
   .Achivements h1 {
     font-size: 65px;
 }
-.Achivements p {
+.Achivements P{
+  line-height: 1.7;
+  font-weight: 400;
+  padding-top: 22px;
+  margin: auto;
+  width: 85%;
   font-size: 32px;
 }
 .Achivements-col h3 {
-  font-size: 30px;
-  padding-top: 40px;
+  padding-top: 50;
+  font-size: 40px;
 }
 .Achivements-col p {
-  padding-top: 14px;
-  padding-bottom: 30px;
-  font-size: 30px;
-  line-height: 1.3;
+  padding-bottom: 45px;
+  font-size: 32px;
+  padding-top: 20px;
+  width: 100%;
+  line-height: 1.7;
+  font-weight: 300;
 }
-.Hero2-button {
-  font-size: 21px;
+.hero2-button {
+  border-radius: 10px;
+  padding: 15px 36px;
+  font-size: 28px;
+}
+.Achivements .row {
+  margin-top: 78px;
 }
   .Achivements-col{
-  margin-bottom: 6.2%;
+  margin-bottom: 0;
   }
   .Achivements-col img{
   width: 650px;
@@ -1596,20 +2145,33 @@
   /*--Ratings as Section 6th CSS Starts--*/
   .Ratings{
   width: 201.6%;
-  padding-bottom: 4%;
+  padding-bottom: 0;
+  padding-top: 115;
   }
   .Ratings h1{
     font-size: 65px;
   }
   .Ratings p{
-    font-size: 30px;
+    line-height: 1.7;
+    margin-bottom: -14;
+    font-weight: 400;
+    padding-top: 18px;
+    font-size: 32px;
+  }
+  .Ratings-col1 p{
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-top: 0;
   }
   .Ratings-col p {
-    font-size: 15px;
-}
-.Ratings-col1 p {
-  font-size: 15px;
-}
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 0;
+    font-weight: 300;
+    padding-top: 0;
+  }
   .Ratings .row{
   padding: 35px;
   margin-top: 2.3%;
@@ -1620,16 +2182,36 @@
     margin-bottom: 0;
   }
   .Ratings-col1{
-  margin-bottom: 3;
+  margin-bottom: 0;
   margin-top: 0;
   flex-basis: 45%;
+  }
+  .Ratings-col1 h3 {
+    margin-top: 5px;
+    font-size: 20;
+    padding-bottom: 10;
+  }
+  .Ratings-col1 .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 18;
+  }
+  .Ratings-col h3 {
+    margin-top: 5px;
+    font-size: 20;
+    padding-bottom: 10;
+  }
+  .Ratings-col .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 18;
   }
   /*--Ratings as Section 6th CSS Ends--*/
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
   width: 201.6%;
-  margin-top: 110;
+  margin-top: 142;
   }
   .Lta h1{
   font-size: 65px;
@@ -1637,109 +2219,171 @@
   line-height: 1.8;
   }
   .Lta p{
-    padding-bottom: 75px;
+    padding-bottom: 70px;
+    line-height: 1.8;
+    padding-top: 15px;
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
     font-size: 32px;
-    line-height: 1.3;
   }
   .Lta-col img{
   width: 93%;
   margin-bottom: 3%;
   }
   .Hero3-button{
-    font-size: 19px;
+    font-size: 28px;
   }
+  .Hero3-button {
+    border-radius: 50px;
+    padding: 18px 45px;
+}
   /*--Lta as Section 7th CSS Ends--*/
   
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
   margin-bottom: 110px;
-  margin-top: -50;
+  margin-top: -74;
+  }
+  .svgIcon {
+      width: 19px;
   }
   .btt {
-  width: 50px;
-  height: 50px;
-  margin-left: 188%;
+  width: 75px;
+  height: 75px;
+  margin-left: 187%;
   }
   /*--btt CSS Ends--*/
-  
-  /*--Footer as Section 8th CSS Starts--*/
-  footer{
-  width: 201.6%;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+    
+    /*--Footer as Section 8th CSS Starts--*/
+    footer{
+    width: 201.6%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+    .footer-row{
+      width: 94%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+    }
+    .footer-col{
+      padding: 3px;
+      display: inline-block;
+    }
+    .logo{
+    width: 30%;
+    }
+    footer p{
+    font-size: 22px;
+    line-height: 1.4;
+    }
+    .footer-col1{
+    padding-top: 25px;
+    margin-left: 35px;
+    }
+    .footer-col1 h3{
+      font-size: 27;
+      padding-bottom: 25px;
+    }
+    .footer-col1 p{
+      font-size: 23;
+      line-height: 1.4;
+    }
+    .email-id{
+      padding-bottom: 13;
+    }
+    .footer-col1 h4{
+      font-size: 26;
+      padding-top: 20px;
+    }
+    .footer-col2{
+    padding-top: 25px;
+    margin-left: 35px;
+    }
+    .footer-col2 h3{
+      font-size: 26;
+      padding-bottom: 34px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 25px;
+    }
+    .footer-col2 ul li a {
+      font-size: 23;
+    }      
+    .footer-col3{
+    padding-top: 25px;
+    margin-left: 20px;
+    }
+    .footer-col3 h3{
+    padding-bottom: 23px;
+    font-size: 26px;
+    }
+    .footer-col3 form .far {
+      font-size: 25px;
+      margin-right: 15px;
   }
-  .footer-row{
-    width: 94%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+  .footer-col3 form input {
+    font-size: 23;
   }
-  .footer-col{
-    padding: 3px;
-    display: inline-block;
+  .footer-col3 form button .fas {
+    font-size: 21px;
   }
-  .logo{
-  width: 30%;
-  }
-  footer p{
-  font-size: 16px;
-  }
-  .footer-col1{
-  padding-top: 25px;
-  margin-left: 0px;
-  }
-  .footer-col2{
-  padding-top: 25px;
-  margin-left: 20px;
-  }
-  .footer-col3{
-  padding-top: 25px;
-  margin-left: 10px;
-  }
-  .footer-col3 h3{
-  padding-bottom: 19px;
-  }
-  .footer-col4{
-  padding-top: 25px;
-  margin-left: 0px;
-  }
-  .footer-col5{
-  padding-top: 36px;
-  margin-left: 46%;
-  }
-  .footer-col5 h3 {
-  padding-bottom: 10px;
-  }
-  .footer-col5 p {
-  margin-left: -85px;
-  }
-  .underline1{
-  display: none;
-  }
-  .underline2{
-  display: none;
-  }
-  .underline3{
-  display: none;
-  }
-  .underline4{
-  display: none;
-  }
-  /*--Footer as Section 8th CSS Ends--*/
-  
-  /*Newsletter CSS Starts*/
-  .popup {
-    top: 96%;
-    left: 90%;
-    width: 270px;
-  }
-  /*Newsletter CSS Ends*/
+    .footer-col4{
+    padding-top: 25px;
+    margin-left: 0px;
+    }
+    .footer-col4 .fab {
+      width: 60px;
+      height: 60px;
+      line-height: 61px;
+      font-size: 150%;
+      margin-right: 15px;
+    }
+    .footer-col5{
+    padding-top: 30px;
+    margin-left: 46%;
+    }
+    .footer-col5 h3 {
+    padding-bottom: 21px;
+    font-size: 25px;
+    }
+    .footer-col5 p {
+    margin-left: -120px;
+    padding-bottom: 15px;
+    }
+    .underline1{
+    display: none;
+    }
+    .underline2{
+    display: none;
+    }
+    .underline3{
+    display: none;
+    }
+    .underline4{
+    display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
+    
+    /*Newsletter CSS Starts*/
+    .popup {
+      top: 96%;
+      left: 88%;
+      width: 350px;
+    }
+    /*Newsletter CSS Ends*/
 }
 
 /* 1024px - Tablets, laptops, and desktops */
 @media only screen and (max-width: 1024px) {
 /*--Section 1st CSS Starts--*/
+h1{
+  font-size: 55px;
+}
 .Section{
   min-height: 203vh;
   width: 202.1%;
@@ -1761,13 +2405,14 @@
   }
   .textbox p{
     font-size: 35px;
-    line-height: 1.7;
+    line-height: 2;
     font-weight: 400;
     padding-bottom: 22;
   }
   .button{
     font-size: 28px;
-    border-radius: 15px;
+    border-radius: 50px;
+    padding: 19px 28px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -1814,58 +2459,135 @@
   width: 202%;
   padding-top: 102px;
   }
+  .Milestones p{
+    font-size: 32;
+    font-weight: 400;
+    padding-top: 30px;
+  }
+  .Milestones-col p{
+    font-weight: 300;
+    font-size: 30;
+    padding-top: 25px;
+  }
+  .Milestones-col p.bush{
+    padding-left: 39px;
+  }
+  .Milestones-col h3{
+    font-size: 1.70em;
+  }
   .row{
-  margin-top: 5.2%;
+  margin-top: 90;
   display: flex;
   justify-content: space-evenly;
   }
   .Milestones-col{
   border-radius: 5px;
   padding: 120px 3px;
+  margin-bottom: 0;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
   
    /*--Section 3rd as Campus CSS Starts--*/
    .Campus{
     width: 201.6%;
-    padding-top: 8px;
+    padding-top: 102px;
+  }
+  .Campus p{
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 32px;
+    padding-top: 15px;
   }
   .Campus-col{
-  margin-top: 2.3%;
-  margin-bottom: 12px;
+  margin-top: 20px;
+  margin-bottom: 0;
   }
   .Campus-col img{
   width: 100%;
   }
   .layer{
-  top: 40;
-  left: 70;
+  top: 80;
+  left: 97;
+  }
+  .layer h2{
+    font-size: 40;
   }
   /*--Section 3rd as Campus CSS Ends--*/
   
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
   width: 201.6%;
-  padding-top: 15px;
-  }
-  .facilities-col{
-  margin-bottom: 8.3%;
+  padding-top: 40px;
   }
   .facilities-col img{
   width: 550px;
   height: 550px;
   border-radius: 10px;
   }
+  .facilities p{
+    font-weight: 400;
+    padding-top: 31px;
+    font-size: 32px;
+  }
+  .facilities-col{
+  margin-bottom: 0;
+  }
+  .facilities-col h3 {
+    padding-top: 40px;
+    font-size: 35px;
+  }
+  .facilities-col p {
+    padding-bottom: 45px;
+    padding-top: 30px;
+    font-size: 31px;
+    font-weight: 300;
+  }
+  .hero-button {
+    border-radius: 50px;
+    padding: 15px 36px;
+    font-size: 26px;
+  }
+  .facilities .row{
+    margin-top: 4.3%;
+  }
   /*--Section 4th as Facilities CSS Ends--*/
   
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
   width: 201.6%;
-  padding-top: 0px;
+  padding-top: 135px;
   padding-bottom: 0px;
   }
+  .Achivements P{
+    line-height: 1.7;
+    font-weight: 400;
+    padding-top: 22px;
+    margin: auto;
+    width: 85%;
+    font-size: 32px;
+  }
+  .Achivements-col h3 {
+    padding-top: 38;
+    font-size: 35px;
+  }
+  .Achivements-col p {
+    padding-bottom: 26px;
+    font-size: 31px;
+    padding-top: 18px;
+    width: 100%;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .hero2-button {
+    border-radius: 10px;
+    padding: 15px 36px;
+    font-size: 26px;
+}
   .Achivements-col{
-  margin-bottom: 4.9%;
+  margin-bottom: 0;
+  }
+  .Achivements .row {
+    margin-top: 73px;
   }
   .Achivements-col img{
   width: 550px;
@@ -1878,6 +2600,14 @@
   .Ratings{
   width: 201.6%;
   padding-bottom: 4%;
+  padding-top: 102px;
+  }
+  .Ratings p{
+    line-height: 1.7;
+    margin-bottom: -6;
+    font-weight: 400;
+    padding-top: 18px;
+    font-size: 32px;
   }
   .Ratings .row{
   padding: 35px;
@@ -1893,40 +2623,87 @@
   margin-top: 0;
   flex-basis: 45%;
   }
+  .Ratings-col1 p{
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .Ratings-col p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 0;
+    font-weight: 300;
+    padding-top: 0;
+  }
+  .Ratings-col1 h3 {
+    margin-top: 5px;
+    font-size: 20;
+    padding-bottom: 10;
+  }
+  .Ratings-col1 .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 18;
+  }
+  .Ratings-col h3 {
+    margin-top: 5px;
+    font-size: 20;
+    padding-bottom: 10;
+  }
+  .Ratings-col .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 18;
+  }
   /*--Ratings as Section 6th CSS Ends--*/
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
   width: 201.6%;
-  margin-top: 100;
+  margin-top: 95;
   }
   .Lta h1{
-  font-size: 37px;
+  font-size: 55px;
   font-weight: 600;
   line-height: 1.8;
   }
   .Lta p{
-  padding-bottom: 75px;
+    padding-bottom: 60px;
+    line-height: 1.7;
+    padding-top: 15px;
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+    font-size: 32px;
   }
   .Lta-col img{
   width: 93%;
   margin-bottom: 3%;
   }
   .Hero3-button{
-    font-size: 19px;
+    font-size: 28px;
   }
+  .Hero3-button {
+    border-radius: 50px;
+    padding: 18px 45px;
+}
   /*--Lta as Section 7th CSS Ends--*/
   
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
-  margin-bottom: 110px;
-  margin-top: -50;
+  margin-bottom: 125px;
+  margin-top: -75;
   }
+  .svgIcon {
+    width: 19px;
+}
   .btt {
-  width: 50px;
-  height: 50px;
-  margin-left: 188%;
+  width: 75px;
+  height: 75px;
+  margin-left: 187%;
   }
   /*--btt CSS Ends--*/
   
@@ -1941,6 +2718,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
   }
   .footer-col{
     padding: 3px;
@@ -1950,36 +2728,83 @@
   width: 30%;
   }
   footer p{
-  font-size: 16px;
+  font-size: 22px;
+  line-height: 1.4;
   }
   .footer-col1{
   padding-top: 25px;
-  margin-left: 0px;
+  margin-left: 35px;
+  }
+  .footer-col1 h3{
+    font-size: 27;
+    padding-bottom: 25px;
+  }
+  .footer-col1 p{
+    font-size: 23;
+    line-height: 1.4;
+  }
+  .email-id{
+    padding-bottom: 13;
+  }
+  .footer-col1 h4{
+    font-size: 26;
+    padding-top: 20px;
   }
   .footer-col2{
   padding-top: 25px;
-  margin-left: 20px;
+  margin-left: 35px;
   }
+  .footer-col2 h3{
+    font-size: 26;
+    padding-bottom: 34px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 25px;
+  }
+  .footer-col2 ul li a {
+    font-size: 23;
+  }      
   .footer-col3{
   padding-top: 25px;
-  margin-left: 10px;
+  margin-left: 20px;
   }
   .footer-col3 h3{
-  padding-bottom: 19px;
+  padding-bottom: 23px;
+  font-size: 26px;
   }
+  .footer-col3 form .far {
+    font-size: 25px;
+    margin-right: 15px;
+}
+.footer-col3 form input {
+  font-size: 23;
+}
+.footer-col3 form button .fas {
+  font-size: 21px;
+}
   .footer-col4{
   padding-top: 25px;
   margin-left: 0px;
   }
+  .footer-col4 .fab {
+    width: 60px;
+    height: 60px;
+    line-height: 61px;
+    font-size: 150%;
+    margin-right: 15px;
+  }
   .footer-col5{
-  padding-top: 36px;
+  padding-top: 30px;
   margin-left: 46%;
   }
   .footer-col5 h3 {
-  padding-bottom: 10px;
+  padding-bottom: 21px;
+  font-size: 25px;
   }
   .footer-col5 p {
-  margin-left: -85px;
+  margin-left: -120px;
+  padding-bottom: 15px;
   }
   .underline1{
   display: none;
@@ -1997,15 +2822,18 @@
   
   /*Newsletter CSS Starts*/
   .popup {
-    top: 92%;
-    left: 90%;
-    width: 270px;
+    top: 96%;
+    left: 88%;
+    width: 350px;
   }
   /*Newsletter CSS Ends*/
 }
 
 @media (min-width: 851px) and (max-width: 980px) {
   /*--Section 1st CSS Starts--*/
+h1 {
+  font-size: 40px;
+}
 .Section{
 min-height: 203vh;
 width: 202.1%;
@@ -2027,13 +2855,14 @@ font-weight: bold;
 }
 .textbox p{
   font-size: 32px;
-  line-height: 1.7;
+  line-height: 2;
   font-weight: 400;
   padding-bottom: 18;
 }
 .button{
-  font-size: 25px;
-  border-radius: 10px;
+  font-size: 24px;
+  border-radius: 50px;
+  padding: 20px 30px;
 }
 /*--Login Element CSS Starts--*/
 .wrapper {
@@ -2080,63 +2909,137 @@ margin-left: 1px;
 width: 202%;
 padding-top: 95px;
 }
+.Milestones p{
+  font-size: 28;
+  font-weight: 400;
+  padding-top: 22px;
+}
+.Milestones-col h3{
+  font-size: 1.30em;
+}
+.Milestones-col p{
+  font-weight: 300;
+  font-size: 25;
+  padding-top: 12px;
+}
+.Milestones-col p.bush{
+  padding-left: 35px;
+}
 .row{
-margin-top: 5.2%;
+margin-top: 70px;
 display: flex;
 justify-content: space-evenly;
 }
 .Milestones-col{
 border-radius: 5px;
 padding: 90px 3px;
+margin-bottom: 0;
 }
 /*--Milestones as Section 2nd CSS Ends--*/
 
  /*--Section 3rd as Campus CSS Starts--*/
  .Campus{
   width: 201.6%;
-  padding-top: 8px;
+  padding-top: 93px;
+}
+.Campus p{
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 28px;
+  padding-top: 15px;
 }
 .Campus-col{
-margin-top: 2.3%;
-margin-bottom: 12px;
+  margin-top: 7px;
+  margin-bottom: 0;
 }
 .Campus-col img{
 width: 99%;
 }
-.layer{
-top: 40;
-left: 70;
+.layer {
+  top: 75;
+  left: 98;
+}
+.layer h2{
+  font-size: 35px;
 }
 /*--Section 3rd as Campus CSS Ends--*/
 
 /*--Section 4th as Facilities CSS Starts--*/
 .facilities{
 width: 201.6%;
-padding-top: 15px;
+padding-top: 30px;
+}
+.facilities p{
+  font-weight: 400;
+  padding-top: 25px;
+  font-size: 28px;
 }
 .facilities-col{
-margin-bottom: 8.6%;
+margin-bottom: 0;
 }
 .facilities-col img{
 width: 530px;
 height: 530px;
 border-radius: 10px;
 }
+.facilities-col h3 {
+  padding-top: 40px;
+  font-size: 32px;
+}
+.facilities-col p {
+  padding-bottom: 37px;
+  padding-top: 22px;
+  font-size: 26px;
+  font-weight: 300;
+}
+.hero-button {
+  border-radius: 50px;
+  padding: 18px 38px;
+  font-size: 22px;
+}
 /*--Section 4th as Facilities CSS Ends--*/
 
 /*--Section 5th as Achivements CSS Ends--*/
 .Achivements{
 width: 201.6%;
-padding-top: 0px;
+padding-top: 122px;
 padding-bottom: 0px;
 }
+.Achivements P{
+  line-height: 1.7;
+  font-weight: 400;
+  padding-top: 12px;
+  margin: auto;
+  width: 85%;
+  font-size: 28px;
+}
+.Achivements-col h3 {
+  padding-top: 38;
+  font-size: 32px;
+}
+.Achivements-col p {
+  padding-bottom: 25px;
+  font-size: 26px;
+  padding-top: 14px;
+  width: 100%;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.hero2-button {
+  border-radius: 10px;
+  padding: 18px 40px;
+  font-size: 22px;
+}
 .Achivements-col{
-margin-bottom: 5.6%;
+margin-bottom: 0;
 }
 .Achivements-col img{
 width: 530px;
 height: 530px;
 border-radius: 10px;
+}
+.Achivements .row {
+  margin-top: 55px;
 }
 /*--Section 5th as Achivements CSS Ends--*/
 
@@ -2144,6 +3047,28 @@ border-radius: 10px;
 .Ratings{
 width: 201.6%;
 padding-bottom: 4%;
+padding-top: 85px;
+}
+.Ratings p{
+  line-height: 1.7;
+  margin-bottom: -20;
+  font-weight: 400;
+  padding-top: 15px;
+  font-size: 28px;
+}
+.Ratings-col1 p{
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.Ratings-col p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 0;
+  font-weight: 300;
+  padding-top: 0;
 }
 .Ratings .row{
 padding: 35px;
@@ -2155,16 +3080,36 @@ margin-bottom: -79;
   margin-bottom: 0;
 }
 .Ratings-col1{
-margin-bottom: 3;
+margin-bottom: 1;
 margin-top: 0;
 flex-basis: 44%;
+}
+.Ratings-col1 h3 {
+  margin-top: 5px;
+  font-size: 20;
+  padding-bottom: 9;
+}
+.Ratings-col1 .fa {
+  color: #f44336;
+  margin-bottom: 15px;
+  font-size: 18;
+}
+.Ratings-col h3 {
+  margin-top: 5px;
+  font-size: 20;
+  padding-bottom: 9;
+}
+.Ratings-col .fa {
+  color: #f44336;
+  margin-bottom: 15px;
+  font-size: 18;
 }
 /*--Ratings as Section 6th CSS Ends--*/
 
 /*--Lta as Section 7th CSS Starts--*/
 .Lta{
 width: 201.6%;
-margin-top: 98;
+margin-top: 88;
 }
 .Lta h1{
 font-size: 37px;
@@ -2172,27 +3117,38 @@ font-weight: 600;
 line-height: 1.8;
 }
 .Lta p{
-padding-bottom: 55px;
+  padding-bottom: 55px;
+  line-height: 1.7;
+  padding-top: 13px;
+  font-weight: 400;
+  width: 90%;
+  margin: auto;
+  font-size: 28px;
 }
 .Lta-col img{
 width: 93%;
-margin-bottom: 3%;
+margin-bottom: 55px;
 }
 .Hero3-button{
-  font-size: 19px;
+  font-size: 23px;
+  border-radius: 50px;
+  padding: 18px 50px;
 }
 /*--Lta as Section 7th CSS Ends--*/
 
 /*--btt CSS Starts--*/
 .backtotop{
 width: 100%;
-margin-bottom: 110px;
-margin-top: -50;
+margin-bottom: 105px;
+margin-top: -70;
 }
 .btt {
-width: 50px;
-height: 50px;
-margin-left: 188%;
+  width: 65px;
+  height: 65px;
+  margin-left: 187%;
+}
+.svgIcon {
+  width: 15px;
 }
 /*--btt CSS Ends--*/
 
@@ -2205,6 +3161,7 @@ border-top-right-radius: 50px;
 .footer-row{
   width: 94%;
   margin: auto;
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -2216,15 +3173,41 @@ border-top-right-radius: 50px;
 width: 30%;
 }
 footer p{
-font-size: 16px;
+font-size: 19px;
+line-height: 1.4;
 }
 .footer-col1{
 padding-top: 25px;
 margin-left: 0px;
 }
+.footer-col1 h3{
+  padding-bottom: 20px;
+  font-size: 22.3px;
+}
+.footer-col1 p{
+  font-size: 19px;
+  line-height: 1.5;
+}
+.footer-col1 h4 {
+  padding-top: 15px;
+  font-size: 21px;
+}
 .footer-col2{
 padding-top: 25px;
 margin-left: 20px;
+}
+.footer-col2 h3{
+  padding-bottom: 27px;
+  font-size: 22.3px;
+}
+.footer-col2 ul li{
+  list-style: none;
+  margin-bottom: 18px;
+}
+.footer-col2 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19.7;
 }
 .footer-col3{
 padding-top: 25px;
@@ -2232,20 +3215,46 @@ margin-left: 10px;
 }
 .footer-col3 h3{
 padding-bottom: 19px;
+font-size: 22.3px;
+}
+.footer-col3 form .far {
+  font-size: 22px;
+  margin-right: 15px;
+}
+.footer-col3 form input {
+  font-size: 19;
+}
+.footer-col3 form button .fas {
+  font-size: 20px;
+  color: #ccc;
 }
 .footer-col4{
 padding-top: 25px;
 margin-left: 0px;
 }
+.footer-col4 .fab {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 135%;
+  color: #000;
+  background: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
 .footer-col5{
-padding-top: 36px;
+padding-top: 30px;
 margin-left: 46%;
 }
 .footer-col5 h3 {
-padding-bottom: 10px;
+  padding-bottom: 15px;
+  font-size: 21;
 }
 .footer-col5 p {
-margin-left: -85px;
+  margin-left: -105px;
+  padding-bottom: 10px;
 }
 .underline1{
 display: none;
@@ -2264,14 +3273,17 @@ display: none;
 /*Newsletter CSS Starts*/
 .popup {
   top: 91%;
-  left: 89%;
-  width: 270px;
+  left: 88%;
+  width: 310px;
 }
 /*Newsletter CSS Ends*/
 }
 
 /* 850px - Tablets, iPads */
 @media only screen and (max-width: 850px) {
+  h1 {
+    font-size: 40px;
+}
   /*--Section 1st CSS Starts--*/
 .Section{
 min-height: 203vh;
@@ -2294,13 +3306,14 @@ font-weight: bold;
 }
 .textbox p{
 font-size: 28px;
-line-height: 1.66;
+line-height: 2;
 font-weight: 500;
 padding-bottom: 10;
 }
 .button{
   font-size: 20px;
   border-radius: 50px;
+  padding: 17px 22px;
 }
 /*--Login Element CSS Starts--*/
 .wrapper {
@@ -2345,72 +3358,168 @@ margin-left: 1px;
 /*--Milestones as Section 2nd CSS Starts--*/
 .Milestones{
 width: 202%;
-padding-top: 85px;
+padding-top: 80px;
+}
+.Milestones p{
+  font-size: 26;
+  font-weight: 400;
+  padding-top: 18px;
+}
+.Milestones-col h3{
+  font-size: 1.17em;
+}
+.Milestones-col p{
+  font-weight: 300;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.Milestones-col p.bush{
+  padding-left: 32px;
 }
 .row{
-margin-top: 5.2%;
+margin-top: 70px;
 display: flex;
 justify-content: space-evenly;
 }
 .Milestones-col{
 border-radius: 5px;
 padding: 85px 3px;
+margin-bottom: 0;
 }
 /*--Milestones as Section 2nd CSS Ends--*/
 
  /*--Section 3rd as Campus CSS Starts--*/
  .Campus{
   width: 201.6%;
-  padding-top: 8px;
+  padding-top: 75px;
+}
+.Campus p{
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 26px;
+  padding-top: 12px;
 }
 .Campus-col{
-margin-top: 2.3%;
-margin-bottom: 12px;
+margin-top: 10px;
+margin-bottom: 0;
 }
 .Campus-col img{
 width: 95%;
 }
-.layer{
-top: 40;
-left: 70;
+.layer {
+  top: 65;
+  left: 85;
+}
+.layer h2{
+  font-size: 35px;
 }
 /*--Section 3rd as Campus CSS Ends--*/
 
 /*--Section 4th as Facilities CSS Starts--*/
 .facilities{
 width: 201.6%;
-padding-top: 15px;
+padding-top: 26.5px;
+}
+.facilities p{
+  font-weight: 400;
+  padding-top: 19px;
+  font-size: 26px;
 }
 .facilities-col{
-margin-bottom: 10.2%;
+margin-bottom: 0;
 }
 .facilities-col img{
 width: 420px;
 height: 420px;
 border-radius: 10px;
 }
+.facilities-col h3 {
+  padding-top: 40px;
+  font-size: 26px;
+}
+.facilities-col p {
+  padding-bottom: 27px;
+  padding-top: 17px;
+  font-size: 22px;
+  font-weight: 300;
+}
+.hero-button {
+  border-radius: 50px;
+  padding: 15px 36px;
+  font-size: 18px;
+}
 /*--Section 4th as Facilities CSS Ends--*/
 
 /*--Section 5th as Achivements CSS Ends--*/
 .Achivements{
 width: 201.6%;
-padding-top: 0px;
+padding-top: 115px;
 padding-bottom: 0px;
 }
+.Achivements P{
+  line-height: 1.7;
+  font-weight: 400;
+  padding-top: 12px;
+  margin: auto;
+  width: 85%;
+  font-size: 26px;
+}
+.Achivements-col h3 {
+  padding-top: 35;
+  font-size: 25px;
+}
+.Achivements-col p {
+  padding-bottom: 26px;
+  font-size: 21px;
+  padding-top: 13px;
+  width: 100%;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.hero2-button {
+  border-radius: 10px;
+  padding: 15px 36px;
+  font-size: 18px;
+}
 .Achivements-col{
-margin-bottom: 6.2%;
+margin-bottom: 0;
 }
 .Achivements-col img{
 width: 420px;
 height: 420px;
 border-radius: 10px;
 }
+.Achivements .row {
+  margin-top: 55px;
+}
 /*--Section 5th as Achivements CSS Ends--*/
 
 /*--Ratings as Section 6th CSS Starts--*/
 .Ratings{
 width: 201.6%;
-padding-bottom: 5.8%;
+padding-bottom: 4%;
+padding-top: 80px;
+}
+.Ratings p{
+  line-height: 1.7;
+  margin-bottom: -15;
+  font-weight: 400;
+  padding-top: 12px;
+  font-size: 25px;
+}
+.Ratings-col1 p{
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.Ratings-col p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 0;
+  font-weight: 300;
+  padding-top: 0;
 }
 .Ratings .row{
 padding: 35px;
@@ -2422,16 +3531,36 @@ margin-bottom: -79;
   margin-bottom: 0;
 }
 .Ratings-col1{
-margin-bottom: 3;
+margin-bottom: 1;
 margin-top: 0;
 flex-basis: 44%;
+}
+.Ratings-col1 h3 {
+  margin-top: 5px;
+  font-size: 20;
+  padding-bottom: 8;
+}
+.Ratings-col1 .fa {
+  color: #f44336;
+  margin-bottom: 15px;
+  font-size: 18;
+}
+.Ratings-col h3 {
+  margin-top: 5px;
+  font-size: 20;
+  padding-bottom: 8;
+}
+.Ratings-col .fa {
+  color: #f44336;
+  margin-bottom: 15px;
+  font-size: 18;
 }
 /*--Ratings as Section 6th CSS Ends--*/
 
 /*--Lta as Section 7th CSS Starts--*/
 .Lta{
 width: 201.6%;
-margin-top: 85;
+margin-top: 83;
 }
 .Lta h1{
 font-size: 37px;
@@ -2439,94 +3568,163 @@ font-weight: 600;
 line-height: 1.8;
 }
 .Lta p{
-padding-bottom: 55px;
+  padding-bottom: 50px;
+  line-height: 1.7;
+  padding-top: 12px;
+  font-weight: 400;
+  width: 90%;
+  margin: auto;
+  font-size: 25px;
 }
 .Lta-col img{
 width: 93%;
-margin-bottom: 3%;
+margin-bottom: 50;
 }
 .Hero3-button{
-  font-size: 19px;
+  font-size: 20px;
+}
+.Hero3-button {
+  border-radius: 50px;
+  padding: 16px 40px;
 }
 /*--Lta as Section 7th CSS Ends--*/
 
 /*--btt CSS Starts--*/
 .backtotop{
 width: 100%;
-margin-bottom: 85px;
-margin-top: -48;
+margin-bottom: 90px;
+margin-top: -55;
 }
 .btt {
-width: 50px;
-height: 50px;
+width: 55px;
+height: 55px;
 margin-left: 188%;
+}
+.svgIcon {
+  width: 14px;
 }
 /*--btt CSS Ends--*/
 
 /*--Footer as Section 8th CSS Starts--*/
 footer{
-width: 201.6%;
-border-top-left-radius: 50px;
-border-top-right-radius: 50px;
+  width: 201.6%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row{
+    width: 94%;
+    margin: auto;
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+  }
+  .logo{
+  width: 30%;
+  }
+  footer p{
+  font-size: 16px;
+  line-height: 1.4;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col1 h3{
+    padding-bottom: 20px;
+    font-size: 1.20em;
+  }
+  .footer-col1 p{
+    font-size: 16.2px;
+    line-height: 1.5;
+  }
+  .email-id {
+    padding-bottom: 10;
+  }
+  .footer-col1 h4 {
+    padding-top: 10px;
+    font-size: 1.1em;
+  }
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3{
+    padding-bottom: 26px;
+    font-size: 1.20em;
+  }
+  .footer-col2 ul li{
+    list-style: none;
+    margin-bottom: 18px;
+  }
+  .footer-col2 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17;
+  }
+  .footer-col3{
+  padding-top: 25px;
+  margin-left: 10px;
+  }
+  .footer-col3 h3{
+  padding-bottom: 13px;
+  font-size: 1.20em;
+  }
+  .footer-col3 form .far {
+    font-size: 20px;
+    margin-right: 13px;
+  }
+  .footer-col3 form input {
+    font-size: 17;
+  }
+  .footer-col3 form button .fas {
+    font-size: 19px;
+    color: #ccc;
+  }
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 105%;
+    color: #000;
+    background: #fff;
+    margin-right: 10px;
+    cursor: pointer;
 }
-.footer-row{
-  width: 94%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-.footer-col{
-  padding: 3px;
-  display: inline-block;
-}
-.logo{
-width: 30%;
-}
-footer p{
-font-size: 16px;
-}
-.footer-col1{
-padding-top: 25px;
-margin-left: 0px;
-}
-.footer-col2{
-padding-top: 25px;
-margin-left: 20px;
-}
-.footer-col3{
-padding-top: 25px;
-margin-left: 10px;
-}
-.footer-col3 h3{
-padding-bottom: 19px;
-}
-.footer-col4{
-padding-top: 25px;
-margin-left: 0px;
-}
-.footer-col5{
-padding-top: 36px;
-margin-left: 46%;
-}
-.footer-col5 h3 {
-padding-bottom: 10px;
-}
-.footer-col5 p {
-margin-left: -85px;
-}
-.underline1{
-display: none;
-}
-.underline2{
-display: none;
-}
-.underline3{
-display: none;
-}
-.underline4{
-display: none;
-}
-/*--Footer as Section 8th CSS Ends--*/
+  .footer-col5{
+  padding-top: 20px;
+  margin-left: 46%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 15px;
+    font-size: 1.20em;
+  }
+  .footer-col5 p {
+    margin-left: -85px;
+    padding-bottom: 10px;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
 
 /*Newsletter CSS Starts*/
 .popup {
@@ -2538,6 +3736,9 @@ display: none;
 }
 
 @media (min-width: 569px) and (max-width: 714px) {
+  h1 {
+    font-size: 40px;
+}
     /*--Section 1st CSS Starts--*/
 .Section{
   min-height: 253vh;
@@ -2570,6 +3771,7 @@ display: none;
   .button{
     font-size: 18px;
     border-radius: 50px;
+    padding: 15px 22px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -2614,27 +3816,50 @@ display: none;
   /*--Milestones as Section 2nd CSS Starts--*/
   .Milestones{
   width: 253%;
-  padding-top: 85px;
+  padding-top: 80px;
+  }
+  .Milestones p{
+    font-size: 25;
+    font-weight: 400;
+    padding-top: 18px;
+  }
+  .Milestones-col p{
+    font-weight: 300;
+    font-size: 23;
+    padding-top: 8px;
+  }
+  .Milestones-col p.bush{
+    padding-left: 32px;
+  }
+  .Milestones-col h3{
+    font-size: 1.17em;
   }
   .row{
-  margin-top: 5%;
+  margin-top: 70px;
   display: flex;
   justify-content: space-evenly;
   }
   .Milestones-col{
   border-radius: 5px;
   padding: 80px 3px;
+  margin-bottom: 0;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
   
   /*--Section 3rd as Campus CSS Starts--*/
   .Campus{
     width: 253%;
-    padding-top: 8px;
+    padding-top: 80px;
+  }
+  .Campus p{
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 25px;
+    padding-top: 12px;
   }
   .Campus-col{
-  margin-top: 2.3%;
-  margin-bottom: 12px;
+  margin-top: 17px;
+  margin-bottom: 0;
   }
   .Campus-col img{
   width: 95%;
@@ -2648,31 +3873,79 @@ display: none;
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
   width: 253%;
-  padding-top: 15px;
+  padding-top: 30px;
+  }
+  .facilities p{
+    font-weight: 400;
+    padding-top: 19px;
+    font-size: 25px;
   }
   .facilities-col{
-  margin-bottom: 10.7%;
+  margin-bottom: 0;
   }
   .facilities-col img{
   width: 420px;
   height: 420px;
   border-radius: 10px;
   }
+  .facilities-col h3 {
+    padding-top: 40px;
+    font-size: 26px;
+  }
+  .facilities-col p {
+    padding-bottom: 27px;
+    padding-top: 17px;
+    font-size: 21px;
+    font-weight: 300;
+  }
+  .hero-button {
+    border-radius: 50px;
+    padding: 15px 36px;
+    font-size: 18px;
+  }
   /*--Section 4th as Facilities CSS Ends--*/
   
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
   width: 253%;
-  padding-top: 0px;
+  padding-top: 115px;
   padding-bottom: 0px;
   }
+  .Achivements P{
+    line-height: 1.7;
+    font-weight: 400;
+    padding-top: 12px;
+    margin: auto;
+    width: 85%;
+    font-size: 25px;
+  }
+  .Achivements-col h3 {
+    padding-top: 35;
+    font-size: 25px;
+  }
+  .Achivements-col p {
+    padding-bottom: 26px;
+    font-size: 21px;
+    padding-top: 13px;
+    width: 100%;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .hero2-button {
+    border-radius: 10px;
+    padding: 15px 36px;
+    font-size: 18px;
+}
   .Achivements-col{
-  margin-bottom: 6.2%;
+  margin-bottom: 0;
   }
   .Achivements-col img{
   width: 420px;
   height: 420px;
   border-radius: 10px;
+  }
+  .Achivements .row {
+    margin-top: 55px;
   }
   /*--Section 5th as Achivements CSS Ends--*/
   
@@ -2680,6 +3953,14 @@ display: none;
   .Ratings{
   width: 253%;
   padding-bottom: 4%;
+  padding-top: 79px;
+  }
+  .Ratings p{
+    line-height: 1.7;
+    margin-bottom: -6;
+    font-weight: 400;
+    padding-top: 12px;
+    font-size: 25px;
   }
   .Ratings .row{
   padding: 35px;
@@ -2695,12 +3976,46 @@ display: none;
   margin-top: 0;
   flex-basis: 43.5%;
   }
+  .Ratings-col1 p{
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .Ratings-col p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 0;
+    font-weight: 300;
+    padding-top: 0;
+  }
+  .Ratings-col1 h3 {
+    margin-top: 5px;
+    font-size: 20;
+    padding-bottom: 5;
+  }
+  .Ratings-col1 .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 18;
+  }
+  .Ratings-col h3 {
+    margin-top: 5px;
+    font-size: 20;
+    padding-bottom: 5;
+  }
+  .Ratings-col .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 18;
+  }
   /*--Ratings as Section 6th CSS Ends--*/
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
   width: 252.9%;
-  margin-top: 103;
+  margin-top: 90;
   }
   .Lta h1{
   font-size: 37px;
@@ -2708,28 +4023,41 @@ display: none;
   line-height: 1.8;
   }
   .Lta p{
-  padding-bottom: 55px;
+    padding-bottom: 60px;
+    line-height: 1.6;
+    padding-top: 12px;
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+    font-size: 25px;
   }
   .Lta-col img{
   width: 93%;
-  margin-bottom: 3%;
+  margin-bottom: 50;
   }
   .Hero3-button{
-    font-size: 19px;
+    font-size: 20px;
   }
+  .Hero3-button {
+    border-radius: 50px;
+    padding: 16px 40px;
+}
   /*--Lta as Section 7th CSS Ends--*/
   
   /*--btt CSS Starts--*/
   .backtotop{
   width: 100%;
-  margin-bottom: 88px;
-  margin-top: -48;
+  margin-bottom: 95px;
+  margin-top: -58;
   }
   .btt {
-  width: 50px;
-  height: 50px;
-  margin-left: 236%;
+  width: 55px;
+  height: 55px;
+  margin-left: 234%;
   }
+  .svgIcon {
+    width: 15px;
+}
   /*--btt CSS Ends--*/
   
   /*--Footer as Section 8th CSS Starts--*/
@@ -2809,6 +4137,9 @@ display: none;
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
     /*--Section 1st CSS Starts--*/
+    h1 {
+      font-size: 40px;
+  }
 .Section{
     min-height: 203vh;
     width: 202%;
@@ -2836,6 +4167,7 @@ display: none;
   .button{
     font-size: 14px;
     border-radius: 50px;
+    padding: 10px 20px;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -2880,26 +4212,49 @@ display: none;
   /*--Milestones as Section 2nd CSS Starts--*/
 .Milestones{
     width: 200%;
-    padding-top: 60px;
+    padding-top: 63px;
+  }
+  .Milestones p{
+    font-weight: 400;
+    font-size: 19;
+    padding-top: 10;
+  }
+  .Milestones-col p{
+    font-weight: 300;
+    font-size: 20;
+    padding-top: 8px;
+  }
+  .Milestones-col h3{
+    font-size: 1.17em;
   }
   .row{
-    margin-top: 7.1%;
+    margin-top: 45px;
     display: inline-block;
   }
   .Milestones-col{
     border-radius: 5px;
     padding: 40px 195px;
+    margin-bottom: 5%;
+  }
+  .Milestones-col p.bush {
+    padding-left: 10px;
   }
   /*--Milestones as Section 2nd CSS Ends--*/
 
   /*--Section 3rd as Campus CSS Starts--*/
 .Campus{
     width: 200%;
-    padding-top: 40px;
+    padding-top: 35px;
+  }
+  .Campus p{
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 19px;
+    padding-top: 9px;
   }
   .Campus-col{
-    margin-top: 3%;
-    margin-bottom: 12px;
+    margin-top: 15px;
+    margin-bottom: 0px;
   }
   .Campus-col img{
     width: 90%;
@@ -2908,12 +4263,23 @@ display: none;
     top: 30;
     left: 33;
   }
+  .layer h2{
+    font-size: 26px;
+  }
   /*--Section 3rd as Campus CSS Ends--*/
 
   /*--Section 4th as Facilities CSS Starts--*/
 .facilities{
     width: 201.6%;
-    padding-top: 24.2px;
+    padding-top: 43px;
+  }
+  .facilities .row {
+    margin-top: 52px;
+}
+  .facilities p{
+    font-weight: 400;
+    padding-top: 8px;
+    font-size: 19px;
   }
   .facilities-col{
     margin-bottom: 14%;
@@ -2923,16 +4289,56 @@ display: none;
     height: 480px;
     border-radius: 10px;
   }
+  .facilities-col h3 {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .facilities-col p {
+    padding-bottom: 22px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .hero-button {
+    border-radius: 50px;
+    padding: 15px 36px;
+    font-size: 18px;
+  }
   /*--Section 4th as Facilities CSS Ends--*/
 
   /*--Section 5th as Achivements CSS Ends--*/
 .Achivements{
     width: 201.6%;
-    padding-top: 62px;
-    padding-bottom: 15px;
+    padding-top: 33px;
+    padding-bottom: 0px;
   }
+  .Achivements .row {
+    margin-top: 45px;
+  }
+  .Achivements P{
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 19px;
+    padding-top: 5px;
+  }
+  .Achivements-col h3 {
+    padding-top: 29;
+    font-size: 25px;
+  }
+  .Achivements-col p {
+    padding-bottom: 22px;
+    font-size: 20px;
+    padding-top: 13px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .hero2-button {
+    border-radius: 10px;
+    padding: 15px 36px;
+    font-size: 18px;
+}
   .Achivements-col{
-    margin-bottom: 11.5%;
+    margin-bottom: 13%;
   }
   .Achivements-col img{
     width: 480px;
@@ -2945,6 +4351,14 @@ display: none;
 .Ratings{
     width: 201.6%;
     padding-bottom: 4%;
+    padding-top: 0px;
+  }
+  .Ratings p{
+    line-height: 1.7;
+    margin-bottom: -15;
+    font-weight: 400;
+    font-size: 19px;
+    padding-top: 8px;
   }
   .Ratings-col{
     margin-bottom: 33;
@@ -2952,10 +4366,45 @@ display: none;
   .Ratings .row{
     padding: 35px;
     margin-top: 3%;
+    margin-bottom: -63;
   }
   .Ratings-col1{
     margin-bottom: 34;
     margin-top: -25;
+  }
+  .Ratings-col p {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .Ratings-col1 p {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .Ratings-col1 h3 {
+    margin-top: 5px;
+    font-size: 20;
+    padding-bottom: 5;
+  }
+  .Ratings-col1 .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 18;
+  }
+  .Ratings-col h3 {
+    margin-top: 5px;
+    font-size: 20;
+    padding-bottom: 5;
+  }
+  .Ratings-col .fa {
+    color: #f44336;
+    margin-bottom: 15px;
+    font-size: 18;
   }
   /*--Ratings as Section 6th CSS Ends--*/
 
@@ -2970,19 +4419,27 @@ display: none;
     margin-top: -33;
   }
   .Lta p{
-    padding-bottom: 55px;
+    padding-bottom: 45px;
+    line-height: 1.7;
+    padding-top: 8px;
+    font-size: 19px;
+    font-weight: 400;
   }
   .Lta-col img{
     width: 90%;
-    margin-bottom: 4%;
+    margin-bottom: 35;
+  }
+  .Hero3-button {
+    border-radius: 10px;
+    padding: 14px 34px;
   }
   /*--Lta as Section 7th CSS Ends--*/
 
   /*--btt CSS Starts--*/
 .backtotop{
     width: 100%;
-    margin-bottom: 65px;
-    margin-top: -49;
+    margin-bottom: 68px;
+    margin-top: -52.5;
   }
   .btt {
     width: 50px;
@@ -3015,6 +4472,7 @@ footer{
   }
   footer p{
     font-size: 16px;
+    line-height: 1.5;
   }
   .footer-col1{
     padding-top: 25px;

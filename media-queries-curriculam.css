@@ -10,6 +10,9 @@
     padding-top: 470px;
     color: #fff;
   }
+  .littleaboutus p{
+    line-height: 1.6;
+  }
   .wrapper {
     width: 0px;
     height: 0px;
@@ -180,18 +183,18 @@
   .littleaboutus p{
     color: #fff;
     font-size: 62px;
-    line-height: 1.4;
+    line-height: 1.8;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 15px 40px;
+    padding: 30px 40px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 15px 50px;
+    padding: 30px 50px;
     padding-top: 0px;
   }
   .aboutusread{
@@ -677,18 +680,18 @@ footer{
   .littleaboutus p{
     color: #fff;
     font-size: 62px;
-    line-height: 1.4;
+    line-height: 1.7;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 15px 40px;
+    padding: 22px 40px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 15px 50px;
+    padding: 20px 50px;
     padding-top: 0px;
   }
   .aboutusread{
@@ -697,7 +700,7 @@ footer{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 25px 50px;
+    padding: 35px 55px;
     font-size: 55px;
     background: #2FAAE5;
     position: relative;
@@ -1173,13 +1176,13 @@ footer{
   .littleaboutus p{
     color: #fff;
     font-size: 62px;
-    line-height: 1.4;
+    line-height: 1.66;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 15px 40px;
+    padding: 18px 40px;
   }
   .text-formatting1{
     background: #E9AF38;
@@ -1193,7 +1196,7 @@ footer{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 25px 50px;
+    padding: 30px 55px;
     font-size: 55px;
     background: #2FAAE5;
     position: relative;
@@ -1658,18 +1661,18 @@ footer{
   .littleaboutus p{
     color: #fff;
     font-size: 57px;
-    line-height: 1.333;
+    line-height: 1.73;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 22px 30px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 20px 30px;
     padding-top: 0px;
   }
   .aboutusread{
@@ -1678,7 +1681,7 @@ footer{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 20px 48px;
+    padding: 30px 55px;
     font-size: 50px;
     background: #2FAAE5;
     position: relative;
@@ -2144,18 +2147,18 @@ footer{
   .littleaboutus p{
     color: #fff;
     font-size: 57px;
-    line-height: 1.333;
+    line-height: 1.68;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 18px 28px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 18px 28px;
     padding-top: 0px;
   }
   .aboutusread{
@@ -2164,7 +2167,7 @@ footer{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 20px 48px;
+    padding: 28px 52px;
     font-size: 50px;
     background: #2FAAE5;
     position: relative;
@@ -2629,18 +2632,18 @@ footer{
   .littleaboutus p{
     color: #fff;
     font-size: 57px;
-    line-height: 1.333;
+    line-height: 1.6;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 15px 28px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 15px 28px;
     padding-top: 0px;
   }
   .aboutusread{
@@ -2649,7 +2652,7 @@ footer{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 20px 48px;
+    padding: 28px 50px;
     font-size: 50px;
     background: #2FAAE5;
     position: relative;
@@ -3114,18 +3117,18 @@ footer{
   .littleaboutus p{
     color: #fff;
     font-size: 44px;
-    line-height: 1.333;
+    line-height: 1.5;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 15px 28px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 15px 25px;
     padding-top: 0px;
   }
   .aboutusread{
@@ -3134,7 +3137,7 @@ footer{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 20px 48px;
+    padding: 25px 48px;
     font-size: 40px;
     background: #2FAAE5;
     position: relative;
@@ -3264,7 +3267,7 @@ footer{
 .books{
   width: 400%;
   margin: auto;
-  padding-top: 115px;
+  padding-top: 120px;
 }
 .books h1{
   text-align: center;
@@ -3599,18 +3602,18 @@ footer{
   .littleaboutus p{
     color: #fff;
     font-size: 35px;
-    line-height: 1.5;
+    line-height: 1.7;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 12px 25px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 12px 20px;
     padding-top: 0px;
   }
   .aboutusread{
@@ -3619,7 +3622,7 @@ footer{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 12px 34px;
+    padding: 20px 34px;
     font-size: 33px;
     background: #2FAAE5;
     position: relative;
