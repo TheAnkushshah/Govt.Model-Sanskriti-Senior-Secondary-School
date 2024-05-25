@@ -39,5 +39,82 @@
 
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
-
+  /*--Section 1st CSS Starts--*/
+  .wrapper {
+    width: 0px;
+    height: 0px;
+  }
+  .eraseit{
+    display: none;
+  }
+  .Aboutus {
+    min-height: 403vh;
+    width: 400%;
+    top: 0%;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Aboutus nav {
+    height: 150;
+    background-color: transparent;
+    transition: background-color 3600s ease;
+    position: absolute;
+    top: 85;
+    width: 92%;
+    z-index: 1000;
+  }
+    .Aboutus nav .logohumain{
+      width: 295px;
+      margin-left: -8%;
+    }
+    .Aboutus .nav-links{
+      display: none;
+    }
+    .Aboutus .btnLogin-popup img{
+      margin-top: 10;
+      margin-left: 55;
+    }
+    .btnLogin-popup img {
+      width: 100px;
+    }
+    .Aboutus .sub-menu-wrap{
+      top: 85%;
+    }
+    .Aboutus .wrapper{
+      margin-top: 70%;
+      transform: translate(-15%);
+    }
+    .littleaboutus {
+      width: 90%;
+      color: #fff;
+      position: absolute;
+      top: 38.9%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+    .littleaboutus h1{
+      font-size: 62px;
+      padding-bottom: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .littleaboutus p{
+      color: #fff;
+      font-size: 35px;
+      line-height: 1.7;
+      font-weight: 500;
+    }
+    .aboutusread{
+      margin-top: 35;
+      display: inline-block;
+      text-decoration: none;
+      padding: 19px 34px;
+      font-size: 30px;
+      background: #2FAAE5;
+      position: relative;
+      cursor: pointer;
+    }
+    /*--Section 1st CSS Ends--*/
 }

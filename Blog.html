@@ -15,7 +15,7 @@
     </head>
     <body>
         <!--Section 1st Starts-->
-        <section class="Aboutus" style="background: url(Blog/Blog\ Background.png); background-size: cover;">
+        <section class="Aboutus" style="background: url(Blog/Blog\ Background.png); background-size: cover; background-position: top;">
             <nav id="header">
                 <a href="index.html"><img src="Main/logo.png" class="logohumain"></a>
                 <div class="nav-links" id="navLinks">
@@ -80,8 +80,8 @@
                 </div>
             </div>
             <div class="littleaboutus" style="text-align: left;">
-                <h1 style="margin-left: 2%;"><b>Stories Shared</b></h1>
-                <h1 style="margin-left: 72%; margin-top: -22.4%;  padding-top: 330px;"><b>Young Leaders</b></h1>
+                <h1 style="margin-left: 2%;" id="addup"><b>Stories Shared</b></h1>
+                <h1 style="margin-left: 72%; margin-top: -22.4%;  padding-top: 330px;" class="eraseit"><b>Young Leaders</b></h1>
                 <p style="padding-left: 2.2%;">Engaging Narratives and Voices of Student Journeys<br>and Accomplishments, Perspectives and<br>Triumphs a Collection of Untold<br> 
                     Stories from Our Young<br> Genration. . .</p>
                    <a href="#Fullaboutus" class="aboutusread" style="background-color: #ffffff; color: black; margin-left: 2.1%; border-radius: 3px;">Jump Into Stories</a>
@@ -452,5 +452,15 @@
     }
         </script>
         <!--Javascript for Newsletter Ends-->
+
+        <!--Javascript for Custom Text Media Queries Ends-->
+        <script>
+            const addup = document.getElementById("addup");
+            
+            if (window.matchMedia("(max-width: 568px)").matches) {
+                addup.textContent = "Stories Shared By Young Leaders";
+            }
+        </script>
+        <!--Javascript for Custom Text Media Queries Ends-->
     </body>
 </html>        
