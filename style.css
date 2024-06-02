@@ -1914,9 +1914,9 @@ select{
 
 /*--Section 2nd CSS Starts--*/
 .newsroom{
-  width: 89.3%;
+  width: 94%;
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 3.5%;
   margin-top: -0.5%;
 }
 .newsroom h1{
@@ -1937,7 +1937,7 @@ select{
 
 /*--Section 3rd CSS Starts--*/
 .achieve-blogs{
-  width: 85%;
+  width: 90%;
   margin: auto;
   margin-bottom: 4%;
 }
@@ -1951,23 +1951,25 @@ select{
 }
 .achieve-blogs-col img{
   border-radius: 10px;
+  width: 350;
 }
 .blogs-text{
   color: #333333;
   font-weight: 800;
   cursor: pointer;
   line-height: 1.5;
+  font-size: 21px;
 }
 .blogs-text:hover{
   color: rgb(252, 111, 60);
 }
 .blogs-head{
-  font-size: 16px;
+  font-size: 18px;
   padding-top: 16px;
   color: orangered;
 }
 .blogs-sm-text{
-  font-size: 17px;
+  font-size: 18px;
   margin-top: -1%;
   font-weight: 400;
 }
@@ -1975,7 +1977,7 @@ select{
 
 /*--Section 4th CSS Starts--*/
 .campus-news{
-  width: 85%;
+  width: 90%;
   margin: auto;
   padding-bottom: 4%;
 }
@@ -1989,12 +1991,13 @@ select{
 }
 .campus-news-col img{
   border-radius: 10px;
+  width: 350;
 }
 /*--Section 4th CSS Ends--*/
 
 /*--Section 5th CSS Starts--*/
 .facility-news{
-  width: 85%;
+  width: 90%;
   margin: auto;
   margin-bottom: 4%;
 }
@@ -2008,14 +2011,15 @@ select{
 }
 .facility-news-col img{
   border-radius: 10px;
+  width: 350;
 }
 /*--Section 5th CSS Ends--*/
 
 /*--Section 6th CSS Starts--*/
 .Developer{
-  width: 85%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 6%;
+  margin-bottom: 12%;
 }
 .Developer h1{
   text-align: center;
@@ -2026,15 +2030,18 @@ select{
   margin-top: 4.5%;
 }
 .final-developer-col video{
-  width: 99%;
+  width: 92%;
   border-radius: 20px;
+  margin-left: -25;
 }
 .final-developer-col img{
   border-radius: 20px;
+  width: 191%;
+  margin-left: -160;
 }
 .scannerqr{
-  margin-top: -169%;
-  margin-left: 35.5%;
+  margin-top: -322%;
+  margin-left: -16%;
 }
 /*--Section 6th CSS Ends--*/
 /*--Blog Page CSS Ends--*/
@@ -2066,10 +2073,10 @@ select{
 
 /*--Section 3rd CSS Starts--*/
 .fee{
-  width: 92%;
+  width: 96.3%;
   margin: auto;
   margin-bottom: 4.2%;
-  margin-top: -1%;
+  margin-top: -1.5%;
 }
 .fee h1{
   text-align: center;
@@ -2088,7 +2095,7 @@ select{
 
 /*--Section 4th CSS Starts--*/
 .add-form{
-  width: 88.2%;
+  width: 92%;
   margin: auto;
 }
 .add-form h1{
@@ -2116,7 +2123,8 @@ select{
 .maper{
   width: 90%;
   margin: auto;
-  margin-bottom: 6%;
+  margin-bottom: 5.5%;
+  margin-top: -1%;
 }
 .maper h1{
   text-align: center;

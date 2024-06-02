@@ -146,7 +146,7 @@
 .achieve-blogs{
   width: 400%;
   margin: auto;
-  margin-top: 75px;
+  margin-top: 70px;
   margin-bottom: 0%;
 }
 .achieve-blogs h1{
@@ -303,6 +303,7 @@
 .final-developer-col video{
   width: 90%;
   border-radius: 20px;
+  margin-left: 0;
 }
 .final-developer-col img{
   border-radius: 20px;
@@ -325,7 +326,7 @@
   width: 75px;
   height: 75px;
   top: 92%;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 .svgIcon {
   width: 18px;
