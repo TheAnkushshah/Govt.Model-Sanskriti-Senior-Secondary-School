@@ -90,31 +90,392 @@
       width: 90%;
       color: #fff;
       position: absolute;
-      top: 38.9%;
+      top: 41%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
     .littleaboutus h1{
-      font-size: 62px;
+      font-size: 67px;
       padding-bottom: 22px;
       font-weight: bold;
       color: #fff;
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 35px;
+      font-size: 40px;
       line-height: 1.7;
       font-weight: 500;
     }
     .aboutusread{
-      margin-top: 35;
+      margin-top: 40;
       display: inline-block;
       text-decoration: none;
       padding: 19px 34px;
-      font-size: 30px;
+      font-size: 35px;
       background: #2FAAE5;
       position: relative;
       cursor: pointer;
     }
     /*--Section 1st CSS Ends--*/
+
+    /*--Section 2nd CSS Starts--*/
+.newsroom{
+  width: 400%;
+  margin: auto;
+  margin-bottom: 0%;
+  margin-top: 100px;
+}
+.newsroom h1{
+  text-align: center;
+  font-size: 65px;
+}
+.newsroom-col{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  text-align: center;
+}
+.top-news-col img{
+  border-radius: 15px;
+  margin-bottom: 8%;
+  width: 70%;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.achieve-blogs{
+  width: 400%;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 0%;
+}
+.achieve-blogs h1{
+  text-align: center;
+  font-size: 65px;
+}
+.achieve-blogs-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+}
+.achieve-blogs-col img{
+  border-radius: 10px;
+  width: 345px;
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.5;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  padding-top: 30px;
+  color: orangered;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  margin-top: -1%;
+  font-weight: 400;
+}
+.tobehidden{
+  display: none;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.campus-news{
+  width: 400%;
+  overflow: hidden;
+  margin: auto;
+  padding-bottom: 0%;
+  margin-top: 75px;
+}
+.campus-news h1{
+  text-align: center;
+  font-size: 65px;
+}
+.campus-news-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+  width: 102%;
+}
+.campus-news-col img{
+  border-radius: 10px;
+  width: 345px;
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.5;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  padding-top: 30px;
+  color: orangered;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  margin-top: -1%;
+  font-weight: 400;
+}
+.tobehidden{
+  display: none;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.facility-news{
+  width: 400%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+.facility-news h1{
+  text-align: center;
+  font-size: 65px;
+}
+.facility-news-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+  width: 101.3%;
+}
+.facility-news-col img{
+  border-radius: 10px;
+  width: 345;
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.5;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  padding-top: 30px;
+  color: orangered;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  margin-top: -1%;
+  font-weight: 400;
+}
+.tobehidden{
+  display: none;
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Developer{
+  width: 400%;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 85px;
+}
+.Developer h1{
+  text-align: center;
+  font-size: 65px;
+}
+.developer-col{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 75px;
+}
+.final-developer-col{
+  margin-left: 25;
+}
+.final-developer-col video{
+  width: 90%;
+  border-radius: 20px;
+}
+.final-developer-col img{
+  border-radius: 20px;
+  width: 103%;
+  width: 157%;
+  margin-left: -120;
+}
+.scannerqr{
+  margin-top: -270%;
+  margin-left: -24%;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 100px;
+}
+.btt {
+  width: 75px;
+  height: 75px;
+  top: 92%;
+  margin-top: 100px;
+}
+.svgIcon {
+  width: 18px;
+}
+/*--btt CSS Ends--*/
+
+  /*--Footer as Section 8th CSS Starts--*/
+  footer{
+    width: 400%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+  .footer-row{
+    width: 85%;
+    margin: auto;
+    display: inline-block;
+  }
+  .footer-col{
+    padding: 3px;
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    width: 370px;
+    margin-left: -50px;
+    height: 370px;
+  }
+  footer p{
+    font-size: 31px;
+    line-height: 1.4;
+  }
+  .footer-col1{
+    padding-top: 25px;
+    margin-left: 10px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 56px;
+    padding-top: 30px;
+    font-size: 36px;
+  }
+  .footer-col1 p {
+    margin-left: -5px;
+    padding-bottom: 20;
+  }
+  .footer-col2{
+    padding-top: 50px;
+    margin-left: 10px;
+  }
+  .footer-col3{
+    padding-top: 38px;
+    margin-left: 10px;
+  }
+  .footer-col3 h3{
+    padding-bottom: 19px;
+  }
+  .footer-col1 h4 {
+    padding-top: 50px;
+    font-size: 36px;
+  }
+  .footer-col2 {
+    padding-top: 90px;
+    margin-left: 10px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 65px;
+    padding-top: 30px;
+    font-size: 36px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 35px;
+  }
+  .footer-col2 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .footer-col3 {
+    padding-top: 38px;
+    margin-left: 10px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 45px;
+    padding-top: 35px;
+    font-size: 36px;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 35px;
+    margin-right: 20px;
+  }
+  .footer-col3 form input {
+    font-size: 27;
+  }
+  .footer-col3 form button .fas {
+    font-size: 31px;
+    color: #ccc;
+  }
+  .footer-col4 {
+    padding-top: 40px;
+    margin-left: 6px;
+  }
+  .footer-col4 .fab {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 170%;
+    margin-right: 25px;
+  }
+  .footer-col5 {
+    padding-top: 36px;
+    margin-left: 10px;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 35px;
+    padding-top: 55px;
+    font-size: 36px;
+  }
+  .footer-col5 p{
+    margin-bottom: 30px;
+    margin-left: -5;
+  }
+  .underline1{
+    display: none;
+  }
+  .underline2{
+    display: none;
+  }
+  .underline3{
+    display: none;
+  }
+  .underline4{
+    display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+
+/*Newsletter CSS Starts*/
+.popup {
+  top: 76%;
+  left: 74%;
+  width: 450px;
+}
+  /*Newsletter CSS Ends*/
 }

@@ -1954,9 +1954,22 @@ select{
 }
 .blogs-text{
   color: #333333;
+  font-weight: 800;
+  cursor: pointer;
+  line-height: 1.5;
 }
 .blogs-text:hover{
   color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 16px;
+  padding-top: 16px;
+  color: orangered;
+}
+.blogs-sm-text{
+  font-size: 17px;
+  margin-top: -1%;
+  font-weight: 400;
 }
 /*--Section 3rd CSS Ends--*/
 
@@ -2018,6 +2031,10 @@ select{
 }
 .final-developer-col img{
   border-radius: 20px;
+}
+.scannerqr{
+  margin-top: -169%;
+  margin-left: 35.5%;
 }
 /*--Section 6th CSS Ends--*/
 /*--Blog Page CSS Ends--*/
