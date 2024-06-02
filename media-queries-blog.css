@@ -72,6 +72,9 @@
     .Aboutus .nav-links{
       display: none;
     }
+    .butblog{
+      background: url(Blog/phone\ blog\ bg.png);
+    }
     .Aboutus .btnLogin-popup img{
       margin-top: 10;
       margin-left: 55;
@@ -95,14 +98,14 @@
       transform: translate(-50%, -50%);
   }
     .littleaboutus h1{
-      font-size: 67px;
+      font-size: 73px;
       padding-bottom: 22px;
       font-weight: bold;
       color: #fff;
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 40px;
+      font-size: 44px;
       line-height: 1.7;
       font-weight: 500;
     }
@@ -111,7 +114,7 @@
       display: inline-block;
       text-decoration: none;
       padding: 19px 34px;
-      font-size: 35px;
+      font-size: 38px;
       background: #2FAAE5;
       position: relative;
       cursor: pointer;

@@ -1909,7 +1909,9 @@ select{
 
 /*--Blog Page CSS Starts--*/
 /*--Section 1st CSS Starts--*/
-/*--The css of 1st section is too short so i did it in inline--*/
+.butblog{
+  background: url(Blog/Blog\ Background.png);
+}
 /*--Section 1st CSS Ends--*/
 
 /*--Section 2nd CSS Starts--*/
