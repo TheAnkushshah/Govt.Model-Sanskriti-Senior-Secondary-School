@@ -54,7 +54,7 @@
     .Aboutus nav {
       height: 150;
       background-color: transparent;
-      transition: background-color 3600s ease;
+      transition: background-color 12600s ease;
       position: absolute;
       top: 85;
       width: 92%;
@@ -345,8 +345,8 @@
     width: calc(82vw - 0px);
   }
   .scannerqr{
-    margin-top: -186%;
-    margin-left: 25%;
+    margin-top: -180%;
+    margin-left: 27%;
     font-size: calc(4.5vw - 0px);
   }
   /*--Section 6th CSS Ends--*/
@@ -534,7 +534,7 @@ footer{
   .Aboutus nav {
     height: 150;
     background-color: transparent;
-    transition: background-color 3600s ease;
+    transition: background-color 12600s ease;
     position: absolute;
     top: 85;
     width: 92%;
@@ -574,7 +574,7 @@ footer{
   }
     .littleaboutus h1{
       font-size: 73px;
-      padding-bottom: 22px;
+      padding-bottom: 12px;
       font-weight: bold;
       color: #fff;
     }
@@ -585,7 +585,7 @@ footer{
       font-weight: 500;
     }
     .aboutusread{
-      margin-top: 40;
+      margin-top: 50;
       display: inline-block;
       text-decoration: none;
       padding: 19px 34px;
@@ -696,7 +696,7 @@ footer{
   width: 400%;
   margin: auto;
   padding-bottom: 0%;
-  margin-top: 75px;
+  margin-top: 73px;
 }
 .campus-news h1{
   text-align: center;
