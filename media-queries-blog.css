@@ -114,6 +114,7 @@
       display: inline-block;
       text-decoration: none;
       padding: 19px 34px;
+      border-radius: 12px;
       font-size: 38px;
       background: #2FAAE5;
       position: relative;
@@ -126,7 +127,7 @@
   width: 400%;
   margin: auto;
   margin-bottom: 0%;
-  margin-top: 100px;
+  margin-top: 95px;
 }
 .newsroom h1{
   text-align: center;
