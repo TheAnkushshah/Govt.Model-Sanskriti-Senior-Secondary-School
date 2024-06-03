@@ -1938,6 +1938,18 @@ select{
   margin-bottom: 8%;
   width: 70%;
 }
+.moverright{
+  width: 55px; 
+  margin-top: -54%; 
+  margin-right: -72%; 
+  cursor: pointer;
+}
+.moverleft{
+  width: 55px; 
+  margin-top: -54%; 
+  margin-left: -72%; 
+  cursor: pointer;
+}
 /*--Section 2nd CSS Ends--*/
 
 /*--Section 3rd CSS Starts--*/
