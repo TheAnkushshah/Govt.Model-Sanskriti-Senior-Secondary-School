@@ -1918,6 +1918,9 @@ select{
 .prrhuublog{
   text-align: left;
 }
+.sometop{
+  margin-bottom: 100px;
+}
 /*--Section 1st CSS Ends--*/
 
 /*--Section 2nd CSS Starts--*/
@@ -1933,7 +1936,7 @@ select{
 .newsroom-col{
   display: flex;
   justify-content: space-between;
-  margin-top: 4.5%;
+  margin-top: 3.9%;
   text-align: center;
 }
 .top-news-col img{

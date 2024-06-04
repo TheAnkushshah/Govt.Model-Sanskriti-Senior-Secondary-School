@@ -33,6 +33,492 @@
 
 }
 
+@media only screen and (max-width: 850px) {
+  /*--Section 1st CSS Starts--*/
+  .wrapper {
+    width: 0px;
+    height: 0px;
+  }
+  .eraseit{
+    display: none;
+  }
+  .Aboutus {
+    min-height: 403vh;
+    width: 400%;
+    top: 0%;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Aboutus nav {
+    height: 150;
+    background-color: transparent;
+    transition: background-color 12600s ease;
+    position: absolute;
+    top: 85;
+    width: 92%;
+    z-index: 1000;
+  }
+    .Aboutus nav .logohumain{
+      width: 295px;
+      margin-left: -8%;
+    }
+    .Aboutus .nav-links{
+      display: none;
+    }
+    .butblog{
+      background: url(Blog/Blog\ bg\ others.png);
+    }
+    .prrhuublog{
+      text-align: center;
+    }
+    .ekdum{
+      margin-right: 2%;
+    }
+    .Aboutus .btnLogin-popup img{
+      margin-top: 10;
+      margin-left: 55;
+    }
+    .btnLogin-popup img {
+      width: 100px;
+    }
+    .Aboutus .sub-menu-wrap{
+      top: 85%;
+    }
+    .Aboutus .wrapper{
+      margin-top: 70%;
+      transform: translate(-15%);
+    }
+    .littleaboutus {
+      width: 90%;
+      color: #fff;
+      position: absolute;
+      top: 42%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+  }
+    .littleaboutus h1{
+      font-size: 130px;
+      padding-bottom: 10px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .littleaboutus p{
+      color: #fff;
+      font-size: 64px;
+      line-height: 1.7;
+      font-weight: 500;
+    }
+    .aboutusread{
+      margin-top: 40;
+      display: inline-block;
+      text-decoration: none;
+      padding: 25px 40px;
+      border-radius: 12px;
+      font-size: 47px;
+      background: #2FAAE5;
+      position: relative;
+      cursor: pointer;
+    }
+    /*--Section 1st CSS Ends--*/
+
+    /*--Section 2nd CSS Starts--*/
+.newsroom{
+  width: 400%;
+  margin: auto;
+  margin-bottom: 0%;
+  margin-top: 130px;
+}
+.newsroom h1{
+  text-align: center;
+  font-size: 85px;
+}
+.newsroom-col{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 85px;
+  text-align: center;
+  width: 94%;
+  margin: auto;
+}
+.top-news-col img{
+  border-radius: 15px;
+  margin-bottom: 8%;
+  width: 70%;
+}
+.top-news-col img {
+  width: calc(57vw - 0px); /* Adjust width with padding or margin */
+}
+.moverright{
+  width: 55px; 
+  margin-top: -72%; 
+  margin-right: -100%; 
+  cursor: pointer;
+  width: calc(17vw - 0px);
+}
+.moverleft{
+  width: 55px; 
+  margin-top: -72%; 
+  margin-left: -100%; 
+  width: calc(17vw - 0px);
+  cursor: pointer;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.achieve-blogs{
+  width: 400%;
+  margin: auto;
+  margin-top: 95px;
+  margin-bottom: 0%;
+}
+.achieve-blogs h1{
+  text-align: center;
+  font-size: 85px;
+}
+.achieve-blogs-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+}
+.achieve-blogs-col img{
+  border-radius: 10px;
+  width: 345px;
+  width: calc(110vw - 0px);
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.5;
+  font-size: calc(6.6vw - 0px);
+  padding-top: 5.5%;
+  padding-bottom: 3.5%;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  color: orangered;
+  font-size: calc(7.2vw - 0px);
+  padding-top: 8%;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  font-size: calc(6.9vw - 0px);
+  font-weight: 400;
+  margin-top: 0.2%;
+}
+.tobehidden{
+  display: none;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.campus-news{
+  width: 400%;
+  margin: auto;
+  padding-bottom: 0%;
+  margin-top: 120px;
+}
+.campus-news h1{
+  text-align: center;
+  font-size: 85px;
+}
+.campus-news-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+}
+.campus-news-col img{
+  border-radius: 10px;
+  width: 345px;
+  width: calc(110vw - 0px);
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.5;
+  font-size: calc(6.6vw - 0px);
+  padding-top: 5.5%;
+  padding-bottom: 3.5%;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  color: orangered;
+  font-size: calc(7.2vw - 0px);
+  padding-top: 8%;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  font-size: calc(6.9vw - 0px);
+  font-weight: 400;
+  margin-top: 0.2%;
+}
+.tobehidden{
+  display: none;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.facility-news{
+  width: 400%;
+  margin: auto;
+  margin-top: 135px;
+  margin-bottom: 0;
+}
+.facility-news h1{
+  text-align: center;
+  font-size: 85px;
+}
+.facility-news-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+}
+.facility-news-col img{
+  border-radius: 10px;
+  width: 345;
+  width: calc(110vw - 0px);
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.5;
+  font-size: calc(6.6vw - 0px);
+  padding-top: 5.5%;
+  padding-bottom: 3.5%;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  font-size: calc(7.2vw - 0px);
+  color: orangered;
+  padding-top: 8%;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  font-size: calc(6.9vw - 0px);
+  font-weight: 400;
+  margin-top: 0.2%;
+}
+.tobehidden{
+  display: none;
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Developer{
+  width: 400%;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 135px;
+}
+.Developer h1{
+  text-align: center;
+  font-size: 85px;
+}
+.developer-col{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 85px;
+}
+.final-developer-col{
+  margin-left: 0;
+}
+.final-developer-col video{
+  width: 90%;
+  border-radius: 20px;
+  margin-left: 0;
+  width: calc(295vw - 0px);
+}
+.final-developer-col img{
+  border-radius: 20px;
+  width: 169%;
+  margin-left: -25;
+  width: calc(82vw - 0px);
+}
+.scannerqr{
+  margin-top: -180%;
+  margin-left: 27%;
+  font-size: calc(4.5vw - 0px);
+}
+/*--Section 6th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 140px;
+}
+.btt {
+  width: 110px;
+  height: 110px;
+  top: 92%;
+  box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
+  margin-top: 15%;
+}
+.svgIcon {
+  width: 25px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 30;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -26px;
+  }
+  footer p{
+  font-size: 33px;
+  line-height: 1.4;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 45px;
+    font-size: 39px;
+  }
+  .footer-col1 p {
+    padding-bottom: 22px;
+    line-height: 1.5;
+  }
+  .email-id {
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 50px;
+    font-size: 39;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 63px;
+    font-size: 39px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  .footer-col2 ul li a {
+    font-size: 34;
+    font-weight: 400;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 45px;
+    font-size: 39;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 35px;
+    margin-right: 20px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 33;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 32px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 212%;
+    color: #000;
+    background: #fff;
+    margin-right: 30px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 46px;
+  margin-left: 46.5%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 38px;
+    font-size: 36;
+  }
+  .footer-col5 p {
+  margin-left: -185px;
+  padding-bottom: 30;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 92%;
+    left: 88%;
+    width: 550px;
+  }
+  /*Newsletter CSS Ends*/
+}
+
 @media (min-width: 569px) and (max-width: 714px) {
     /*--Section 1st CSS Starts--*/
     .wrapper {
@@ -360,16 +846,17 @@
   /*--btt CSS Starts--*/
   .backtotop{
     width: 200%;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
   }
   .btt {
-    width: 75px;
-    height: 75px;
+    width: 95px;
+    height: 95px;
     top: 92%;
+    box-shadow: 0px 0px 0px 7px rgba(18, 16, 255, 0.258);
     margin-top: 15%;
   }
   .svgIcon {
-    width: 18px;
+    width: 22px;
   }
   /*--btt CSS Ends--*/
 
@@ -852,6 +1339,7 @@ footer{
   width: 75px;
   height: 75px;
   top: 92%;
+  box-shadow: 0px 0px 0px 7px rgba(18, 16, 255, 0.258);
   margin-top: 17%;
 }
 .svgIcon {
