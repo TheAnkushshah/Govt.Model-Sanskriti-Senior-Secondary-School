@@ -546,6 +546,9 @@ footer{
     width: 92%;
     z-index: 1000;
   }
+  .butblog{
+    background: url(Blog/Blog\ bg\ others.png);
+  }
     .Aboutus nav .logohumain{
       width: 295px;
       margin-left: -8%;
