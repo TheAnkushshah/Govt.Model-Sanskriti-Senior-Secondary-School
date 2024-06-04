@@ -70,6 +70,12 @@
       .butblog{
         background: url(Blog/Blog\ bg\ others.png);
       }
+      .prrhuublog{
+        text-align: center;
+      }
+      .ekdum{
+        margin-right: 2%;
+      }
       .Aboutus .btnLogin-popup img{
         margin-top: 10;
         margin-left: 55;
@@ -88,24 +94,24 @@
         width: 90%;
         color: #fff;
         position: absolute;
-        top: 40.5%;
+        top: 38%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -60%);
     }
       .littleaboutus h1{
         font-size: 106px;
-        padding-bottom: 13px;
+        padding-bottom: 10px;
         font-weight: bold;
         color: #fff;
       }
       .littleaboutus p{
         color: #fff;
-        font-size: 58px;
+        font-size: 49px;
         line-height: 1.7;
         font-weight: 500;
       }
       .aboutusread{
-        margin-top: 57;
+        margin-top: 40;
         display: inline-block;
         text-decoration: none;
         padding: 25px 40px;
@@ -549,6 +555,12 @@ footer{
     }
     .butblog{
       background: url(Blog/Blog\ bg\ others.png);
+    }
+    .prrhuublog{
+      text-align: left;
+    }
+    .ekdum{
+      margin-right: 0;
     }
     .Aboutus .btnLogin-popup img{
       margin-top: 10;

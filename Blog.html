@@ -79,10 +79,10 @@
                     </form>
                 </div>
             </div>
-            <div class="littleaboutus" style="text-align: left;">
-                <h1 style="margin-left: 2%;" id="addup"><b>Stories Shared</b></h1>
+            <div class="littleaboutus prrhuublog">
+                <h1 style="margin-left: 2%;" class="ekdum" id="addup"><b>Stories Shared</b></h1>
                 <h1 style="margin-left: 72%; margin-top: -22.4%;  padding-top: 330px;" class="eraseit"><b>Young Leaders</b></h1>
-                <p style="padding-left: 2.2%; line-height: 1.8;">Engaging Narratives and Voices of Student Journeys<br>and Accomplishments, Perspectives and<br>Triumphs a Collection of Untold<br> 
+                <p style="padding-left: 2.2%; line-height: 1.8;" id="alignit">Engaging Narratives and Voices of Student Journeys<br>and Accomplishments, Perspectives and<br>Triumphs a Collection of Untold<br> 
                     Stories from Our Young<br> Genration. . .</p>
                    <a href="#Fullaboutus" class="aboutusread butyesblog" style="background-color: #ffffff; color: black; margin-left: 2.1%;">Jump Into Stories</a>
             </div>
@@ -459,6 +459,14 @@
             
             if (window.matchMedia("(max-width: 1919px)").matches) {
                 addup.textContent = "Stories Shared By Young Leaders";
+            }
+        </script>
+
+        <script>
+            const alignit = document.getElementById("alignit");
+            
+            if (window.matchMedia("(min-width: 569px) and (max-width: 1024px)").matches) {
+                alignit.textContent = "Engaging Narratives and Voices of Student Journeys and Accomplishments Perspectives and Triumphs a Collection of Untold Stories from Our Young Genration. . .";
             }
         </script>
         <!--Javascript for Custom Text Media Queries Ends-->
