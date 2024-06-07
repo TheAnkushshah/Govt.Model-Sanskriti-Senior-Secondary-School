@@ -680,28 +680,28 @@ footer{
   }
   .littleaboutus p{
     color: #fff;
-    font-size: 62px;
-    line-height: 1.7;
+    font-size: 75px;
+    line-height: 1.67;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 22px 40px;
+    padding: 22px 50px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 20px 50px;
+    padding: 20px 55px;
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 55;
-    border-radius: 10px;
+    margin-top: 108;
+    border-radius: 30px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 35px 55px;
+    padding: 40px 60px;
     font-size: 55px;
     background: #2FAAE5;
     position: relative;
@@ -936,9 +936,9 @@ option{
   margin-bottom: 3.5%;
 }
 .box {
-  width: 152px;
-  height: 150px;
-  font-size: 72;
+  width: 192px;
+  height: 200px;
+  font-size: 80;
 }
 /*--Section 7th CSS Ends--*/
 
@@ -948,10 +948,10 @@ option{
   margin-bottom: 260px;
 }
 .btt {
-  width: 160px;
-  height: 160px;
+  width: 190px;
+  height: 190px;
   margin-left: 185%;
-  margin-top: -140px;
+  margin-top: -190px;
   box-shadow: 0px 0px 0px 12px rgba(18, 16, 255, 0.258);
 }
 .svgIcon {
@@ -1177,28 +1177,28 @@ footer{
   }
   .littleaboutus p{
     color: #fff;
-    font-size: 62px;
-    line-height: 1.66;
+    font-size: 70px;
+    line-height: 1.688;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 18px 40px;
+    padding: 20px 60px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 15px 50px;
+    padding: 25px 55px;
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 55;
-    border-radius: 10px;
+    margin-top: 105;
+    border-radius: 30px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 30px 55px;
+    padding: 40px 55px;
     font-size: 55px;
     background: #2FAAE5;
     position: relative;
@@ -1433,9 +1433,9 @@ option{
   margin-bottom: 3.5%;
 }
 .box {
-  width: 152px;
-  height: 150px;
-  font-size: 72;
+  width: 192px;
+  height: 200px;
+  font-size: 80;
 }
 /*--Section 7th CSS Ends--*/
 
@@ -1445,11 +1445,11 @@ option{
   margin-bottom: 260px;
 }
 .btt {
-  width: 150px;
-  height: 150px;
+  width: 190px;
+  height: 190px;
   margin-left: 185%;
   box-shadow: 0px 0px 0px 11px rgba(18, 16, 255, 0.258);
-  margin-top: -138px;
+  margin-top: -190px;
 }
 .svgIcon {
   width: 35px;
@@ -1663,28 +1663,28 @@ footer{
   }
   .littleaboutus p{
     color: #fff;
-    font-size: 57px;
-    line-height: 1.73;
+    font-size: 62px;
+    line-height: 1.82;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 22px 30px;
+    padding: 28px 40px;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 26px 40px;
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 42;
-    border-radius: 10px;
+    margin-top: 90;
+    border-radius: 20px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 30px 55px;
+    padding: 40px 60px;
     font-size: 50px;
     background: #2FAAE5;
     position: relative;
@@ -1931,11 +1931,11 @@ option{
   margin-bottom: 240px;
 }
 .btt {
-  width: 140px;
-  height: 140px;
-  box-shadow: 0px 0px 0px 11px rgba(18, 16, 255, 0.258);
+  width: 155px;
+  height: 155px;
+  box-shadow: 0px 0px 0px 9px rgba(18, 16, 255, 0.258);
   margin-left: 185%;
-  margin-top: -135px;
+  margin-top: -155px;
 }
 .svgIcon {
   width: 35px;
@@ -2150,28 +2150,28 @@ footer{
   }
   .littleaboutus p{
     color: #fff;
-    font-size: 57px;
-    line-height: 1.68;
+    font-size: 65px;
+    line-height: 1.76;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px;
-    padding: 18px 28px;
+    padding: 25px 55px;
   }
   .text-formatting1{
     background: #E9AF38;
-    border-radius: 10px;
-    padding: 18px 28px;
+    border-radius: 20px;
+    padding: 25px 45px;
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 42;
-    border-radius: 10px;
+    margin-top: 90;
+    border-radius: 25px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 28px 52px;
+    padding: 36px 55px;
     font-size: 50px;
     background: #2FAAE5;
     position: relative;
@@ -2406,23 +2406,23 @@ option{
   margin-bottom: 3.5%;
 }
 .box {
-  width: 100px;
-  height: 100px;
-  font-size: 52;
+  width: 155px;
+  height: 150px;
+  font-size: 62;
 }
 /*--Section 7th CSS Ends--*/
 
 /*--btt CSS Starts--*/
 .backtotop{
   width: 200%;
-  margin-bottom: 220px;
+  margin-bottom: 250px;
 }
 .btt {
-  width: 100px;
-  height: 100px;
+  width: 145px;
+  height: 140px;
   margin-left: 185%;
-  margin-top: -95px;
-  box-shadow: 0px 0px 0px 10px rgba(18, 16, 255, 0.258);
+  margin-top: -158px;
+  box-shadow: 0px 0px 0px 9px rgba(18, 16, 255, 0.258);
 }
 .svgIcon {
   width: 28px;
@@ -2652,8 +2652,8 @@ footer{
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 42;
-    border-radius: 10px;
+    margin-top: 80;
+    border-radius: 20px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -2892,23 +2892,23 @@ option{
   margin-bottom: 3.5%;
 }
 .box {
-  width: 100px;
-  height: 100px;
-  font-size: 52;
+  width: 125px;
+  height: 130px;
+  font-size: 55;
 }
 /*--Section 7th CSS Ends--*/
 
 /*--btt CSS Starts--*/
 .backtotop{
   width: 200%;
-  margin-bottom: 220px;
+  margin-bottom: 200px;
 }
 .btt {
-  width: 100px;
-  height: 100px;
+  width: 135px;
+  height: 130px;
   margin-left: 185%;
-  box-shadow: 0px 0px 0px 10px rgba(18, 16, 255, 0.258);
-  margin-top: -95px;
+  box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
+  margin-top: -135px;
 }
 .svgIcon {
   width: 28px;
@@ -3138,7 +3138,7 @@ footer{
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 42;
+    margin-top: 68;
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
@@ -3393,7 +3393,7 @@ option{
   width: 100px;
   height: 100px;
   margin-left: 185%;
-  box-shadow: 0px 0px 0px 10px rgba(18, 16, 255, 0.258);
+  box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
   margin-top: -100px;
 }
 .svgIcon {
@@ -3624,7 +3624,7 @@ footer{
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 22;
+    margin-top: 45;
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
@@ -4108,12 +4108,12 @@ footer{
       padding-top: 0px;
     }
     .aboutusread{
-      margin-top: 22;
+      margin-top: 35;
       border-radius: 10px;
       display: inline-block;
       text-decoration: none;
       color: #fff;
-      padding: 12px 34px;
+      padding: 15px 34px;
       font-size: 23px;
       background: #2FAAE5;
       position: relative;

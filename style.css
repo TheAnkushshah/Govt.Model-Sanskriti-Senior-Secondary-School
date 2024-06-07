@@ -106,7 +106,7 @@ nav img{
   font-weight: bold;
 }
 .textbox p{
-  margin: 4px 0 16px;
+  margin: -5px 0 17px;
   font-size: 20px;
   line-height: 2.4;
   font-weight: 400;
@@ -1920,6 +1920,9 @@ select{
 }
 .sometop{
   margin-bottom: 100px;
+}
+.prrhuublog p{
+  line-height: 2;
 }
 /*--Section 1st CSS Ends--*/
 
