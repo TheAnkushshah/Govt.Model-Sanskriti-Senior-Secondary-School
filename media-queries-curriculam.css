@@ -675,7 +675,7 @@ footer{
   .littleaboutus h1{
     font-size: 190px;
     padding-top: 150px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     color: #fff;
   }
   .littleaboutus p{
@@ -696,7 +696,7 @@ footer{
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 108;
+    margin-top: 130;
     border-radius: 30px;
     display: inline-block;
     text-decoration: none;
