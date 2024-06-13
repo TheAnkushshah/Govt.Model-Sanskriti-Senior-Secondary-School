@@ -6,12 +6,24 @@
 
 @media (min-width: 1851px) and (max-width: 1919px) {
   .littleaboutus h1 {
-    font-size: 65px;
-    padding-top: 420px;
+    font-size: 70px;
+    padding-top: 312px;
+    text-shadow: black 2px 2px 2px;
     color: #fff;
+    padding-bottom: 10;
   }
   .littleaboutus p{
-    line-height: 1.6;
+    line-height: 2;
+    font-size: 25px;
+  }
+  .text-formatting {
+    border-radius: 8px;
+    padding: 12px 28px;
+  }
+  .text-formatting1 {
+    border-radius: 9px;
+    padding: 13px 25px;
+    padding-top: 5px;
   }
   .wrapper {
     width: 0px;
@@ -19,16 +31,50 @@
   }
   .aboutusread {
     font-size: 17px;
+    margin-top: 45;
+    border-radius: 10px;
+    padding: 15px 28px;
   }
   .Aboutus {
     min-height: 104vh;
   }
+  .Aboutus nav {
+    height: 98;
+  }
+  .btnLogin-popup img {
+    width: 55px;
+    margin-left: 22;
+    margin-right: 10;
+  }
+  .nav-links ul li a {
+    font-size: 16.5px;
+  }
+  .nav-links ul li {
+    padding: 8px 13px;
+  }
+  .Aboutus nav .logohumain {
+    width: 115px;
+    margin-left: -24%;
+  }
   .Classroom {
     width: 95%;
-    margin-top: -2%;
+    margin-top: -1%;
   }
   .Classroom-col {
     max-width: 5000px;
+  }
+  .Classroom-col i:first-child {
+    left: -29px;
+  }
+  .Classroom-col i:last-child {
+    right: -29px;
+  }
+  .Classroom-col i {
+    top: 55%;
+    height: 60px;
+    width: 60px;
+    font-size: 1.25rem;
+    line-height: 61px;
   }
   .Board {
     width: 90%;
@@ -49,7 +95,7 @@
     margin-top: -0.1%;
   }
   .subjects-col.card-4.karna2{
-    margin-left: 56;
+    margin-left: 15;
   }
   .books {
     width: 95%;
@@ -87,7 +133,7 @@
     font-size: 25;
   }
   .backtotop{
-    margin-bottom: 100px;
+    margin-bottom: 85px;
     margin-left: -55;
   }
   .btt {
@@ -137,26 +183,26 @@
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 45px;
+  padding: 8px 48px;
   position: relative;
 }
 .nav-links ul li a {
   color: aliceblue;
   text-decoration: none;
-  font-size: 52px;
+  font-size: 55px;
   text-shadow: 4px 4px 4px #333333;
 }
   .Aboutus nav .logohumain{
     width: 400px;
-    margin-left: -15%;
+    margin-left: -25%;
   }
   .Aboutus .btnLogin-popup img{
     margin-top: 0;
-    margin-left: 55;
+    margin-left: 70;
     margin-right: 80;
   }
   .btnLogin-popup img {
-    width: 150px;
+    width: 190px;
   }
   .Aboutus .sub-menu-wrap{
     top: 85%;
@@ -169,41 +215,42 @@
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 38%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
   .littleaboutus h1{
-    font-size: 200px;
+    font-size: 230px;
     padding-top: 150px;
-    padding-bottom: 30px;
+    padding-bottom: 55px;
     color: #fff;
+    text-shadow: black 6px 8px 6px;
   }
   .littleaboutus p{
     color: #fff;
-    font-size: 62px;
-    line-height: 1.8;
+    font-size: 80px;
+    line-height: 2;
     font-weight: 500;
   }
   .text-formatting{
     background: #E9AF38;
-    border-radius: 10px;
-    padding: 30px 40px;
+    border-radius: 30px;
+    padding: 35px 70px;
   }
   .text-formatting1{
     background: #E9AF38;
-    border-radius: 10px;
-    padding: 30px 50px;
-    padding-top: 0px;
+    border-radius: 30px;
+    padding: 35px 65px;
+    padding-top: 25px;
   }
   .aboutusread{
-    margin-top: 55;
-    border-radius: 10px;
+    margin-top: 155;
+    border-radius: 30px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 40px 70px;
+    padding: 55px 80px;
     font-size: 60px;
     background: #2FAAE5;
     position: relative;
@@ -255,16 +302,16 @@
 }
 .Classroom-col i {
   top: 53%;
-  height: 150px;
-  width: 150px;
-  font-size: 3.4rem;
-  line-height: 150px;
+  height: 200px;
+  width: 200px;
+  font-size: 4rem;
+  line-height: 200px;
 }
 .Classroom-col i:first-child {
-  left: -70px;
+  left: -90px;
 }
 .Classroom-col i:last-child {
-  right: -70px;
+  right: -90px;
 }
 /*--Section 2nd CSS Ends--*/
 
@@ -439,23 +486,23 @@ option{
   margin-bottom: 3.5%;
 }
 .box {
-  width: 152px;
-  height: 150px;
-  font-size: 72;
+  width: 202px;
+  height: 220px;
+  font-size: 85;
 }
 /*--Section 7th CSS Ends--*/
 
 /*--btt CSS Starts--*/
 .backtotop{
   width: 200%;
-  margin-bottom: 260px;
+  margin-bottom: 300px;
 }
 .btt {
-  width: 160px;
-  height: 160px;
+  width: 220px;
+  height: 220px;
   margin-left: 185%;
   box-shadow: 0px 0px 0px 12px rgba(18, 16, 255, 0.258);
-  margin-top: -140px;
+  margin-top: -230px;
 }
 .svgIcon {
   width: 40px;
@@ -677,6 +724,7 @@ footer{
     padding-top: 150px;
     padding-bottom: 60px;
     color: #fff;
+    text-shadow: black 5px 9px 5px;
   }
   .littleaboutus p{
     color: #fff;
@@ -696,7 +744,7 @@ footer{
     padding-top: 0px;
   }
   .aboutusread{
-    margin-top: 130;
+    margin-top: 145;
     border-radius: 30px;
     display: inline-block;
     text-decoration: none;
@@ -1174,6 +1222,7 @@ footer{
     padding-top: 150px;
     padding-bottom: 30px;
     color: #fff;
+    text-shadow: black 5px 9px 5px;
   }
   .littleaboutus p{
     color: #fff;
@@ -1660,6 +1709,7 @@ footer{
     padding-top: 150px;
     padding-bottom: 25px;
     color: #fff;
+    text-shadow: black 5px 10px 5px;
   }
   .littleaboutus p{
     color: #fff;
@@ -2147,6 +2197,7 @@ footer{
     padding-top: 150px;
     padding-bottom: 25px;
     color: #fff;
+    text-shadow: black 4px 8px 4px;
   }
   .littleaboutus p{
     color: #fff;
@@ -2633,6 +2684,7 @@ footer{
     padding-top: 150px;
     padding-bottom: 25px;
     color: #fff;
+    text-shadow: black 3px 8px 4px;
   }
   .littleaboutus p{
     color: #fff;
@@ -3119,6 +3171,7 @@ footer{
     padding-top: 150px;
     padding-bottom: 25px;
     color: #fff;
+    text-shadow: black 3px 8px 3px;
   }
   .littleaboutus p{
     color: #fff;
@@ -3605,6 +3658,7 @@ footer{
     padding-top: 150px;
     padding-bottom: 15px;
     color: #fff;
+    text-shadow: black 2px 6px 2px;
   }
   .littleaboutus p{
     color: #fff;
@@ -4089,6 +4143,7 @@ footer{
       padding-top: 150px;
       padding-bottom: 15px;
       color: #fff;
+      text-shadow: black 2px 2px 2px;
     }
     .littleaboutus p{
       color: #fff;

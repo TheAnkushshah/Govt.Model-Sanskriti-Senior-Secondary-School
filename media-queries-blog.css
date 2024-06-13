@@ -5,11 +5,496 @@
 }
 
 @media (min-width: 1851px) and (max-width: 1919px) {
-
+  
 }
 
 @media (min-width: 1651px) and (max-width: 1850px) {
+  /*--Section 1st CSS Starts--*/
+  .wrapper {
+    width: 0px;
+    height: 0px;
+  }
+  .eraseit{
+    display: none;
+  }
+  .Aboutus {
+    min-height: 403vh;
+    width: 400%;
+    top: 0%;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Aboutus nav {
+    height: 350;
+    background-color: transparent;
+    transition: background-color 0.9s ease;
+    position: fixed;
+    top: 0;
+    width: 96%;
+    z-index: 1000;
+  }
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 48px;
+    position: relative;
+  }
+  .nav-links ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 55px;
+    text-shadow: 4px 4px 4px #333333;
+  }
+  .Aboutus nav .logohumain{
+    width: 400px;
+    margin-left: -25%;
+  }
+    .prrhuublog{
+      text-align: center;
+    }
+    .ekdum{
+      margin-right: 2%;
+    }
+    .butblog {
+      background: url(Blog/blog\ bg.png);
+  }
+    .Aboutus .btnLogin-popup img{
+      margin-top: 0;
+      margin-left: -8px;
+      margin-right: 80;
+    }
+    .btnLogin-popup img {
+      width: 190px;
+    }
+    .Aboutus .sub-menu-wrap{
+      top: 85%;
+    }
+    .Aboutus .wrapper{
+      margin-top: 70%;
+      transform: translate(-15%);
+    }
+    .littleaboutus {
+      width: 90%;
+      color: #fff;
+      position: absolute;
+      top: 41.7%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+  }
+    .littleaboutus h1{
+      font-size: 250px;
+      padding-bottom: 30px;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: black 2px 8px 10px;
+    }
+    .littleaboutus p{
+      color: #fff;
+      font-size: 90px;
+      line-height: 2.4;
+      padding-right: 2.2%;
+      font-weight: 500;
+    }
+    .aboutusread{
+      margin-top: 122;
+      display: inline-block;
+      text-decoration: none;
+      padding: 55px 90px;
+      border-radius: 26px;
+      font-size: 62px;
+      background: #2FAAE5;
+      position: relative;
+      cursor: pointer;
+    }
+    /*--Section 1st CSS Ends--*/
 
+    /*--Section 2nd CSS Starts--*/
+.newsroom{
+  width: 400%;
+  margin: auto;
+  margin-bottom: 0%;
+  margin-top: 230px;
+}
+.newsroom h1{
+  text-align: center;
+  font-size: 140px;
+}
+.newsroom-col{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 170px;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+.top-news-col img{
+  border-radius: 15px;
+  margin-bottom: 8%;
+  width: 70%;
+}
+.top-news-col img {
+  width: calc(54vw - 0px); /* Adjust width with padding or margin */
+}
+.moverright{
+  width: 55px; 
+  margin-top: -72%; 
+  margin-right: -100%; 
+  cursor: pointer;
+  width: calc(15vw - 0px);
+}
+.moverleft{
+  width: 55px; 
+  margin-top: -72%; 
+  margin-left: -100%; 
+  width: calc(15vw - 0px);
+  cursor: pointer;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.achieve-blogs{
+  width: 400%;
+  margin: auto;
+  margin-top: 160px;
+  margin-bottom: 0%;
+}
+.achieve-blogs h1{
+  text-align: center;
+  font-size: 140px;
+}
+.achieve-blogs-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 170px;
+}
+.achieve-blogs-col img{
+  border-radius: 15px;
+  width: 345px;
+  width: calc(80vw - 0px);
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.6;
+  font-size: calc(4.9vw - 0px);
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  font-size: calc(4.6vw - 0px);
+  color: orangered;
+  padding-top: 9%;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  font-size: calc(4.9vw - 0px);
+  font-weight: 400;
+  margin-top: 0.2%;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.campus-news{
+  width: 400%;
+  margin: auto;
+  padding-bottom: 0%;
+  margin-top: 220px;
+}
+.campus-news h1{
+  text-align: center;
+  font-size: 140px;
+}
+.campus-news-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 170px;
+}
+.campus-news-col img{
+  border-radius: 15px;
+  width: 345px;
+  width: calc(80vw - 0px);
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.6;
+  font-size: calc(4.9vw - 0px);
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  font-size: calc(4.6vw - 0px);
+  color: orangered;
+  padding-top: 9%;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  font-size: calc(4.9vw - 0px);
+  font-weight: 400;
+  margin-top: 0.2%;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.facility-news{
+  width: 400%;
+  margin: auto;
+  margin-top: 242px;
+  margin-bottom: 0;
+}
+.facility-news h1{
+  text-align: center;
+  font-size: 140px;
+}
+.facility-news-col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 170px;
+}
+.facility-news-col img{
+  border-radius: 15px;
+  width: 345;
+  width: calc(80vw - 0px);
+}
+.blogs-text{
+  color: #333333;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1.6;
+  font-size: calc(4.9vw - 0px);
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.blogs-text:hover{
+  color: rgb(252, 111, 60);
+}
+.blogs-head{
+  font-size: 25px;
+  font-size: calc(4.6vw - 0px);
+  color: orangered;
+  padding-top: 9%;
+}
+.blogs-sm-text{
+  font-size: 24px;
+  font-size: calc(4.9vw - 0px);
+  font-weight: 400;
+  margin-top: 0.2%;
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Developer{
+  width: 400%;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 250px;
+}
+.Developer h1{
+  text-align: center;
+  font-size: 140px;
+}
+.developer-col{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 170px;
+}
+.final-developer-col{
+  margin-left: 0;
+}
+.final-developer-col video{
+  width: 90%;
+  border-radius: 30px;
+  margin-left: 0;
+  width: calc(296vw - 0px);
+}
+.final-developer-col img{
+  border-radius: 20px;
+  width: 169%;
+  margin-left: -25;
+  width: calc(82vw - 0px);
+}
+.scannerqr{
+  margin-top: -173.5%;
+  margin-left: 30%;
+  font-size: calc(4.5vw - 0px);
+}
+/*--Section 6th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 240px;
+}
+.btt {
+  width: 220px;
+  height: 220px;
+  top: 92%;
+  box-shadow: 0px 0px 0px 12px rgba(18, 16, 255, 0.258);
+  margin-top: 15%;
+}
+.svgIcon {
+  width: 40px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 105;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -40px;
+  }
+  footer p{
+  font-size: 59px;
+  line-height: 1.4;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 90px;
+    font-size: 69px;
+  }
+  .footer-col1 p {
+    padding-bottom: 30px;
+    line-height: 1.5;
+  }
+  .email-id {
+    border-bottom: 3px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 100px;
+    font-size: 62;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 125px;
+    font-size: 69px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 95px;
+  }
+  .footer-col2 ul li a {
+    font-size: 60;
+    font-weight: 600;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 85px;
+    font-size: 66;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 60px;
+    margin-right: 40px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 58;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 55px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 180px;
+    font-size: 390%;
+    color: #000;
+    background: #fff;
+    margin-right: 45px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 70px;
+  margin-left: 47.5%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 60px;
+    font-size: 60;
+  }
+  .footer-col5 p {
+  margin-left: -330px;
+  padding-bottom: 60;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 95%;
+    left: 91%;
+    width: 890px;
+  }
+  /*Newsletter CSS Ends*/
 }
 
 @media (min-width: 1441px) and (max-width: 1650px) {
@@ -3524,7 +4009,7 @@ footer{
       margin-top: 50;
       display: inline-block;
       text-decoration: none;
-      padding: 19px 34px;
+      padding: 25px 34px;
       border-radius: 12px;
       font-size: 38px;
       background: #2FAAE5;

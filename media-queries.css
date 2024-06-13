@@ -10,40 +10,45 @@
   min-height: 203vh;
   width: 202.1%;
   }
+  .textbox {
+    top: 48%;
+  }
   .nav-links{
-    margin-right: 2%;
-    margin-top: 0.7%;
+    margin-right: 1.7%;
+    margin-top: 0.8%;
   }
   .nav-links ul li a{
-    font-size: 28px;
+    font-size: 33px;
   }
   .nav-links ul li{
-    padding: 8px 20px;
+    padding: 8px 28px;
   }
   nav img{
-  width: 230px;
-  margin-left: -8%;
+  width: 240px;
+  margin-left: -24%;
   }
   .btnLogin-popup img{
-  margin-left: -45%;
+  margin-left: -14%;
   margin-top: 4%;
-  width: 100px;
+  width: 113px;
   }
   .textbox h1{
-  font-size: 112px;
+  font-size: 140px;
   font-weight: bold;
+  text-shadow: 2px 8px 4px #333333;
   }
   .textbox p{
-    font-size: 45px;
-    line-height: 2.1;
-    padding-bottom: 22px;
+    font-size: 53px;
+    line-height: 2.3;
+    padding-bottom: 45px;
     margin: 4px 0 17px;
     font-weight: 400;
   }
   .button{
-    font-size: 33px;
-    border-radius: 50px;
-    padding: 22px 32px;
+    font-size: 40px;
+    border-radius: 80px;
+    padding: 30px 40px;
+    border: 4px solid #fff;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -357,7 +362,7 @@
       margin-left: 188%;
       }
       .svgIcon {
-        width: 26px;
+        width: 21px;
       }
     /*--btt CSS Ends--*/
     
@@ -444,7 +449,7 @@
     .footer-col4 .fab {
       width: 90px;
       height: 90px;
-      line-height: 94px;
+      line-height: 93px;
       font-size: 200%;
       margin-right: 20px;
     }
@@ -490,39 +495,44 @@
   width: 202.1%;
   }
   .nav-links{
-    margin-right: 2%;
+    margin-right: 1.4%;
     margin-top: 0.7%;
   }
   .nav-links ul li a{
-    font-size: 28px;
+    font-size: 28.1px;
   }
   .nav-links ul li{
-    padding: 8px 20px;
+    padding: 8px 23px;
   }
   nav img{
-  width: 230px;
-  margin-left: -8%;
+  width: 220px;
+  margin-left: -25%;
   }
   .btnLogin-popup img{
-  margin-left: -45%;
+  margin-left: -10%;
   margin-top: 4%;
-  width: 100px;
+  width: 95px;
+  }
+  .textbox{
+    top: 48%;
   }
   .textbox h1{
-  font-size: 112px;
+  font-size: 115px;
   font-weight: bold;
+  text-shadow: black 3px 3px 3px;
   }
   .textbox p{
     font-size: 45px;
-    line-height: 2.1;
-    margin: 4px 0 17px;
+    line-height: 2.4;
+    margin: 1px 0 17px;
     font-weight: 400;
-    padding-bottom: 22px;
+    padding-bottom: 40px;
   }
   .button{
     font-size: 33px;
     border-radius: 50px;
-    padding: 22px 30px;
+    padding: 25px 32px;
+    border: 3px solid #fff;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -837,7 +847,7 @@
     margin-left: 188%;
     }
     .svgIcon {
-      width: 26px;
+      width: 21px;
     }
     /*--btt CSS Ends--*/
     
@@ -988,21 +998,26 @@
   margin-top: 4%;
   width: 77px;
   }
+  .textbox{
+    top: 48.5%;
+  }
   .textbox h1{
   font-size: 98px;
   font-weight: bold;
+  text-shadow: black 2px 2.1px 4px;
   }
   .textbox p{
     font-size: 42px;
-    line-height: 2;
-    margin: 4px 0 17px;
+    line-height: 2.2;
+    margin: 5px 0 17px;
     padding-bottom: 36px;
     font-weight: 400;
   }
   .button{
     font-size: 30px;
     border-radius: 50px;
-    padding: 22px 40px;
+    padding: 25px 40px;
+    border: 3px solid #fff;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -1470,21 +1485,26 @@
   margin-top: 4%;
   width: 68px;
   }
+  .textbox{
+    top: 50%;
+  }
   .textbox h1{
   font-size: 92px;
   font-weight: bold;
+  text-shadow: black 2px 2px 2px;
   }
   .textbox p{
     font-size: 40px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 2.2;
     margin: 0px 0 17px;
     padding-bottom: 34px;
   }
   .button{
     font-size: 29px;
     border-radius: 50px;
-    padding: 20px 28px;
+    padding: 23px 30px;
+    border: 3px solid #fff;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -1941,21 +1961,26 @@ margin-left: 187%;
     margin-left: -125%;
     margin-top: 35%;
   }
+  .textbox{
+    top: 48.5%;
+  }
   .textbox h1{
   font-size: 92px;
   font-weight: bold;
+  text-shadow: black 2px 2px 2px;
   }
   .textbox p{
   font-size: 35px;
-  line-height: 2;
+  line-height: 2.2;
   font-weight: 400;
   margin: 4px 0 17px;
   padding-bottom: 32;
   }
   .button{
-    font-size: 28px;
+    font-size: 29px;
     border-radius: 50px;
-    padding: 23px 25px;
+    padding: 25px 32px;
+    border: 3px solid #fff;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -2409,21 +2434,26 @@ h1{
     margin-left: -120%;
     margin-top: 30%;
   }
+  .textbox{
+    top: 48.5%;
+  }
   .textbox h1{
   font-size: 92px;
   font-weight: bold;
+  text-shadow: black 2px 2px 2px;
   }
   .textbox p{
     font-size: 35px;
     line-height: 2;
-    margin: 4px 0 17px;
+    margin: 5px 0 17px;
     font-weight: 400;
-    padding-bottom: 32;
+    padding-bottom: 35;
   }
   .button{
-    font-size: 28px;
+    font-size: 29px;
     border-radius: 50px;
-    padding: 19px 28px;
+    padding: 22px 30px;
+    border: 3px solid #fff;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -2860,21 +2890,26 @@ margin-left: -8%;
   margin-left: -120%;
   margin-top: 30%;
 }
+.textbox{
+  top: 50%;
+}
 .textbox h1{
 font-size: 82px;
 font-weight: bold;
+text-shadow: black 2px 2px 2px;
 }
 .textbox p{
   font-size: 32px;
   line-height: 2;
-  margin: 4px 0 17px;
+  margin: 5px 0 17px;
   font-weight: 400;
   padding-bottom: 30;
 }
 .button{
-  font-size: 24px;
+  font-size: 26px;
   border-radius: 50px;
-  padding: 20px 30px;
+  padding: 22px 33px;
+  border: 3px solid #fff;
 }
 /*--Login Element CSS Starts--*/
 .wrapper {
@@ -3312,21 +3347,26 @@ margin-left: -8%;
   margin-left: -88%;
   margin-top: 30%;
 }
+.textbox{
+  top: 50%;
+}
 .textbox h1{
 font-size: 62px;
 font-weight: bold;
+text-shadow: black 2px 2px 2px;
 }
 .textbox p{
 font-size: 28px;
 line-height: 2;
 font-weight: 500;
 margin: 4px 0 17px;
-padding-bottom: 18;
+padding-bottom: 20;
 }
 .button{
-  font-size: 20px;
+  font-size: 23px;
   border-radius: 50px;
-  padding: 17px 22px;
+  padding: 20px 25px;
+  border: 3px solid #fff;
 }
 /*--Login Element CSS Starts--*/
 .wrapper {
@@ -3770,23 +3810,25 @@ footer{
     width: 63;
   }
   .textbox {
-    top: 48%;
+    top: 50%;
   }
   .textbox h1{
   font-size: 62px;
   font-weight: bold;
+  text-shadow: black 2px 2px 2px;
   }
   .textbox p{
     font-size: 25px;
     font-weight: 500;
     margin: 4px 0 17px;
     line-height: 2;
-    padding-bottom: 18;
+    padding-bottom: 22;
   }
   .button{
-    font-size: 18px;
+    font-size: 22px;
     border-radius: 50px;
-    padding: 15px 22px;
+    padding: 20px 30px;
+    border: 3px solid #fff;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
@@ -4170,20 +4212,25 @@ footer{
     margin-left: -45%;
     margin-top: 4%;
   }
+  .textbox{
+    top: 50%;
+  }
   .textbox h1{
     font-size: 32px;
+    text-shadow: black 1.5px 1px 1px;
   }
   .textbox p{
     font-size: 14px;
     line-height: 1.9;
     font-weight: 500;
     margin: 4px 0 16px;
-    padding-bottom: 4;
+    padding-bottom: 10;
   }
   .button{
     font-size: 14px;
     border-radius: 50px;
     padding: 10px 20px;
+    border: 2px solid #fff;
   }
   /*--Login Element CSS Starts--*/
   .wrapper {
