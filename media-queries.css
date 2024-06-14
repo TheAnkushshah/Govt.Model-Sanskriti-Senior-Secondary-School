@@ -4217,14 +4217,14 @@ footer{
   }
   .textbox h1{
     font-size: 32px;
-    text-shadow: black 1.5px 1px 1px;
+    text-shadow: black  0px 0px 0px;
   }
   .textbox p{
     font-size: 14px;
     line-height: 1.9;
     font-weight: 500;
-    margin: 4px 0 16px;
-    padding-bottom: 13;
+    margin: 1px 0 16px;
+    padding-bottom: 9;
   }
   .button{
     font-size: 14px;
