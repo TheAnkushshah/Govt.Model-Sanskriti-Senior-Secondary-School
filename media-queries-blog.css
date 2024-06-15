@@ -5,7 +5,69 @@
 }
 
 @media (min-width: 1851px) and (max-width: 1919px) {
-  
+  .Aboutus nav {
+    height: 98;
+  }
+  .nav-links ul li {
+    padding: 8px 13px;
+  }
+  .nav-links ul li a {
+    font-size: 16.5px;
+  }
+  .Aboutus nav .logohumain{
+    width: 115px;
+    margin-left: -24%;
+  }
+  .Aboutus .btnLogin-popup img{
+    margin-left: 1;
+    margin-right: 10;
+  }
+  .btnLogin-popup img {
+    width: 55px;
+  }
+  .butblog {
+    background: url(Blog/blog\ bg.png);
+  }
+  .prrhuublog{
+    text-align: center;
+  }
+  .ekdum{
+    margin-right: 2%;
+  }
+  .eraseit{
+    display: none;
+  }
+  .littleaboutus {
+    width: 90%;
+    color: #fff;
+    margin-left: 5%;
+  }
+  .littleaboutus h1{
+    font-size: 70px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 320px;
+    text-shadow: black 3px 3px 3px;
+  }
+  .littleaboutus p{
+    color: #fff;
+    font-size: 26px;
+    line-height: 2.6;
+    padding-right: 2.2%;
+    font-weight: 500;
+  }
+  .aboutusread{
+    margin-top: 30;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 26px;
+    font-size: 17px;
+    background: #2FAAE5;
+    position: relative;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 1651px) and (max-width: 1850px) {
@@ -79,7 +141,7 @@
       width: 90%;
       color: #fff;
       position: absolute;
-      top: 41.7%;
+      top: 40%;
       left: 50%;
       transform: translate(-50%, -60%);
   }
@@ -88,7 +150,7 @@
       padding-bottom: 30px;
       font-weight: bold;
       color: #fff;
-      text-shadow: black 2px 8px 10px;
+      text-shadow: black 10px 8px 10px;
     }
     .littleaboutus p{
       color: #fff;
@@ -3998,6 +4060,7 @@ footer{
       padding-bottom: 12px;
       font-weight: bold;
       color: #fff;
+      text-shadow: black 1px 3px 2px;
     }
     .littleaboutus p{
       color: #fff;
