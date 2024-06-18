@@ -1956,7 +1956,7 @@ select{
 
 /*--Section 2nd CSS Starts--*/
 .newsroom{
-  width: 94%;
+  width: 91.5%;
   margin: auto;
   margin-bottom: 3.5%;
   margin-top: -0.5%;
@@ -1973,18 +1973,18 @@ select{
 .top-news-col img{
   border-radius: 15px;
   margin-bottom: 8%;
-  width: 70%;
+  width: 90%;
 }
 .moverright{
-  width: 55px; 
-  margin-top: -54%; 
-  margin-right: -72%; 
+  width: 65px; 
+  margin-top: -65%; 
+  margin-right: -92%; 
   cursor: pointer;
 }
 .moverleft{
   width: 55px; 
-  margin-top: -54%; 
-  margin-left: -72%; 
+  margin-top: -65%; 
+  margin-left: -92%; 
   cursor: pointer;
 }
 /*--Section 2nd CSS Ends--*/
@@ -1993,7 +1993,7 @@ select{
 .achieve-blogs{
   width: 90%;
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 3.5%;
 }
 .achieve-blogs h1{
   text-align: center;
@@ -2033,7 +2033,7 @@ select{
 .campus-news{
   width: 90%;
   margin: auto;
-  padding-bottom: 4%;
+  padding-bottom: 3.5%;
 }
 .campus-news h1{
   text-align: center;
@@ -2053,7 +2053,7 @@ select{
 .facility-news{
   width: 90%;
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 3.5%;
 }
 .facility-news h1{
   text-align: center;

@@ -9,7 +9,7 @@
     height: 98;
   }
   .nav-links ul li {
-    padding: 8px 13px;
+    padding: 8px 15px;
   }
   .nav-links ul li a {
     font-size: 16.5px;
@@ -19,7 +19,7 @@
     margin-left: -24%;
   }
   .Aboutus .btnLogin-popup img{
-    margin-left: 1;
+    margin-left: -4;
     margin-right: 10;
   }
   .btnLogin-popup img {
@@ -67,6 +67,118 @@
     background: #2FAAE5;
     position: relative;
     cursor: pointer;
+  }
+  .newsroom {
+    margin-bottom: 3.1%;
+    margin-top: -1%;
+  }
+  .newsroom-col {
+    margin-top: 3.8%;
+  }
+  .top-news-col img {
+    width: 95%;
+  }
+  .moverleft {
+    width: 65px;
+    margin-top: -68%;
+    margin-left: -98%;
+    cursor: pointer;
+  }
+  .moverright {
+    width: 65px;
+    margin-top: -68%;
+    margin-right: -98%;
+    cursor: pointer;
+  }
+  .achieve-blogs {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 3.5%;
+  }
+  .achieve-blogs-col {
+    margin-top: 4.3%;
+  }
+  .achieve-blogs-col img {
+    border-radius: 10px;
+    width: 360;
+  }
+  .blogs-head {
+    font-size: 18px;
+    padding-top: 22px;
+    color: orangered;
+  }
+  .blogs-sm-text {
+    font-size: 18px;
+    margin-top: 0%;
+    font-weight: 400;
+  }
+  .campus-news {
+    width: 94%;
+    margin: auto;
+    padding-bottom: 3.5%;
+  }
+  .campus-news-col img {
+    border-radius: 10px;
+    width: 360;
+  }
+  .campus-news-col {
+    margin-top: 4.3%;
+  }
+  .facility-news {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 3.7%;
+  }
+  .facility-news-col img {
+    border-radius: 10px;
+    width: 360;
+  }
+  .facility-news-col {
+    margin-top: 4.3%;
+  }
+  .Developer {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 19.2%;
+  }
+  .developer-col {
+    margin-top: 4.1%;
+  }
+  .final-developer-col video {
+    width: 94%;
+    border-radius: 20px;
+    margin-left: -25;
+  }
+  .final-developer-col img {
+    border-radius: 20px;
+    width: 195%;
+    margin-left: -160;
+  }
+  .scannerqr {
+    margin-top: -330%;
+    margin-left: -16%;
+  }
+  .backtotop {
+    width: 52%;
+    margin-bottom: 80px;
+  }
+  .btt {
+    width: 60px;
+    height: 60px;
+  }
+  .footer-col4 {
+    padding-top: 150px;
+    margin-left: -455px;
+  }
+  .footer-col4 .fab {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 105%;
+  }
+  footer{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 }
 
@@ -613,7 +725,7 @@ footer{
     }
     .Aboutus .btnLogin-popup img{
       margin-top: 0;
-      margin-left: 55;
+      margin-left: 0;
       margin-right: 80;
     }
     .btnLogin-popup img {
@@ -630,7 +742,7 @@ footer{
       width: 90%;
       color: #fff;
       position: absolute;
-      top: 41.5%;
+      top: 38.5%;
       left: 50%;
       transform: translate(-50%, -60%);
   }
@@ -639,6 +751,7 @@ footer{
       padding-bottom: 10px;
       font-weight: bold;
       color: #fff;
+      text-shadow: black 3px 3px 3px;
     }
     .littleaboutus p{
       color: #fff;
@@ -1110,7 +1223,7 @@ footer{
     }
     .Aboutus .btnLogin-popup img{
       margin-top: 0;
-      margin-left: 55;
+      margin-left: 0;
       margin-right: 80;
     }
     .btnLogin-popup img {
@@ -1127,7 +1240,7 @@ footer{
       width: 90%;
       color: #fff;
       position: absolute;
-      top: 41.5%;
+      top: 39%;
       left: 50%;
       transform: translate(-50%, -60%);
   }
@@ -1136,6 +1249,7 @@ footer{
       padding-bottom: 10px;
       font-weight: bold;
       color: #fff;
+      text-shadow: black 3px 3px 3px;
     }
     .littleaboutus p{
       color: #fff;
@@ -1145,7 +1259,7 @@ footer{
       font-weight: 500;
     }
     .aboutusread{
-      margin-top: 85;
+      margin-top: 90;
       display: inline-block;
       text-decoration: none;
       padding: 45px 70px;
@@ -1623,6 +1737,7 @@ footer{
       padding-bottom: 10px;
       font-weight: bold;
       color: #fff;
+      text-shadow: black 3px 3px 3px;
     }
     .littleaboutus p{
       color: #fff;
@@ -2111,6 +2226,7 @@ footer{
         padding-bottom: 10px;
         font-weight: bold;
         color: #fff;
+        text-shadow: black 4px 4px 4px;
       }
       .littleaboutus p{
         color: #fff;
@@ -2123,8 +2239,8 @@ footer{
         margin-top: 73;
         display: inline-block;
         text-decoration: none;
-        padding: 40px 70px;
-        border-radius: 12px;
+        padding: 50px 70px;
+        border-radius: 15px;
         font-size: 52px;
         background: #2FAAE5;
         position: relative;
@@ -2598,6 +2714,7 @@ footer{
         padding-bottom: 10px;
         font-weight: bold;
         color: #fff;
+        text-shadow: black 4px 4px 4px;
       }
       .littleaboutus p{
         color: #fff;
@@ -2610,7 +2727,7 @@ footer{
         margin-top: 70;
         display: inline-block;
         text-decoration: none;
-        padding: 35px 70px;
+        padding: 40px 70px;
         border-radius: 12px;
         font-size: 52px;
         background: #2FAAE5;
@@ -3085,6 +3202,7 @@ footer{
       padding-bottom: 10px;
       font-weight: bold;
       color: #fff;
+      text-shadow: black 3px 3px 3px;
     }
     .littleaboutus p{
       color: #fff;
@@ -3097,7 +3215,7 @@ footer{
       margin-top: 60;
       display: inline-block;
       text-decoration: none;
-      padding: 25px 40px;
+      padding: 35px 45px;
       border-radius: 12px;
       font-size: 47px;
       background: #2FAAE5;
@@ -3572,6 +3690,7 @@ footer{
         padding-bottom: 10px;
         font-weight: bold;
         color: #fff;
+        text-shadow: black 3px 3px 3px;
       }
       .littleaboutus p{
         color: #fff;
