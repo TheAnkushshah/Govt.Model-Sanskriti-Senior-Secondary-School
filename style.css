@@ -1943,6 +1943,9 @@ select{
 .butyesblog{
   border-radius: 3px;
 }
+.prrhuublog h1{
+  text-shadow: #333333 2px 2px 2px;
+}
 .prrhuublog{
   text-align: left;
 }
