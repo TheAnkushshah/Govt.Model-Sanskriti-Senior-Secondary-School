@@ -17,7 +17,7 @@
     </head>
     <body>
         <!--Section 1st Starts-->
-        <section class="Aboutus" style="background: url(Admission/Admission\ bg.jpg); background-size: cover;">
+        <section class="Aboutus prradd">
             <nav id="header">
                 <a href="index.html"><img src="Main/logo.png" class="logohumain"></a>
                 <div class="nav-links" id="navLinks">
@@ -81,11 +81,11 @@
                     </form>
                 </div>
             </div>
-            <div class="littleaboutus" style="text-align: left;">
-                <h1 style="margin-left: 2%; text-shadow: 2px 2px 2px #333333;"><b>Join Now & Become the Next</b></h1>
-                <h1 style="margin-left: 68%; margin-top: -21.7%;  padding-top: 322px; text-shadow: 2px 2px 2px #333333;"><b>#1 Young Leader</b></h1>
-                <p style="padding-left: 2.2%; line-height: 2;" class="adderr">Discover the amazing opportunities waiting for you at our school Accomplishments, Perspectives and...<br>Join our community of learners and enjoy the benefits of innovative teaching methods<br> personalized learning, and a supportive environment Come and unlock your<br> Full potential with us. . . .</p>
-                   <a href="#Fullaboutus" class="aboutusread" style="background-color: #ffffff; color: black; margin-left: 2.1%; border-radius: 3px;">Step Towards Success</a>
+            <div class="littleaboutus ifyes" style="text-align: left;">
+                <h1 style="margin-left: 2%;" id="whatif"><b>Join Now & Become the Next</b></h1>
+                <h1 style="margin-left: 68%; margin-top: -21.7%;  padding-top: 322px;" class="notif"><b>#1 Young Leader</b></h1>
+                <p style="padding-left: 2.2%; line-height: 2;" class="adderr" id="superhash">Discover the amazing opportunities waiting for you at our school Accomplishments, Perspectives and...<br>Join our community of learners and enjoy the benefits of innovative teaching methods<br> personalized learning, and a supportive environment Come and unlock your<br> Full potential with us. . . .</p>
+                   <a href="#Fullaboutus" class="aboutusread prrmiss" style="background-color: #ffffff; color: black; margin-left: 2.1%;">Step Towards Success</a>
             </div>
         </section>
         <!--Section 1st Ends-->
@@ -103,7 +103,7 @@
         <section class="fee">
             <h1>Fees Structure</h1>
             <div class="fee-col">
-                <div class="fee-card">
+                <div class="fee-card disco">
                     <img src="Admission/fee 1.png">
                 </div>
                 <div class="fee-card">
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="fee-col">
-                <div class="fee-card">
+                <div class="fee-card disco2">
                     <img src="Admission/fee 3.png">
                 </div>
                 <div class="fee-card">
@@ -125,17 +125,17 @@
         <section class="add-form">
             <h1>Apply</h1>
             <div class="form-col">
-                <div class="form-col-card">
+                <div class="form-col-card bulb">
                     <img src="Admission/form.gif">
                 </div>
                 <div class="form-col-card">
                     <img src="Admission/form.gif">
                 </div>
-                <div class="form-col-card">
+                <div class="form-col-card bulb">
                     <img src="Admission/form.gif">
                 </div>
             </div>
-            <a href="Admission.html" class="Hero3-button" style="margin-left: 41%; margin-top: 4%;">Admissions are closed now</a>
+            <a href="Admission.html" class="Hero3-button switch">Admissions are closed now</a>
         </section>
         <!--Section 4th Ends-->
 
@@ -158,7 +158,7 @@
                     <img src="Main/logo.png" class="logo">
                     <p>Empowering Minds, Igniting Curiosity, and Cultivating Excellence a Community with High Expectation and High Achievements
                         Unleashing the Potential of Every Student on Our Campus!</p>
-                    <img src="Admission/payment.jpg" style="width: 100%; margin-left: 260%; margin-top: -17%; border-radius: 5px;">
+                    <img src="Admission/payment.jpg" style="width: 100%; margin-left: 260%; margin-top: -17%; border-radius: 5px;" class="norie">
                 </div>
                 <div class="footer-col1">
                     <h3>Address <div class="underline1"><span></span></div></h3>
@@ -365,5 +365,27 @@
         <!-- Adsense-->
        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9323117785307367" crossorigin="anonymous"></script>
        <!-- Adsense-->
+
+       <!--Javascript for Custom Text Media Queries Starts-->
+        <script>
+        const whatif = document.getElementById("whatif");
+        
+        if (window.matchMedia("(max-width: 569px)").matches) {
+            whatif.textContent = "Join & Become #1 Young Leader";
+        }
+        </script>
+        <!--Javascript for Custom Text Media Queries Ends-->
+
+        <!--Javascript for Custom Text Media Queries Starts-->
+        <script>
+            const superhash = document.getElementById("superhash");
+            
+            if (window.matchMedia("(min-width: 100px) and (max-width: 569px)").matches) {
+                let text = "Join our community of learners and enjoy the benefits\nof innovative teaching methods personalized\nlearning, and a supportive environment\nCome and unlock your full\nPotential with us. . . .";
+                let formattedText = text.replace(/\n/g, "<br>");
+                superhash.innerHTML = formattedText;
+            }
+        </script>
+        <!--Javascript for Custom Text Media Queries Ends-->
     </body>
 </html>        

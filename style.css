@@ -2108,6 +2108,16 @@ select{
   margin-top: -0.3%;
   margin-bottom: 0.2%;
 }
+.prradd{
+  background: url(Admission/Admission\ bg.jpg);
+  background-size: cover;
+}
+.ifyes h1{
+  text-shadow: 2px 2px 2px #333333;
+}
+.prrmiss{
+  border-radius: 3px;
+}
 /*--Section 1st CSS Ends--*/
 
 /*--Section 2nd CSS Starts--*/
@@ -2169,6 +2179,10 @@ select{
   width: 90%;
   border: 2px solid #d3d2d2;
   border-radius: 15px;
+}
+.switch{
+  margin-left: 41%;
+  margin-top: 4%;
 }
 /*--Section 4th CSS Ends--*/
 /*--Admission Page CSS Ends--*/

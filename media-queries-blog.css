@@ -4184,14 +4184,14 @@ footer{
     .littleaboutus p{
       color: #fff;
       font-size: 44px;
-      line-height: 1.8;
+      line-height: 1.9;
       font-weight: 500;
     }
     .aboutusread{
       margin-top: 50;
       display: inline-block;
       text-decoration: none;
-      padding: 25px 34px;
+      padding: 25px 40px;
       border-radius: 12px;
       font-size: 38px;
       background: #2FAAE5;
@@ -4400,7 +4400,7 @@ footer{
 .Developer{
   width: 400%;
   margin: auto;
-  margin-bottom: 0;
+  margin-bottom: 140;
   margin-top: 85px;
 }
 .Developer h1{
@@ -4440,8 +4440,8 @@ footer{
   margin-bottom: 100px;
 }
 .btt {
-  width: 75px;
-  height: 75px;
+  width: 85px;
+  height: 85px;
   top: 92%;
   box-shadow: 0px 0px 0px 7px rgba(18, 16, 255, 0.258);
   margin-top: 17%;
