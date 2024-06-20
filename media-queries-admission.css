@@ -86,7 +86,7 @@
         top: 41%;
         left: 50%;
         transform: translate(-50%, -50%);
-  }
+    }
     .littleaboutus h1{
         font-size: 75px;
         padding-bottom: 20px;
@@ -115,6 +115,7 @@
 
     /*--Section 2nd CSS Starts--*/
     .Process-add{
+        overflow: hidden;
         width: 400%;
         margin: auto;
         margin-bottom: 0;

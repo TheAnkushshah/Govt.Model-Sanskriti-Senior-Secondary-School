@@ -2191,8 +2191,17 @@ select{
 /*--Admission Page CSS Ends--*/
 
 /*--Contact Page CSS Starts--*/
-/*--Section 1st CSS Starts--*/
-/*--The css of 1st section is too short so i did it in inline--*/
+.prrcon{
+  background: url(Contact/contact.gif);
+  background-size: cover;
+}
+.met{
+  text-shadow: 2px 2px 2px #333333;
+}
+.oho{
+  width: 21%;
+  margin-top: 1%;
+}
 /*--Section 1st CSS Ends--*/
 
 /*--Section 2nd CSS Starts--*/
@@ -2204,6 +2213,10 @@ select{
 }
 .maper h1{
   text-align: center;
+}
+.googlemap{
+  width: 1700;
+  height: 600;
 }
 .map-col{
   margin-top: 4.5%;

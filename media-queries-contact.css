@@ -39,5 +39,230 @@
 
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
+    /*--Section 1st CSS Starts--*/
+    .wrapper {
+        width: 0px;
+        height: 0px;
+    }
+    .Aboutus {
+        min-height: 401vh;
+        width: 400%;
+        top: 0%;
+        background-position-x: 35%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Aboutus nav {
+        height: 150;
+        background-color: transparent;
+        transition: background-color 12600s ease;
+        position: absolute;
+        top: 85;
+        width: 92%;
+        z-index: 1000;
+    }
+    .Aboutus nav .logohumain{
+        width: 295px;
+        margin-left: -8%;
+    }
+    .Aboutus .nav-links{
+        display: none;
+    }
+    .Aboutus .btnLogin-popup img{
+        margin-top: 10;
+        margin-left: 55;
+    }
+    .btnLogin-popup img {
+        width: 100px;
+    }
+    .littleaboutus {
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .littleaboutus h1{
+        font-size: 75px;
+        padding-bottom: 20px;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: black 3px 3px 3px;
+    }
+    .oho{
+        width: 60%;
+        margin-top: 1%;
+    }
+    /*--Section 1st CSS Ends--*/
 
+    /*--Section 2nd CSS Starts--*/
+    .maper{
+        width: 400%;
+        margin: auto;
+        margin-bottom: 125px;
+        margin-top: 95px;
+    }
+    .maper h1{
+        text-align: center;
+        font-size: 65px;
+    }
+    .googlemap{
+        width: 92%;
+        height: 150%;
+    }
+    .map-col{
+        margin-top: 75px;
+        text-align: center;
+    }
+    /*--Section 2nd CSS Ends--*/
+
+    /*--Footer as Section 8th CSS Starts--*/
+    footer{
+        width: 400%;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+      }
+    .footer-row{
+        width: 85%;
+        padding-top: 35px;
+        margin: auto;
+        display: inline-block;
+    }
+    .footer-col{
+        padding: 3px;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        width: 370px;
+        margin-left: -50px;
+        height: 370px;
+    }
+    footer p{
+        font-size: 31px;
+        line-height: 1.6;
+    }
+    .footer-col1{
+        padding-top: 25px;
+        margin-left: 10px;
+    }
+    .footer-col1 h3 {
+        padding-bottom: 56px;
+        padding-top: 30px;
+        font-size: 36px;
+    }
+    .footer-col1 p {
+        margin-left: -5px;
+        padding-bottom: 20;
+    }
+    .footer-col2{
+        padding-top: 50px;
+        margin-left: 10px;
+    }
+    .footer-col3{
+        padding-top: 38px;
+        margin-left: 10px;
+    }
+    .footer-col3 h3{
+        padding-bottom: 19px;
+    }
+    .footer-col1 h4 {
+        padding-top: 50px;
+        font-size: 36px;
+    }
+    .footer-col2 {
+        padding-top: 90px;
+        margin-left: 10px;
+    }
+    .footer-col2 h3 {
+        padding-bottom: 65px;
+        padding-top: 30px;
+        font-size: 36px;
+    }
+    .footer-col2 ul li {
+        list-style: none;
+        margin-bottom: 35px;
+    }
+    .footer-col2 ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .footer-col3 {
+        padding-top: 38px;
+        margin-left: 10px;
+    }
+    .footer-col3 h3 {
+        padding-bottom: 45px;
+        padding-top: 35px;
+        font-size: 36px;
+    }
+    .footer-col3 form {
+        padding-top: 11px;
+        padding-bottom: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 50px;
+    }
+    .footer-col3 form .far {
+        font-size: 35px;
+        margin-right: 20px;
+    }
+    .footer-col3 form input {
+        font-size: 27;
+    }
+    .footer-col3 form button .fas {
+        font-size: 31px;
+        color: #ccc;
+    }
+    .footer-col4 {
+        padding-top: 40px;
+        margin-left: 6px;
+    }
+    .footer-col4 .fab {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 170%;
+        margin-right: 25px;
+    }
+    .footer-col5 {
+        padding-top: 36px;
+        margin-left: 10px;
+    }
+    .footer-col5 h3 {
+        padding-bottom: 35px;
+        padding-top: 55px;
+        font-size: 36px;
+    }
+    .footer-col5 p{
+        margin-bottom: 50px;
+        margin-left: -5;
+    }
+    .underline1{
+        display: none;
+    }
+    .underline2{
+        display: none;
+    }
+    .underline3{
+        display: none;
+    }
+    .underline4{
+        display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
+    
+    /*Newsletter CSS Starts*/
+    .popup {
+        top: 76%;
+        left: 74%;
+        width: 450px;
+    }
+    /*Newsletter CSS Ends*/
 }
