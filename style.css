@@ -2115,6 +2115,9 @@ select{
 .ifyes h1{
   text-shadow: 2px 2px 2px #333333;
 }
+.ifyes p{
+  line-height: 2;
+}
 .prrmiss{
   border-radius: 3px;
 }
