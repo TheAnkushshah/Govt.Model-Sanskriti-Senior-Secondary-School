@@ -3681,7 +3681,7 @@ footer{
         width: 90%;
         color: #fff;
         position: absolute;
-        top: 38%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -60%);
     }
@@ -3700,7 +3700,7 @@ footer{
         font-weight: 500;
       }
       .aboutusread{
-        margin-top: 40;
+        margin-top: 45;
         display: inline-block;
         text-decoration: none;
         padding: 25px 40px;
@@ -4175,7 +4175,7 @@ footer{
       transform: translate(-50%, -50%);
   }
     .littleaboutus h1{
-      font-size: 73px;
+      font-size: calc(21vw - 0px);
       padding-bottom: 12px;
       font-weight: bold;
       color: #fff;
@@ -4183,7 +4183,7 @@ footer{
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 45.5px;
+      font-size: calc(13.16vw - 0px);
       line-height: 1.9;
       font-weight: 500;
     }
@@ -4191,7 +4191,7 @@ footer{
       margin-top: 50;
       display: inline-block;
       text-decoration: none;
-      padding: 25px 40px;
+      padding: 30px 45px;
       border-radius: 12px;
       font-size: 38px;
       background: #2FAAE5;

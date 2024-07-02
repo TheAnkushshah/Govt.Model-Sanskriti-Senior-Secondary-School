@@ -14,6 +14,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/6b4461ca9b.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <style>
             .card-2:hover,.card-4:hover{
               transform: rotate(5deg) scale(1.1);
@@ -37,55 +39,25 @@
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showmenu()"></i>
-                <div class="btnLogin-popup" id="btnLoginPopup"><img src="Login-Signup/login.png" id="loginImage"></div>
+                <div class="menu-icon" onclick="toggleMenu()"><ion-icon name="apps-outline"></ion-icon></div>
+                <div class="menu" id="menu">
+                    <div class="app">
+                        <a href="app1.html"><img src="https://intranet.ai/media/4562/immagini-banner-6.png" alt="App 1"></a>
+                    </div>
+                    <div class="app">
+                        <a href="app2.html"><img src="" alt="App 2"></a>
+                    </div>
+                    <div class="app">
+                        <a href="app3.html"><img src="app3.png" alt="App 3"></a>
+                    </div>
+                    <div class="app">
+                        <a href="app4.html"><img src="app4.png" alt="App 4"></a>
+                    </div>
+                    <div class="app">
+                        <a href="app5.html"><img src="app5.png" alt="App 5"></a>
+                    </div>
+                </div>
             </nav>
-            <div class="wrapper hidden" id="wrapper">
-                <span class="icon-close" id="closeIcon"><ion-icon name="close"></ion-icon></span>
-                <div class="form-box login">
-                    <h2>Student</h2>
-                    <form action="#">
-                        <div class="input-box">
-                            <span class="icon"><ion-icon name="person"></ion-icon></span>
-                            <input type="text" required>
-                            <label>SRN</label>
-                        </div>
-                        <div class="input-box">
-                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                            <input type="password" required>
-                            <label>Password</label>
-                        </div>
-                        <div class="remember-forgot">
-                            <label><input type="checkbox">I Agree to the terms & conditions</label>
-                        </div>
-                        <button type="submit" class="yes">Login</button>
-                        <div class="login-register">
-                            <p>Faculty Login ! <a href="#" class="register-link">Login</a></p>
-                        </div>
-                    </form>
-                </div>
-                <div class="form-box register">
-                    <h2>Faculty</h2>
-                    <form action="#">
-                        <div class="input-box">
-                            <span class="icon"><ion-icon name="person"></ion-icon></span>
-                            <input type="text" required>
-                            <label>SRN</label>
-                        </div>
-                        <div class="input-box">
-                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                            <input type="password" required>
-                            <label>Password</label>
-                        </div>
-                        <div class="remember-forgot">
-                            <label><input type="checkbox">I Agree to the terms & conditions</label>
-                        </div>
-                        <button type="submit" class="yes">Login</button>
-                        <div class="login-register">
-                            <p>Student Login ! <a href="#" class="login-link">Login</a></p>
-                        </div>
-                    </form>
-                </div>
-            </div>
             <div class="littleaboutus toohar">
                 <h1 class="holoo"><b>Curriculam Designed For Innovators</b></h1>
                 <p><span class="text-formatting" style="background: #df8470">Embark on the Extraordinary: A Grand Expedition in Learning for Innovators in Our Thoughtfully Crafted </span><br>
@@ -859,5 +831,28 @@
     <!-- Adsense-->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9323117785307367" crossorigin="anonymous"></script>
     <!-- Adsense-->
+
+    <!-- Apps-->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+        
+        // Close the menu if clicked outside
+        window.onclick = function(event) {
+            if (!event.target.closest('.menu-icon')) {
+                const menu = document.getElementById('menu');
+                if (menu.style.display === 'block') {
+                    menu.style.display = 'none';
+                }
+            }
+        }
+    </script>
+   <!-- Apps-->
     </body>
 </html>
