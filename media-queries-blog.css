@@ -43,17 +43,17 @@
     margin-left: 5%;
   }
   .littleaboutus h1{
-    font-size: 70px;
+    font-size: 62px;
     padding-bottom: 0px;
     font-weight: bold;
     color: #fff;
     padding-top: 320px;
-    text-shadow: black 3px 3px 3px;
+    text-shadow: black 2px 2px 3px;
   }
   .littleaboutus p{
     color: #fff;
-    font-size: 26px;
-    line-height: 2.6;
+    font-size: 28px;
+    line-height: 2.4;
     padding-right: 2.2%;
     font-weight: 500;
   }
@@ -62,8 +62,8 @@
     display: inline-block;
     text-decoration: none;
     padding: 15px 28px;
-    border-radius: 26px;
-    font-size: 17px;
+    border-radius: 30px;
+    font-size: 20px;
     background: #2FAAE5;
     position: relative;
     cursor: pointer;
@@ -71,6 +71,7 @@
   .newsroom {
     margin-bottom: 3.1%;
     margin-top: -1%;
+    width: 94.8%;
   }
   .newsroom-col {
     margin-top: 3.8%;
@@ -258,7 +259,7 @@
       transform: translate(-50%, -60%);
   }
     .littleaboutus h1{
-      font-size: 250px;
+      font-size: 220px;
       padding-bottom: 30px;
       font-weight: bold;
       color: #fff;
@@ -266,7 +267,7 @@
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 90px;
+      font-size: 95px;
       line-height: 2.4;
       padding-right: 2.2%;
       font-weight: 500;
@@ -276,8 +277,8 @@
       display: inline-block;
       text-decoration: none;
       padding: 55px 90px;
-      border-radius: 26px;
-      font-size: 62px;
+      border-radius: 100px;
+      font-size: 70px;
       background: #2FAAE5;
       position: relative;
       cursor: pointer;
@@ -2976,8 +2977,8 @@ footer{
     margin-bottom: 160px;
   }
   .btt {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     top: 92%;
     box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
     margin-top: 15%;
@@ -3464,8 +3465,8 @@ footer{
   margin-bottom: 140px;
 }
 .btt {
-  width: 110px;
-  height: 110px;
+  width: 140px;
+  height: 140px;
   top: 92%;
   box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
   margin-top: 15%;

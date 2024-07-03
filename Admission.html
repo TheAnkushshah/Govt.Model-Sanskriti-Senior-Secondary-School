@@ -86,7 +86,7 @@
                 <div class="fee-card disco2">
                     <img src="Admission/fee 3.png">
                 </div>
-                <div class="fee-card">
+                <div class="fee-card outof">
                     <img src="Admission/fee 4.png">
                 </div>
             </div>
@@ -342,8 +342,20 @@
         <script>
         const whatif = document.getElementById("whatif");
         
-        if (window.matchMedia("(max-width: 569px)").matches) {
+        if (window.matchMedia("(max-width: 850px)").matches) {
             whatif.textContent = "Join & Become #1 Young Leader";
+        }
+
+        if (window.matchMedia("(min-width: 851px) and (max-width: 980px)").matches) {
+            whatif.textContent = "Join & Become the Next #1 Young Leader";
+        }
+
+        if (window.matchMedia("(min-width: 981px) and (max-width: 1850px)").matches) {
+            whatif.textContent = "Join Now & Become the Next #1 Young Leader";
+        }
+
+        if (window.matchMedia("(min-width: 1851px) and (max-width: 1919px)").matches) {
+            whatif.textContent = "Join Now Becomes the Next";
         }
         </script>
         <!--Javascript for Custom Text Media Queries Ends-->
@@ -358,8 +370,26 @@
                 superhash.innerHTML = formattedText;
             }
 
-            if (window.matchMedia("(min-width: 569px) and (max-width: 1919px)").matches) {
+            if (window.matchMedia("(min-width: 569px) and (max-width: 1024px)").matches) {
                 let text = "Join our community of learners and enjoy the benefits of innovative teaching methods personalized learning, and a supportive environment Come and unlock your full Potential with us. . . .";
+                let formattedText = text.replace(/\n/g, "<br>");
+                superhash.innerHTML = formattedText;
+            }
+
+            if (window.matchMedia("(min-width: 1025px) and (max-width: 1440px)").matches) {
+                let text = "Join our community of learners and enjoy the benefits of innovative teaching methods personalized learning, and a supportive environment Come and unlock your full\nPotential with us";
+                let formattedText = text.replace(/\n/g, "<br>");
+                superhash.innerHTML = formattedText;
+            }
+
+            if (window.matchMedia("(min-width: 1441px) and (max-width: 1850px)").matches) {
+                let text = "Join our community of learners and enjoy the benefits of innovative teaching methods personalized learning, and a supportive environment Come and unlock your full Potential with us";
+                let formattedText = text.replace(/\n/g, "<br>");
+                superhash.innerHTML = formattedText;
+            }
+
+            if (window.matchMedia("(min-width: 1851px) and (max-width: 1919px)").matches) {
+                let text = "Discover the amazing opportunities waiting for you at our school Accomplishments\nJoin our community of learners and enjoy the benefits of innovations\nCome and unlock full potential with us. . . ."
                 let formattedText = text.replace(/\n/g, "<br>");
                 superhash.innerHTML = formattedText;
             }
