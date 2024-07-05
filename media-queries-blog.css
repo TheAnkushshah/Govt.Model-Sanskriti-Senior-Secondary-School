@@ -3619,6 +3619,52 @@ footer{
     width: 550px;
   }
   /*Newsletter CSS Ends*/
+
+    /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 6.5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 175px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 1040px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.app img {
+  width: 340px;
+  margin-left: -11px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 45px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
 }
 
 @media (min-width: 569px) and (max-width: 714px) {
@@ -4107,6 +4153,52 @@ footer{
     width: 450px;
   }
   /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 155px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 20px;
+  width: 745px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 3.3%;
+}
+
+.app img {
+  width: 245px;
+  margin-left: -8px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 32px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
 }
 
 /* 568px - Mobile devices */
@@ -4598,4 +4690,50 @@ footer{
   width: 450px;
 }
   /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 155px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 47px;
+  padding-top: 25px;
+  border-radius: 20px;
+  width: 745px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.app img {
+  width: 245px;
+  margin-left: -8px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 32px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
 }
