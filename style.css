@@ -18,6 +18,61 @@
 }
 /*Custom Scrollbar CSS Ends*/
 
+/*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 36px;
+  right: 35px;
+  color: white;
+  cursor: pointer;
+  font-size: 2.2em;
+}
+
+@media (min-width: 1919px) and (max-width: 5000px){
+.Aboutus .menu-icon{
+  top: 24px;
+}
+.Aboutus .menu{
+  top: 70px;
+}
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 90px;
+  right: 37px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  width: 300px;
+  z-index: 1000;
+}
+
+.app {
+  display: inline-block;
+  width: 30.3%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 3.3%;
+}
+
+.app img {
+  width: 90px;
+  margin-left: -4.5px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+
 /*Newsletter CSS Starts*/
 .popup {
   display: none;
@@ -63,12 +118,12 @@ nav img{
 .nav-links{
   flex: 1;
   text-align: right;
-  margin-right: 1.2%;
+  margin-right: 2.6%;
 }
 .nav-links ul li{
   list-style: none;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 8px 15px;
   position: relative;
 }
 .nav-links ul li a{
