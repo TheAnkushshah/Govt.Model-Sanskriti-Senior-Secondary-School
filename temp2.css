@@ -1,0 +1,33 @@
+.littleaboutus h1{
+    font-size: 65px;
+    padding-top: 350px;
+    color: #fff;
+  }
+  .littleaboutus p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .text-formatting{
+    background: #E9AF38;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  .text-formatting1{
+    background: #E9AF38;
+    border-radius: 10px;
+    padding: 5px 10px;
+    padding-top: 0px;
+  }
+  .aboutusread{
+    margin-top: 22;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #2FAAE5;
+    position: relative;
+    cursor: pointer;
+  }

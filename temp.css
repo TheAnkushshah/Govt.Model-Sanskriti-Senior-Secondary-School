@@ -1,0 +1,40 @@
+.littleaboutus h1{
+    font-size: 65px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #333333
+  }
+  .littleaboutus p{
+    color: #fff;
+    font-size: 22px;
+    line-height: 2.2;
+    font-weight: 500;
+  }
+  .text-formatting {
+    background: #E9AF38;
+    border-radius: 8px;
+    padding: 12px 28px;
+  }
+  .text-formatting1 {
+    background: #E9AF38;
+    border-radius: 9px;
+    padding: 13px 25px;
+    padding-top: 5px;
+  }
+  .aboutusread{
+    margin-top: 40;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #2FAAE5;
+    position: relative;
+    cursor: pointer;
+  }
+  .aboutusread{
+    font-size: 18px;
+    padding: 12px 34px;
+  }
+  .littleaboutus h1{
+    padding-top: 325px;
+  }

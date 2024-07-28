@@ -997,59 +997,26 @@ ul li a{
   margin-top: 4.2%;
   text-align: center;
 }
-.littleaboutus h1{
-  font-size: 65px;
-  padding-top: 350px;
-  color: #fff;
-}
-.littleaboutus p{
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.5;
-  font-weight: 500;
-}
-.text-formatting{
-  background: #E9AF38;
-  border-radius: 10px;
-  padding: 5px 10px;
-}
-.text-formatting1{
-  background: #E9AF38;
-  border-radius: 10px;
-  padding: 5px 10px;
-  padding-top: 0px;
-}
-.aboutusread{
-  margin-top: 22;
-  border-radius: 10px;
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  padding: 12px 34px;
-  font-size: 13px;
-  background: #2FAAE5;
-  position: relative;
-  cursor: pointer;
-}
 /*--Section 1st CSS Ends--*/
 
 /*--Section 2nd CSS Starts--*/
 .Fullaboutus{
   width: 90%;
   margin: auto;
-  margin-bottom: 5.3%;
+  margin-bottom: 4%;
+  margin-top: -0.7%;
 }
 .Fullaboutus h1{
   text-align: center;
 }
-.MPD-col{
-  margin-top: 5%;
+.steve{
+  margin-top: 4.3%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.card{
-  width: 100%; /* Adjusted to take 30% of the container's width */
-  height: 400px; /* Adjusted to auto height */
+.steve .card{
+  width: 810px; /* Adjusted to take 30% of the container's width */
+  height: 420px; /* Adjusted to auto height */
   perspective: 1000px;
 }
 .card-inner{
@@ -1073,6 +1040,7 @@ ul li a{
   background: url(AboutPage/Mission.png);
   border: 1px solid #d8d8d8;
   border-radius: 10px;
+  background-size: cover;
   background-position: center;
   transform: rotateY(0deg);
 }
@@ -1094,6 +1062,7 @@ ul li a{
   background: url(AboutPage/Vision.png);
   border: 1px solid #d8d8d8;
   border-radius: 10px;
+  background-size: cover;
   transform: rotateY(0deg);
   background-position: center;
 }
@@ -1108,20 +1077,21 @@ ul li a{
 
 /*--Section 3rd CSS Starts--*/
 .Fullaboutus2{
-  width: 90%;
+  width: 94%;
   margin: auto;
-  margin-bottom: 4.8%;
+  margin-bottom: 4.1%;
+  margin-top: 4.8%;
 }
 .Fullaboutus2 h1{
   text-align: center;
 }
 .corevalue{
   display: flex;
-  margin-top: 4.5%;
-  justify-content: space-around;
+  margin-top: 4%;
+  justify-content: space-between;
 }
 .corevalue-col{
-  width: 20%;
+  width: 21%;
   text-align: center;
 }
 .corevalue-col img{
@@ -1133,40 +1103,40 @@ ul li a{
   padding-top: 4px;
   font-weight: 400;
 }
+.coder{
+  margin-top: 6px;
+}
 /*--Section 3rd CSS Ends--*/
 
 /*--Section 4th CSS Starts--*/
 .Fullaboutus3{
-  width: 84%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 4.8%;
+  margin-bottom: 4.1%;
 }
 .Fullaboutus3 h1{
   text-align: center;
 }
 .history{
-  margin-top: 5.3%;
-}
-.history-col{
-  text-align: center;
+  margin-top: 4.3%;
 }
 .history-col img{
-  width: 101.7%;
+  width: 100%;
   border-radius: 10px;
 }
 /*--Section 4th CSS Ends--*/
 
 /*--Section 5th CSS Starts--*/
 .Fullaboutus4{
-  width: 84%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 0.7%;
+  margin-bottom: 0%;
 }
 .Fullaboutus4 h1{
   text-align: center;
 }
 .leadershipteam{
-  margin-top: 4.5%;
+  margin-top: 3.1%;
   display: flex;
 }
 .leadershipteam-col img{
@@ -1177,14 +1147,15 @@ ul li a{
 .leadershipteam-col p{
   text-align: center;
   padding-top: 30;
-  margin-left: 38%;
+  margin-left: 37%;
+  line-height: 1.5;
 }
 .accordion{
   margin-left: 10%;
 }
 .accordion li{
   list-style: none;
-  width: 100%;
+  width: 96.3%;
   margin: 20px;
   padding: 10px;
   background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
@@ -1229,15 +1200,15 @@ input[type="radio"]:checked + label::before{
 
 /*--Section 6th CSS Starts--*/
 .Fullaboutus7{
-  width: 84.8%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 4.3%;
 }
 .Fullaboutus7 h1{
   text-align: center;
 }
 .students{
-  margin-top: 5.2%;
+  margin-top: 4.5%;
   display: flex;
   justify-content: space-between;
 }
@@ -1245,7 +1216,7 @@ input[type="radio"]:checked + label::before{
   border-radius: 10px;
 }
 .students-col p{
-  margin-top: 4.7%;
+  margin-top: 0.5%;
   font-weight: 400;
   text-align: center;
 }
@@ -1266,7 +1237,7 @@ input[type="radio"]:checked + label::before{
 
 /*--Section 7th CSS Ends--*/
 .Fullaboutus8{
-  width: 90%;
+  width: 90.5%;
   margin: auto;
   margin-bottom: 6%;
 }
@@ -1274,12 +1245,12 @@ input[type="radio"]:checked + label::before{
   text-align: center;
 }
 .MPD-col{
-  margin-top: 5%;
+  margin-top: 4.3%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .card{
-  width: 750px;
+  width: 800px;
   height: 400px;
   perspective: 1000px;
 }
@@ -1304,6 +1275,7 @@ input[type="radio"]:checked + label::before{
   background: url(AboutPage/Information.png);
   border: 1px solid #d8d8d8;
   border-radius: 10px;
+  background-position-x: 30%;
   transform: rotateY(0deg);
 }
 .card-back{
@@ -1311,6 +1283,7 @@ input[type="radio"]:checked + label::before{
   border: 1px solid #d8d8d8;
   border-radius: 10px;
   transform: rotateY(180deg);
+  background-position-x: 30%;
 }
 .card-front1,
 .card-back1{
@@ -1324,12 +1297,14 @@ input[type="radio"]:checked + label::before{
   border: 1px solid #d8d8d8;
   border-radius: 10px;
   transform: rotateY(0deg);
+  background-position: top;
 }
 .card-back1{
   background: url(AboutPage/Details1.png);
   border: 1px solid #d8d8d8;
   border-radius: 10px;
   transform: rotateY(180deg);
+  background-position: top;
 }
 /*--Section 7th CSS Ends--*/
 
@@ -1538,7 +1513,7 @@ input[type="radio"]:checked + label::before{
   overflow: hidden;
   display: inline-block;
   margin-right: 20px;
-  padding: 0px 0;
+  padding: 20px 0;
   padding-bottom: 70px;
 }
 
