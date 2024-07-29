@@ -59,30 +59,30 @@
     margin-left: 5%;
   }
   .littleaboutus h1{
-    font-size: 62px;
-    padding-bottom: 0px;
-    font-weight: bold;
+    font-size: 62px !important;
+    padding-bottom: 0px !important;
+    font-weight: bold !important;
     color: #fff;
-    padding-top: 320px;
-    text-shadow: black 2px 2px 3px;
+    padding-top: 320px !important;
+    text-shadow: black 2px 2px 3px !important;
   }
   .littleaboutus p{
     color: #fff;
-    font-size: 28px;
-    line-height: 2.4;
-    padding-right: 2.2%;
-    font-weight: 500;
+    font-size: 28px !important;
+    line-height: 2.4 !important;
+    padding-right: 2.2% !important;
+    font-weight: 500 !important;
   }
   .aboutusread{
-    margin-top: 30;
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px 28px;
-    border-radius: 30px;
-    font-size: 20px;
+    margin-top: 30 !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    padding: 15px 28px !important;
+    border-radius: 30px !important;
+    font-size: 20px !important;
     background: #2FAAE5;
-    position: relative;
-    cursor: pointer;
+    position: relative !important;
+    cursor: pointer !important;
   }
   .newsroom {
     margin-bottom: 3.1%;
@@ -275,29 +275,29 @@
       transform: translate(-50%, -60%);
   }
     .littleaboutus h1{
-      font-size: 220px;
-      padding-bottom: 30px;
-      font-weight: bold;
+      font-size: 220px !important;
+      padding-bottom: 30px !important;
+      font-weight: bold !important;
       color: #fff;
-      text-shadow: black 10px 8px 10px;
+      text-shadow: black 10px 8px 10px !important;
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 95px;
-      line-height: 2.4;
-      padding-right: 2.2%;
-      font-weight: 500;
+      font-size: 95px !important;
+      line-height: 2.4 !important;
+      padding-right: 2.2% !important;
+      font-weight: 500 !important;
     }
     .aboutusread{
-      margin-top: 122;
-      display: inline-block;
-      text-decoration: none;
-      padding: 55px 90px;
-      border-radius: 100px;
-      font-size: 70px;
+      margin-top: 122 !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      padding: 55px 90px !important;
+      border-radius: 100px !important;
+      font-size: 70px !important;
       background: #2FAAE5;
-      position: relative;
-      cursor: pointer;
+      position: relative !important;
+      cursor: pointer !important;
     }
     /*--Section 1st CSS Ends--*/
 
@@ -812,29 +812,29 @@ footer{
       transform: translate(-50%, -60%);
   }
     .littleaboutus h1{
-      font-size: 200px;
-      padding-bottom: 10px;
-      font-weight: bold;
+      font-size: 200px !important;
+      padding-bottom: 10px !important;
+      font-weight: bold !important;
       color: #fff;
-      text-shadow: black 3px 3px 3px;
+      text-shadow: black 3px 3px 3px !important;
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 90px;
-      line-height: 2.4;
-      padding-right: 2.2%;
-      font-weight: 500;
+      font-size: 90px !important;
+      line-height: 2.4 !important;
+      padding-right: 2.2% !important;
+      font-weight: 500 !important;
     }
     .aboutusread{
-      margin-top: 85;
-      display: inline-block;
-      text-decoration: none;
-      padding: 50px 80px;
-      border-radius: 12px;
-      font-size: 56px;
+      margin-top: 85 !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      padding: 50px 80px !important;
+      border-radius: 12px !important;
+      font-size: 56px !important;
       background: #2FAAE5;
-      position: relative;
-      cursor: pointer;
+      position: relative !important;
+      cursor: pointer !important;
     }
     /*--Section 1st CSS Ends--*/
 
@@ -1358,29 +1358,29 @@ footer{
       transform: translate(-50%, -60%);
   }
     .littleaboutus h1{
-      font-size: 185px;
-      padding-bottom: 10px;
-      font-weight: bold;
+      font-size: 185px !important;
+      padding-bottom: 10px !important;
+      font-weight: bold !important;
       color: #fff;
-      text-shadow: black 3px 3px 3px;
+      text-shadow: black 3px 3px 3px !important;
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 85px;
-      line-height: 2.2;
-      padding-right: 2.2%;
-      font-weight: 500;
+      font-size: 85px !important;
+      line-height: 2.2 !important;
+      padding-right: 2.2% !important;
+      font-weight: 500 !important;
     }
     .aboutusread{
-      margin-top: 90;
-      display: inline-block;
-      text-decoration: none;
-      padding: 45px 70px;
-      border-radius: 12px;
-      font-size: 56px;
+      margin-top: 90 !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      padding: 45px 70px !important;
+      border-radius: 12px !important;
+      font-size: 56px !important;
       background: #2FAAE5;
-      position: relative;
-      cursor: pointer;
+      position: relative !important;
+      cursor: pointer !important;
     }
     /*--Section 1st CSS Ends--*/
 
@@ -1894,29 +1894,29 @@ footer{
       transform: translate(-50%, -60%);
   }
     .littleaboutus h1{
-      font-size: 185px;
-      padding-bottom: 10px;
-      font-weight: bold;
+      font-size: 185px !important;
+      padding-bottom: 10px !important;
+      font-weight: bold !important;
       color: #fff;
-      text-shadow: black 3px 3px 3px;
+      text-shadow: black 3px 3px 3px !important;
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 85px;
-      line-height: 2.2;
-      padding-right: 2.2%;
-      font-weight: 500;
+      font-size: 85px !important;
+      line-height: 2.2 !important;
+      padding-right: 2.2% !important;
+      font-weight: 500 !important;
     }
     .aboutusread{
-      margin-top: 75;
-      display: inline-block;
-      text-decoration: none;
-      padding: 45px 70px;
-      border-radius: 12px;
-      font-size: 56px;
+      margin-top: 75 !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      padding: 45px 70px !important;
+      border-radius: 12px !important;
+      font-size: 56px !important;
       background: #2FAAE5;
-      position: relative;
-      cursor: pointer;
+      position: relative !important;
+      cursor: pointer !important;
     }
     /*--Section 1st CSS Ends--*/
 
@@ -2429,29 +2429,29 @@ footer{
         transform: translate(-50%, -60%);
     }
       .littleaboutus h1{
-        font-size: 185px;
-        padding-bottom: 10px;
-        font-weight: bold;
+        font-size: 185px !important;
+        padding-bottom: 10px !important;
+        font-weight: bold !important;
         color: #fff;
-        text-shadow: black 4px 4px 4px;
+        text-shadow: black 4px 4px 4px !important;
       }
       .littleaboutus p{
         color: #fff;
-        font-size: 81px;
-        line-height: 2.2;
-        padding-right: 2.2%;
-        font-weight: 500;
+        font-size: 81px !important;
+        line-height: 2.2 !important;
+        padding-right: 2.2% !important;
+        font-weight: 500 !important;
       }
       .aboutusread{
-        margin-top: 73;
-        display: inline-block;
-        text-decoration: none;
-        padding: 50px 70px;
-        border-radius: 15px;
-        font-size: 52px;
+        margin-top: 73 !important;
+        display: inline-block !important;
+        text-decoration: none !important;
+        padding: 50px 70px !important;
+        border-radius: 15px !important;
+        font-size: 52px !important;
         background: #2FAAE5;
-        position: relative;
-        cursor: pointer;
+        position: relative !important;
+        cursor: pointer !important;
       }
       /*--Section 1st CSS Ends--*/
   
@@ -2963,29 +2963,29 @@ footer{
         transform: translate(-50%, -60%);
     }
       .littleaboutus h1{
-        font-size: 165px;
-        padding-bottom: 10px;
-        font-weight: bold;
+        font-size: 165px !important;
+        padding-bottom: 10px !important;
+        font-weight: bold !important;
         color: #fff;
-        text-shadow: black 4px 4px 4px;
+        text-shadow: black 4px 4px 4px !important;
       }
       .littleaboutus p{
         color: #fff;
-        font-size: 75px;
-        line-height: 2.2;
-        padding-right: 2.2%;
-        font-weight: 500;
+        font-size: 75px !important;
+        line-height: 2.2 !important;
+        padding-right: 2.2% !important;
+        font-weight: 500 !important;
       }
       .aboutusread{
-        margin-top: 70;
-        display: inline-block;
-        text-decoration: none;
-        padding: 40px 70px;
-        border-radius: 12px;
-        font-size: 52px;
+        margin-top: 70 !important;
+        display: inline-block !important;
+        text-decoration: none !important;
+        padding: 40px 70px !important;
+        border-radius: 12px !important;
+        font-size: 52px !important;
         background: #2FAAE5;
-        position: relative;
-        cursor: pointer;
+        position: relative !important;
+        cursor: pointer !important;
       }
       /*--Section 1st CSS Ends--*/
   
@@ -3497,29 +3497,29 @@ footer{
       transform: translate(-50%, -60%);
   }
     .littleaboutus h1{
-      font-size: 130px;
-      padding-bottom: 10px;
-      font-weight: bold;
+      font-size: 130px !important;
+      padding-bottom: 10px !important;
+      font-weight: bold !important;
       color: #fff;
-      text-shadow: black 3px 3px 3px;
+      text-shadow: black 4px 4px 4px !important;
     }
     .littleaboutus p{
       color: #fff;
-      font-size: 64px;
-      line-height: 2.1;
-      padding-right: 2.2%;
-      font-weight: 500;
+      font-size: 64px !important;
+      line-height: 2.1 !important;
+      padding-right: 2.2% !important;
+      font-weight: 500 !important;
     }
     .aboutusread{
-      margin-top: 60;
-      display: inline-block;
-      text-decoration: none;
-      padding: 35px 45px;
-      border-radius: 12px;
-      font-size: 47px;
+      margin-top: 60 !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      padding: 35px 45px !important;
+      border-radius: 12px !important;
+      font-size: 47px !important;
       background: #2FAAE5;
-      position: relative;
-      cursor: pointer;
+      position: relative !important;
+      cursor: pointer !important;
     }
     /*--Section 1st CSS Ends--*/
 
@@ -4031,29 +4031,29 @@ footer{
         transform: translate(-50%, -60%);
     }
       .littleaboutus h1{
-        font-size: 106px;
-        padding-bottom: 10px;
-        font-weight: bold;
+        font-size: 106px !important;
+        padding-bottom: 10px !important;
+        font-weight: bold !important;
         color: #fff;
-        text-shadow: black 3px 3px 3px;
+        text-shadow: black 3px 3px 3px !important;
       }
       .littleaboutus p{
         color: #fff;
-        font-size: 49px;
-        line-height: 2;
-        padding-right: 2.2%;
-        font-weight: 500;
+        font-size: 49px !important;
+        line-height: 2 !important;
+        padding-right: 2.2% !important;
+        font-weight: 500 !important;
       }
       .aboutusread{
-        margin-top: 45;
-        display: inline-block;
-        text-decoration: none;
-        padding: 25px 40px;
-        border-radius: 12px;
-        font-size: 42px;
+        margin-top: 45 !important;
+        display: inline-block !important;
+        text-decoration: none !important;
+        padding: 25px 40px !important;
+        border-radius: 12px !important;
+        font-size: 42px !important;
         background: #2FAAE5;
-        position: relative;
-        cursor: pointer;
+        position: relative !important;
+        cursor: pointer !important;
       }
       /*--Section 1st CSS Ends--*/
   
@@ -4566,28 +4566,27 @@ footer{
       transform: translate(-50%, -50%);
   }
     .littleaboutus h1{
-      font-size: calc(21vw - 0px);
-      padding-bottom: 12px;
+      font-size: calc(21vw - 0px) !important;
+      padding-bottom: 12px !important;
       font-weight: bold;
       color: #fff;
-      text-shadow: black 1px 3px 2px;
+      text-shadow: black 1px 3px 2px !important;
     }
     .littleaboutus p{
       color: #fff;
-      font-size: calc(13.16vw - 0px);
-      line-height: 1.9;
-      font-weight: 500;
+      font-size: calc(13.16vw - 0px) !important;
+      line-height: 1.9 !important;
+      font-weight: 500 !important;
     }
     .aboutusread{
-      margin-top: 50;
-      display: inline-block;
-      text-decoration: none;
-      padding: 30px 45px;
-      border-radius: 12px;
-      font-size: 38px;
-      background: #2FAAE5;
-      position: relative;
-      cursor: pointer;
+      margin-top: 50 !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      padding: 30px 45px !important;
+      border-radius: 12px !important;
+      font-size: 38px !important;
+      position: relative !important;
+      cursor: pointer !important;
     }
     /*--Section 1st CSS Ends--*/
 
