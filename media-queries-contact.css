@@ -113,11 +113,11 @@ footer{
             transform: translate(-50%, -50%);
         }
         .littleaboutus h1{
-            font-size: 220px;
-            padding-bottom: 20px;
-            font-weight: bold;
-            color: #fff;
-            text-shadow: black 3px 7px 6px;
+            font-size: 220px !important;
+            padding-bottom: 20px !important;
+            font-weight: bold !important;
+            color: #fff !important;
+            text-shadow: black 3px 7px 6px !important;
         }
         .oho{
             width: 1570;
@@ -384,11 +384,11 @@ footer{
               transform: translate(-50%, -50%);
           }
           .littleaboutus h1{
-              font-size: 195px;
-              padding-bottom: 20px;
-              font-weight: bold;
-              color: #fff;
-              text-shadow: black 4px 4px 4px;
+              font-size: 195px !important;
+              padding-bottom: 20px !important;
+              font-weight: bold !important;
+              color: #fff !important;
+              text-shadow: black 4px 4px 4px !important;
           }
           .oho{
               width: 1450;
@@ -662,11 +662,11 @@ footer{
             transform: translate(-50%, -50%);
         }
         .littleaboutus h1{
-            font-size: 175px;
-            padding-bottom: 20px;
-            font-weight: bold;
-            color: #fff;
-            text-shadow: black 4px 4px 4px;
+            font-size: 175px !important;
+            padding-bottom: 20px !important;
+            font-weight: bold !important;
+            color: #fff !important;
+            text-shadow: black 4px 4px 4px !important;
         }
         .oho{
             width: 1410;
@@ -935,11 +935,11 @@ footer{
             transform: translate(-50%, -50%);
         }
         .littleaboutus h1{
-            font-size: 167px;
-            padding-bottom: 20px;
-            font-weight: bold;
-            color: #fff;
-            text-shadow: black 4px 4px 4px;
+            font-size: 167px !important;
+            padding-bottom: 20px !important;
+            font-weight: bold !important;
+            color: #fff !important;
+            text-shadow: black 4px 4px 4px !important;
         }
         .oho{
             width: 1400;
@@ -1207,11 +1207,11 @@ footer{
         transform: translate(-50%, -50%);
     }
     .littleaboutus h1{
-        font-size: 157px;
-        padding-bottom: 20px;
-        font-weight: bold;
-        color: #fff;
-        text-shadow: black 3px 3px 3px;
+        font-size: 157px !important;
+        padding-bottom: 20px !important;
+        font-weight: bold !important;
+        color: #fff !important;
+        text-shadow: black 3px 3px 3px !important;
     }
     .oho{
         width: 1360;
@@ -1478,11 +1478,11 @@ footer{
         transform: translate(-50%, -50%);
     }
     .littleaboutus h1{
-        font-size: 140px;
-        padding-bottom: 20px;
-        font-weight: bold;
-        color: #fff;
-        text-shadow: black 3px 3px 3px;
+        font-size: 140px !important;
+        padding-bottom: 20px !important;
+        font-weight: bold !important;
+        color: #fff !important;
+        text-shadow: black 3px 3px 3px !important;
     }
     .oho{
         width: 1300;
@@ -1749,11 +1749,11 @@ footer{
         transform: translate(-50%, -50%);
     }
     .littleaboutus h1{
-        font-size: 110px;
-        padding-bottom: 20px;
-        font-weight: bold;
-        color: #fff;
-        text-shadow: black 3px 3px 3px;
+        font-size: 110px !important;
+        padding-bottom: 20px !important;
+        font-weight: bold !important;
+        color: #fff !important;
+        text-shadow: black 3px 3px 3px !important;
     }
     .oho{
         width: 1100;
@@ -2020,11 +2020,11 @@ footer{
             transform: translate(-50%, -50%);
         }
         .littleaboutus h1{
-            font-size: 90px;
-            padding-bottom: 20px;
-            font-weight: bold;
-            color: #fff;
-            text-shadow: black 3px 3px 3px;
+            font-size: 90px !important;
+            padding-bottom: 20px !important;
+            font-weight: bold !important;
+            color: #fff !important;
+            text-shadow: black 3px 3px 3px !important;
         }
         .oho{
             width: 800;
@@ -2292,11 +2292,11 @@ display: none;
         transform: translate(-50%, -50%);
     }
     .littleaboutus h1{
-        font-size: 75px;
-        padding-bottom: 20px;
-        font-weight: bold;
-        color: #fff;
-        text-shadow: black 3px 3px 3px;
+        font-size: 75px !important;
+        padding-bottom: 20px !important;
+        font-weight: bold !important;
+        color: #fff !important;
+        text-shadow: black 3px 3px 3px !important;
     }
     .oho{
         width: 750;

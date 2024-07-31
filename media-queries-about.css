@@ -4,2659 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@media (min-width: 1851px) and (max-width: 1919px) {
-
-}
-
-@media (min-width: 1651px) and (max-width: 1850px) {
-
-}
-
-@media (min-width: 1441px) and (max-width: 1650px) {
-
-}
-
-@media (min-width: 1241px) and (max-width: 1440px) {
-
-}
-
-@media (min-width: 1025px) and (max-width: 1240px) {
-
-}
-
-/* 1024px - Tablets, laptops, and desktops */
-@media only screen and (max-width: 1024px) {
-
-}
-
-@media (min-width: 891px) and (max-width: 980px) {
-  .card {
-      width: 47%;
-      max-width: none;
-      height: 1000px;
-      perspective: 1000px;
-      padding-bottom: 120px;
-  }
-}
-
-@media (min-width: 851px) and (max-width: 980px) {
-  /*--Section 1st CSS Starts--*/
-  .wrapper {
-    width: 0px;
-    height: 0px;
-  }
-  .Aboutus {
-    min-height: 403vh;
-    width: 400%;
-    top: 0%;
-    background-image: url(AboutPage/Aboutuseful.png);
-    background-position: center;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .Aboutus nav {
-    height: 150;
-    background-color: transparent;
-    transition: background-color 3600s ease;
-    position: absolute;
-    top: 85;
-    width: 92%;
-    z-index: 1000;
-  }
-    .Aboutus nav .logohumain{
-      width: 295px;
-      margin-left: -8%;
-    }
-    .Aboutus .nav-links{
-      display: none;
-    }
-    .Aboutus .btnLogin-popup img{
-      margin-top: 10;
-      margin-left: 55;
-    }
-    .btnLogin-popup img {
-      width: 100px;
-    }
-    .Aboutus .sub-menu-wrap{
-      top: 85%;
-    }
-    .Aboutus .wrapper{
-      margin-top: 70%;
-      transform: translate(-15%);
-    }
-    .littleaboutus {
-      width: 90%;
-      color: #fff;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-  }
-    .littleaboutus h1{
-      font-size: 180px;
-      padding-top: 60px;
-      color: #fff;
-    }
-    .littleaboutus p{
-      color: #fff;
-      font-size: 45px;
-      line-height: 1.5;
-      font-weight: 500;
-    }
-    .text-formatting{
-      background: #E9AF38;
-      border-radius: 10px;
-      padding: 5px 10px;
-    }
-    .text-formatting1{
-      background: #E9AF38;
-      border-radius: 10px;
-      padding: 5px 10px;
-      padding-top: 0px;
-    }
-    .aboutusread {
-      margin-top: 22;
-      border-radius: 10px;
-      display: inline-block;
-      text-decoration: none;
-      color: #fff;
-      padding: 20px 44px;
-      font-size: 40px;
-      background: #2FAAE5;
-      position: relative;
-      cursor: pointer;
-    }
-    /*--Section 1st CSS Ends--*/
-    
-    /*--Section 2nd CSS Starts--*/
-    .Fullaboutus{
-      width: 399%;
-      margin: auto;
-      padding-top: 130px;
-    }
-    .Fullaboutus h1{
-      text-align: center;
-      font-size: 70px;
-    }
-    .MPD-col{
-      margin-top: 6%;
-      display: flex;
-      justify-content: space-around;
-    }
-    @media (min-width: 851px) and (max-width: 890px) {
-      .card {
-          width: 47%;
-          max-width: none;
-          height: 920px;
-          perspective: 1000px;
-          padding-bottom: 120px;
-      }
-  }
-    .card-inner{
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform-style: preserve-3d;
-      transition: transform 0.999s;
-    }
-    .card:hover .card-inner{
-      transform: rotateY(180deg);
-    }
-    .card-front2,
-    .card-back2{
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-    }
-    .card-front2{
-      background: url(AboutPage/Mission.png);
-      border: 1px solid #d8d8d8;
-      border-radius: 10px;
-      transform: rotateY(0deg);
-      background-size: cover;
-      background-position: bottom;
-    }
-    .card-back2{
-      background: url(AboutPage/Missonback.png);
-      border: 1px solid #d8d8d8;
-      border-radius: 10px;
-      transform: rotateY(180deg);
-      background-size: contain;
-      background-position: center;
-    }
-    .card-front3,
-    .card-back3{
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-    }
-    .card-front3{
-      background: url(AboutPage/Vision.png);
-      background-position: revert;
-      border: 1px solid #d8d8d8;
-      border-radius: 10px;
-      transform: rotateY(0deg);
-      background-size: cover;
-    }
-    .card-back3{
-      background: url(AboutPage/Visionback.png);
-      background-position: center;
-      border: 1px solid #d8d8d8;
-      border-radius: 10px;
-      background-size: contain;
-      transform: rotateY(180deg);
-    }
-    /*--Section 2nd CSS Ends--*/
-    
-    /*--Section 3rd CSS Starts--*/
-    .Fullaboutus2{
-      width: 399%;
-      margin: auto;
-      padding-top: 0px;
-    }
-    .Fullaboutus2 h1{
-      text-align: center;
-      font-size: 70px;
-    }
-    .corevalue{
-      display: flex;
-      margin-top: 6%;
-      justify-content: space-around;
-    }
-    .corevalue-col{
-      width: 65%;
-      text-align: center;
-      padding-bottom: 10%;
-    }
-    .corevalue-col img{
-      border-radius: 50%;
-      width: 75%;
-      margin-bottom: 8%;
-    }
-    .corevalue-col p{
-      padding-top: 54px;
-      font-weight: 400;
-      font-size: 40;
-    }
-    /*--Section 3rd CSS Ends--*/
-    
-    /*--Section 4th CSS Starts--*/
-    .Fullaboutus3{
-      width: 399%;
-      margin: auto;
-      margin-top: -18%;
-    }
-    .Fullaboutus3 h1{
-      text-align: center;
-      font-size: 70px;
-    }
-    .history{
-      margin-top: 5.5%;
-    }
-    .history-col{
-      text-align: center;
-    }
-    .history-col img{
-      width: 97%;
-      border-radius: 10px;
-    }
-    /*--Section 4th CSS Ends--*/
-    
-    /*--Section 5th CSS Starts--*/
-    .Fullaboutus4{
-      width: 399%;
-      margin: auto;
-      padding-top: 22%;
-    }
-    .Fullaboutus4 h1{
-      text-align: center;
-      font-size: 70px;
-    }
-    .leadershipteam{
-      margin: auto;
-      width: 96.5%;
-      padding-top: 5%;
-      display: flex;
-    }
-    .leadershipteam-col img{
-      width: 156.5%;
-      border-radius: 3%;
-      margin-top: 4%;
-    }
-    .leadershipteam-col p{
-      text-align: center;
-      padding-top: 25;
-      margin-left: 0%;
-      width: 150%;
-    }
-    .accordion{
-      margin-left: 11%;
-    }
-    .accordion li{
-      list-style: none;
-      width: 97%;
-      margin: 20px;
-      padding: 10px;
-      background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
-      border-radius: 7px;
-      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-    }
-    .accordion li label{
-      display: flex;
-      padding: 10px;
-      font-size: 18px;
-      font-weight: 500;
-      cursor: pointer;
-    }
-    .accordion label::before{
-      content: '+';
-      margin-right: 10px;
-      font-size: 24px;
-      margin-top: -3;
-      font-weight: 600;
-    }
-    input[type="radio"]{
-      display: none;
-    }
-    .accordion .contentser{
-      padding: 0 10px;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.5s, padding 0.5s;
-    }
-    .accordion .contentser p{
-      font-size: 16px;
-    }
-    input[type="radio"]:checked + label + .contentser{
-      max-height: 400px;
-      padding: 10px 10px 10px;
-    }
-    input[type="radio"]:checked + label::before{
-      content: '-';
-    }
-    /*--Section 5th CSS Ends--*/
-    
-    /*--Section 6th CSS Starts--*/
-    .Fullaboutus7{
-      width: 399%;
-      margin: auto;
-      padding-top: 50px;
-    }
-    .Fullaboutus7 h1{
-      text-align: center;
-      font-size: 70px;
-    }
-    .students{
-      margin-top: 5.5%;
-      display: grid;
-      justify-content: normal;
-    }
-    .students-col{
-      text-align: center;
-    }
-    .students-col img{
-      border-radius: 10px;
-      width: 97%;
-    }
-    .students-col p{
-      display: none;
-    }
-    .downloadpdf{
-      margin-top: 50;
-      margin-left: 0%;
-      border-radius: 5px;
-      display: inline-block;
-      text-decoration: none;
-      color: #fff;
-      padding: 12px 34px;
-      font-size: 35px;
-      background: #2FAAE5;
-      cursor: pointer;
-      position: relative;
-    }
-    /*--Section 6th CSS Ends--*/
-    
-    /*--Section 7th CSS Ends--*/
-    .Fullaboutus8{
-      width: 399%;
-      margin: auto;
-      padding-top: 22%;
-    }
-    .Fullaboutus8 h1{
-      text-align: center;
-      font-size: 70px;
-    }
-    .MPD-col{
-      margin-top: 6%;
-      display: flex;
-      justify-content: space-around;
-    }
-    @media (min-width: 851px) and (max-width: 890px) {
-      .card {
-          width: 47%;
-          max-width: none;
-          height: 920px;
-          perspective: 1000px;
-          padding-bottom: 120px;
-      }
-  }
-    .card p{
-      font-size: 28px;
-    }
-    .card-inner{
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform-style: preserve-3d;
-      transition: transform 0.999s;
-    }
-    .card:hover .card-inner{
-      transform: rotateY(180deg);
-    }
-    .card-front,
-    .card-back{
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-    }
-    .card-front{
-      background: url(AboutPage/Information.png);
-      background-position: center;
-      border: 1px solid #d8d8d8;
-      border-radius: 10px;
-      transform: rotateY(0deg);
-      background-size: cover;
-    }
-    .card-back{
-      background: url(AboutPage/Details.png);
-      background-position: center;
-      border: 1px solid #d8d8d8;
-      border-radius: 10px;
-      background-size: cover;
-      transform: rotateY(180deg);
-    }
-    .card-front1,
-    .card-back1{
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-    }
-    .card-front1{
-      background: url(AboutPage/Information1.png);
-      background-position: center;
-      border: 1px solid #d8d8d8;
-      background-size: cover;
-      border-radius: 10px;
-      transform: rotateY(0deg);
-    }
-    .card-back1{
-      background: url(AboutPage/Details1.png);
-      background-position: center;
-      border: 1px solid #d8d8d8;
-      background-size: cover;
-      border-radius: 10px;
-      transform: rotateY(180deg);
-    }
-    /*--Section 7th CSS Ends--*/
-    
-    /*--Section 8th CSS Starts--*/
-    .Fullaboutus8 p{
-      font-size: 28px;
-    }
-    .upabove{
-      margin-top: -3%;
-    }
-    .cardcircle p {
-      padding-top: 7%;
-      font-size: 25;
-    }
-    .cardcircle{
-      width: 350px;
-      height: 350px;
-      perspective: 1000px;
-      padding-bottom: 140;
-    }
-    .card-inner{
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform-style: preserve-3d;
-      transition: transform 0.999s;
-    }
-    .cardcircle:hover .card-inner{
-      transform: rotateY(180deg);
-    }
-    .card-frontcircle,
-    .card-backcircle{
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-    }
-    .card-frontcircle{
-      background: url(AboutPage/Approved.png);
-      border-radius: 100px;
-      transform: rotateY(0deg);
-      background-size: cover;
-    }
-    .card-backcircle{
-      border-radius: 100px;
-      background: url(AboutPage/Affiliation.png);
-      transform: rotateY(180deg);
-      background-size: 550%;
-    }
-    /*--Section 8th CSS Ends--*/
-    
-    /*--Section 9th CSS Starts--*/
-    .totallydiffer2{
-      left: -40;
-    }
-    .upabove2{
-      margin-top: -4%;
-      margin-bottom: -65;
-    }
-    .card3D {
-      width: 450px;
-      height: 455px;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 36px;
-      margin-top: 50%;
-      margin-bottom: 35%;
-      perspective: 2500px;
-      cursor: pointer;
-      border-radius: 30px;
-      box-sizing: border-box;
-    }
-    .card3dtext{
-      padding-bottom: 10%;
-    }
-    .cover-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    
-    .wrapper3D {
-      transition: all 0.5s;
-      position: absolute;
-      width: 100%;
-      z-index: -1;
-      background: #000;
-      border-radius: 30px;
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    }
-    
-    .wrapper3D img {
-      border-radius: 30px;
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    }
-    
-    .card3D:hover .wrapper3D {
-      transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
-      box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-    }
-    
-    .wrapper3D::before,
-    .wrapper3D::after {
-      content: "";
-      opacity: 0;
-      width: 100%;
-      height: 80px;
-      transition: all 0.5s;
-      border-radius: 30px;
-      position: absolute;
-      left: 0;
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    }
-    .wrapper3D::before {
-      top: 0;
-      height: 100%;
-      background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
-    }
-    
-    .wrapper3D::after {
-      bottom: 0;
-      opacity: 1;
-      background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
-    }
-    
-    .card3D:hover .wrapper3D::before,
-    .wrapper3D::after {
-      opacity: 1;
-    }
-    
-    .card3D:hover .wrapper3D::after {
-      height: 120px;
-    }
-    
-    .card3D .logo {
-      display: none;
-      width: 100%;
-      transition: transform 0.5s;
-      position: absolute;
-      left: 7%;
-      color: aliceblue;
-      bottom: 10px;
-    }
-    
-    .card3D:hover .logo {
-      transform: translate3d(0%, -50px, 100px);
-    }
-    
-    .card3D:hover .cover-image {
-      opacity: 0.3;
-    }
-    
-    .character {
-      width: 50%;
-      opacity: 0;
-      transition: all 0.5s;
-      filter: drop-shadow(2px 2px 2px #000);
-      position: absolute;
-      z-index: -1;
-      overflow: hidden;
-    }
-    
-    .card3D:hover .totallydiffer {
-      opacity: 1;
-      transform: translate3d(10%, -20%, 670px);
-    }
-    /*--Section 9th CSS Ends--*/
-    
-    /*--Section 10th CSS Starts--*/
-    
-    @keyframes slide {
-      from {
-        transform: translateX(0);
-      }
-      to {
-        transform: translateX(-100%);
-      }
-    }
-    
-    .upabove3{
-      margin-top: -3%;
-    }
-  
-    .logos10 {
-      overflow: hidden;
-      white-space: nowrap;
-      position: relative;
-      margin-top: -3%;
-    }
-    
-    .logos10:before,
-    .logos10:after {
-      position: absolute;
-      top: 0;
-      width: 100px;
-      height: 100%;
-      content: "";
-      z-index: 2;
-    }
-    
-    .logos10:before {
-      left: 0;
-      background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-    }
-    
-    .logos10:after {
-      right: 0;
-      background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-    }
-    
-    .logos-slide {
-      display: inline-block;
-      animation: 35s slide infinite linear;
-    }
-    
-    .logos-slide img {
-      margin: 0 70px;
-    }
-    
-    .logo-container p {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      margin: 0;
-      line-height: 1.3;
-      text-align: center;
-    }
-    
-    .logo-container {
-      position: relative;
-      overflow: hidden;
-      display: inline-block;
-      margin-right: 20px;
-      padding: 80px 30;
-      padding-bottom: 130px;
-    }
-    
-    .logo-container img {
-      max-width: 100%;
-      height: auto;
-      transition: transform 0.5s ease-in-out;
-    }
-    
-    .logo-container:hover img {
-      transform: translateX(0);
-    }
-    
-    .logos10:hover .logos-slide {
-      animation-play-state: paused;
-    }
-    /*--Section 10th CSS Ends--*/
-    
-    /*--Section 11th CSS Starts--*/
-    .upabove4{
-      margin-top: -2%;
-    }
-  
-    .lastyear{
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
-    .lastyear img{
-      width: 40%;
-      margin-top: 3%;
-    }
-    /*--Section 11th CSS Ends--*/
-  
-    /*--btt CSS Starts--*/
-    .backtotop{
-      width: 200%;
-      margin-bottom: 190px;
-      margin-top: -200;
-    }
-    .btt {
-      width: 80px;
-      height: 80px;
-      margin-left: 185%;
-    }
-    .svgIcon {
-      width: 25px;
-    }
-  /*--btt CSS Ends--*/
-  
-    /*--Footer as Section 8th CSS Starts--*/
-  footer{
-    width: 400%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    }
-    .footer-row {
-      width: 94%;
-      margin: auto;
-      display: flex;
-      padding-top: 60;
-      justify-content: space-between;
-  }
-    .footer-col{
-      padding: 3px;
-      display: inline-block;
-      flex-basis: 27%;
-    }
-    .logo{
-    width: 30%;
-    margin-left: -26px;
-    }
-    footer p{
-    font-size: 36px;
-    line-height: 1.3;
-    }
-    .footer-col1{
-    padding-top: 25px;
-    margin-left: -5px;
-    }
-    .footer-col1 h3 {
-      padding-bottom: 60px;
-      font-size: 42px;
-    }
-    .footer-col1 p {
-      padding-bottom: 30px;
-      line-height: 1.4;
-    }
-    .email-id {
-      border-bottom: 2px solid #ccc;
-    }
-    .footer-col1 h4 {
-      padding-top: 55px;
-      font-size: 40;
-    }  
-    .footer-col2{
-    padding-top: 25px;
-    margin-left: 20px;
-    }
-    .footer-col2 h3 {
-      padding-bottom: 80px;
-      font-size: 42px;
-    }
-    .footer-col2 ul li {
-      list-style: none;
-      margin-bottom: 38px;
-    }
-    .footer-col2 ul li a {
-      font-size: 36;
-      font-weight: 400;
-    }      
-    .footer-col3{
-      padding-top: 25px;      
-      margin-left: 0px;
-    }
-    .footer-col3 h3 {
-      padding-bottom: 45px;
-      font-size: 42;
-    }
-    .footer-col3 form {
-      padding-top: 11px;
-      padding-bottom: 15px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 2px solid #ccc;
-      margin-bottom: 50px;
-    }
-    .footer-col3 form .far {
-      font-size: 33px;
-      margin-right: 16px;
-    }
-    .footer-col3 form input {
-      width: 100%;
-      background: transparent;
-      outline: none;
-      color: #fff;
-      font-size: 35;
-      border: 0;
-    }
-    .footer-col3 form button .fas {
-      font-size: 32px;
-      color: #ccc;
-    }  
-    .footer-col4{
-    padding-top: 25px;
-    margin-left: 0px;
-    }
-    .footer-col4 .fab {
-      width: 90px;
-      height: 90px;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 90px;
-      font-size: 180%;
-      color: #000;
-      background: #fff;
-      margin-right: 10px;
-      cursor: pointer;
-    }
-    .footer-col5{
-    padding-top: 36px;
-    margin-left: 46%;
-    }
-    .footer-col5 h3 {
-      padding-bottom: 38px;
-      font-size: 38;
-      padding-top: 50px;
-    }
-    .footer-col5 p {
-    margin-left: -200px;
-    padding-bottom: 40px;
-    }
-    .underline1{
-    display: none;
-    }
-    .underline2{
-    display: none;
-    }
-    .underline3{
-    display: none;
-    }
-    .underline4{
-    display: none;
-    }
-    /*--Footer as Section 8th CSS Ends--*/
-    
-    /*Newsletter CSS Starts*/
-    .popup {
-      top: 2250px;
-      left: 72.7%;
-      width: 550px;
-    }
-    /*Newsletter CSS Ends*/
-}
-
-@media (min-width: 821px) and (max-width: 850px) {
-  .card {
-      width: 47%;
-      max-width: none;
-      height: 880px;
-      perspective: 1000px;
-      padding-bottom: 120px;
-  }
-}
-
-@media (min-width: 766px) and (max-width: 820px) {
-  .card {
-      width: 47%;
-      max-width: none;
-      height: 850px;
-      perspective: 1000px;
-      padding-bottom: 120px;
-  }
-}
-
-/* 850px - Tablets, iPads */
-@media only screen and (max-width: 850px) {
-  /*--Section 1st CSS Starts--*/
-.wrapper {
-  width: 0px;
-  height: 0px;
-}
-.Aboutus {
-  min-height: 403vh;
-  width: 400%;
-  top: 0%;
-  background-image: url(AboutPage/Aboutuseful.png);
-  background-position: center;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.Aboutus nav {
-  height: 150;
-  background-color: transparent;
-  transition: background-color 3600s ease;
-  position: absolute;
-  top: 85;
-  width: 92%;
-  z-index: 1000;
-}
-  .Aboutus nav .logohumain{
-    width: 295px;
-    margin-left: -8%;
-  }
-  .Aboutus .nav-links{
-    display: none;
-  }
-  .Aboutus .btnLogin-popup img{
-    margin-top: 10;
-    margin-left: 55;
-  }
-  .btnLogin-popup img {
-    width: 100px;
-  }
-  .Aboutus .sub-menu-wrap{
-    top: 85%;
-  }
-  .Aboutus .wrapper{
-    margin-top: 70%;
-    transform: translate(-15%);
-  }
-  .littleaboutus {
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-  .littleaboutus h1{
-    font-size: 140px;
-    padding-top: 60px;
-    color: #fff;
-  }
-  .littleaboutus p{
-    color: #fff;
-    font-size: 38px;
-    line-height: 1.5;
-    font-weight: 500;
-  }
-  .text-formatting{
-    background: #E9AF38;
-    border-radius: 10px;
-    padding: 5px 10px;
-  }
-  .text-formatting1{
-    background: #E9AF38;
-    border-radius: 10px;
-    padding: 5px 10px;
-    padding-top: 0px;
-  }
-  .aboutusread {
-    margin-top: 22;
-    border-radius: 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    padding: 20px 44px;
-    font-size: 40px;
-    background: #2FAAE5;
-    position: relative;
-    cursor: pointer;
-  }
-  /*--Section 1st CSS Ends--*/
-  
-  /*--Section 2nd CSS Starts--*/
-  .Fullaboutus{
-    width: 399%;
-    margin: auto;
-    padding-top: 130px;
-  }
-  .Fullaboutus h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .MPD-col{
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-  }
-  @media (min-width: 715px) and (max-width: 765px) {
-    .card {
-        width: 47%;
-        max-width: none;
-        height: 790px;
-        perspective: 1000px;
-        padding-bottom: 120px;
-    }
-}
-  .card-inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
-  }
-  .card:hover .card-inner{
-    transform: rotateY(180deg);
-  }
-  .card-front2,
-  .card-back2{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-front2{
-    background: url(AboutPage/Mission.png);
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    transform: rotateY(0deg);
-    background-size: cover;
-    background-position: bottom;
-  }
-  .card-back2{
-    background: url(AboutPage/Missonback.png);
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    transform: rotateY(180deg);
-    background-size: contain;
-    background-position: center;
-  }
-  .card-front3,
-  .card-back3{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-front3{
-    background: url(AboutPage/Vision.png);
-    background-position: revert;
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    transform: rotateY(0deg);
-    background-size: cover;
-  }
-  .card-back3{
-    background: url(AboutPage/Visionback.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    background-size: contain;
-    transform: rotateY(180deg);
-  }
-  /*--Section 2nd CSS Ends--*/
-  
-  /*--Section 3rd CSS Starts--*/
-  .Fullaboutus2{
-    width: 399%;
-    margin: auto;
-    padding-top: 0px;
-  }
-  .Fullaboutus2 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .corevalue{
-    display: flex;
-    margin-top: 6%;
-    justify-content: space-around;
-  }
-  .corevalue-col{
-    width: 65%;
-    text-align: center;
-    padding-bottom: 10%;
-  }
-  .corevalue-col img{
-    border-radius: 50%;
-    width: 75%;
-    margin-bottom: 8%;
-  }
-  .corevalue-col p{
-    padding-top: 54px;
-    font-weight: 400;
-    font-size: 40;
-  }
-  /*--Section 3rd CSS Ends--*/
-  
-  /*--Section 4th CSS Starts--*/
-  .Fullaboutus3{
-    width: 399%;
-    margin: auto;
-    margin-top: -18%;
-  }
-  .Fullaboutus3 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .history{
-    margin-top: 5.5%;
-  }
-  .history-col{
-    text-align: center;
-  }
-  .history-col img{
-    width: 97%;
-    border-radius: 10px;
-  }
-  /*--Section 4th CSS Ends--*/
-  
-  /*--Section 5th CSS Starts--*/
-  .Fullaboutus4{
-    width: 399%;
-    margin: auto;
-    padding-top: 22%;
-  }
-  .Fullaboutus4 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .leadershipteam{
-    margin: auto;
-    width: 96.5%;
-    padding-top: 5%;
-    display: flex;
-  }
-  .leadershipteam-col img{
-    width: 156.5%;
-    border-radius: 3%;
-    margin-top: 4%;
-  }
-  .leadershipteam-col p{
-    text-align: center;
-    padding-top: 25;
-    margin-left: 0%;
-    width: 150%;
-  }
-  .accordion{
-    margin-left: 11%;
-  }
-  .accordion li{
-    list-style: none;
-    width: 97%;
-    margin: 20px;
-    padding: 10px;
-    background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
-    border-radius: 7px;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-              -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-  }
-  .accordion li label{
-    display: flex;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-  }
-  .accordion label::before{
-    content: '+';
-    margin-right: 10px;
-    font-size: 24px;
-    margin-top: -3;
-    font-weight: 600;
-  }
-  input[type="radio"]{
-    display: none;
-  }
-  .accordion .contentser{
-    padding: 0 10px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s, padding 0.5s;
-  }
-  .accordion .contentser p{
-    font-size: 16px;
-  }
-  input[type="radio"]:checked + label + .contentser{
-    max-height: 400px;
-    padding: 10px 10px 10px;
-  }
-  input[type="radio"]:checked + label::before{
-    content: '-';
-  }
-  /*--Section 5th CSS Ends--*/
-  
-  /*--Section 6th CSS Starts--*/
-  .Fullaboutus7{
-    width: 399%;
-    margin: auto;
-    padding-top: 50px;
-  }
-  .Fullaboutus7 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .students{
-    margin-top: 5.5%;
-    display: grid;
-    justify-content: normal;
-  }
-  .students-col{
-    text-align: center;
-  }
-  .students-col img{
-    border-radius: 10px;
-    width: 97%;
-  }
-  .students-col p{
-    display: none;
-  }
-  .downloadpdf{
-    margin-top: 50;
-    margin-left: 0%;
-    border-radius: 5px;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    padding: 12px 34px;
-    font-size: 35px;
-    background: #2FAAE5;
-    cursor: pointer;
-    position: relative;
-  }
-  /*--Section 6th CSS Ends--*/
-  
-  /*--Section 7th CSS Ends--*/
-  .Fullaboutus8{
-    width: 399%;
-    margin: auto;
-    padding-top: 22%;
-  }
-  .Fullaboutus8 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .MPD-col{
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-  }
-  @media (min-width: 715px) and (max-width: 765px) {
-    .card {
-        width: 47%;
-        max-width: none;
-        height: 790px;
-        perspective: 1000px;
-        padding-bottom: 120px;
-    }
-}
-  .card p{
-    font-size: 28px;
-  }
-  .card-inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
-  }
-  .card:hover .card-inner{
-    transform: rotateY(180deg);
-  }
-  .card-front,
-  .card-back{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-front{
-    background: url(AboutPage/Information.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    transform: rotateY(0deg);
-    background-size: cover;
-  }
-  .card-back{
-    background: url(AboutPage/Details.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    background-size: cover;
-    transform: rotateY(180deg);
-  }
-  .card-front1,
-  .card-back1{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-front1{
-    background: url(AboutPage/Information1.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    background-size: cover;
-    border-radius: 10px;
-    transform: rotateY(0deg);
-  }
-  .card-back1{
-    background: url(AboutPage/Details1.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    background-size: cover;
-    border-radius: 10px;
-    transform: rotateY(180deg);
-  }
-  /*--Section 7th CSS Ends--*/
-  
-  /*--Section 8th CSS Starts--*/
-  .Fullaboutus8 p{
-    font-size: 28px;
-  }
-  .upabove{
-    margin-top: -3%;
-  }
-  .cardcircle p {
-    padding-top: 7%;
-    font-size: 25;
-  }
-  .cardcircle{
-    width: 350px;
-    height: 350px;
-    perspective: 1000px;
-    padding-bottom: 140;
-  }
-  .card-inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
-  }
-  .cardcircle:hover .card-inner{
-    transform: rotateY(180deg);
-  }
-  .card-frontcircle,
-  .card-backcircle{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-frontcircle{
-    background: url(AboutPage/Approved.png);
-    border-radius: 100px;
-    transform: rotateY(0deg);
-    background-size: cover;
-  }
-  .card-backcircle{
-    border-radius: 100px;
-    background: url(AboutPage/Affiliation.png);
-    transform: rotateY(180deg);
-    background-size: 550%;
-  }
-  /*--Section 8th CSS Ends--*/
-  
-  /*--Section 9th CSS Starts--*/
-  .totallydiffer2{
-    left: -40;
-  }
-  .upabove2{
-    margin-top: -4%;
-    margin-bottom: -65;
-  }
-  .card3D {
-    width: 450px;
-    height: 455px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 36px;
-    margin-top: 50%;
-    margin-bottom: 35%;
-    perspective: 2500px;
-    cursor: pointer;
-    border-radius: 30px;
-    box-sizing: border-box;
-  }
-  .card3dtext{
-    padding-bottom: 10%;
-  }
-  .cover-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .wrapper3D {
-    transition: all 0.5s;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    background: #000;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  }
-  
-  .wrapper3D img {
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  }
-  
-  .card3D:hover .wrapper3D {
-    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
-    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-  }
-  
-  .wrapper3D::before,
-  .wrapper3D::after {
-    content: "";
-    opacity: 0;
-    width: 100%;
-    height: 80px;
-    transition: all 0.5s;
-    border-radius: 30px;
-    position: absolute;
-    left: 0;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  }
-  .wrapper3D::before {
-    top: 0;
-    height: 100%;
-    background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
-  }
-  
-  .wrapper3D::after {
-    bottom: 0;
-    opacity: 1;
-    background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
-  }
-  
-  .card3D:hover .wrapper3D::before,
-  .wrapper3D::after {
-    opacity: 1;
-  }
-  
-  .card3D:hover .wrapper3D::after {
-    height: 120px;
-  }
-  
-  .card3D .logo {
-    display: none;
-    width: 100%;
-    transition: transform 0.5s;
-    position: absolute;
-    left: 7%;
-    color: aliceblue;
-    bottom: 10px;
-  }
-  
-  .card3D:hover .logo {
-    transform: translate3d(0%, -50px, 100px);
-  }
-  
-  .card3D:hover .cover-image {
-    opacity: 0.3;
-  }
-  
-  .character {
-    width: 50%;
-    opacity: 0;
-    transition: all 0.5s;
-    filter: drop-shadow(2px 2px 2px #000);
-    position: absolute;
-    z-index: -1;
-    overflow: hidden;
-  }
-  
-  .card3D:hover .totallydiffer {
-    opacity: 1;
-    transform: translate3d(10%, -20%, 670px);
-  }
-  /*--Section 9th CSS Ends--*/
-  
-  /*--Section 10th CSS Starts--*/
-  
-  @keyframes slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-  
-  .upabove3{
-    margin-top: -3%;
-  }
-
-  .logos10 {
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-    margin-top: -3%;
-  }
-  
-  .logos10:before,
-  .logos10:after {
-    position: absolute;
-    top: 0;
-    width: 100px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-  }
-  
-  .logos10:before {
-    left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-  }
-  
-  .logos10:after {
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-  }
-  
-  .logos-slide {
-    display: inline-block;
-    animation: 35s slide infinite linear;
-  }
-  
-  .logos-slide img {
-    margin: 0 70px;
-  }
-  
-  .logo-container p {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    line-height: 1.3;
-    text-align: center;
-  }
-  
-  .logo-container {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    margin-right: 20px;
-    padding: 80px 30;
-    padding-bottom: 130px;
-  }
-  
-  .logo-container img {
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .logo-container:hover img {
-    transform: translateX(0);
-  }
-  
-  .logos10:hover .logos-slide {
-    animation-play-state: paused;
-  }
-  /*--Section 10th CSS Ends--*/
-  
-  /*--Section 11th CSS Starts--*/
-  .upabove4{
-    margin-top: -2%;
-  }
-
-  .lastyear{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .lastyear img{
-    width: 40%;
-    margin-top: 3%;
-  }
-  /*--Section 11th CSS Ends--*/
-
-  /*--btt CSS Starts--*/
-  .backtotop{
-    width: 200%;
-    margin-bottom: 180px;
-    margin-top: -200;
-  }
-  .btt {
-    width: 80px;
-    height: 80px;
-    margin-left: 185%;
-  }
-  .svgIcon {
-    width: 25px;
-  }
-/*--btt CSS Ends--*/
-
-  /*--Footer as Section 8th CSS Starts--*/
-  footer{
-    width: 400%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    }
-    .footer-row {
-      width: 94%;
-      margin: auto;
-      display: flex;
-      padding-top: 30;
-      justify-content: space-between;
-  }
-    .footer-col{
-      padding: 3px;
-      display: inline-block;
-      flex-basis: 27%;
-    }
-    .logo{
-    width: 30%;
-    margin-left: -26px;
-    }
-    footer p{
-    font-size: 27px;
-    line-height: 1.3;
-    }
-    .footer-col1{
-    padding-top: 25px;
-    margin-left: -5px;
-    }
-    .footer-col1 h3 {
-      padding-bottom: 40px;
-      font-size: 31.9px;
-    }
-    .footer-col1 p {
-      padding-bottom: 13px;
-      line-height: 1.4;
-    }
-    .email-id {
-      border-bottom: 2px solid #ccc;
-    }
-    .footer-col1 h4 {
-      padding-top: 35px;
-      font-size: 31.9;
-    }  
-    .footer-col2{
-    padding-top: 25px;
-    margin-left: 20px;
-    }
-    .footer-col2 h3 {
-      padding-bottom: 52.5px;
-      font-size: 31.9px;
-    }
-    .footer-col2 ul li {
-      list-style: none;
-      margin-bottom: 30px;
-    }
-    .footer-col2 ul li a {
-      font-size: 27;
-      font-weight: 400;
-    }      
-    .footer-col3{
-      padding-top: 25px;      
-      margin-left: 0px;
-    }
-    .footer-col3 h3 {
-      padding-bottom: 45px;
-      font-size: 31.9;
-    }
-    .footer-col3 form {
-      padding-top: 11px;
-      padding-bottom: 15px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 2px solid #ccc;
-      margin-bottom: 50px;
-    }
-    .footer-col3 form .far {
-      font-size: 28px;
-      margin-right: 16px;
-    }
-    .footer-col3 form input {
-      width: 100%;
-      background: transparent;
-      outline: none;
-      color: #fff;
-      font-size: 22;
-      border: 0;
-    }
-    .footer-col3 form button .fas {
-      font-size: 27px;
-      color: #ccc;
-    }  
-    .footer-col4{
-    padding-top: 25px;
-    margin-left: 0px;
-    }
-    .footer-col4 .fab {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 70px;
-      font-size: 130%;
-      color: #000;
-      background: #fff;
-      margin-right: 10px;
-      cursor: pointer;
-    }  
-    .footer-col5{
-    padding-top: 36px;
-    margin-left: 46%;
-    }
-    .footer-col5 h3 {
-      padding-bottom: 38px;
-      font-size: 31;
-    }
-    .footer-col5 p {
-    margin-left: -150px;
-    padding-bottom: 30;
-    }
-    .underline1{
-    display: none;
-    }
-    .underline2{
-    display: none;
-    }
-    .underline3{
-    display: none;
-    }
-    .underline4{
-    display: none;
-    }
-    /*--Footer as Section 8th CSS Ends--*/
-    
-    /*Newsletter CSS Starts*/
-    .popup {
-      top: 2250px;
-      left: 72.7%;
-      width: 450px;
-    }
-    /*Newsletter CSS Ends*/
-}
-
-@media (min-width: 681px) and (max-width: 714px) {
-  .card {
-      width: 47%;
-      max-width: none;
-      height: 750px;
-      perspective: 1000px;
-      padding-bottom: 120px;
-  }
-}
-
-@media (min-width: 601px) and (max-width: 680px) {
-  .card {
-      width: 47%;
-      max-width: none;
-      height: 700px;
-      perspective: 1000px;
-      padding-bottom: 120px;
-  }
-}
-
-@media (min-width: 569px) and (max-width: 714px) {
-/*--Section 1st CSS Starts--*/
-.wrapper {
-  width: 0px;
-  height: 0px;
-}
-.Aboutus {
-  min-height: 403vh;
-  width: 400%;
-  top: 0%;
-  background-image: url(AboutPage/Aboutuseful.png);
-  background-position: center;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.Aboutus nav {
-  height: 150;
-  background-color: transparent;
-  transition: background-color 3600s ease;
-  position: absolute;
-  top: 85;
-  width: 92%;
-  z-index: 1000;
-}
-  .Aboutus nav .logohumain{
-    width: 295px;
-    margin-left: -8%;
-  }
-  .Aboutus .nav-links{
-    display: none;
-  }
-  .Aboutus .btnLogin-popup img{
-    margin-top: 10;
-    margin-left: 55;
-  }
-  .btnLogin-popup img {
-    width: 100px;
-  }
-  .Aboutus .sub-menu-wrap{
-    top: 85%;
-  }
-  .Aboutus .wrapper{
-    margin-top: 70%;
-    transform: translate(-15%);
-  }
-  .littleaboutus {
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-  .littleaboutus h1{
-    font-size: 95px;
-    padding-top: 60px;
-    color: #fff;
-  }
-  .littleaboutus p{
-    color: #fff;
-    font-size: 28px;
-    line-height: 1.5;
-    font-weight: 500;
-  }
-  .text-formatting{
-    background: #E9AF38;
-    border-radius: 10px;
-    padding: 5px 10px;
-  }
-  .text-formatting1{
-    background: #E9AF38;
-    border-radius: 10px;
-    padding: 5px 10px;
-    padding-top: 0px;
-  }
-  .aboutusread{
-    margin-top: 22;
-    border-radius: 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    padding: 12px 34px;
-    font-size: 25px;
-    background: #2FAAE5;
-    position: relative;
-    cursor: pointer;
-  }
-  /*--Section 1st CSS Ends--*/
-  
-  /*--Section 2nd CSS Starts--*/
-  .Fullaboutus{
-    width: 399%;
-    margin: auto;
-    padding-top: 130px;
-  }
-  .Fullaboutus h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .MPD-col{
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-  }
-  @media (min-width: 569px) and (max-width: 600px) {
-    .card {
-        width: 47%;
-        max-width: none;
-        height: 650px;
-        perspective: 1000px;
-        padding-bottom: 120px;
-    }
-}
-  .card-inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
-  }
-  .card:hover .card-inner{
-    transform: rotateY(180deg);
-  }
-  .card-front2,
-  .card-back2{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-front2{
-    background: url(AboutPage/Mission.png);
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    transform: rotateY(0deg);
-    background-size: cover;
-    background-position: bottom;
-  }
-  .card-back2{
-    background: url(AboutPage/Missonback.png);
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    transform: rotateY(180deg);
-    background-size: contain;
-    background-position: center;
-  }
-  .card-front3,
-  .card-back3{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-front3{
-    background: url(AboutPage/Vision.png);
-    background-position: revert;
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    transform: rotateY(0deg);
-    background-size: cover;
-  }
-  .card-back3{
-    background: url(AboutPage/Visionback.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    background-size: contain;
-    transform: rotateY(180deg);
-  }
-  /*--Section 2nd CSS Ends--*/
-  
-  /*--Section 3rd CSS Starts--*/
-  .Fullaboutus2{
-    width: 399%;
-    margin: auto;
-    padding-top: 0px;
-  }
-  .Fullaboutus2 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .corevalue{
-    display: flex;
-    margin-top: 6%;
-    justify-content: space-around;
-  }
-  .corevalue-col{
-    width: 65%;
-    text-align: center;
-    padding-bottom: 10%;
-  }
-  .corevalue-col img{
-    border-radius: 50%;
-    width: 75%;
-    margin-bottom: 8%;
-  }
-  .corevalue-col p{
-    padding-top: 54px;
-    font-weight: 400;
-    font-size: 40;
-  }
-  /*--Section 3rd CSS Ends--*/
-  
-  /*--Section 4th CSS Starts--*/
-  .Fullaboutus3{
-    width: 399%;
-    margin: auto;
-    margin-top: -18%;
-  }
-  .Fullaboutus3 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .history{
-    margin-top: 5.5%;
-  }
-  .history-col{
-    text-align: center;
-  }
-  .history-col img{
-    width: 97%;
-    border-radius: 10px;
-  }
-  /*--Section 4th CSS Ends--*/
-  
-  /*--Section 5th CSS Starts--*/
-  .Fullaboutus4{
-    width: 399%;
-    margin: auto;
-    padding-top: 22%;
-  }
-  .Fullaboutus4 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .leadershipteam{
-    margin: auto;
-    width: 96.5%;
-    padding-top: 5%;
-    display: flex;
-  }
-  .leadershipteam-col img{
-    width: 156.5%;
-    border-radius: 3%;
-    margin-top: 4%;
-  }
-  .leadershipteam-col p{
-    text-align: center;
-    padding-top: 25;
-    margin-left: 0%;
-    width: 150%;
-  }
-  .accordion{
-    margin-left: 11%;
-  }
-  .accordion li{
-    list-style: none;
-    width: 97%;
-    margin: 20px;
-    padding: 10px;
-    background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
-    border-radius: 7px;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-              -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-  }
-  .accordion li label{
-    display: flex;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-  }
-  .accordion label::before{
-    content: '+';
-    margin-right: 10px;
-    font-size: 24px;
-    margin-top: -3;
-    font-weight: 600;
-  }
-  input[type="radio"]{
-    display: none;
-  }
-  .accordion .contentser{
-    padding: 0 10px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s, padding 0.5s;
-  }
-  .accordion .contentser p{
-    font-size: 16px;
-  }
-  input[type="radio"]:checked + label + .contentser{
-    max-height: 400px;
-    padding: 10px 10px 10px;
-  }
-  input[type="radio"]:checked + label::before{
-    content: '-';
-  }
-  /*--Section 5th CSS Ends--*/
-  
-  /*--Section 6th CSS Starts--*/
-  .Fullaboutus7{
-    width: 399%;
-    margin: auto;
-    padding-top: 50px;
-  }
-  .Fullaboutus7 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .students{
-    margin-top: 5.5%;
-    display: grid;
-    justify-content: normal;
-  }
-  .students-col{
-    text-align: center;
-  }
-  .students-col img{
-    border-radius: 10px;
-    width: 97%;
-  }
-  .students-col p{
-    display: none;
-  }
-  .downloadpdf{
-    margin-top: 50;
-    margin-left: 0%;
-    border-radius: 5px;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    padding: 12px 34px;
-    font-size: 35px;
-    background: #2FAAE5;
-    cursor: pointer;
-    position: relative;
-  }
-  /*--Section 6th CSS Ends--*/
-  
-  /*--Section 7th CSS Ends--*/
-  .Fullaboutus8{
-    width: 399%;
-    margin: auto;
-    padding-top: 22%;
-  }
-  .Fullaboutus8 h1{
-    text-align: center;
-    font-size: 70px;
-  }
-  .MPD-col{
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-  }
-  @media (min-width: 569px) and (max-width: 600px) {
-    .card {
-        width: 47%;
-        max-width: none;
-        height: 650px;
-        perspective: 1000px;
-        padding-bottom: 120px;
-    }
-}
-  .card p{
-    font-size: 28px;
-  }
-  .card-inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
-  }
-  .card:hover .card-inner{
-    transform: rotateY(180deg);
-  }
-  .card-front,
-  .card-back{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-front{
-    background: url(AboutPage/Information.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    transform: rotateY(0deg);
-    background-size: cover;
-  }
-  .card-back{
-    background: url(AboutPage/Details.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    background-size: cover;
-    transform: rotateY(180deg);
-  }
-  .card-front1,
-  .card-back1{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-front1{
-    background: url(AboutPage/Information1.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    background-size: cover;
-    border-radius: 10px;
-    transform: rotateY(0deg);
-  }
-  .card-back1{
-    background: url(AboutPage/Details1.png);
-    background-position: center;
-    border: 1px solid #d8d8d8;
-    background-size: cover;
-    border-radius: 10px;
-    transform: rotateY(180deg);
-  }
-  /*--Section 7th CSS Ends--*/
-  
-  /*--Section 8th CSS Starts--*/
-  .Fullaboutus8 p{
-    font-size: 28px;
-  }
-  .upabove{
-    margin-top: -3%;
-  }
-  .cardcircle p {
-    padding-top: 7%;
-    font-size: 25;
-  }
-  .cardcircle{
-    width: 350px;
-    height: 350px;
-    perspective: 1000px;
-    padding-bottom: 140;
-  }
-  .card-inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
-  }
-  .cardcircle:hover .card-inner{
-    transform: rotateY(180deg);
-  }
-  .card-frontcircle,
-  .card-backcircle{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .card-frontcircle{
-    background: url(AboutPage/Approved.png);
-    border-radius: 100px;
-    transform: rotateY(0deg);
-    background-size: cover;
-  }
-  .card-backcircle{
-    border-radius: 100px;
-    background: url(AboutPage/Affiliation.png);
-    transform: rotateY(180deg);
-    background-size: 550%;
-  }
-  /*--Section 8th CSS Ends--*/
-  
-  /*--Section 9th CSS Starts--*/
-  .totallydiffer2{
-    left: -40;
-  }
-  .upabove2{
-    margin-top: -4%;
-    margin-bottom: -65;
-  }
-  .card3D {
-    width: 450px;
-    height: 455px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 36px;
-    margin-top: 50%;
-    margin-bottom: 35%;
-    perspective: 2500px;
-    cursor: pointer;
-    border-radius: 30px;
-    box-sizing: border-box;
-  }
-  .card3dtext{
-    padding-bottom: 10%;
-  }
-  .cover-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .wrapper3D {
-    transition: all 0.5s;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    background: #000;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  }
-  
-  .wrapper3D img {
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  }
-  
-  .card3D:hover .wrapper3D {
-    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
-    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-  }
-  
-  .wrapper3D::before,
-  .wrapper3D::after {
-    content: "";
-    opacity: 0;
-    width: 100%;
-    height: 80px;
-    transition: all 0.5s;
-    border-radius: 30px;
-    position: absolute;
-    left: 0;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  }
-  .wrapper3D::before {
-    top: 0;
-    height: 100%;
-    background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
-  }
-  
-  .wrapper3D::after {
-    bottom: 0;
-    opacity: 1;
-    background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
-  }
-  
-  .card3D:hover .wrapper3D::before,
-  .wrapper3D::after {
-    opacity: 1;
-  }
-  
-  .card3D:hover .wrapper3D::after {
-    height: 120px;
-  }
-  
-  .card3D .logo {
-    display: none;
-    width: 100%;
-    transition: transform 0.5s;
-    position: absolute;
-    left: 7%;
-    color: aliceblue;
-    bottom: 10px;
-  }
-  
-  .card3D:hover .logo {
-    transform: translate3d(0%, -50px, 100px);
-  }
-  
-  .card3D:hover .cover-image {
-    opacity: 0.3;
-  }
-  
-  .character {
-    width: 50%;
-    opacity: 0;
-    transition: all 0.5s;
-    filter: drop-shadow(2px 2px 2px #000);
-    position: absolute;
-    z-index: -1;
-    overflow: hidden;
-  }
-  
-  .card3D:hover .totallydiffer {
-    opacity: 1;
-    transform: translate3d(10%, -20%, 670px);
-  }
-  /*--Section 9th CSS Ends--*/
-  
-  /*--Section 10th CSS Starts--*/
-  
-  @keyframes slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-  
-  .upabove3{
-    margin-top: -3%;
-  }
-
-  .logos10 {
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-    margin-top: -3%;
-  }
-  
-  .logos10:before,
-  .logos10:after {
-    position: absolute;
-    top: 0;
-    width: 100px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-  }
-  
-  .logos10:before {
-    left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-  }
-  
-  .logos10:after {
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-  }
-  
-  .logos-slide {
-    display: inline-block;
-    animation: 35s slide infinite linear;
-  }
-  
-  .logos-slide img {
-    margin: 0 70px;
-  }
-  
-  .logo-container p {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    line-height: 1.3;
-    text-align: center;
-  }
-  
-  .logo-container {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    margin-right: 20px;
-    padding: 80px 30;
-    padding-bottom: 130px;
-  }
-  
-  .logo-container img {
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .logo-container:hover img {
-    transform: translateX(0);
-  }
-  
-  .logos10:hover .logos-slide {
-    animation-play-state: paused;
-  }
-  /*--Section 10th CSS Ends--*/
-  
-  /*--Section 11th CSS Starts--*/
-  .upabove4{
-    margin-top: -2%;
-  }
-
-  .lastyear{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .lastyear img{
-    width: 40%;
-    margin-top: 3%;
-  }
-  /*--Section 11th CSS Ends--*/
-
-  /*--btt CSS Starts--*/
-  .backtotop{
-    width: 200%;
-    margin-bottom: 160px;
-    margin-top: -200;
-  }
-  .btt {
-    width: 80px;
-    height: 80px;
-    margin-left: 185%;
-  }
-  .svgIcon {
-    width: 25px;
-  }
-/*--btt CSS Ends--*/
-
-  /*--Footer as Section 8th CSS Starts--*/
-  footer{
-    width: 400%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    }
-    .footer-row {
-      width: 94%;
-      margin: auto;
-      display: flex;
-      padding-top: 30;
-      justify-content: space-between;
-  }
-    .footer-col{
-      padding: 3px;
-      display: inline-block;
-      flex-basis: 27%;
-    }
-    .logo{
-    width: 30%;
-    margin-left: -26px;
-    }
-    footer p{
-    font-size: 27px;
-    line-height: 1.3;
-    }
-    .footer-col1{
-    padding-top: 25px;
-    margin-left: -5px;
-    }
-    .footer-col1 h3 {
-      padding-bottom: 40px;
-      font-size: 31.9px;
-    }
-    .footer-col1 p {
-      padding-bottom: 13px;
-      line-height: 1.4;
-    }
-    .email-id {
-      border-bottom: 2px solid #ccc;
-    }
-    .footer-col1 h4 {
-      padding-top: 35px;
-      font-size: 31.9;
-    }  
-    .footer-col2{
-    padding-top: 25px;
-    margin-left: 20px;
-    }
-    .footer-col2 h3 {
-      padding-bottom: 52.5px;
-      font-size: 31.9px;
-    }
-    .footer-col2 ul li {
-      list-style: none;
-      margin-bottom: 30px;
-    }
-    .footer-col2 ul li a {
-      font-size: 27;
-      font-weight: 400;
-    }      
-    .footer-col3{
-      padding-top: 25px;      
-      margin-left: 0px;
-    }
-    .footer-col3 h3 {
-      padding-bottom: 45px;
-      font-size: 31.9;
-    }
-    .footer-col3 form {
-      padding-top: 11px;
-      padding-bottom: 15px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 2px solid #ccc;
-      margin-bottom: 50px;
-    }
-    .footer-col3 form .far {
-      font-size: 28px;
-      margin-right: 16px;
-    }
-    .footer-col3 form input {
-      width: 100%;
-      background: transparent;
-      outline: none;
-      color: #fff;
-      font-size: 22;
-      border: 0;
-    }
-    .footer-col3 form button .fas {
-      font-size: 27px;
-      color: #ccc;
-    }  
-    .footer-col4{
-    padding-top: 25px;
-    margin-left: 0px;
-    }
-    .footer-col4 .fab {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 70px;
-      font-size: 130%;
-      color: #000;
-      background: #fff;
-      margin-right: 10px;
-      cursor: pointer;
-    }  
-    .footer-col5{
-    padding-top: 36px;
-    margin-left: 46%;
-    }
-    .footer-col5 h3 {
-      padding-bottom: 38px;
-      font-size: 31;
-    }
-    .footer-col5 p {
-    margin-left: -150px;
-    padding-bottom: 30;
-    }
-    .underline1{
-    display: none;
-    }
-    .underline2{
-    display: none;
-    }
-    .underline3{
-    display: none;
-    }
-    .underline4{
-    display: none;
-    }
-    /*--Footer as Section 8th CSS Ends--*/
-    
-    /*Newsletter CSS Starts*/
-    .popup {
-      top: 2250px;
-      left: 72.7%;
-      width: 450px;
-    }
-    /*Newsletter CSS Ends*/
-}
 
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
@@ -2706,7 +53,7 @@
     transform: translate(-15%);
   }
   .littleaboutus {
-    width: 90%;
+    width: 100%;
     color: #fff;
     position: absolute;
     top: 40%;
@@ -2714,62 +61,63 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-  .littleaboutus h1{
-    font-size: 65px;
-    padding-top: 150px;
-    color: #fff;
-  }
-  .littleaboutus p{
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 500;
-  }
-  .text-formatting{
-    background: #E9AF38;
-    border-radius: 10px;
-    padding: 5px 10px;
-  }
-  .text-formatting1{
-    background: #E9AF38;
-    border-radius: 10px;
-    padding: 5px 10px;
-    padding-top: 0px;
-  }
-  .aboutusread{
-    margin-top: 22;
-    border-radius: 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: #2FAAE5;
-    position: relative;
-    cursor: pointer;
-  }
+.littleaboutus h1{
+  font-size: 62px !important;
+  padding-top: 150px !important;
+  padding-bottom: 15px !important;
+  color: #fff !important;
+  text-shadow: black 2px 2px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 24px !important;
+  line-height: 1.97 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 10px !important;
+  padding: 10px 24px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 10px !important;
+  padding: 12px 17px !important;
+  padding-top: 9px !important;
+}
+.aboutusread{
+  margin-top: 40 !important;
+  border-radius: 15px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 16px 50px !important;
+  font-size: 23px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
   /*--Section 1st CSS Ends--*/
   
   /*--Section 2nd CSS Starts--*/
   .Fullaboutus{
-    width: 399%;
+    width: 400%;
     margin: auto;
-    padding-top: 120px;
+    padding-top: 110px;
   }
   .Fullaboutus h1{
     text-align: center;
     font-size: 70px;
   }
   .MPD-col{
-    margin-top: 7.1%;
+    margin-top: 85px !important;
     display: grid;
-    justify-content: space-around;
+    justify-content: space-around !important;
   }
   .card{
-    width: 1080px;
-    height: 600px;
-    perspective: 1000px;
-    padding-bottom: 55px;
+    width: calc(320vw - 0px) !important;
+    height: calc(167vw - 0px) !important;
+    perspective: 1000px !important;
+    padding-bottom: 80px !important;
   }
   .card-inner{
     width: 100%;
@@ -2801,6 +149,7 @@
     border-radius: 10px;
     transform: rotateY(180deg);
     background-size: contain;
+    background-position-x: 28px;
   }
   .card-front3,
   .card-back3{
@@ -2814,6 +163,7 @@
     border: 1px solid #d8d8d8;
     border-radius: 10px;
     transform: rotateY(0deg);
+    background-position-y: -35px;
     background-size: cover;
   }
   .card-back3{
@@ -2822,14 +172,15 @@
     border-radius: 10px;
     background-size: contain;
     transform: rotateY(180deg);
+    background-position-x: 28px;
   }
   /*--Section 2nd CSS Ends--*/
   
   /*--Section 3rd CSS Starts--*/
   .Fullaboutus2{
-    width: 399%;
+    width: 400%;
     margin: auto;
-    padding-top: 0px;
+    padding-top: 25px;
   }
   .Fullaboutus2 h1{
     text-align: center;
@@ -2837,13 +188,13 @@
   }
   .corevalue{
     display: ruby-text;
-    margin-top: 7.1%;
+    margin-top: 90px;
     justify-content: space-around;
   }
   .corevalue-col{
     width: 65%;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 130px;
   }
   .corevalue-col img{
     border-radius: 50%;
@@ -2859,15 +210,16 @@
   
   /*--Section 4th CSS Starts--*/
   .Fullaboutus3{
-    width: 399%;
+    width: 400%;
     margin: auto;
+    margin-top: -30px;
   }
   .Fullaboutus3 h1{
     text-align: center;
     font-size: 70px;
   }
   .history{
-    margin-top: 8%;
+    margin-top: 90px;
   }
   .history-col{
     text-align: center;
@@ -2881,9 +233,9 @@
   
   /*--Section 5th CSS Starts--*/
   .Fullaboutus4{
-    width: 399%;
+    width: 400%;
     margin: auto;
-    padding-top: 34%;
+    padding-top: 100px;
   }
   .Fullaboutus4 h1{
     text-align: center;
@@ -2892,11 +244,11 @@
   .leadershipteam{
     margin: auto;
     width: 90%;
-    padding-top: 5.5%;
+    padding-top: 70px;
     display: flex;
   }
   .leadershipteam-col img{
-    width: 156.5%;
+    width: 154%;
     border-radius: 3%;
     margin-top: 7%;
   }
@@ -2956,16 +308,16 @@
   
   /*--Section 6th CSS Starts--*/
   .Fullaboutus7{
-    width: 399%;
+    width: 400%;
     margin: auto;
-    padding-top: 54px;
+    padding-top: 20px;
   }
   .Fullaboutus7 h1{
     text-align: center;
     font-size: 70px;
   }
   .students{
-    margin-top: 7.1%;
+    margin-top: 85px;
     display: grid;
     justify-content: normal;
   }
@@ -2980,14 +332,14 @@
     display: none;
   }
   .downloadpdf{
-    margin-top: 50;
+    margin-top: 82;
     margin-left: 0%;
-    border-radius: 5px;
+    border-radius: 15px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 12px 34px;
-    font-size: 28px;
+    padding: 18px 40px;
+    font-size: 38px;
     background: #2FAAE5;
     cursor: pointer;
     position: relative;
@@ -2996,27 +348,27 @@
   
   /*--Section 7th CSS Ends--*/
   .Fullaboutus8{
-    width: 399%;
+    width: 400%;
     margin: auto;
-    padding-top: 35%;
+    padding-top: 110px;
   }
   .Fullaboutus8 h1{
     text-align: center;
     font-size: 70px;
   }
-  .MPD-col{
-    margin-top: 7.1%;
+  .deep{
+    margin-top: 90px !important;
     display: grid;
     justify-content: space-around;
   }
-  .card{
-    width: 1080px;
-    height: 600px;
+  .deep2{
+    width: calc(360vw - 0px) !important;
+    height: calc(193vw - 0px) !important;
     perspective: 1000px;
-    padding-bottom: 120px;
+    padding-bottom: 170px !important;
   }
   .card p{
-    font-size: 28px;
+    padding-top: 62px !important;
   }
   .card-inner{
     width: 100%;
@@ -3074,16 +426,19 @@
   
   /*--Section 8th CSS Starts--*/
   .Fullaboutus8 p{
-    font-size: 28px;
+    font-size: 34px;
   }
   .upabove{
-    margin-top: -5%;
+    margin-top: -90px;
+  }
+  .light{
+    margin-top: 50px !important;
   }
   .cardcircle{
     width: 500px;
     height: 500px;
     perspective: 1000px;
-    padding-bottom: 75;
+    padding-bottom: 95;
   }
   .card-inner{
     width: 100%;
@@ -3121,7 +476,7 @@
     left: -40;
   }
   .upabove2{
-    margin-top: -4%;
+    margin-top: -35px;
   }
   .card3D {
     width: 550px;
@@ -3247,15 +602,19 @@
     }
   }
   
+.betterday{
+  width: 400% !important;
+}
+
   .upabove3{
-    margin-top: -6%;
+    margin-top: -70px;
   }
 
   .logos10 {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    margin-top: -1%;
+    margin-top: 1%;
   }
   
   .logos10:before,
@@ -3292,7 +651,7 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    margin: 0;
+    margin: -12px 0px;
     line-height: 1.3;
     text-align: center;
   }
@@ -3323,7 +682,7 @@
   
   /*--Section 11th CSS Starts--*/
   .upabove4{
-    margin-top: -2%;
+    margin-top: -1%;
   }
 
   .lastyear{
@@ -3333,171 +692,221 @@
     justify-content: space-between
   }
   .lastyear img{
-    width: 40%;
-    margin-top: 3%;
+    width: 80%;
+    margin-top: 50px;
+  }
+  .frost{
+    font-size: 85px !important;
   }
   /*--Section 11th CSS Ends--*/
 
   /*--btt CSS Starts--*/
   .backtotop{
     width: 200%;
-    margin-bottom: 150px;
-    margin-top: -75;
+    margin-bottom: 120px;
+    margin-top: 80px;
   }
   .btt {
-    width: 50px;
-    height: 50px;
-    margin-left: 185%;
+    width: 100px;
+    height: 100px;
+    margin-left: 93%;
+    box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
   }
   .svgIcon {
-    width: 15px;
+    width: 20px;
   }
-/*--btt CSS Ends--*/
+  /*--btt CSS Ends--*/
 
-  /*--Footer as Section 8th CSS Starts--*/
-  footer{
-    width: 400%;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-  }
-  .footer-row{
-    width: 85%;
-    margin: auto;
-    display: inline-block;
-  }
-  .footer-col{
-    padding: 3px;
-    display: flex;
-    align-items: center;
-  }
-  .logo{
-    width: 370px;
-    margin-left: -50px;
-    height: 370px;
-  }
-  footer p{
-    font-size: 31px;
-    line-height: 1.4;
-  }
-  .footer-col1{
-    padding-top: 25px;
-    margin-left: 10px;
-  }
-  .footer-col1 h3 {
-    padding-bottom: 56px;
-    padding-top: 30px;
-    font-size: 36px;
-  }
-  .footer-col1 p {
-    margin-left: -5px;
-    padding-bottom: 20;
-  }
-  .footer-col2{
-    padding-top: 50px;
-    margin-left: 10px;
-  }
-  .footer-col3{
-    padding-top: 38px;
-    margin-left: 10px;
-  }
-  .footer-col3 h3{
-    padding-bottom: 19px;
-  }
-  .footer-col1 h4 {
-    padding-top: 50px;
-    font-size: 36px;
-  }
-  .footer-col2 {
-    padding-top: 90px;
-    margin-left: 10px;
-  }
-  .footer-col2 h3 {
-    padding-bottom: 65px;
-    padding-top: 30px;
-    font-size: 36px;
-  }
-  .footer-col2 ul li {
-    list-style: none;
-    margin-bottom: 35px;
-  }
-  .footer-col2 ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 32px;
-    font-weight: 400;
-  }
-  .footer-col3 {
-    padding-top: 38px;
-    margin-left: 10px;
-  }
-  .footer-col3 h3 {
-    padding-bottom: 45px;
-    padding-top: 35px;
-    font-size: 36px;
-  }
-  .footer-col3 form {
-    padding-top: 11px;
-    padding-bottom: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 50px;
-  }
-  .footer-col3 form .far {
-    font-size: 35px;
-    margin-right: 20px;
-  }
-  .footer-col3 form input {
-    font-size: 27;
-  }
-  .footer-col3 form button .fas {
-    font-size: 31px;
-    color: #ccc;
-  }
-  .footer-col4 {
-    padding-top: 40px;
-    margin-left: 6px;
-  }
-  .footer-col4 .fab {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 170%;
-    margin-right: 25px;
-  }
-  .footer-col5 {
-    padding-top: 36px;
-    margin-left: 10px;
-  }
-  .footer-col5 h3 {
-    padding-bottom: 35px;
-    padding-top: 55px;
-    font-size: 36px;
-  }
-  .footer-col5 p{
-    margin-bottom: 30px;
-    margin-left: -5;
-  }
-  .underline1{
-    display: none;
-  }
-  .underline2{
-    display: none;
-  }
-  .underline3{
-    display: none;
-  }
-  .underline4{
-    display: none;
-  }
-  /*--Footer as Section 8th CSS Ends--*/
+    /*--Footer as Section 8th CSS Starts--*/
+    footer{
+      width: 400%;
+      border-top-left-radius: 100px;
+      border-top-right-radius: 100px;
+    }
+    .footer-row{
+      width: 85%;
+      margin: auto;
+      display: inline-block;
+    }
+    .footer-col{
+      padding: 3px;
+      display: flex;
+      align-items: center;
+    }
+    .logo{
+      width: 370px;
+      margin-left: -50px;
+      height: 370px;
+    }
+    footer p{
+      font-size: 31px;
+      line-height: 1.4;
+    }
+    .footer-col1{
+      padding-top: 25px;
+      margin-left: 10px;
+    }
+    .footer-col1 h3 {
+      padding-bottom: 56px;
+      padding-top: 30px;
+      font-size: 36px;
+    }
+    .footer-col1 p {
+      margin-left: -5px;
+      padding-bottom: 20;
+    }
+    .footer-col2{
+      padding-top: 50px;
+      margin-left: 10px;
+    }
+    .footer-col3{
+      padding-top: 38px;
+      margin-left: 10px;
+    }
+    .footer-col3 h3{
+      padding-bottom: 19px;
+    }
+    .footer-col1 h4 {
+      padding-top: 50px;
+      font-size: 36px;
+    }
+    .footer-col2 {
+      padding-top: 90px;
+      margin-left: 10px;
+    }
+    .footer-col2 h3 {
+      padding-bottom: 65px;
+      padding-top: 30px;
+      font-size: 36px;
+    }
+    .footer-col2 ul li {
+      list-style: none;
+      margin-bottom: 35px;
+    }
+    .footer-col2 ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 32px;
+      font-weight: 400;
+    }
+    .footer-col3 {
+      padding-top: 38px;
+      margin-left: 10px;
+    }
+    .footer-col3 h3 {
+      padding-bottom: 45px;
+      padding-top: 35px;
+      font-size: 36px;
+    }
+    .footer-col3 form {
+      padding-top: 11px;
+      padding-bottom: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 50px;
+    }
+    .footer-col3 form .far {
+      font-size: 35px;
+      margin-right: 20px;
+    }
+    .footer-col3 form input {
+      font-size: 27;
+    }
+    .footer-col3 form button .fas {
+      font-size: 31px;
+      color: #ccc;
+    }
+    .footer-col4 {
+      padding-top: 40px;
+      margin-left: 6px;
+    }
+    .footer-col4 .fab {
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      font-size: 170%;
+      margin-right: 25px;
+    }
+    .footer-col5 {
+      padding-top: 36px;
+      margin-left: 10px;
+    }
+    .footer-col5 h3 {
+      padding-bottom: 35px;
+      padding-top: 55px;
+      font-size: 36px;
+    }
+    .footer-col5 p{
+      margin-bottom: 30px;
+      margin-left: -5;
+    }
+    .underline1{
+      display: none;
+    }
+    .underline2{
+      display: none;
+    }
+    .underline3{
+      display: none;
+    }
+    .underline4{
+      display: none;
+    }
+    /*--Footer as Section 8th CSS Ends--*/
 
 /*Newsletter CSS Starts*/
 .popup {
-  top: 88%;
+  top: 76%;
   left: 74%;
   width: 450px;
 }
   /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 155px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 47px;
+  padding-top: 25px;
+  border-radius: 20px;
+  width: 745px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.app img {
+  width: 245px;
+  margin-left: -8px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 32px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
 }
