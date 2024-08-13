@@ -4,6 +4,7409 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@media (min-width: 1851px) and (max-width: 1919px) {
+  .littleaboutus h1 {
+    font-size: 65px !important;
+    padding-top: 305px !important;
+    text-shadow: black 2px 2px 2px !important;
+    color: #fff !important;
+    padding-bottom: 15 !important;
+  }
+  .littleaboutus p{
+    line-height: 2.2 !important;
+    font-size: 25px !important;
+  }
+  .text-formatting {
+    border-radius: 8px !important;
+    padding: 13px 35px !important;
+  }
+  .text-formatting1 {
+    border-radius: 9px !important;
+    padding: 14px 28px !important;
+    padding-top: 8px !important;
+  }
+  .nav-links {
+    margin-right: 3.6%;
+}
+  .Aboutus .menu-icon {
+    top: 32px;
+    right: 43px;
+}
+.Aboutus .menu{
+  right: 46px;
+  top: 85px;
+  padding-bottom: 22px;
+  width: 320px;
+}
+.app{
+  margin-bottom: 4.5%;
+}
+  .aboutusread {
+    font-size: 20px !important;
+    margin-top: 55 !important;
+    border-radius: 10px !important;
+    padding: 16px 42px !important;
+  }
+  .Aboutus {
+    min-height: 104vh;
+  }
+  .Aboutus nav {
+    height: 98;
+  }
+  .nav-links ul li a {
+    font-size: 16.5px;
+  }
+  .nav-links ul li {
+    padding: 8px 15px;
+  }
+  .Aboutus nav .logohumain {
+    width: 115px;
+    margin-left: -24%;
+  }
+  .Fullaboutus{
+    width: 95%;
+  }
+  .card {
+    width: calc(46.25vw - 0px) !important;
+    height: calc(24.5vw - 0px) !important;
+  }
+  .card-back2, .card-back3{
+    background-size: cover;
+  }
+  .Fullaboutus2{
+    width: 98%;
+  }
+  .corevalue p{
+    font-size: 25px;
+    padding-top: 25px;
+  }
+  .coder{
+    margin-top: 0px;
+  }
+  .corevalue-col img{
+    width: 85%;
+  }
+  .Fullaboutus3{
+    width: 95%;
+  }
+  .Fullaboutus4{
+    width: 95%;
+    padding-top: 8px;
+  }
+  .leadershipteam-col p{
+    width: 67%;
+    margin-left: 27%;
+  }
+  .leadershipteam-col img{
+    width: 127%;
+    margin-top: 6%;
+  }
+  .accordion{
+    margin-left: 5%;
+  }
+  .accordion .contentser p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .accordion li label {
+    font-size: 20px;
+  }
+  .accordion label::before{
+    margin-top: -1.8px;
+  }
+  .footer-col4 {
+    margin-left: -455px;
+  }
+  footer{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .footer-col2 ul li a {
+    font-weight: 400;
+  }
+  .footer-col4 .fab {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 105%;
+  }
+  .Fullaboutus7{
+    width: 95%;
+  }
+  .rider{
+    display: none;
+  }
+  .students-col p{
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 1651px) and (max-width: 1850px) {
+  /*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(HomePage/Community.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 350;
+  background-color: transparent;
+  transition: background-color 0.9s ease;
+  position: fixed;
+  top: 0;
+  width: 96%;
+  z-index: 1000;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 65px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 55px;
+  text-shadow: 4px 4px 4px #333333;
+}
+  .Aboutus nav .logohumain{
+    width: 400px;
+    margin-left: -25%;
+  }
+  .littleaboutus {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.littleaboutus h1{
+  font-size: 230px !important;
+  padding-top: 150px !important;
+  padding-bottom: 70px !important;
+  color: #fff !important;
+  text-shadow: black 2px 6px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 92px !important;
+  line-height: 2.2 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 40px !important;
+  padding: 40px 100px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 40px !important;
+  padding: 42px 95px !important;
+  padding-top: 40px !important;
+}
+.aboutusread{
+  margin-top: 185 !important;
+  border-radius: 35px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 45px 122px !important;
+  font-size: 80px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 400%;
+  margin: auto;
+  padding-top: 225px;
+}
+.Fullaboutus h1{
+  text-align: center;
+  font-size: 140px;
+}
+.MPD-col{
+  margin-top: 190px !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.card{
+  width: calc(183vw - 0px) !important;
+  height: calc(95vw - 0px) !important;
+  perspective: 1000px !important;
+  padding-bottom: 80px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-position-x: 28px;
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-position-y: -35px;
+  background-size: cover;
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: contain;
+  transform: rotateY(180deg);
+  background-position-x: 28px;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus2{
+  width: 400%;
+  margin: auto;
+  padding-top: 160px;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.corevalue{
+  display: flex;
+  margin-top: 190px;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 65%;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.corevalue-col img{
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
+}
+.corevalue-col p{
+  padding-top: 90px;
+  font-weight: 400;
+  font-size: 90;
+}
+.coder{
+  margin-top: 60px;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus3{
+  width: 400%;
+  margin: auto;
+  margin-top: 140px;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.history{
+  margin-top: 200px;
+}
+.history-col{
+  text-align: center;
+}
+.history-col img{
+  width: 94%;
+  content: url(AboutPage/School.png);
+  border-radius: 40px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus4{
+  width: 400%;
+  margin: auto;
+  padding-top: 240px;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.leadershipteam{
+  margin: auto;
+  width: 94%;
+  padding-top: 140px;
+  display: flex;
+}
+.leadershipteam-col img{
+  width: calc(81vw - 0px);
+  border-radius: 3%;
+  margin-top: 4.8%;
+}
+.leadershipteam-col p{
+  text-align: center;
+  padding-top: 100px;
+  margin-left: 0%;
+  font-size: 65px;
+  width: 100%;
+}
+.accordion{
+  margin-left: 0.5%;
+}
+.accordion li{
+  list-style: none;
+  width: 96.5%;
+  margin: 50px;
+  padding: 50px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+  border-radius: 30px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 72px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion label::before{
+  content: '+';
+  margin-right: 40px;
+  font-size: 72px;
+  margin-top: 0;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .contentser p{
+  font-size: 70px;
+  line-height: 1.5;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 30px 80px 50px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus7{
+  width: 400%;
+  margin: auto;
+  padding-top: 0px;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.students{
+  margin-top: 190px;
+  display: grid;
+  justify-content: normal;
+}
+.students-col{
+  text-align: center;
+}
+.students-col img{
+  border-radius: 25px;
+  width: 94%;
+}
+.students-col p{
+  display: none;
+}
+.downloadpdf{
+  margin-top: 230;
+  margin-left: 0%;
+  border-radius: 200px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 55px 150px;
+  font-size: 80px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Ends--*/
+.Fullaboutus8{
+  width: 400%;
+  margin: auto;
+  padding-top: 240px;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.deep{
+  margin-top: 225px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.deep2{
+  width: calc(183vw - 0px) !important;
+  height: calc(99vw - 0px) !important;
+  perspective: 1000px;
+  padding-bottom: 170px !important;
+}
+.card p{
+  padding-top: 240px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus8 p{
+  font-size: 75px;
+}
+.upabove{
+  margin-top: 150px;
+}
+.light{
+  margin-top: 160px !important;
+}
+.cardcircle{
+  width: 850px;
+  height: 850px;
+  perspective: 1000px;
+  padding-bottom: 170px;
+}
+.cardcircle p{
+  padding-top: 140px;
+  font-size: 78;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-backcircle{
+  border-radius: 100px;
+  background: url(AboutPage/Affiliation.png);
+  transform: rotateY(180deg);
+  background-size: 550%;
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 6.4% !important;
+  justify-content: space-evenly !important;
+}
+.totallydiffer2{
+  left: -40;
+}
+.upabove2{
+  margin-top: 80px;
+}
+.card3D {
+  width: calc(85vw - 0px);
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  margin-top: 50%;
+  margin-bottom: calc(53vw - 0px);
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.card3dtext{
+  padding-bottom: 10%;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(9000px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .totallydiffer {
+  opacity: 1;
+  transform: translate3d(13%, -20%, 670px);
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.betterday{
+width: 400% !important;
+}
+
+.upabove3{
+  margin-top: -120px;
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 0%;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 65s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 200px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 120px 60px;
+  padding-bottom: 270px;
+}
+
+.logo-container img {
+  width: 700 !important;
+  height: 700 !important;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.upabove4{
+  margin-top: 0.2%;
+}
+
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 45%;
+  margin-top: 50px;
+}
+.frost{
+  font-size: calc(16vw - 0px) !important;
+}
+/*--Section 11th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 250px;
+  margin-top: -150px;
+}
+.btt {
+  width: 230px;
+  height: 230px;
+  margin-left: 184%;
+  box-shadow: 0px 0px 0px 12px rgba(18, 16, 255, 0.258);
+}
+.svgIcon {
+  width: 40px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 105;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -40px;
+  }
+  footer p{
+  font-size: 59px;
+  line-height: 1.4;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 90px;
+    font-size: 69px;
+  }
+  .footer-col1 p {
+    padding-bottom: 30px;
+    line-height: 1.5;
+  }
+  .email-id {
+    border-bottom: 3px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 100px;
+    font-size: 62;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 125px;
+    font-size: 69px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 95px;
+  }
+  .footer-col2 ul li a {
+    font-size: 60;
+    font-weight: 600;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 85px;
+    font-size: 66;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 60px;
+    margin-right: 40px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 58;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 55px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 180px;
+    font-size: 390%;
+    color: #000;
+    background: #fff;
+    margin-right: 45px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 70px;
+  margin-left: 47.5%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 60px;
+    font-size: 60;
+  }
+  .footer-col5 p {
+  margin-left: -330px;
+  padding-bottom: 60;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 95%;
+    left: 91%;
+    width: 890px;
+  }
+  /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 110px;
+  right: 195px;
+  color: white;
+  cursor: pointer;
+  font-size: 8em;
+}
+.nav-links{
+  margin-right: 260px;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 280px;
+  right: 203px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 1130px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.app img {
+  width: 340px;
+  margin-left: -11px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 45px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+}
+
+@media (min-width: 1441px) and (max-width: 1650px) {
+      /*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(HomePage/Community.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 350;
+  background-color: transparent;
+  transition: background-color 0.9s ease;
+  position: fixed;
+  top: 0;
+  width: 96%;
+  z-index: 1000;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 60px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #333333;
+}
+  .Aboutus nav .logohumain{
+    width: 400px;
+    margin-left: -15%;
+  }
+  .littleaboutus {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.littleaboutus h1{
+  font-size: 200px !important;
+  padding-top: 150px !important;
+  padding-bottom: 70px !important;
+  color: #fff !important;
+  text-shadow: black 2px 6px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 84px !important;
+  line-height: 2.3 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 20px !important;
+  padding: 40px 90px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 20px !important;
+  padding: 40px 85px !important;
+  padding-top: 40px !important;
+}
+.aboutusread{
+  margin-top: 160 !important;
+  border-radius: 35px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 40px 115px !important;
+  font-size: 75px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 400%;
+  margin: auto;
+  padding-top: 195px;
+}
+.Fullaboutus h1{
+  text-align: center;
+  font-size: 140px;
+}
+.MPD-col{
+  margin-top: 170px !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.card{
+  width: calc(183vw - 0px) !important;
+  height: calc(95vw - 0px) !important;
+  perspective: 1000px !important;
+  padding-bottom: 80px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-position-x: 28px;
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-position-y: -35px;
+  background-size: cover;
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: contain;
+  transform: rotateY(180deg);
+  background-position-x: 28px;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus2{
+  width: 400%;
+  margin: auto;
+  padding-top: 130px;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.corevalue{
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 65%;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.corevalue-col img{
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
+}
+.corevalue-col p{
+  padding-top: 90px;
+  font-weight: 400;
+  font-size: 78;
+}
+.coder{
+  margin-top: 60px;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus3{
+  width: 400%;
+  margin: auto;
+  margin-top: 105px;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.history{
+  margin-top: 170px;
+}
+.history-col{
+  text-align: center;
+}
+.history-col img{
+  width: 94%;
+  content: url(AboutPage/School.png);
+  border-radius: 10px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus4{
+  width: 400%;
+  margin: auto;
+  padding-top: 215px;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.leadershipteam{
+  margin: auto;
+  width: 94%;
+  padding-top: 130px;
+  display: flex;
+}
+.leadershipteam-col img{
+  width: calc(81vw - 0px);
+  border-radius: 3%;
+  margin-top: 4.8%;
+}
+.leadershipteam-col p{
+  text-align: center;
+  padding-top: 100px;
+  margin-left: 0%;
+  font-size: 65px;
+  width: 100%;
+}
+.accordion{
+  margin-left: 0.5%;
+}
+.accordion li{
+  list-style: none;
+  width: 96%;
+  margin: 50px;
+  padding: 50px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+  border-radius: 30px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 72px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion label::before{
+  content: '+';
+  margin-right: 40px;
+  font-size: 72px;
+  margin-top: 0;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .contentser p{
+  font-size: 70px;
+  line-height: 1.5;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 30px 80px 50px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus7{
+  width: 400%;
+  margin: auto;
+  padding-top: 0px;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.students{
+  margin-top: 170px;
+  display: grid;
+  justify-content: normal;
+}
+.students-col{
+  text-align: center;
+}
+.students-col img{
+  border-radius: 25px;
+  width: 94%;
+}
+.students-col p{
+  display: none;
+}
+.downloadpdf{
+  margin-top: 190;
+  margin-left: 0%;
+  border-radius: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 50px 120px;
+  font-size: 75px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Ends--*/
+.Fullaboutus8{
+  width: 400%;
+  margin: auto;
+  padding-top: 210px;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.deep{
+  margin-top: 185px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.deep2{
+  width: calc(183vw - 0px) !important;
+  height: calc(99vw - 0px) !important;
+  perspective: 1000px;
+  padding-bottom: 170px !important;
+}
+.card p{
+  padding-top: 210px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus8 p{
+  font-size: 75px;
+}
+.upabove{
+  margin-top: 130px;
+}
+.light{
+  margin-top: 160px !important;
+}
+.cardcircle{
+  width: 670px;
+  height: 670px;
+  perspective: 1000px;
+  padding-bottom: 170px;
+}
+.cardcircle p{
+  padding-top: 120px;
+  font-size: 75;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-backcircle{
+  border-radius: 100px;
+  background: url(AboutPage/Affiliation.png);
+  transform: rotateY(180deg);
+  background-size: 550%;
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 6.2% !important;
+  justify-content: space-evenly !important;
+}
+.totallydiffer2{
+  left: -40;
+}
+.upabove2{
+  margin-top: 60px;
+}
+.card3D {
+  width: calc(85vw - 0px);
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  margin-top: 50%;
+  margin-bottom: calc(53vw - 0px);
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.card3dtext{
+  padding-bottom: 10%;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(9000px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .totallydiffer {
+  opacity: 1;
+  transform: translate3d(13%, -20%, 670px);
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.betterday{
+width: 400% !important;
+}
+
+.upabove3{
+  margin-top: -65px;
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 0%;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 65s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 200px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 120px 60px;
+  padding-bottom: 270px;
+}
+
+.logo-container img {
+  width: 700 !important;
+  height: 700 !important;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.upabove4{
+  margin-top: 0.2%;
+}
+
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 45%;
+  margin-top: 50px;
+}
+.frost{
+  font-size: calc(16vw - 0px) !important;
+}
+/*--Section 11th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 230px;
+  margin-top: -150px;
+}
+.btt {
+  width: 210px;
+  height: 210px;
+  margin-left: 184%;
+  box-shadow: 0px 0px 0px 12px rgba(18, 16, 255, 0.258);
+}
+.svgIcon {
+  width: 40px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 100;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -40px;
+  }
+  footer p{
+  font-size: 55px;
+  line-height: 1.4;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 70px;
+    font-size: 64px;
+  }
+  .footer-col1 p {
+    padding-bottom: 18px;
+    line-height: 1.5;
+  }
+  .email-id {
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 90px;
+    font-size: 58;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 100px;
+    font-size: 64px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 75px;
+  }
+  .footer-col2 ul li a {
+    font-size: 56;
+    font-weight: 500;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 75px;
+    font-size: 62;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 60px;
+    margin-right: 35px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 52;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 48px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 178px;
+    font-size: 390%;
+    color: #000;
+    background: #fff;
+    margin-right: 40px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 70px;
+  margin-left: 47.5%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 60px;
+    font-size: 58;
+  }
+  .footer-col5 p {
+  margin-left: -300px;
+  padding-bottom: 50;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 96%;
+    left: 91%;
+    width: 850px;
+  }
+  /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 117px;
+  right: 195px;
+  color: white;
+  cursor: pointer;
+  font-size: 7.3em;
+}
+.nav-links{
+  margin-right: 250px;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 275px;
+  right: 203px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 1130px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.app img {
+  width: 340px;
+  margin-left: -11px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 45px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+}
+
+@media (min-width: 1241px) and (max-width: 1440px) {
+    /*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(HomePage/Community.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 320;
+  background-color: transparent;
+  transition: background-color 0.9s ease;
+  position: fixed;
+  top: 0;
+  width: 96%;
+  z-index: 1000;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 55px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 45px;
+  text-shadow: 4px 4px 4px #333333;
+}
+  .Aboutus nav .logohumain{
+    width: 300px;
+    margin-left: -15%;
+  }
+  .littleaboutus {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.littleaboutus h1{
+  font-size: 190px !important;
+  padding-top: 150px !important;
+  padding-bottom: 60px !important;
+  color: #fff !important;
+  text-shadow: black 2px 6px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 78px !important;
+  line-height: 2.2 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 20px !important;
+  padding: 32px 80px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 20px !important;
+  padding: 35px 65px !important;
+  padding-top: 32px !important;
+}
+.aboutusread{
+  margin-top: 155 !important;
+  border-radius: 28px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 40px 110px !important;
+  font-size: 65px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 400%;
+  margin: auto;
+  padding-top: 195px;
+}
+.Fullaboutus h1{
+  text-align: center;
+  font-size: 140px;
+}
+.MPD-col{
+  margin-top: 170px !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.card{
+  width: calc(183vw - 0px) !important;
+  height: calc(95vw - 0px) !important;
+  perspective: 1000px !important;
+  padding-bottom: 80px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-position-x: 28px;
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-position-y: -35px;
+  background-size: cover;
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: contain;
+  transform: rotateY(180deg);
+  background-position-x: 28px;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus2{
+  width: 400%;
+  margin: auto;
+  padding-top: 130px;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.corevalue{
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 65%;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.corevalue-col img{
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
+}
+.corevalue-col p{
+  padding-top: 90px;
+  font-weight: 400;
+  font-size: 78;
+}
+.coder{
+  margin-top: 60px;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus3{
+  width: 400%;
+  margin: auto;
+  margin-top: 105px;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.history{
+  margin-top: 170px;
+}
+.history-col{
+  text-align: center;
+}
+.history-col img{
+  width: 94%;
+  content: url(AboutPage/School.png);
+  border-radius: 10px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus4{
+  width: 400%;
+  margin: auto;
+  padding-top: 215px;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.leadershipteam{
+  margin: auto;
+  width: 94%;
+  padding-top: 130px;
+  display: flex;
+}
+.leadershipteam-col img{
+  width: calc(90vw - 0px);
+  border-radius: 3%;
+  margin-top: 4.8%;
+}
+.leadershipteam-col p{
+  text-align: center;
+  padding-top: 80px;
+  margin-left: 0%;
+  font-size: 62px;
+  width: 100%;
+}
+.accordion{
+  margin-left: 0.5%;
+}
+.accordion li{
+  list-style: none;
+  width: 94.5%;
+  margin: 50px;
+  padding: 50px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+  border-radius: 7px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 65px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion label::before{
+  content: '+';
+  margin-right: 20px;
+  font-size: 65px;
+  margin-top: -1;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .contentser p{
+  font-size: 65px;
+  line-height: 1.5;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 30px 55px 25px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus7{
+  width: 400%;
+  margin: auto;
+  padding-top: 0px;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.students{
+  margin-top: 170px;
+  display: grid;
+  justify-content: normal;
+}
+.students-col{
+  text-align: center;
+}
+.students-col img{
+  border-radius: 25px;
+  width: 94%;
+}
+.students-col p{
+  display: none;
+}
+.downloadpdf{
+  margin-top: 190;
+  margin-left: 0%;
+  border-radius: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 50px 120px;
+  font-size: 75px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Ends--*/
+.Fullaboutus8{
+  width: 400%;
+  margin: auto;
+  padding-top: 210px;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+  font-size: 140px;
+}
+.deep{
+  margin-top: 185px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.deep2{
+  width: calc(183vw - 0px) !important;
+  height: calc(99vw - 0px) !important;
+  perspective: 1000px;
+  padding-bottom: 170px !important;
+}
+.card p{
+  padding-top: 210px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus8 p{
+  font-size: 75px;
+}
+.upabove{
+  margin-top: 130px;
+}
+.light{
+  margin-top: 160px !important;
+}
+.cardcircle{
+  width: 670px;
+  height: 670px;
+  perspective: 1000px;
+  padding-bottom: 170px;
+}
+.cardcircle p{
+  padding-top: 120px;
+  font-size: 75;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-backcircle{
+  border-radius: 100px;
+  background: url(AboutPage/Affiliation.png);
+  transform: rotateY(180deg);
+  background-size: 550%;
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 6.2% !important;
+  justify-content: space-evenly !important;
+}
+.totallydiffer2{
+  left: -40;
+}
+.upabove2{
+  margin-top: 60px;
+}
+.card3D {
+  width: calc(85vw - 0px);
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  margin-top: 50%;
+  margin-bottom: calc(53vw - 0px);
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.card3dtext{
+  padding-bottom: 10%;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(9000px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .totallydiffer {
+  opacity: 1;
+  transform: translate3d(13%, -20%, 670px);
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.betterday{
+width: 400% !important;
+}
+
+.upabove3{
+  margin-top: -65px;
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 0%;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 65s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 200px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 120px 60px;
+  padding-bottom: 270px;
+}
+
+.logo-container img {
+  width: 700 !important;
+  height: 700 !important;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.upabove4{
+  margin-top: 0.2%;
+}
+
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 45%;
+  margin-top: 50px;
+}
+.frost{
+  font-size: calc(16vw - 0px) !important;
+}
+/*--Section 11th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 190px;
+  margin-top: -150px;
+}
+.btt {
+  width: 190px;
+  height: 190px;
+  margin-left: 184%;
+  box-shadow: 0px 0px 0px 11px rgba(18, 16, 255, 0.258);
+}
+.svgIcon {
+  width: 35px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 80;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -40px;
+  }
+  footer p{
+  font-size: 46px;
+  line-height: 1.4;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 55px;
+    font-size: 54px;
+  }
+  .footer-col1 p {
+    padding-bottom: 18px;
+    line-height: 1.5;
+  }
+  .email-id {
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 65px;
+    font-size: 50;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 85px;
+    font-size: 54px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 60px;
+  }
+  .footer-col2 ul li a {
+    font-size: 48;
+    font-weight: 500;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 55px;
+    font-size: 54;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 50px;
+    margin-right: 30px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 46;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 45px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 155px;
+    font-size: 340%;
+    color: #000;
+    background: #fff;
+    margin-right: 45px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 70px;
+  margin-left: 47%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 50px;
+    font-size: 51;
+  }
+  .footer-col5 p {
+  margin-left: -250px;
+  padding-bottom: 60;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 95%;
+    left: 91%;
+    width: 700px;
+  }
+  /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 109px;
+  right: 170px;
+  color: white;
+  cursor: pointer;
+  font-size: 6.5em;
+}
+.nav-links{
+  margin-right: 220px;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 260px;
+  right: 175px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 1130px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.app img {
+  width: 340px;
+  margin-left: -11px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 45px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+}
+
+@media (min-width: 1025px) and (max-width: 1240px) {
+  /*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(HomePage/Community.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 150;
+  background-color: transparent;
+  transition: background-color 3600s ease;
+  position: absolute;
+  top: 85;
+  width: 92%;
+  z-index: 1000;
+}
+  .Aboutus nav .logohumain{
+    width: 295px;
+    margin-left: -8%;
+  }
+  .Aboutus .nav-links{
+    display: none;
+  }
+  .littleaboutus {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.littleaboutus h1{
+  font-size: 170px !important;
+  padding-top: 150px !important;
+  padding-bottom: 50px !important;
+  color: #fff !important;
+  text-shadow: black 2px 6px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 68px !important;
+  line-height: 2.2 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 20px !important;
+  padding: 30px 65px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 20px !important;
+  padding: 30px 60px !important;
+  padding-top: 30px !important;
+}
+.aboutusread{
+  margin-top: 133 !important;
+  border-radius: 25px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 36px 90px !important;
+  font-size: 62px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 400%;
+  margin: auto;
+  padding-top: 180px;
+}
+.Fullaboutus h1{
+  text-align: center;
+  font-size: 130px;
+}
+.MPD-col{
+  margin-top: 160px !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.card{
+  width: calc(183vw - 0px) !important;
+  height: calc(95vw - 0px) !important;
+  perspective: 1000px !important;
+  padding-bottom: 80px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-position-x: 28px;
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-position-y: -35px;
+  background-size: cover;
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: contain;
+  transform: rotateY(180deg);
+  background-position-x: 28px;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus2{
+  width: 400%;
+  margin: auto;
+  padding-top: 100px;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+  font-size: 130px;
+}
+.corevalue{
+  display: flex;
+  margin-top: 160px;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 65%;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.corevalue-col img{
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
+}
+.corevalue-col p{
+  padding-top: 75px;
+  font-weight: 400;
+  font-size: 70;
+}
+.coder{
+  margin-top: 45px;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus3{
+  width: 400%;
+  margin: auto;
+  margin-top: 60px;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+  font-size: 130px;
+}
+.history{
+  margin-top: 160px;
+}
+.history-col{
+  text-align: center;
+}
+.history-col img{
+  width: 94%;
+  content: url(AboutPage/School.png);
+  border-radius: 10px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus4{
+  width: 400%;
+  margin: auto;
+  padding-top: 190px;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+  font-size: 130px;
+}
+.leadershipteam{
+  margin: auto;
+  width: 94%;
+  padding-top: 140px;
+  display: flex;
+}
+.leadershipteam-col img{
+  width: calc(104vw - 0px);
+  border-radius: 3%;
+  margin-top: 4%;
+}
+.leadershipteam-col p{
+  text-align: center;
+  padding-top: 75px;
+  margin-left: 0%;
+  font-size: 56px;
+  width: 100%;
+}
+.accordion{
+  margin-left: 0.5%;
+}
+.accordion li{
+  list-style: none;
+  width: 94.5%;
+  margin: 40px;
+  padding: 50px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+  border-radius: 7px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 58px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion label::before{
+  content: '+';
+  margin-right: 20px;
+  font-size: 58px;
+  margin-top: -1;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .contentser p{
+  font-size: 55px;
+  line-height: 1.5;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 30px 55px 25px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus7{
+  width: 400%;
+  margin: auto;
+  padding-top: 0px;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+  font-size: 130px;
+}
+.students{
+  margin-top: 160px;
+  display: grid;
+  justify-content: normal;
+}
+.students-col{
+  text-align: center;
+}
+.students-col img{
+  border-radius: 25px;
+  width: 94%;
+}
+.students-col p{
+  display: none;
+}
+.downloadpdf{
+  margin-top: 180;
+  margin-left: 0%;
+  border-radius: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 40px 95px;
+  font-size: 75px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Ends--*/
+.Fullaboutus8{
+  width: 400%;
+  margin: auto;
+  padding-top: 190px;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+  font-size: 130px;
+}
+.deep{
+  margin-top: 165px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.deep2{
+  width: calc(183vw - 0px) !important;
+  height: calc(99vw - 0px) !important;
+  perspective: 1000px;
+  padding-bottom: 170px !important;
+}
+.card p{
+  padding-top: 170px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus8 p{
+  font-size: 65px;
+}
+.upabove{
+  margin-top: 60px;
+}
+.light{
+  margin-top: 130px !important;
+}
+.cardcircle{
+  width: 588px;
+  height: 588px;
+  perspective: 1000px;
+  padding-bottom: 120px;
+}
+.cardcircle p{
+  padding-top: 100px;
+  font-size: 65px;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-backcircle{
+  border-radius: 100px;
+  background: url(AboutPage/Affiliation.png);
+  transform: rotateY(180deg);
+  background-size: 550%;
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 5% !important;
+  justify-content: space-evenly !important;
+}
+.totallydiffer2{
+  left: -40;
+}
+.upabove2{
+  margin-top: 60px;
+}
+.card3D {
+  width: calc(85vw - 0px);
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  margin-top: 50%;
+  margin-bottom: calc(50vw - 0px);
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.card3dtext{
+  padding-bottom: 10%;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(9000px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .totallydiffer {
+  opacity: 1;
+  transform: translate3d(13%, -20%, 670px);
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.betterday{
+width: 400% !important;
+}
+
+.upabove3{
+  margin-top: -70px;
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 0%;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 70px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 80px 60px;
+  padding-bottom: 195px;
+}
+
+.logo-container img {
+  width: 700 !important;
+  height: 700 !important;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.upabove4{
+  margin-top: 0.2%;
+}
+
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 45%;
+  margin-top: 50px;
+}
+.frost{
+  font-size: calc(16vw - 0px) !important;
+}
+/*--Section 11th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 190px;
+  margin-top: -150px;
+}
+.btt {
+  width: 170px;
+  height: 170px;
+  margin-left: 184%;
+  box-shadow: 0px 0px 0px 10px rgba(18, 16, 255, 0.258);
+}
+.svgIcon {
+  width: 32px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 72;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -40px;
+  }
+  footer p{
+  font-size: 43px;
+  line-height: 1.4;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 55px;
+    font-size: 50px;
+  }
+  .footer-col1 p {
+    padding-bottom: 18px;
+    line-height: 1.5;
+  }
+  .email-id {
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 60px;
+    font-size: 48;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 76px;
+    font-size: 50px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 60px;
+  }
+  .footer-col2 ul li a {
+    font-size: 44;
+    font-weight: 400;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 45px;
+    font-size: 50;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 45px;
+    margin-right: 30px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 43;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 40px;
+    color: #ccc;
+  }  
+  .footer-col4{
+    padding-top: 25px;
+    margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 128px;
+    font-size: 310%;
+    color: #000;
+    background: #fff;
+    margin-right: 30px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 60px;
+  margin-left: 47%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 48px;
+    font-size: 46;
+  }
+  .footer-col5 p {
+  margin-left: -240px;
+  padding-bottom: 50;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 96%;
+    left: 89%;
+    width: 690px;
+  }
+  /*Newsletter CSS Ends*/
+
+   /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 6.5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 175px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 1100px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.app img {
+  width: 340px;
+  margin-left: -11px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 45px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+}
+
+@media only screen and (max-width: 1024px) {
+  /*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(HomePage/Community.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 150;
+  background-color: transparent;
+  transition: background-color 3600s ease;
+  position: absolute;
+  top: 85;
+  width: 92%;
+  z-index: 1000;
+}
+  .Aboutus nav .logohumain{
+    width: 295px;
+    margin-left: -8%;
+  }
+  .Aboutus .nav-links{
+    display: none;
+  }
+  .littleaboutus {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.littleaboutus h1{
+  font-size: 170px !important;
+  padding-top: 150px !important;
+  padding-bottom: 50px !important;
+  color: #fff !important;
+  text-shadow: black 2px 6px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 66px !important;
+  line-height: 2.2 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 20px !important;
+  padding: 30px 65px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 20px !important;
+  padding: 30px 60px !important;
+  padding-top: 30px !important;
+}
+.aboutusread{
+  margin-top: 133 !important;
+  border-radius: 25px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 36px 90px !important;
+  font-size: 62px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 400%;
+  margin: auto;
+  padding-top: 148px;
+}
+.Fullaboutus h1{
+  text-align: center;
+  font-size: 85px;
+}
+.MPD-col{
+  margin-top: 125px !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.card{
+  width: calc(183vw - 0px) !important;
+  height: calc(95vw - 0px) !important;
+  perspective: 1000px !important;
+  padding-bottom: 80px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-position-x: 28px;
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-position-y: -35px;
+  background-size: cover;
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: contain;
+  transform: rotateY(180deg);
+  background-position-x: 28px;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus2{
+  width: 400%;
+  margin: auto;
+  padding-top: 70px;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.corevalue{
+  display: flex;
+  margin-top: 125px;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 65%;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.corevalue-col img{
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
+}
+.corevalue-col p{
+  padding-top: 60px;
+  font-weight: 400;
+  font-size: 58;
+}
+.coder{
+  margin-top: 25px;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus3{
+  width: 400%;
+  margin: auto;
+  margin-top: 20px;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.history{
+  margin-top: 125px;
+}
+.history-col{
+  text-align: center;
+}
+.history-col img{
+  width: 94%;
+  content: url(AboutPage/School.png);
+  border-radius: 10px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus4{
+  width: 400%;
+  margin: auto;
+  padding-top: 148px;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.leadershipteam{
+  margin: auto;
+  width: 94%;
+  padding-top: 110px;
+  display: flex;
+}
+.leadershipteam-col img{
+  width: 341%;
+  border-radius: 3%;
+  margin-top: 7%;
+}
+.leadershipteam-col p{
+  text-align: center;
+  padding-top: 55px;
+  margin-left: 0%;
+  font-size: 45px;
+  width: 320%;
+}
+.accordion{
+  margin-left: 19%;
+}
+.accordion li{
+  list-style: none;
+  width: 95.5%;
+  margin: 20px;
+  padding: 36px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+  border-radius: 7px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 45px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion label::before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 48px;
+  margin-top: -3;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .contentser p{
+  font-size: 45px;
+  line-height: 1.5;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 10px 10px 10px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus7{
+  width: 400%;
+  margin: auto;
+  padding-top: 0px;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.students{
+  margin-top: 135px;
+  display: grid;
+  justify-content: normal;
+}
+.students-col{
+  text-align: center;
+}
+.students-col img{
+  border-radius: 25px;
+  width: 94%;
+}
+.students-col p{
+  display: none;
+}
+.downloadpdf{
+  margin-top: 140;
+  margin-left: 0%;
+  border-radius: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 35px 80px;
+  font-size: 60px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Ends--*/
+.Fullaboutus8{
+  width: 400%;
+  margin: auto;
+  padding-top: 150px;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.deep{
+  margin-top: 135px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.deep2{
+  width: calc(183vw - 0px) !important;
+  height: calc(99vw - 0px) !important;
+  perspective: 1000px;
+  padding-bottom: 170px !important;
+}
+.card p{
+  padding-top: 135px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus8 p{
+  font-size: 50px;
+}
+.upabove{
+  margin-top: 20px;
+}
+.light{
+  margin-top: 110px !important;
+}
+.cardcircle{
+  width: 450px;
+  height: 450px;
+  perspective: 1000px;
+  padding-bottom: 75;
+}
+.cardcircle p{
+  padding-top: 65px;
+  font-size: 50px;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-backcircle{
+  border-radius: 100px;
+  background: url(AboutPage/Affiliation.png);
+  transform: rotateY(180deg);
+  background-size: 550%;
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 150px !important;
+  justify-content: space-evenly !important;
+}
+.totallydiffer2{
+  left: -40;
+}
+.upabove2{
+  margin-top: 60px;
+}
+.card3D {
+  width: calc(85vw - 0px);
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  margin-top: 50%;
+  margin-bottom: calc(45vw - 0px);
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.card3dtext{
+  padding-bottom: 10%;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(9000px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .totallydiffer {
+  opacity: 1;
+  transform: translate3d(13%, -20%, 670px);
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.betterday{
+width: 400% !important;
+}
+
+.upabove3{
+  margin-top: -70px;
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 0%;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 70px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 80px 30;
+  padding-bottom: 195px;
+}
+
+.logo-container img {
+  width: 500 !important;
+  height: 500 !important;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.upabove4{
+  margin-top: 0.2%;
+}
+
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 45%;
+  margin-top: 50px;
+}
+.frost{
+  font-size: calc(16vw - 0px) !important;
+}
+/*--Section 11th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 135px;
+  margin-top: -150px;
+}
+.btt {
+  width: 150px;
+  height: 150px;
+  margin-left: 184%;
+  box-shadow: 0px 0px 0px 10px rgba(18, 16, 255, 0.258);
+}
+.svgIcon {
+  width: 32px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 50;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -40px;
+  }
+  footer p{
+  font-size: 35px;
+  line-height: 1.3;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 55px;
+    font-size: 41px;
+  }
+  .footer-col1 p {
+    padding-bottom: 18px;
+    line-height: 1.4;
+  }
+  .email-id {
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 60px;
+    font-size: 41;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 52.5px;
+    font-size: 41px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  .footer-col2 ul li a {
+    font-size: 35;
+    font-weight: 400;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 45px;
+    font-size: 41;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 40px;
+    margin-right: 25px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 35;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 36px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 95px;
+    font-size: 220%;
+    color: #000;
+    background: #fff;
+    margin-right: 30px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 70px;
+  margin-left: 47%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 38px;
+    font-size: 40;
+  }
+  .footer-col5 p {
+  margin-left: -190px;
+  padding-bottom: 30;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 93%;
+    left: 90%;
+    width: 550px;
+  }
+  /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 6.5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 175px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 1065px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.app img {
+  width: 340px;
+  margin-left: -11px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 45px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+}
+
+@media (min-width: 851px) and (max-width: 980px) {
+  /*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(HomePage/Community.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 150;
+  background-color: transparent;
+  transition: background-color 3600s ease;
+  position: absolute;
+  top: 85;
+  width: 92%;
+  z-index: 1000;
+}
+  .Aboutus nav .logohumain{
+    width: 295px;
+    margin-left: -8%;
+  }
+  .Aboutus .nav-links{
+    display: none;
+  }
+  .littleaboutus {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.littleaboutus h1{
+  font-size: 150px !important;
+  padding-top: 150px !important;
+  padding-bottom: 35px !important;
+  color: #fff !important;
+  text-shadow: black 2px 6px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 58px !important;
+  line-height: 2.2 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 10px !important;
+  padding: 25px 50px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 10px !important;
+  padding: 25px 45px !important;
+  padding-top: 25px !important;
+}
+.aboutusread{
+  margin-top: 100 !important;
+  border-radius: 25px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 33px 80px !important;
+  font-size: 54px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 400%;
+  margin: auto;
+  padding-top: 148px;
+}
+.Fullaboutus h1{
+  text-align: center;
+  font-size: 85px;
+}
+.MPD-col{
+  margin-top: 125px !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.card{
+  width: calc(183vw - 0px) !important;
+  height: calc(95vw - 0px) !important;
+  perspective: 1000px !important;
+  padding-bottom: 80px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-position-x: 28px;
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-position-y: -35px;
+  background-size: cover;
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: contain;
+  transform: rotateY(180deg);
+  background-position-x: 28px;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus2{
+  width: 400%;
+  margin: auto;
+  padding-top: 70px;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.corevalue{
+  display: flex;
+  margin-top: 125px;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 65%;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.corevalue-col img{
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
+}
+.corevalue-col p{
+  padding-top: 60px;
+  font-weight: 400;
+  font-size: 58;
+}
+.coder{
+  margin-top: 25px;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus3{
+  width: 400%;
+  margin: auto;
+  margin-top: 20px;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.history{
+  margin-top: 125px;
+}
+.history-col{
+  text-align: center;
+}
+.history-col img{
+  width: 94%;
+  content: url(AboutPage/School.png);
+  border-radius: 10px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus4{
+  width: 400%;
+  margin: auto;
+  padding-top: 148px;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.leadershipteam{
+  margin: auto;
+  width: 94%;
+  padding-top: 110px;
+  display: flex;
+}
+.leadershipteam-col img{
+  width: 341%;
+  border-radius: 3%;
+  margin-top: 7%;
+}
+.leadershipteam-col p{
+  text-align: center;
+  padding-top: 55px;
+  margin-left: 0%;
+  font-size: 45px;
+  width: 320%;
+}
+.accordion{
+  margin-left: 19%;
+}
+.accordion li{
+  list-style: none;
+  width: 95.5%;
+  margin: 20px;
+  padding: 36px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+  border-radius: 7px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 45px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion label::before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 48px;
+  margin-top: -3;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .contentser p{
+  font-size: 45px;
+  line-height: 1.5;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 10px 10px 10px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus7{
+  width: 400%;
+  margin: auto;
+  padding-top: 0px;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.students{
+  margin-top: 135px;
+  display: grid;
+  justify-content: normal;
+}
+.students-col{
+  text-align: center;
+}
+.students-col img{
+  border-radius: 25px;
+  width: 94%;
+}
+.students-col p{
+  display: none;
+}
+.downloadpdf{
+  margin-top: 140;
+  margin-left: 0%;
+  border-radius: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 35px 80px;
+  font-size: 60px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Ends--*/
+.Fullaboutus8{
+  width: 400%;
+  margin: auto;
+  padding-top: 150px;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.deep{
+  margin-top: 135px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.deep2{
+  width: calc(183vw - 0px) !important;
+  height: calc(99vw - 0px) !important;
+  perspective: 1000px;
+  padding-bottom: 170px !important;
+}
+.card p{
+  padding-top: 135px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus8 p{
+  font-size: 50px;
+}
+.upabove{
+  margin-top: 20px;
+}
+.light{
+  margin-top: 110px !important;
+}
+.cardcircle{
+  width: 450px;
+  height: 450px;
+  perspective: 1000px;
+  padding-bottom: 75;
+}
+.cardcircle p{
+  padding-top: 65px;
+  font-size: 50px;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-backcircle{
+  border-radius: 100px;
+  background: url(AboutPage/Affiliation.png);
+  transform: rotateY(180deg);
+  background-size: 550%;
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 150px !important;
+  justify-content: space-evenly !important;
+}
+.totallydiffer2{
+  left: -40;
+}
+.upabove2{
+  margin-top: 60px;
+}
+.card3D {
+  width: calc(85vw - 0px);
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  margin-top: 50%;
+  margin-bottom: calc(45vw - 0px);
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.card3dtext{
+  padding-bottom: 10%;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(9000px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .totallydiffer {
+  opacity: 1;
+  transform: translate3d(13%, -20%, 670px);
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.betterday{
+width: 400% !important;
+}
+
+.upabove3{
+  margin-top: -50px;
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 0%;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 70px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 80px 30;
+  padding-bottom: 195px;
+}
+
+.logo-container img {
+  width: 500 !important;
+  height: 500 !important;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.upabove4{
+  margin-top: 0.2%;
+}
+
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 45%;
+  margin-top: 50px;
+}
+.frost{
+  font-size: calc(16vw - 0px) !important;
+}
+/*--Section 11th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 120px;
+  margin-top: -150px;
+}
+.btt {
+  width: 135px;
+  height: 135px;
+  margin-left: 184%;
+  box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
+}
+.svgIcon {
+  width: 28px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 50;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -40px;
+  }
+  footer p{
+  font-size: 35px;
+  line-height: 1.3;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 55px;
+    font-size: 41px;
+  }
+  .footer-col1 p {
+    padding-bottom: 18px;
+    line-height: 1.4;
+  }
+  .email-id {
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 60px;
+    font-size: 41;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 52.5px;
+    font-size: 41px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  .footer-col2 ul li a {
+    font-size: 35;
+    font-weight: 400;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 45px;
+    font-size: 41;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 40px;
+    margin-right: 25px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 35;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 36px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 95px;
+    font-size: 220%;
+    color: #000;
+    background: #fff;
+    margin-right: 30px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 70px;
+  margin-left: 47%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 38px;
+    font-size: 40;
+  }
+  .footer-col5 p {
+  margin-left: -190px;
+  padding-bottom: 30;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 92%;
+    left: 89%;
+    width: 550px;
+  }
+  /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 6.5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 175px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 1065px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.app img {
+  width: 340px;
+  margin-left: -11px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 45px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+}
+
+@media only screen and (max-width: 850px) {
+  /*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(HomePage/Community.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 150;
+  background-color: transparent;
+  transition: background-color 3600s ease;
+  position: absolute;
+  top: 85;
+  width: 92%;
+  z-index: 1000;
+}
+  .Aboutus nav .logohumain{
+    width: 295px;
+    margin-left: -8%;
+  }
+  .Aboutus .nav-links{
+    display: none;
+  }
+  .littleaboutus {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.littleaboutus h1{
+  font-size: 116px !important;
+  padding-top: 150px !important;
+  padding-bottom: 25px !important;
+  color: #fff !important;
+  text-shadow: black 2px 6px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 46px !important;
+  line-height: 2.2 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 10px !important;
+  padding: 22px 40px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 10px !important;
+  padding: 22px 38px !important;
+  padding-top: 20px !important;
+}
+.aboutusread{
+  margin-top: 75 !important;
+  border-radius: 25px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 25px 60px !important;
+  font-size: 44px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 400%;
+  margin: auto;
+  padding-top: 133px;
+}
+.Fullaboutus h1{
+  text-align: center;
+  font-size: 85px;
+}
+.MPD-col{
+  margin-top: 105px !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.card{
+  width: calc(183vw - 0px) !important;
+  height: calc(95vw - 0px) !important;
+  perspective: 1000px !important;
+  padding-bottom: 80px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-position-x: 28px;
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-position-y: -35px;
+  background-size: cover;
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: contain;
+  transform: rotateY(180deg);
+  background-position-x: 28px;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus2{
+  width: 400%;
+  margin: auto;
+  padding-top: 52px;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.corevalue{
+  display: flex;
+  margin-top: 105px;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 65%;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.corevalue-col img{
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
+}
+.corevalue-col p{
+  padding-top: 60px;
+  font-weight: 400;
+  font-size: 48;
+}
+.coder{
+  margin-top: 12px;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus3{
+  width: 400%;
+  margin: auto;
+  margin-top: 0px;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.history{
+  margin-top: 105px;
+}
+.history-col{
+  text-align: center;
+}
+.history-col img{
+  width: 94%;
+  content: url(AboutPage/School.png);
+  border-radius: 10px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus4{
+  width: 400%;
+  margin: auto;
+  padding-top: 133px;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.leadershipteam{
+  margin: auto;
+  width: 94%;
+  padding-top: 90px;
+  display: flex;
+}
+.leadershipteam-col img{
+  width: 230%;
+  border-radius: 3%;
+  margin-top: 7%;
+}
+.leadershipteam-col p{
+  text-align: center;
+  padding-top: 40;
+  margin-left: 0%;
+  font-size: 32px;
+  width: 220%;
+}
+.accordion{
+  margin-left: 15%;
+}
+.accordion li{
+  list-style: none;
+  width: 97%;
+  margin: 20px;
+  padding: 10px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+  border-radius: 7px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion label::before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 36px;
+  margin-top: -3;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .contentser p{
+  font-size: 32px;
+  line-height: 1.5;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 10px 10px 10px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus7{
+  width: 400%;
+  margin: auto;
+  padding-top: 0px;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.students{
+  margin-top: 120px;
+  display: grid;
+  justify-content: normal;
+}
+.students-col{
+  text-align: center;
+}
+.students-col img{
+  border-radius: 25px;
+  width: 94%;
+}
+.students-col p{
+  display: none;
+}
+.downloadpdf{
+  margin-top: 120;
+  margin-left: 0%;
+  border-radius: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 30px 70px;
+  font-size: 50px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Ends--*/
+.Fullaboutus8{
+  width: 400%;
+  margin: auto;
+  padding-top: 133px;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+  font-size: 85px;
+}
+.deep{
+  margin-top: 120px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.deep2{
+  width: calc(183vw - 0px) !important;
+  height: calc(99vw - 0px) !important;
+  perspective: 1000px;
+  padding-bottom: 170px !important;
+}
+.card p{
+  padding-top: 120px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus8 p{
+  font-size: 45px;
+}
+.upabove{
+  margin-top: -10px;
+}
+.light{
+  margin-top: 90px !important;
+}
+.cardcircle{
+  width: 370px;
+  height: 370px;
+  perspective: 1000px;
+  padding-bottom: 75;
+}
+.cardcircle p{
+  padding-top: 60px;
+  font-size: 40px;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-backcircle{
+  border-radius: 100px;
+  background: url(AboutPage/Affiliation.png);
+  transform: rotateY(180deg);
+  background-size: 550%;
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 80px !important;
+  justify-content: space-evenly !important;
+}
+.totallydiffer2{
+  left: -40;
+}
+.upabove2{
+  margin-top: 30px;
+}
+.card3D {
+  width: calc(85vw - 0px);
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  margin-top: 50%;
+  margin-bottom: calc(40vw - 0px);
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.card3dtext{
+  padding-bottom: 10%;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(9000px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .totallydiffer {
+  opacity: 1;
+  transform: translate3d(13%, -20%, 670px);
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.betterday{
+width: 400% !important;
+}
+
+.upabove3{
+  margin-top: -70px;
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1%;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 70px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 80px 30;
+  padding-bottom: 195px;
+}
+
+.logo-container img {
+  width: 500 !important;
+  height: 500 !important;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.upabove4{
+  margin-top: -1%;
+}
+
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 45%;
+  margin-top: 50px;
+}
+.frost{
+  font-size: calc(16vw - 0px) !important;
+}
+/*--Section 11th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 120px;
+  margin-top: -150px;
+}
+.btt {
+  width: 100px;
+  height: 100px;
+  margin-left: 184%;
+  box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
+}
+.svgIcon {
+  width: 20px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 30;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -26px;
+  }
+  footer p{
+  font-size: 33px;
+  line-height: 1.4;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 45px;
+    font-size: 39px;
+  }
+  .footer-col1 p {
+    padding-bottom: 22px;
+    line-height: 1.5;
+  }
+  .email-id {
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 50px;
+    font-size: 39;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 63px;
+    font-size: 39px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  .footer-col2 ul li a {
+    font-size: 34;
+    font-weight: 400;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 45px;
+    font-size: 39;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 35px;
+    margin-right: 20px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 33;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 32px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 81px;
+    font-size: 212%;
+    color: #000;
+    background: #fff;
+    margin-right: 30px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 46px;
+  margin-left: 46.5%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 38px;
+    font-size: 36;
+  }
+  .footer-col5 p {
+  margin-left: -185px;
+  padding-bottom: 30;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 92%;
+    left: 88%;
+    width: 550px;
+  }
+  /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 6.5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 175px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 1040px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.app img {
+  width: 340px;
+  margin-left: -11px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 45px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+}
+
+@media (min-width: 569px) and (max-width: 714px) {
+  /*--Section 1st CSS Starts--*/
+.wrapper {
+  width: 0px;
+  height: 0px;
+}
+.Aboutus {
+  min-height: 403vh;
+  width: 400%;
+  top: 0%;
+  background-image: url(HomePage/Community.png);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Aboutus nav {
+  height: 150;
+  background-color: transparent;
+  transition: background-color 3600s ease;
+  position: absolute;
+  top: 85;
+  width: 92%;
+  z-index: 1000;
+}
+  .Aboutus nav .logohumain{
+    width: 295px;
+    margin-left: -8%;
+  }
+  .Aboutus .nav-links{
+    display: none;
+  }
+  .Aboutus .btnLogin-popup img{
+    margin-top: 10;
+    margin-left: 55;
+  }
+  .btnLogin-popup img {
+    width: 100px;
+  }
+  .Aboutus .sub-menu-wrap{
+    top: 85%;
+  }
+  .Aboutus .wrapper{
+    margin-top: 70%;
+    transform: translate(-15%);
+  }
+  .littleaboutus {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.littleaboutus h1{
+  font-size: 90px !important;
+  padding-top: 150px !important;
+  padding-bottom: 20px !important;
+  color: #fff !important;
+  text-shadow: black 2px 6px 2px !important;
+}
+.littleaboutus p{
+  color: #fff !important;
+  font-size: 37px !important;
+  line-height: 2 !important;
+  font-weight: 500 !important;
+}
+.text-formatting{
+  background: #E9AF38;
+  border-radius: 10px !important;
+  padding: 19px 30px !important;
+}
+.text-formatting1{
+  background: #E9AF38;
+  border-radius: 10px !important;
+  padding: 20px 30px !important;
+  padding-top: 10px !important;
+}
+.aboutusread{
+  margin-top: 65 !important;
+  border-radius: 15px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 20px 55px !important;
+  font-size: 33px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+/*--Section 1st CSS Ends--*/
+
+/*--Section 2nd CSS Starts--*/
+.Fullaboutus{
+  width: 400%;
+  margin: auto;
+  padding-top: 113px;
+}
+.Fullaboutus h1{
+  text-align: center;
+  font-size: 70px;
+}
+.MPD-col{
+  margin-top: 95px !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.card{
+  width: calc(183vw - 0px) !important;
+  height: calc(95vw - 0px) !important;
+  perspective: 1000px !important;
+  padding-bottom: 80px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front2,
+.card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front2{
+  background: url(AboutPage/Mission.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back2{
+  background: url(AboutPage/Missonback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-position-x: 28px;
+}
+.card-front3,
+.card-back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front3{
+  background: url(AboutPage/Vision.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-position-y: -35px;
+  background-size: cover;
+}
+.card-back3{
+  background: url(AboutPage/Visionback.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: contain;
+  transform: rotateY(180deg);
+  background-position-x: 28px;
+}
+/*--Section 2nd CSS Ends--*/
+
+/*--Section 3rd CSS Starts--*/
+.Fullaboutus2{
+  width: 400%;
+  margin: auto;
+  padding-top: 32px;
+}
+.Fullaboutus2 h1{
+  text-align: center;
+  font-size: 70px;
+}
+.corevalue{
+  display: flex;
+  margin-top: 95px;
+  justify-content: space-around;
+}
+.corevalue-col{
+  width: 65%;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.corevalue-col img{
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 8%;
+}
+.corevalue-col p{
+  padding-top: 54px;
+  font-weight: 400;
+  font-size: 43;
+}
+/*--Section 3rd CSS Ends--*/
+
+/*--Section 4th CSS Starts--*/
+.Fullaboutus3{
+  width: 400%;
+  margin: auto;
+  margin-top: -20px;
+}
+.Fullaboutus3 h1{
+  text-align: center;
+  font-size: 70px;
+}
+.history{
+  margin-top: 95px;
+}
+.history-col{
+  text-align: center;
+}
+.history-col img{
+  width: 94%;
+  content: url(AboutPage/School.png);
+  border-radius: 10px;
+}
+/*--Section 4th CSS Ends--*/
+
+/*--Section 5th CSS Starts--*/
+.Fullaboutus4{
+  width: 400%;
+  margin: auto;
+  padding-top: 110px;
+}
+.Fullaboutus4 h1{
+  text-align: center;
+  font-size: 70px;
+}
+.leadershipteam{
+  margin: auto;
+  width: 94%;
+  padding-top: 80px;
+  display: flex;
+}
+.leadershipteam-col img{
+  width: 165%;
+  border-radius: 3%;
+  margin-top: 7%;
+}
+.leadershipteam-col p{
+  text-align: center;
+  padding-top: 25;
+  margin-left: 0%;
+  font-size: 28px;
+  width: 150%;
+}
+.accordion{
+  margin-left: 9%;
+}
+.accordion li{
+  list-style: none;
+  width: 97%;
+  margin: 20px;
+  padding: 10px;
+  background: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg);
+  border-radius: 7px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+  display: flex;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion label::before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 32px;
+  margin-top: -3;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .contentser{
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .contentser p{
+  font-size: 28px;
+  line-height: 1.4;
+}
+input[type="radio"]:checked + label + .contentser{
+  max-height: 400px;
+  padding: 10px 10px 10px;
+}
+input[type="radio"]:checked + label::before{
+  content: '-';
+}
+/*--Section 5th CSS Ends--*/
+
+/*--Section 6th CSS Starts--*/
+.Fullaboutus7{
+  width: 400%;
+  margin: auto;
+  padding-top: 10px;
+}
+.Fullaboutus7 h1{
+  text-align: center;
+  font-size: 70px;
+}
+.students{
+  margin-top: 105px;
+  display: grid;
+  justify-content: normal;
+}
+.students-col{
+  text-align: center;
+}
+.students-col img{
+  border-radius: 25px;
+  width: 94%;
+}
+.students-col p{
+  display: none;
+}
+.downloadpdf{
+  margin-top: 90;
+  margin-left: 0%;
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 25px 60px;
+  font-size: 45px;
+  background: #2FAAE5;
+  cursor: pointer;
+  position: relative;
+}
+/*--Section 6th CSS Ends--*/
+
+/*--Section 7th CSS Ends--*/
+.Fullaboutus8{
+  width: 400%;
+  margin: auto;
+  padding-top: 118px;
+}
+.Fullaboutus8 h1{
+  text-align: center;
+  font-size: 70px;
+}
+.deep{
+  margin-top: 105px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.deep2{
+  width: calc(183vw - 0px) !important;
+  height: calc(99vw - 0px) !important;
+  perspective: 1000px;
+  padding-bottom: 170px !important;
+}
+.card p{
+  padding-top: 95px !important;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front{
+  background: url(AboutPage/Information.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-back{
+  background: url(AboutPage/Details.png);
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.card-front1,
+.card-back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front1{
+  background: url(AboutPage/Information1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
+.card-back1{
+  background: url(AboutPage/Details1.png);
+  border: 1px solid #d8d8d8;
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+/*--Section 7th CSS Ends--*/
+
+/*--Section 8th CSS Starts--*/
+.Fullaboutus8 p{
+  font-size: 34px;
+}
+.upabove{
+  margin-top: -60px;
+}
+.light{
+  margin-top: 80px !important;
+}
+.cardcircle{
+  width: 340px;
+  height: 340px;
+  perspective: 1000px;
+  padding-bottom: 75;
+}
+.cardcircle p{
+  padding-top: 40px;
+}
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+.cardcircle:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.card-frontcircle,
+.card-backcircle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-frontcircle{
+  background: url(AboutPage/Approved.png);
+  border-radius: 100px;
+  transform: rotateY(0deg);
+  background-size: cover;
+}
+.card-backcircle{
+  border-radius: 100px;
+  background: url(AboutPage/Affiliation.png);
+  transform: rotateY(180deg);
+  background-size: 550%;
+}
+/*--Section 8th CSS Ends--*/
+
+/*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 45px !important;
+  justify-content: space-evenly !important;
+}
+.totallydiffer2{
+  left: -40;
+}
+.upabove2{
+  margin-top: 10px;
+}
+.card3D {
+  width: calc(85vw - 0px);
+  height: 455px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  margin-top: 50%;
+  margin-bottom: calc(32vw - 0px);
+  perspective: 2500px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.card3dtext{
+  padding-bottom: 10%;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper3D {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #000;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper3D img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card3D:hover .wrapper3D {
+  transform: perspective(9000px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper3D::before,
+.wrapper3D::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.wrapper3D::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.wrapper3D::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,transparent 46%,rgba(12, 13, 19, 0.5) 68%,rgba(12, 13, 19) 97%);
+}
+
+.card3D:hover .wrapper3D::before,
+.wrapper3D::after {
+  opacity: 1;
+}
+
+.card3D:hover .wrapper3D::after {
+  height: 120px;
+}
+
+.card3D .logo {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 7%;
+  color: aliceblue;
+  bottom: 10px;
+}
+
+.card3D:hover .logo {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card3D:hover .cover-image {
+  opacity: 0.3;
+}
+
+.character {
+  width: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card3D:hover .totallydiffer {
+  opacity: 1;
+  transform: translate3d(13%, -20%, 670px);
+}
+/*--Section 9th CSS Ends--*/
+
+/*--Section 10th CSS Starts--*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.betterday{
+width: 400% !important;
+}
+
+.upabove3{
+  margin-top: -60px;
+}
+
+.logos10 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1%;
+}
+
+.logos10:before,
+.logos10:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos10:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos10:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  margin: 0 70px;
+}
+
+.logo-container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 28px 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 80px 30;
+  padding-bottom: 130px;
+}
+
+.logo-container img {
+  width: 400 !important;
+  height: 400 !important;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-container:hover img {
+  transform: translateX(0);
+}
+
+.logos10:hover .logos-slide {
+  animation-play-state: paused;
+}
+/*--Section 10th CSS Ends--*/
+
+/*--Section 11th CSS Starts--*/
+.upabove4{
+  margin-top: -1%;
+}
+
+.lastyear{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.lastyear img{
+  width: 45%;
+  margin-top: 50px;
+}
+.frost{
+  font-size: calc(16vw - 0px) !important;
+}
+/*--Section 11th CSS Ends--*/
+
+/*--btt CSS Starts--*/
+.backtotop{
+  width: 200%;
+  margin-bottom: 120px;
+  margin-top: -150px;
+}
+.btt {
+  width: 100px;
+  height: 100px;
+  margin-left: 184%;
+  box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
+}
+.svgIcon {
+  width: 20px;
+}
+/*--btt CSS Ends--*/
+
+/*--Footer as Section 8th CSS Starts--*/
+footer{
+  width: 400%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  }
+  .footer-row {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-top: 30;
+    justify-content: space-between;
+}
+  .footer-col{
+    padding: 3px;
+    display: inline-block;
+    flex-basis: 27%;
+  }
+  .logo{
+  width: 30%;
+  margin-left: -26px;
+  }
+  footer p{
+  font-size: 27px;
+  line-height: 1.3;
+  }
+  .footer-col1{
+  padding-top: 25px;
+  margin-left: -5px;
+  }
+  .footer-col1 h3 {
+    padding-bottom: 40px;
+    font-size: 31.9px;
+  }
+  .footer-col1 p {
+    padding-bottom: 13px;
+    line-height: 1.4;
+  }
+  .email-id {
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-col1 h4 {
+    padding-top: 35px;
+    font-size: 31.9;
+  }  
+  .footer-col2{
+  padding-top: 25px;
+  margin-left: 20px;
+  }
+  .footer-col2 h3 {
+    padding-bottom: 52.5px;
+    font-size: 31.9px;
+  }
+  .footer-col2 ul li {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  .footer-col2 ul li a {
+    font-size: 27;
+    font-weight: 400;
+  }      
+  .footer-col3{
+    padding-top: 25px;      
+    margin-left: 0px;
+  }
+  .footer-col3 h3 {
+    padding-bottom: 45px;
+    font-size: 31.9;
+  }
+  .footer-col3 form {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+  .footer-col3 form .far {
+    font-size: 28px;
+    margin-right: 16px;
+  }
+  .footer-col3 form input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 22;
+    border: 0;
+  }
+  .footer-col3 form button .fas {
+    font-size: 27px;
+    color: #ccc;
+  }  
+  .footer-col4{
+  padding-top: 25px;
+  margin-left: 0px;
+  }
+  .footer-col4 .fab {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 165%;
+    color: #000;
+    background: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+  }  
+  .footer-col5{
+  padding-top: 36px;
+  margin-left: 46%;
+  }
+  .footer-col5 h3 {
+    padding-bottom: 38px;
+    font-size: 31;
+  }
+  .footer-col5 p {
+  margin-left: -150px;
+  padding-bottom: 30;
+  }
+  .underline1{
+  display: none;
+  }
+  .underline2{
+  display: none;
+  }
+  .underline3{
+  display: none;
+  }
+  .underline4{
+  display: none;
+  }
+  /*--Footer as Section 8th CSS Ends--*/
+  
+  /*Newsletter CSS Starts*/
+  .popup {
+    top: 92%;
+    left: 87%;
+    width: 450px;
+  }
+  /*Newsletter CSS Ends*/
+
+  /*Apps Menu CSS Starts*/
+.menu-icon {
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 5em;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 155px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 48px;
+  padding-top: 25px;
+  border-radius: 20px;
+  width: 745px;
+}
+
+.app {
+  display: inline-block;
+  width: 30.6%; /* Three apps per row with some space */
+  margin: 1%; /* Adjust spacing as needed */
+  text-align: center;
+  margin-bottom: 3.3%;
+}
+
+.app img {
+  width: 245px;
+  margin-left: -8px;
+}
+
+.app span {
+  display: block;
+  margin-top: 5px;
+  font-size: 32px;
+  color: #000;
+}
+/*Apps Menu CSS Ends*/
+}
 
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
@@ -255,6 +7658,7 @@
   .leadershipteam-col p{
     text-align: center;
     padding-top: 25;
+    font-size: 20px;
     margin-left: 0%;
     width: 150%;
   }
@@ -296,6 +7700,7 @@
   }
   .accordion .contentser p{
     font-size: 16px;
+    line-height: 22px;
   }
   input[type="radio"]:checked + label + .contentser{
     max-height: 400px;
@@ -472,6 +7877,10 @@
   /*--Section 8th CSS Ends--*/
   
   /*--Section 9th CSS Starts--*/
+.latest{
+  margin-top: 45px !important;
+  justify-content: space-evenly !important;
+}
   .totallydiffer2{
     left: -40;
   }
@@ -666,6 +8075,8 @@
   }
   
   .logo-container img {
+    width: 200 !important;
+    height: 200 !important;
     max-width: 100%;
     height: auto;
     transition: transform 0.5s ease-in-out;

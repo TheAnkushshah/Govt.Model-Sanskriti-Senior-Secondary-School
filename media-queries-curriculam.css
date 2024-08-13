@@ -6,28 +6,24 @@
 
 @media (min-width: 1851px) and (max-width: 1919px) {
   .littleaboutus h1 {
-    font-size: 70px !important;
-    padding-top: 312px !important;
+    font-size: 65px !important;
+    padding-top: 310px !important;
     text-shadow: black 2px 2px 2px !important;
     color: #fff !important;
-    padding-bottom: 10 !important;
+    padding-bottom: 13 !important;
   }
   .littleaboutus p{
-    line-height: 2 !important;
+    line-height: 2.2 !important;
     font-size: 25px !important;
   }
   .text-formatting {
     border-radius: 8px !important;
-    padding: 12px 28px !important;
+    padding: 13px 35px !important;
   }
   .text-formatting1 {
     border-radius: 9px !important;
-    padding: 13px 25px !important;
-    padding-top: 5px !important;
-  }
-  .wrapper {
-    width: 0px;
-    height: 0px;
+    padding: 14px 28px !important;
+    padding-top: 8px !important;
   }
   .nav-links {
     margin-right: 3.6%;
@@ -46,21 +42,16 @@
   margin-bottom: 4.5%;
 }
   .aboutusread {
-    font-size: 17px !important;
-    margin-top: 46 !important;
+    font-size: 18px !important;
+    margin-top: 53 !important;
     border-radius: 10px !important;
-    padding: 15px 28px !important;
+    padding: 18px 28px !important;
   }
   .Aboutus {
     min-height: 104vh;
   }
   .Aboutus nav {
     height: 98;
-  }
-  .btnLogin-popup img {
-    width: 55px;
-    margin-left: -4;
-    margin-right: 10;
   }
   .nav-links ul li a {
     font-size: 16.5px;
@@ -250,33 +241,33 @@
     padding-top: 150px !important;
     padding-bottom: 55px !important;
     color: #fff !important;
-    text-shadow: black 6px 8px 6px !important;
+    text-shadow: black 6px 7px 12px !important;
   }
   .littleaboutus p{
     color: #fff !important;
-    font-size: 80px !important;
-    line-height: 2 !important;
+    font-size: 86px !important;
+    line-height: 2.3 !important;
     font-weight: 500 !important;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 30px !important;
-    padding: 35px 70px !important;
+    padding: 40px 90px !important;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 30px !important;
-    padding: 35px 65px !important;
-    padding-top: 25px !important;
+    padding: 40px 75px !important;
+    padding-top: 40px !important;
   }
   .aboutusread{
-    margin-top: 155 !important;
+    margin-top: 162 !important;
     border-radius: 30px !important;
     display: inline-block !important;
     text-decoration: none !important;
     color: #fff !important;
-    padding: 55px 80px !important;
-    font-size: 60px !important;
+    padding: 60px 85px !important;
+    font-size: 65px !important;
     background: #2FAAE5;
     position: relative !important;
     cursor: pointer !important;
@@ -682,7 +673,7 @@ footer{
   /*Apps Menu CSS Starts*/
 .menu-icon {
   position: absolute;
-  top: 115px;
+  top: 110px;
   right: 195px;
   color: white;
   cursor: pointer;
@@ -768,21 +759,6 @@ footer{
     width: 400px;
     margin-left: -15%;
   }
-  .Aboutus .btnLogin-popup img{
-    margin-top: 0;
-    margin-left: 55;
-    margin-right: 80;
-  }
-  .btnLogin-popup img {
-    width: 150px;
-  }
-  .Aboutus .sub-menu-wrap{
-    top: 85%;
-  }
-  .Aboutus .wrapper{
-    margin-top: 70%;
-    transform: translate(-15%);
-  }
   .littleaboutus {
     width: 90%;
     color: #fff;
@@ -793,37 +769,37 @@ footer{
     text-align: center;
 }
   .littleaboutus h1{
-    font-size: 190px !important;
+    font-size: 200px !important;
     padding-top: 150px !important;
-    padding-bottom: 60px !important;
+    padding-bottom: 75px !important;
     color: #fff !important;
     text-shadow: black 5px 9px 5px !important;
   }
   .littleaboutus p{
     color: #fff !important;
-    font-size: 75px !important;
-    line-height: 1.67 !important;
+    font-size: 82px !important;
+    line-height: 2.2 !important;
     font-weight: 500 !important;
   }
   .text-formatting{
     background: #E9AF38;
-    border-radius: 10px !important;
-    padding: 22px 50px !important;
+    border-radius: 25px !important;
+    padding: 35px 90px !important;
   }
   .text-formatting1{
     background: #E9AF38;
-    border-radius: 10px !important;
-    padding: 20px 55px !important;
-    padding-top: 0px !important;
+    border-radius: 28px !important;
+    padding: 40px 80px !important;
+    padding-top: 35px !important;
   }
   .aboutusread{
-    margin-top: 145 !important;
+    margin-top: 165 !important;
     border-radius: 30px !important;
     display: inline-block !important;
     text-decoration: none !important;
     color: #fff !important;
-    padding: 40px 60px !important;
-    font-size: 55px !important;
+    padding: 45px 90px !important;
+    font-size: 70px !important;
     background: #2FAAE5;
     position: relative !important;
     cursor: pointer !important;
@@ -1314,21 +1290,6 @@ footer{
     width: 300px;
     margin-left: -15%;
   }
-  .Aboutus .btnLogin-popup img{
-    margin-top: 0;
-    margin-left: 55;
-    margin-right: 80;
-  }
-  .btnLogin-popup img {
-    width: 130px;
-  }
-  .Aboutus .sub-menu-wrap{
-    top: 85%;
-  }
-  .Aboutus .wrapper{
-    margin-top: 70%;
-    transform: translate(-15%);
-  }
   .littleaboutus {
     width: 90%;
     color: #fff;
@@ -1341,35 +1302,35 @@ footer{
   .littleaboutus h1{
     font-size: 190px !important;
     padding-top: 150px !important;
-    padding-bottom: 30px !important;
+    padding-bottom: 58px !important;
     color: #fff !important;
     text-shadow: black 5px 9px 5px !important;
   }
   .littleaboutus p{
     color: #fff !important;
-    font-size: 70px !important;
-    line-height: 1.688 !important;
+    font-size: 75px !important;
+    line-height: 2.2 !important;
     font-weight: 500 !important;
   }
   .text-formatting{
     background: #E9AF38;
-    border-radius: 10px !important;
-    padding: 20px 60px !important;
+    border-radius: 20px !important;
+    padding: 32px 80px !important;
   }
   .text-formatting1{
     background: #E9AF38;
-    border-radius: 10px !important;
-    padding: 25px 55px !important;
-    padding-top: 0px !important;
+    border-radius: 20px !important;
+    padding: 40px 65px !important;
+    padding-top: 32px !important;
   }
   .aboutusread{
-    margin-top: 105 !important;
+    margin-top: 150 !important;
     border-radius: 30px !important;
     display: inline-block !important;
     text-decoration: none !important;
     color: #fff !important;
-    padding: 40px 55px !important;
-    font-size: 55px !important;
+    padding: 50px 75px !important;
+    font-size: 65px !important;
     background: #2FAAE5;
     position: relative !important;
     cursor: pointer !important;
@@ -1876,35 +1837,35 @@ footer{
   .littleaboutus h1{
     font-size: 170px !important;
     padding-top: 150px !important;
-    padding-bottom: 25px !important;
+    padding-bottom: 50px !important;
     color: #fff !important;
     text-shadow: black 5px 10px 5px !important;
   }
   .littleaboutus p{
     color: #fff !important;
-    font-size: 62px !important;
-    line-height: 1.82 !important;
+    font-size: 66px !important;
+    line-height: 2.3 !important;
     font-weight: 500 !important;
   }
   .text-formatting{
     background: #E9AF38;
-    border-radius: 10px !important;
-    padding: 28px 40px !important;
+    border-radius: 20px !important;
+    padding: 33px 70px !important;
   }
   .text-formatting1{
     background: #E9AF38;
-    border-radius: 10px !important;
-    padding: 26px 40px !important;
-    padding-top: 0px !important;
+    border-radius: 20px !important;
+    padding: 33px 65px !important;
+    padding-top: 33px !important;
   }
   .aboutusread{
-    margin-top: 90 !important;
-    border-radius: 20px !important;
+    margin-top: 130 !important;
+    border-radius: 28px !important;
     display: inline-block !important;
     text-decoration: none !important;
     color: #fff !important;
-    padding: 40px 60px !important;
-    font-size: 50px !important;
+    padding: 48px 80px !important;
+    font-size: 54px !important;
     background: #2FAAE5;
     position: relative !important;
     cursor: pointer !important;
@@ -2410,35 +2371,35 @@ footer{
   .littleaboutus h1{
     font-size: 170px !important;
     padding-top: 150px !important;
-    padding-bottom: 25px !important;
+    padding-bottom: 42px !important;
     color: #fff !important;
     text-shadow: black 4px 8px 4px !important;
   }
   .littleaboutus p{
     color: #fff !important;
     font-size: 65px !important;
-    line-height: 1.76 !important;
+    line-height: 2.2 !important;
     font-weight: 500 !important;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px !important;
-    padding: 25px 55px !important;
+    padding: 30px 65px !important;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 20px !important;
-    padding: 25px 45px !important;
-    padding-top: 0px !important;
+    padding: 30px 60px !important;
+    padding-top: 30px !important;
   }
   .aboutusread{
-    margin-top: 90 !important;
+    margin-top: 125 !important;
     border-radius: 25px !important;
     display: inline-block !important;
     text-decoration: none !important;
     color: #fff !important;
-    padding: 36px 55px !important;
-    font-size: 50px !important;
+    padding: 42px 70px !important;
+    font-size: 58px !important;
     background: #2FAAE5;
     position: relative !important;
     cursor: pointer !important;
@@ -2943,34 +2904,34 @@ footer{
   .littleaboutus h1{
     font-size: 150px !important;
     padding-top: 150px !important;
-    padding-bottom: 25px !important;
+    padding-bottom: 35px !important;
     color: #fff !important;
     text-shadow: black 3px 8px 4px !important;
   }
   .littleaboutus p{
     color: #fff !important;
     font-size: 57px !important;
-    line-height: 1.6 !important;
+    line-height: 2.2 !important;
     font-weight: 500 !important;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px !important;
-    padding: 15px 28px !important;
+    padding: 25px 50px !important;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px !important;
-    padding: 15px 28px !important;
-    padding-top: 0px !important;
+    padding: 25px 45px !important;
+    padding-top: 25px !important;
   }
   .aboutusread{
-    margin-top: 80 !important;
+    margin-top: 100 !important;
     border-radius: 20px !important;
     display: inline-block !important;
     text-decoration: none !important;
     color: #fff !important;
-    padding: 28px 50px !important;
+    padding: 38px 65px !important;
     font-size: 50px !important;
     background: #2FAAE5;
     position: relative !important;
@@ -3218,7 +3179,7 @@ option{
 }
 .btt {
   width: 135px;
-  height: 130px;
+  height: 135px;
   margin-left: 185%;
   box-shadow: 0px 0px 0px 8px rgba(18, 16, 255, 0.258);
   margin-top: -135px;
@@ -3483,27 +3444,27 @@ footer{
   .littleaboutus p{
     color: #fff !important;
     font-size: 44px !important;
-    line-height: 1.5 !important;
+    line-height: 2.3 !important;
     font-weight: 500 !important;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px !important;
-    padding: 15px 28px !important;
+    padding: 22px 40px !important;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px !important;
-    padding: 15px 25px !important;
-    padding-top: 0px !important;
+    padding: 22px 38px !important;
+    padding-top: 20px !important;
   }
   .aboutusread{
-    margin-top: 68 !important;
+    margin-top: 75 !important;
     border-radius: 20px !important;
     display: inline-block !important;
     text-decoration: none !important;
     color: #fff !important;
-    padding: 25px 48px !important;
+    padding: 30px 48px !important;
     font-size: 40px !important;
     position: relative !important;
     cursor: pointer !important;
@@ -4008,29 +3969,29 @@ footer{
   .littleaboutus h1{
     font-size: 90px !important;
     padding-top: 150px !important;
-    padding-bottom: 15px !important;
+    padding-bottom: 20px !important;
     color: #fff !important;
     text-shadow: black 2px 6px 2px !important;
   }
   .littleaboutus p{
     color: #fff !important;
     font-size: 35px !important;
-    line-height: 1.7 !important;
+    line-height: 2 !important;
     font-weight: 500 !important;
   }
   .text-formatting{
     background: #E9AF38;
     border-radius: 10px !important;
-    padding: 12px 25px !important;
+    padding: 19px 30px !important;
   }
   .text-formatting1{
     background: #E9AF38;
     border-radius: 10px !important;
-    padding: 12px 20px !important;
-    padding-top: 0px !important;
+    padding: 20px 30px !important;
+    padding-top: 10px !important;
   }
   .aboutusread{
-    margin-top: 48 !important;
+    margin-top: 65 !important;
     border-radius: 15px !important;
     display: inline-block !important;
     text-decoration: none !important;

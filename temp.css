@@ -1,6 +1,6 @@
 .littleaboutus h1{
     font-size: 65px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     color: #fff;
     text-shadow: 2px 2px 2px #333333
   }
@@ -18,11 +18,11 @@
   .text-formatting1 {
     background: #E9AF38;
     border-radius: 9px;
-    padding: 13px 25px;
+    padding: 12px 25px;
     padding-top: 5px;
   }
   .aboutusread{
-    margin-top: 40;
+    margin-top: 45;
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
