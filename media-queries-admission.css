@@ -55,7 +55,7 @@
         margin-top: 25px;
         border-radius: 8px !important;
         padding: 13px 34px;
-        font-size: 16px;
+        font-size: 16px !important;
     }
     .notif{
         margin-top: -22.3% !important;
@@ -65,7 +65,7 @@
         height: 98;
       }
       .nav-links ul li {
-        padding: 8px 15px;
+        padding: 8px 25px;
       }
       .nav-links ul li a {
         font-size: 16.5px;
@@ -126,7 +126,7 @@
           .nav-links ul li {
             list-style: none;
             display: inline-block;
-            padding: 8px 65px;
+            padding: 8px 100px;
             position: relative;
           }
           .nav-links ul li a {
@@ -448,7 +448,7 @@ footer{
   font-size: 8em;
 }
 .nav-links{
-  margin-right: 260px;
+  margin-right: 293px;
 }
 .menu {
   display: none;
@@ -513,7 +513,7 @@ footer{
       .nav-links ul li {
         list-style: none;
         display: inline-block;
-        padding: 8px 60px;
+        padding: 8px 88px;
         position: relative;
       }
       .nav-links ul li a {
@@ -835,7 +835,7 @@ footer{
   font-size: 7.3em;
 }
 .nav-links{
-  margin-right: 250px;
+  margin-right: 275px;
 }
 .menu {
   display: none;
@@ -900,7 +900,7 @@ footer{
   .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 55px;
+    padding: 8px 80px;
     position: relative;
   }
   .nav-links ul li a {
@@ -1222,7 +1222,7 @@ footer{
   font-size: 6.5em;
 }
 .nav-links{
-  margin-right: 220px;
+  margin-right: 250px;
 }
 .menu {
   display: none;
@@ -2102,7 +2102,7 @@ footer{
         font-weight: 500 !important;
     }
     .aboutusread{
-        margin-top: 75 !important;
+        margin-top: 90 !important;
         display: inline-block !important;
         text-decoration: none !important;
         padding: 46px 60px !important;
@@ -2876,7 +2876,7 @@ footer{
         font-weight: 500 !important;
     }
     .aboutusread{
-        margin-top: 51 !important;
+        margin-top: 68 !important;
         display: inline-block !important;
         text-decoration: none !important;
         padding: 30px 41px !important;

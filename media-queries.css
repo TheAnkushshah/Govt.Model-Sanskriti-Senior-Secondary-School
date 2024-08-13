@@ -21,7 +21,7 @@
     font-size: 33px;
   }
   .nav-links ul li{
-    padding: 8px 32px;
+    padding: 8px 48px;
   }
   nav img{
   width: 240px;
@@ -541,14 +541,14 @@
   width: 202.1%;
   }
   .nav-links{
-    margin-right: 100px;
+    margin-right: 118px;
     margin-top: 0.7%;
   }
   .nav-links ul li a{
     font-size: 28.1px;
   }
   .nav-links ul li{
-    padding: 8px 30px;
+    padding: 8px 48px;
   }
   nav img{
   width: 220px;
@@ -1072,14 +1072,14 @@
   width: 202.1%;
   }
   .nav-links{
-    margin-right: 90px;
+    margin-right: 108px;
     margin-top: 0.77%;
   }
   .nav-links ul li a{
     font-size: 24px;
   }
   .nav-links ul li{
-    padding: 8px 28px;
+    padding: 8px 40px;
   }
   nav img{
   width: 200px;
@@ -1604,7 +1604,7 @@
   width: 202.1%;
   }
 .nav-links{
-  margin-right: 80px;
+  margin-right: 95px;
   margin-top: 0.7%;
 }
 .nav-links ul li a{
@@ -1615,7 +1615,7 @@
     margin-left: -15%;
   }
   .nav-links ul li {
-    padding: 8px 25px;
+    padding: 8px 35px;
   }
 
   .btnLogin-popup img{
@@ -4480,7 +4480,7 @@ footer{
   margin-left: 234%;
   }
   .svgIcon {
-    width: 15px;
+    width: 12px;
 }
   /*--btt CSS Ends--*/
   
@@ -4606,6 +4606,10 @@ footer{
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
     /*--Section 1st CSS Starts--*/
+    .booker{
+      width: 90%;
+      margin: auto;
+    }
     h1 {
       font-size: 40px;
   }
@@ -4725,6 +4729,8 @@ footer{
     font-weight: 400;
     line-height: 1.6;
     font-size: 19px;
+    width: 90%;
+    margin: auto;
     padding-top: 9px;
   }
   .Campus-col{

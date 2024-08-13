@@ -57,7 +57,7 @@
     font-size: 16.5px;
   }
   .nav-links ul li {
-    padding: 8px 15px;
+    padding: 8px 25px;
   }
   .Aboutus nav .logohumain {
     width: 115px;
@@ -199,7 +199,7 @@
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 65px;
+  padding: 8px 100px;
   position: relative;
 }
 .nav-links ul li a {
@@ -680,7 +680,7 @@ footer{
   font-size: 8em;
 }
 .nav-links{
-  margin-right: 260px;
+  margin-right: 293px;
 }
 .menu {
   display: none;
@@ -746,7 +746,7 @@ footer{
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 60px;
+  padding: 8px 88px;
   position: relative;
 }
 .nav-links ul li a {
@@ -1211,7 +1211,7 @@ footer{
   font-size: 7.3em;
 }
 .nav-links{
-  margin-right: 250px;
+  margin-right: 275px;
 }
 .menu {
   display: none;
@@ -1277,7 +1277,7 @@ footer{
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 55px;
+  padding: 8px 80px;
   position: relative;
 }
 .nav-links ul li a {
@@ -1741,7 +1741,7 @@ footer{
   font-size: 6.5em;
 }
 .nav-links{
-  margin-right: 220px;
+  margin-right: 250px;
 }
 .menu {
   display: none;
@@ -2926,7 +2926,7 @@ footer{
     padding-top: 25px !important;
   }
   .aboutusread{
-    margin-top: 100 !important;
+    margin-top: 120 !important;
     border-radius: 20px !important;
     display: inline-block !important;
     text-decoration: none !important;
@@ -3969,7 +3969,7 @@ footer{
   .littleaboutus h1{
     font-size: 90px !important;
     padding-top: 150px !important;
-    padding-bottom: 20px !important;
+    padding-bottom: 40px !important;
     color: #fff !important;
     text-shadow: black 2px 6px 2px !important;
   }
@@ -3991,7 +3991,7 @@ footer{
     padding-top: 10px !important;
   }
   .aboutusread{
-    margin-top: 65 !important;
+    margin-top: 95 !important;
     border-radius: 15px !important;
     display: inline-block !important;
     text-decoration: none !important;
@@ -4521,7 +4521,7 @@ footer{
       padding-top: 9px !important;
     }
     .aboutusread{
-      margin-top: 37 !important;
+      margin-top: 50px !important;
       border-radius: 15px !important;
       display: inline-block !important;
       text-decoration: none !important;
