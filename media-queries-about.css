@@ -7480,6 +7480,7 @@ footer{
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .Aboutus nav {
   height: 150;
@@ -7646,8 +7647,9 @@ footer{
     font-size: 70px;
   }
   .corevalue{
-    display: ruby-text;
+    display: block;
     margin-top: 90px;
+    transform: translate(16%);
     justify-content: space-around;
   }
   .corevalue-col{
