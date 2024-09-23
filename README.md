@@ -18,7 +18,7 @@ Welcome to our school web application project! This dynamic web application is d
 
 ## Preview
 
-![Preview Image](Preview.png)
+![Preview Image](home.png)
 
 ## How to Clone the Repository
 
