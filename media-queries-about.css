@@ -7640,6 +7640,7 @@ footer{
   .Fullaboutus2{
     width: 400%;
     margin: auto;
+    overflow: hidden;
     padding-top: 25px;
   }
   .Fullaboutus2 h1{
