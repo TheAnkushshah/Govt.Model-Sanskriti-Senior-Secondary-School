@@ -6,6 +6,12 @@
 
 @media (min-width: 1851px) and (max-width: 1919px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.496); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+  }
 .Section{
   min-height: 203vh;
   width: 202.1%;
@@ -35,7 +41,7 @@
   .textbox h1{
   font-size: 140px;
   font-weight: bold;
-  text-shadow: 2px 8px 4px #333333;
+  text-shadow: 2px 5px 4px #333333;
   }
   .textbox p{
     font-size: 53px;
@@ -92,7 +98,7 @@
     
     /*--Milestones as Section 2nd CSS Starts--*/
     .Milestones{
-    width: 202%;
+    width: 202.1%;
     padding-top: 150px;
     }
     .Milestones h1{
@@ -128,7 +134,7 @@
     
      /*--Section 3rd as Campus CSS Starts--*/
      .Campus{
-      width: 201.6%;
+      width: 202.1%;
       padding-top: 150px;
     }
     .Campus h1{
@@ -158,7 +164,7 @@
     
     /*--Section 4th as Facilities CSS Starts--*/
     .facilities{
-    width: 201.6%;
+    width: 202.1%;
     padding-top: 45px;
     }
     .facilities h1{
@@ -199,7 +205,7 @@
     
     /*--Section 5th as Achivements CSS Ends--*/
     .Achivements{
-    width: 201.6%;
+    width: 202.1%;
     padding-top: 195px;
     padding-bottom: 0px;
     }
@@ -246,7 +252,7 @@
     
     /*--Ratings as Section 6th CSS Starts--*/
     .Ratings{
-    width: 201.6%;
+    width: 202.1%;
     padding-bottom: 0;
     padding-top: 145px;
     }
@@ -320,7 +326,7 @@
     
     /*--Lta as Section 7th CSS Starts--*/
     .Lta{
-    width: 201.6%;
+    width: 202.1%;
     margin-top: 220;
     }
     .Lta h1{
@@ -368,7 +374,7 @@
     
      /*--Footer as Section 8th CSS Starts--*/
   footer{
-    width: 201.6%;
+    width: 202.1%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     }
@@ -536,6 +542,12 @@
 
 @media (min-width: 1651px) and (max-width: 1850px) {
 /*--Section 1st CSS Starts--*/
+body {
+  transform: scale(0.496); /* You can tweak this for very small screens */
+  transform-origin: top left;
+  height: 100%;
+  min-height: 100vh;
+}
 .Section{
   min-height: 203vh;
   width: 202.1%;
@@ -622,7 +634,7 @@
     
     /*--Milestones as Section 2nd CSS Starts--*/
     .Milestones{
-    width: 202%;
+    width: 202.1%;
     padding-top: 150px;
     }
     .Milestones h1{
@@ -658,7 +670,7 @@
     
      /*--Section 3rd as Campus CSS Starts--*/
      .Campus{
-      width: 201.6%;
+      width: 202.1%;
       padding-top: 150px;
     }
     .Campus h1{
@@ -688,7 +700,7 @@
     
     /*--Section 4th as Facilities CSS Starts--*/
     .facilities{
-    width: 201.6%;
+    width: 202.1%;
     padding-top: 45px;
     }
     .facilities h1{
@@ -730,7 +742,7 @@
     
     /*--Section 5th as Achivements CSS Ends--*/
     .Achivements{
-    width: 201.6%;
+    width: 202.1%;
     padding-top: 187px;
     padding-bottom: 0px;
     }
@@ -777,7 +789,7 @@
     
     /*--Ratings as Section 6th CSS Starts--*/
     .Ratings{
-    width: 201.6%;
+    width: 202.1%;
     padding-bottom: 0;
     padding-top: 145px;
     }
@@ -851,7 +863,7 @@
     
     /*--Lta as Section 7th CSS Starts--*/
     .Lta{
-    width: 201.6%;
+    width: 202.1%;
     margin-top: 220;
     }
     .Lta h1{
@@ -899,7 +911,7 @@
     
     /*--Footer as Section 8th CSS Starts--*/
   footer{
-    width: 201.6%;
+    width: 202.1%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     }
@@ -1067,6 +1079,12 @@
 
 @media (min-width: 1441px) and (max-width: 1650px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.496); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+    }
 .Section{
   min-height: 203vh;
   width: 202.1%;
@@ -1153,7 +1171,7 @@
   
   /*--Milestones as Section 2nd CSS Starts--*/
   .Milestones{
-  width: 202%;
+  width: 202.1%;
   padding-top: 140px;
   }
   .Milestones h1{
@@ -1189,7 +1207,7 @@
   
    /*--Section 3rd as Campus CSS Starts--*/
    .Campus{
-    width: 201.6%;
+    width: 202.1%;
     padding-top: 138px;
   }
   .Campus h1{
@@ -1219,7 +1237,7 @@
   
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 46px;
   }
   .facilities h1{
@@ -1261,7 +1279,7 @@
   
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 167px;
   padding-bottom: 0px;
   }
@@ -1308,7 +1326,7 @@
   
   /*--Ratings as Section 6th CSS Starts--*/
   .Ratings{
-  width: 201.6%;
+  width: 202.1%;
   padding-bottom: 0;
   padding-top: 140px;
   }
@@ -1383,7 +1401,7 @@
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
-  width: 201.6%;
+  width: 202.1%;
   margin-top: 210;
   }
   .Lta h1{
@@ -1431,7 +1449,7 @@
   
   /*--Footer as Section 8th CSS Starts--*/
   footer{
-    width: 201.6%;
+    width: 202.1%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     }
@@ -1599,6 +1617,12 @@
 
 @media (min-width: 1241px) and (max-width: 1440px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.495); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+  }
 .Section{
   min-height: 203vh;
   width: 202.1%;
@@ -1686,7 +1710,7 @@
   
   /*--Milestones as Section 2nd CSS Starts--*/
   .Milestones{
-  width: 202%;
+  width: 202.1%;
   padding-top: 140px;
   }
   .Milestones h1{
@@ -1722,7 +1746,7 @@
   
    /*--Section 3rd as Campus CSS Starts--*/
    .Campus{
-    width: 201.6%;
+    width: 202.1%;
     padding-top: 136px;
   }
   .Campus h1{
@@ -1752,7 +1776,7 @@
   
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 52px;
   }
   .facilities h1{
@@ -1793,7 +1817,7 @@
   
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 162px;
   padding-bottom: 0px;
   }
@@ -1840,7 +1864,7 @@
   
   /*--Ratings as Section 6th CSS Starts--*/
   .Ratings{
-    width: 201.6%;
+    width: 202.1%;
     padding-bottom: 0;
     padding-top: 125;
     }
@@ -1914,7 +1938,7 @@
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
-  width: 201.6%;
+  width: 202.1%;
   margin-top: 170;
   }
   .Lta h1{
@@ -1962,7 +1986,7 @@ margin-left: 187%;
     
     /*--Footer as Section 8th CSS Starts--*/
     footer{
-    width: 201.6%;
+    width: 202.1%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     }
@@ -2130,6 +2154,12 @@ margin-left: 187%;
 
 @media (min-width: 1025px) and (max-width: 1240px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.495); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+  }
 .Section{
   min-height: 203vh;
   width: 202.1%;
@@ -2208,7 +2238,7 @@ margin-left: 187%;
   
   /*--Milestones as Section 2nd CSS Starts--*/
   .Milestones{
-  width: 202%;
+  width: 202.1%;
   padding-top: 120px;
   }
   .Milestones h1 {
@@ -2244,7 +2274,7 @@ margin-left: 187%;
   
    /*--Section 3rd as Campus CSS Starts--*/
    .Campus{
-    width: 201.6%;
+    width: 202.1%;
     padding-top: 115px;
   }
   .Campus h1 {
@@ -2274,7 +2304,7 @@ margin-left: 187%;
   
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 50px;
   }
   .facilities .row {
@@ -2316,7 +2346,7 @@ margin-left: 187%;
   
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 152px;
   padding-bottom: 0px;
   }
@@ -2363,7 +2393,7 @@ margin-left: 187%;
   
   /*--Ratings as Section 6th CSS Starts--*/
   .Ratings{
-  width: 201.6%;
+  width: 202.1%;
   padding-bottom: 0;
   padding-top: 115;
   }
@@ -2429,7 +2459,7 @@ margin-left: 187%;
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
-  width: 201.6%;
+  width: 202.1%;
   margin-top: 142;
   }
   .Lta h1{
@@ -2477,7 +2507,7 @@ margin-left: 187%;
     
     /*--Footer as Section 8th CSS Starts--*/
     footer{
-    width: 201.6%;
+    width: 202.1%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     }
@@ -2617,7 +2647,7 @@ margin-left: 187%;
   padding: 10px;
   padding-bottom: 30px;
   border-radius: 12px;
-  width: 550px;
+  width: 580px;
   z-index: 1000;
 }
 
@@ -2637,7 +2667,7 @@ margin-left: 187%;
 .app span {
   display: block;
   margin-top: 5px;
-  font-size: 22px;
+  font-size: 23px;
   color: #000;
 }
 /*Apps Menu CSS Ends*/
@@ -2646,6 +2676,12 @@ margin-left: 187%;
 /* 1024px - Tablets, laptops, and desktops */
 @media only screen and (max-width: 1024px) {
 /*--Section 1st CSS Starts--*/
+body {
+  transform: scale(0.495); /* You can tweak this for very small screens */
+  transform-origin: top left;
+  height: 100%;
+  min-height: 100vh;
+}
 h1{
   font-size: 55px;
 }
@@ -2727,7 +2763,7 @@ h1{
   
   /*--Milestones as Section 2nd CSS Starts--*/
   .Milestones{
-  width: 202%;
+  width: 202.1%;
   padding-top: 102px;
   }
   .Milestones p{
@@ -2760,7 +2796,7 @@ h1{
   
    /*--Section 3rd as Campus CSS Starts--*/
    .Campus{
-    width: 201.6%;
+    width: 202.1%;
     padding-top: 102px;
   }
   .Campus p{
@@ -2787,7 +2823,7 @@ h1{
   
   /*--Section 4th as Facilities CSS Starts--*/
   .facilities{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 40px;
   }
   .facilities-col img{
@@ -2825,7 +2861,7 @@ h1{
   
   /*--Section 5th as Achivements CSS Ends--*/
   .Achivements{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 135px;
   padding-bottom: 0px;
   }
@@ -2869,7 +2905,7 @@ h1{
   
   /*--Ratings as Section 6th CSS Starts--*/
   .Ratings{
-  width: 201.6%;
+  width: 202.1%;
   padding-bottom: 4%;
   padding-top: 102px;
   }
@@ -2932,7 +2968,7 @@ h1{
   
   /*--Lta as Section 7th CSS Starts--*/
   .Lta{
-  width: 201.6%;
+  width: 202.1%;
   margin-top: 95;
   }
   .Lta h1{
@@ -2980,7 +3016,7 @@ h1{
   
   /*--Footer as Section 8th CSS Starts--*/
   footer{
-  width: 201.6%;
+  width: 202.1%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   }
@@ -3120,7 +3156,7 @@ h1{
   padding: 10px;
   padding-bottom: 30px;
   border-radius: 12px;
-  width: 530px;
+  width: 580px;
   z-index: 1000;
 }
 
@@ -3140,7 +3176,7 @@ h1{
 .app span {
   display: block;
   margin-top: 5px;
-  font-size: 22px;
+  font-size: 23px;
   color: #000;
 }
 /*Apps Menu CSS Ends*/
@@ -3148,6 +3184,12 @@ h1{
 
 @media (min-width: 851px) and (max-width: 980px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.495); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
 h1 {
   font-size: 40px;
 }
@@ -3229,7 +3271,7 @@ margin-left: 1px;
 
 /*--Milestones as Section 2nd CSS Starts--*/
 .Milestones{
-width: 202%;
+width: 202.1%;
 padding-top: 95px;
 }
 .Milestones p{
@@ -3262,7 +3304,7 @@ margin-bottom: 0;
 
  /*--Section 3rd as Campus CSS Starts--*/
  .Campus{
-  width: 201.6%;
+  width: 202.1%;
   padding-top: 93px;
 }
 .Campus p{
@@ -3289,7 +3331,7 @@ width: 99%;
 
 /*--Section 4th as Facilities CSS Starts--*/
 .facilities{
-width: 201.6%;
+width: 202.1%;
 padding-top: 30px;
 }
 .facilities p{
@@ -3324,7 +3366,7 @@ border-radius: 10px;
 
 /*--Section 5th as Achivements CSS Ends--*/
 .Achivements{
-width: 201.6%;
+width: 202.1%;
 padding-top: 122px;
 padding-bottom: 0px;
 }
@@ -3368,7 +3410,7 @@ border-radius: 10px;
 
 /*--Ratings as Section 6th CSS Starts--*/
 .Ratings{
-width: 201.6%;
+width: 202.1%;
 padding-bottom: 4%;
 padding-top: 85px;
 }
@@ -3431,7 +3473,7 @@ flex-basis: 44%;
 
 /*--Lta as Section 7th CSS Starts--*/
 .Lta{
-width: 201.6%;
+width: 202.1%;
 margin-top: 88;
 }
 .Lta h1{
@@ -3477,7 +3519,7 @@ margin-top: -70;
 
 /*--Footer as Section 8th CSS Starts--*/
 footer{
-width: 201.6%;
+width: 202.1%;
 border-top-left-radius: 50px;
 border-top-right-radius: 50px;
 }
@@ -3622,7 +3664,7 @@ display: none;
   padding: 10px;
   padding-bottom: 30px;
   border-radius: 12px;
-  width: 530px;
+  width: 580px;
   z-index: 1000;
 }
 
@@ -3642,7 +3684,7 @@ display: none;
 .app span {
   display: block;
   margin-top: 5px;
-  font-size: 22px;
+  font-size: 23px;
   color: #000;
 }
 /*Apps Menu CSS Ends*/
@@ -3650,13 +3692,19 @@ display: none;
 
 /* 850px - Tablets, iPads */
 @media only screen and (max-width: 850px) {
+  body {
+    transform: scale(0.495); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
   h1 {
     font-size: 40px;
 }
   /*--Section 1st CSS Starts--*/
 .Section{
 min-height: 203vh;
-width: 202.1%;
+width: 202.4%;
 }
 .nav-links{
 display: none;
@@ -3732,7 +3780,7 @@ margin-left: 1px;
 
 /*--Milestones as Section 2nd CSS Starts--*/
 .Milestones{
-width: 202%;
+width: 202.4%;
 padding-top: 80px;
 }
 .Milestones p{
@@ -3765,7 +3813,7 @@ margin-bottom: 0;
 
  /*--Section 3rd as Campus CSS Starts--*/
  .Campus{
-  width: 201.6%;
+  width: 202.4%;
   padding-top: 75px;
 }
 .Campus p{
@@ -3792,7 +3840,7 @@ width: 95%;
 
 /*--Section 4th as Facilities CSS Starts--*/
 .facilities{
-width: 201.6%;
+width: 202.4%;
 padding-top: 26.5px;
 }
 .facilities p{
@@ -3827,7 +3875,7 @@ border-radius: 10px;
 
 /*--Section 5th as Achivements CSS Ends--*/
 .Achivements{
-width: 201.6%;
+width: 202.4%;
 padding-top: 115px;
 padding-bottom: 0px;
 }
@@ -3871,7 +3919,7 @@ border-radius: 10px;
 
 /*--Ratings as Section 6th CSS Starts--*/
 .Ratings{
-width: 201.6%;
+width: 202.4%;
 padding-bottom: 4%;
 padding-top: 80px;
 }
@@ -3934,7 +3982,7 @@ flex-basis: 44%;
 
 /*--Lta as Section 7th CSS Starts--*/
 .Lta{
-width: 201.6%;
+width: 202.4%;
 margin-top: 83;
 }
 .Lta h1{
@@ -3982,7 +4030,7 @@ margin-left: 188%;
 
 /*--Footer as Section 8th CSS Starts--*/
 footer{
-  width: 201.6%;
+  width: 202.4%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   }
@@ -4130,7 +4178,7 @@ footer{
     padding: 10px;
     padding-bottom: 30px;
     border-radius: 12px;
-    width: 515px;
+    width: 550px;
   }
   
   .app {
@@ -4156,6 +4204,12 @@ footer{
 }
 
 @media (min-width: 569px) and (max-width: 714px) {
+  body {
+    transform: scale(0.396); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
   h1 {
     font-size: 40px;
 }
@@ -4578,7 +4632,7 @@ footer{
   padding: 10px;
   padding-bottom: 30px;
   border-radius: 12px;
-  width: 465px;
+  width: 515px;
 }
 
 .app {
@@ -4606,6 +4660,12 @@ footer{
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.495); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+  }
     .booker{
       width: 90%;
       margin: auto;
@@ -4615,7 +4675,7 @@ footer{
   }
 .Section{
     min-height: 203vh;
-    width: 202%;
+    width: 202.8%;
   }
   .nav-links{
     display: none;
@@ -4690,7 +4750,7 @@ footer{
 
   /*--Milestones as Section 2nd CSS Starts--*/
 .Milestones{
-    width: 200%;
+    width: 202.8%;
     padding-top: 63px;
   }
   .Milestones p{
@@ -4722,7 +4782,7 @@ footer{
 
   /*--Section 3rd as Campus CSS Starts--*/
 .Campus{
-    width: 200%;
+    width: 202.8%;
     padding-top: 35px;
   }
   .Campus p{
@@ -4751,7 +4811,7 @@ footer{
 
   /*--Section 4th as Facilities CSS Starts--*/
 .facilities{
-    width: 201.6%;
+    width: 202.8%;
     padding-top: 43px;
   }
   .facilities .row {
@@ -4789,7 +4849,7 @@ footer{
 
   /*--Section 5th as Achivements CSS Ends--*/
 .Achivements{
-    width: 201.6%;
+    width: 202.8%;
     padding-top: 33px;
     padding-bottom: 0px;
   }
@@ -4830,7 +4890,7 @@ footer{
 
   /*--Ratings as Section 6th CSS Starts--*/
 .Ratings{
-    width: 201.6%;
+    width: 202.8%;
     padding-bottom: 4%;
     padding-top: 0px;
   }
@@ -4891,7 +4951,7 @@ footer{
 
   /*--Lta as Section 7th CSS Starts--*/
 .Lta{
-    width: 201.6%;
+    width: 202.8%;
   }
   .Lta h1{
     font-size: 37px;
@@ -4934,7 +4994,7 @@ footer{
 
   /*--Footer as Section 8th CSS Starts--*/
 footer{
-    width: 202%;
+    width: 202.8%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
   }

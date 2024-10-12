@@ -199,6 +199,12 @@
 
 @media (min-width: 1651px) and (max-width: 1850px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.25); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
 .wrapper {
   width: 0px;
   height: 0px;
@@ -219,7 +225,7 @@
   transition: background-color 0.9s ease;
   position: fixed;
   top: 0;
-  width: 96%;
+  width: 395%;
   z-index: 1000;
 }
 .nav-links ul li {
@@ -236,7 +242,7 @@
 }
   .Aboutus nav .logohumain{
     width: 400px;
-    margin-left: -25%;
+    margin-left: 12%;
   }
   .littleaboutus {
     width: 100%;
@@ -1066,19 +1072,19 @@ footer{
 .menu-icon {
   position: absolute;
   top: 110px;
-  right: 195px;
+  right: 129px;
   color: white;
   cursor: pointer;
   font-size: 8em;
 }
 .nav-links{
-  margin-right: 293px;
+  margin-right: 325px;
 }
 .menu {
   display: none;
   position: absolute;
   top: 280px;
-  right: 203px;
+  right: 137px;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -1113,6 +1119,12 @@ footer{
 
 @media (min-width: 1441px) and (max-width: 1650px) {
       /*--Section 1st CSS Starts--*/
+      body {
+        transform: scale(0.25); /* You can tweak this for very small screens */
+        transform-origin: top left;
+        height: 100%;
+        min-height: 100vh;
+    }
 .wrapper {
   width: 0px;
   height: 0px;
@@ -1133,7 +1145,7 @@ footer{
   transition: background-color 0.9s ease;
   position: fixed;
   top: 0;
-  width: 96%;
+  width: 395%;
   z-index: 1000;
 }
 .nav-links ul li {
@@ -1150,7 +1162,7 @@ footer{
 }
   .Aboutus nav .logohumain{
     width: 400px;
-    margin-left: -15%;
+    margin-left: 17%;
   }
   .littleaboutus {
     width: 100%;
@@ -1980,19 +1992,19 @@ footer{
 .menu-icon {
   position: absolute;
   top: 117px;
-  right: 195px;
+  right: 137px;
   color: white;
   cursor: pointer;
   font-size: 7.3em;
 }
 .nav-links{
-  margin-right: 275px;
+  margin-right: 305px;
 }
 .menu {
   display: none;
   position: absolute;
   top: 275px;
-  right: 203px;
+  right: 145px;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -2027,6 +2039,12 @@ footer{
 
 @media (min-width: 1241px) and (max-width: 1440px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.25); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+  }
 .wrapper {
   width: 0px;
   height: 0px;
@@ -2047,7 +2065,7 @@ footer{
   transition: background-color 0.9s ease;
   position: fixed;
   top: 0;
-  width: 96%;
+  width: 395%;
   z-index: 1000;
 }
 .nav-links ul li {
@@ -2064,7 +2082,7 @@ footer{
 }
   .Aboutus nav .logohumain{
     width: 300px;
-    margin-left: -15%;
+    margin-left: 22%;
   }
   .littleaboutus {
     width: 100%;
@@ -2894,19 +2912,19 @@ footer{
 .menu-icon {
   position: absolute;
   top: 109px;
-  right: 170px;
+  right: 120px;
   color: white;
   cursor: pointer;
   font-size: 6.5em;
 }
 .nav-links{
-  margin-right: 250px;
+  margin-right: 275px;
 }
 .menu {
   display: none;
   position: absolute;
   top: 260px;
-  right: 175px;
+  right: 125px;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -2941,6 +2959,12 @@ footer{
 
 @media (min-width: 1025px) and (max-width: 1240px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.25); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
 .wrapper {
   width: 0px;
   height: 0px;
@@ -3817,7 +3841,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 25px;
-  width: 1100px;
+  width: 1160px;
 }
 
 .app {
@@ -3844,6 +3868,12 @@ footer{
 
 @media only screen and (max-width: 1024px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.25); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
 .wrapper {
   width: 0px;
   height: 0px;
@@ -4720,7 +4750,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 25px;
-  width: 1065px;
+  width: 1160px;
 }
 
 .app {
@@ -4747,6 +4777,12 @@ footer{
 
 @media (min-width: 851px) and (max-width: 980px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.25); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
 .wrapper {
   width: 0px;
   height: 0px;
@@ -5623,7 +5659,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 25px;
-  width: 1065px;
+  width: 1150px;
 }
 
 .app {
@@ -5650,6 +5686,12 @@ footer{
 
 @media only screen and (max-width: 850px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.25); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+  }
 .wrapper {
   width: 0px;
   height: 0px;
@@ -6526,7 +6568,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 25px;
-  width: 1040px;
+  width: 1100px;
 }
 
 .app {
@@ -6553,6 +6595,12 @@ footer{
 
 @media (min-width: 569px) and (max-width: 714px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.25); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
 .wrapper {
   width: 0px;
   height: 0px;
@@ -7439,7 +7487,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 20px;
-  width: 745px;
+  width: 800px;
 }
 
 .app {
@@ -7467,13 +7515,19 @@ footer{
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
 /*--Section 1st CSS Starts--*/
+body {
+  transform: scale(0.25); /* You can tweak this for very small screens */
+  transform-origin: top left;
+  height: 100%;
+  min-height: 100vh;
+}
 .wrapper {
   width: 0px;
   height: 0px;
 }
 .Aboutus {
   min-height: 403vh;
-  width: 400%;
+  width: 400.5%;
   top: 0%;
   background-image: url(HomePage/Community.png);
   background-position: center;
@@ -7560,7 +7614,7 @@ footer{
   
   /*--Section 2nd CSS Starts--*/
   .Fullaboutus{
-    width: 400%;
+    width: 400.5%;
     margin: auto;
     padding-top: 110px;
   }
@@ -7638,7 +7692,7 @@ footer{
   
   /*--Section 3rd CSS Starts--*/
   .Fullaboutus2{
-    width: 400%;
+    width: 400.5%;
     margin: auto;
     overflow: hidden;
     padding-top: 25px;
@@ -7672,7 +7726,7 @@ footer{
   
   /*--Section 4th CSS Starts--*/
   .Fullaboutus3{
-    width: 400%;
+    width: 400.5%;
     margin: auto;
     margin-top: -30px;
   }
@@ -7695,7 +7749,7 @@ footer{
   
   /*--Section 5th CSS Starts--*/
   .Fullaboutus4{
-    width: 400%;
+    width: 400.5%;
     margin: auto;
     padding-top: 100px;
   }
@@ -7772,7 +7826,7 @@ footer{
   
   /*--Section 6th CSS Starts--*/
   .Fullaboutus7{
-    width: 400%;
+    width: 400.5%;
     margin: auto;
     padding-top: 20px;
   }
@@ -7812,7 +7866,7 @@ footer{
   
   /*--Section 7th CSS Ends--*/
   .Fullaboutus8{
-    width: 400%;
+    width: 400.5%;
     margin: auto;
     padding-top: 110px;
   }
@@ -8189,7 +8243,7 @@ footer{
 
     /*--Footer as Section 8th CSS Starts--*/
     footer{
-      width: 400%;
+      width: 400.5%;
       border-top-left-radius: 100px;
       border-top-right-radius: 100px;
     }
@@ -8356,7 +8410,7 @@ footer{
   padding-bottom: 47px;
   padding-top: 25px;
   border-radius: 20px;
-  width: 745px;
+  width: 780px;
 }
 
 .app {

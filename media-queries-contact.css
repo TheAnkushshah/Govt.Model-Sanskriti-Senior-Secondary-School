@@ -70,6 +70,12 @@ footer{
 
 @media (min-width: 1651px) and (max-width: 1850px) {
   /*--Section 1st CSS Starts--*/
+  body {
+    transform: scale(0.25); /* You can tweak this for very small screens */
+    transform-origin: top left;
+    height: 100%;
+    min-height: 100vh;
+}
   .Aboutus {
     min-height: 403vh;
     width: 400%;
@@ -294,19 +300,19 @@ footer{
 .menu-icon {
   position: absolute;
   top: 115px;
-  right: 195px;
+  right: 129px;
   color: white;
   cursor: pointer;
   font-size: 8em;
 }
 .nav-links{
-  margin-right: 293px;
+  margin-right: 325px;
 }
 .menu {
   display: none;
   position: absolute;
   top: 280px;
-  right: 203px;
+  right: 137px;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -341,6 +347,12 @@ footer{
 
 @media (min-width: 1441px) and (max-width: 1650px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.25); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+  }
     .Aboutus {
       min-height: 403vh;
       width: 400%;
@@ -565,19 +577,19 @@ footer{
 .menu-icon {
   position: absolute;
   top: 117px;
-  right: 195px;
+  right: 137px;
   color: white;
   cursor: pointer;
   font-size: 7.3em;
 }
 .nav-links{
-  margin-right: 275px;
+  margin-right: 305px;
 }
 .menu {
   display: none;
   position: absolute;
   top: 275px;
-  right: 203px;
+  right: 145px;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -612,6 +624,12 @@ footer{
 
 @media (min-width: 1241px) and (max-width: 1440px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.25); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+  }
   .Aboutus {
     min-height: 400vh;
     width: 400%;
@@ -843,19 +861,19 @@ footer{
 .menu-icon {
   position: absolute;
   top: 109px;
-  right: 170px;
+  right: 120px;
   color: white;
   cursor: pointer;
   font-size: 6.5em;
 }
 .nav-links{
-  margin-right: 250px;
+  margin-right: 275px;
 }
 .menu {
   display: none;
   position: absolute;
   top: 260px;
-  right: 175px;
+  right: 125px;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -890,6 +908,12 @@ footer{
 
 @media (min-width: 1025px) and (max-width: 1240px) {
         /*--Section 1st CSS Starts--*/
+        body {
+          transform: scale(0.25); /* You can tweak this for very small screens */
+          transform-origin: top left;
+          height: 100%;
+          min-height: 100vh;
+      }
         .wrapper {
             width: 0px;
             height: 0px;
@@ -1134,7 +1158,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 25px;
-  width: 1100px;
+  width: 1160px;
 }
 
 .app {
@@ -1162,6 +1186,12 @@ footer{
 /* 1024px - Tablets, laptops, and desktops */
 @media only screen and (max-width: 1024px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.25); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+  }
     .wrapper {
         width: 0px;
         height: 0px;
@@ -1406,7 +1436,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 25px;
-  width: 1065px;
+  width: 1160px;
 }
 
 .app {
@@ -1433,6 +1463,12 @@ footer{
 
 @media (min-width: 851px) and (max-width: 980px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.25); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+  }
     .wrapper {
         width: 0px;
         height: 0px;
@@ -1677,7 +1713,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 25px;
-  width: 1065px;
+  width: 1150px;
 }
 
 .app {
@@ -1704,6 +1740,12 @@ footer{
 
 @media only screen and (max-width: 850px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.25); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+    }
     .wrapper {
         width: 0px;
         height: 0px;
@@ -1948,7 +1990,7 @@ footer{
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 25px;
-  width: 1040px;
+  width: 1100px;
 }
 
 .app {
@@ -1975,6 +2017,12 @@ footer{
 
 @media (min-width: 569px) and (max-width: 714px) {
         /*--Section 1st CSS Starts--*/
+        body {
+          transform: scale(0.25); /* You can tweak this for very small screens */
+          transform-origin: top left;
+          height: 100%;
+          min-height: 100vh;
+      }
         .wrapper {
             width: 0px;
             height: 0px;
@@ -2219,7 +2267,7 @@ display: none;
   padding-bottom: 48px;
   padding-top: 25px;
   border-radius: 20px;
-  width: 745px;
+  width: 800px;
 }
 
 .app {
@@ -2247,13 +2295,19 @@ display: none;
 /* 568px - Mobile devices */
 @media only screen and (max-width: 568px) {
     /*--Section 1st CSS Starts--*/
+    body {
+      transform: scale(0.25); /* You can tweak this for very small screens */
+      transform-origin: top left;
+      height: 100%;
+      min-height: 100vh;
+    }
     .wrapper {
         width: 0px;
         height: 0px;
     }
     .Aboutus {
         min-height: 401vh;
-        width: 400%;
+        width: 400.5%;
         top: 0%;
         background-position-x: 35%;
         position: relative;
@@ -2306,7 +2360,7 @@ display: none;
 
     /*--Section 2nd CSS Starts--*/
     .maper{
-        width: 400%;
+        width: 400.5%;
         margin: auto;
         margin-bottom: 125px;
         margin-top: 95px;
@@ -2327,7 +2381,7 @@ display: none;
 
     /*--Footer as Section 8th CSS Starts--*/
     footer{
-        width: 400%;
+        width: 400.5%;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
       }
@@ -2495,7 +2549,7 @@ display: none;
   padding-bottom: 47px;
   padding-top: 25px;
   border-radius: 20px;
-  width: 745px;
+  width: 780px;
 }
 
 .app {
