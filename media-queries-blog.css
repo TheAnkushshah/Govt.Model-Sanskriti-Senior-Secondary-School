@@ -229,7 +229,7 @@
     transition: background-color 0.9s ease;
     position: fixed;
     top: 0;
-    width: 96%;
+    width: 395%;
     z-index: 1000;
   }
   .nav-links ul li {
@@ -246,7 +246,7 @@
   }
   .Aboutus nav .logohumain{
     width: 400px;
-    margin-left: -25%;
+    margin-left: 12%;
   }
     .prrhuublog{
       text-align: center;
@@ -772,7 +772,7 @@ footer{
     transition: background-color 0.9s ease;
     position: fixed;
     top: 0;
-    width: 96%;
+    width: 395%;
     z-index: 1000;
   }
   .nav-links ul li {
@@ -789,7 +789,7 @@ footer{
   }
   .Aboutus nav .logohumain{
     width: 400px;
-    margin-left: -15%;
+    margin-left: 17%;
   }
     .butblog{
       background: url(Blog/Blog\ bg\ others.png);
@@ -1324,7 +1324,7 @@ footer{
     transition: background-color 0.9s ease;
     position: fixed;
     top: 0;
-    width: 96%;
+    width: 395%;
     z-index: 1000;
   }
   .nav-links ul li {
@@ -1341,7 +1341,7 @@ footer{
   }
   .Aboutus nav .logohumain{
     width: 300px;
-    margin-left: -15%;
+    margin-left: 22%;
   }
     .butblog{
       background: url(Blog/Blog\ bg\ others.png);

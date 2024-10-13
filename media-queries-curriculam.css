@@ -199,7 +199,7 @@
   transition: background-color 0.9s ease;
   position: fixed;
   top: 0;
-  width: 96%;
+  width: 395%;
   z-index: 1000;
 }
 .nav-links ul li {
@@ -216,7 +216,7 @@
 }
   .Aboutus nav .logohumain{
     width: 400px;
-    margin-left: -25%;
+    margin-left: 12%;
   }
   .Aboutus .btnLogin-popup img{
     margin-top: 0;
@@ -752,7 +752,7 @@ footer{
   transition: background-color 0.9s ease;
   position: fixed;
   top: 0;
-  width: 96%;
+  width: 395%;
   z-index: 1000;
 }
 .nav-links ul li {
@@ -769,7 +769,7 @@ footer{
 }
   .Aboutus nav .logohumain{
     width: 400px;
-    margin-left: -15%;
+    margin-left: 17%;
   }
   .littleaboutus {
     width: 90%;
@@ -1289,7 +1289,7 @@ footer{
   transition: background-color 0.9s ease;
   position: fixed;
   top: 0;
-  width: 96%;
+  width: 395%;
   z-index: 1000;
 }
 .nav-links ul li {
@@ -1306,7 +1306,7 @@ footer{
 }
   .Aboutus nav .logohumain{
     width: 300px;
-    margin-left: -15%;
+    margin-left: 22%;
   }
   .littleaboutus {
     width: 90%;

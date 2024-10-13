@@ -91,7 +91,7 @@ footer{
     transition: background-color 0.9s ease;
     position: fixed;
     top: 0;
-    width: 96%;
+    width: 395%;
     z-index: 1000;
   }
   .nav-links ul li {
@@ -108,7 +108,7 @@ footer{
   }
   .Aboutus nav .logohumain{
     width: 400px;
-    margin-left: -25%;
+    margin-left: 12%;
   }
         .littleaboutus {
             width: 90%;
@@ -343,6 +343,12 @@ footer{
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+.vismeForms{
+  min-height: 404vh !important;
+  height: 404vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
 
 @media (min-width: 1441px) and (max-width: 1650px) {
@@ -368,7 +374,7 @@ footer{
       transition: background-color 0.9s ease;
       position: fixed;
       top: 0;
-      width: 96%;
+      width: 395%;
       z-index: 1000;
     }
     .nav-links ul li {
@@ -385,7 +391,7 @@ footer{
     }
     .Aboutus nav .logohumain{
       width: 400px;
-      margin-left: -15%;
+      margin-left: 17%;
     }
           .littleaboutus {
               width: 90%;
@@ -620,6 +626,12 @@ footer{
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+.vismeForms{
+  min-height: 404vh !important;
+  height: 404vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
 
 @media (min-width: 1241px) and (max-width: 1440px) {
@@ -645,7 +657,7 @@ footer{
     transition: background-color 0.9s ease;
     position: fixed;
     top: 0;
-    width: 96%;
+    width: 395%;
     z-index: 1000;
   }
   .nav-links ul li {
@@ -662,7 +674,7 @@ footer{
   }
   .Aboutus nav .logohumain{
     width: 300px;
-    margin-left: -15%;
+    margin-left: 22%;
   }
         .Aboutus .btnLogin-popup img{
             margin-top: 10;
@@ -904,6 +916,12 @@ footer{
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+.vismeForms{
+  min-height: 402vh !important;
+  height: 402vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
 
 @media (min-width: 1025px) and (max-width: 1240px) {
@@ -1181,6 +1199,12 @@ footer{
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+.vismeForms{
+  min-height: 402vh !important;
+  height: 402vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
 
 /* 1024px - Tablets, laptops, and desktops */
@@ -1459,6 +1483,12 @@ footer{
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+.vismeForms{
+  min-height: 402vh !important;
+  height: 402vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
 
 @media (min-width: 851px) and (max-width: 980px) {
@@ -1736,6 +1766,12 @@ footer{
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+.vismeForms{
+  min-height: 402vh !important;
+  height: 402vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
 
 @media only screen and (max-width: 850px) {
@@ -2013,6 +2049,12 @@ footer{
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+.vismeForms{
+  min-height: 402vh !important;
+  height: 402vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
 
 @media (min-width: 569px) and (max-width: 714px) {
@@ -2290,6 +2332,12 @@ display: none;
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+.vismeForms{
+  min-height: 402vh !important;
+  height: 402vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
 
 /* 568px - Mobile devices */
@@ -2572,4 +2620,11 @@ display: none;
   color: #000;
 }
 /*Apps Menu CSS Ends*/
+
+.vismeForms{
+  min-height: 402vh !important;
+  height: 402vh !important;
+  max-width: 400% !important;
+  width: 400% !important;
+}
 }
