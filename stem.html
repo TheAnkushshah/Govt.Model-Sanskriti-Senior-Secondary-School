@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="google-adsense-account" content="ca-pub-9323117785307367">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Submit your queries or contact us through email or call. Otherwise, you can visit us at the location Google Maps is showing you..." />
+    <title>
+        Govt. Model Sanskriti Senior Secondary School
+    </title>
+    <link rel="icon" href="Main/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6b4461ca9b.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Landing Section */
+        .landing {
+            height: 100vh;
+            background-image: url('https://i.pinimg.com/originals/ba/03/c6/ba03c636ede7ecc53d11504b5e54201b.gif');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .landing::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Overlay */
+        }
+
+        .landing h1 {
+            position: relative;
+            z-index: 1;
+            font-size: 4rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        /* Subjects Section */
+        .subjects {
+            padding: 60px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .subjects h2 {
+            font-size: 3rem;
+            margin-bottom: 60px;
+            color: #333;
+        }
+
+        .subjects-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .subject-box {
+            border: 2px solid #eee;
+            padding: 20px;
+            width: 180px;
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 12px;
+            background-color: #fafafa;
+            transition: all 0.3s ease;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .subject-box:hover {
+            background-color: #f5f5f5;
+            transform: translateY(-5px);
+            border: 2px solid #2196F3;
+        }
+
+        .subject-box p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Resources Section */
+        .resources {
+            padding: 60px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .resources h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .resource-list {
+            display: none;
+            margin-top: 30px;
+        }
+
+        .resource-list.active {
+            display: block;
+        }
+
+        /* Blog Post Styles */
+        .blog-posts {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+
+        .blog-post {
+            width: 300px;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-5px);
+        }
+
+        .blog-post img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .blog-content {
+            padding: 15px;
+        }
+
+        .blog-post h4 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .blog-tags {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+
+        .tag {
+            background-color: #2196F3;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+        }
+
+        .blog-desc {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .learn-more {
+            background-color: #2196F3;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            font-family: 'Poppins';
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .learn-more:hover {
+            background-color: #1976D2;
+        }
+
+        .learn-more1 {
+            background-color: #2196F3;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            font-family: 'Poppins';
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .learn-more1:hover {
+            background-color: #1976D2;
+        }
+
+        /* Popup Styling */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.7);
+            /* Shady background */
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .popup-content {
+            background-color: white;
+            padding: 0px 20px 22px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .popup-content iframe {
+            width: 100%;
+            height: 400px;
+        }
+
+        .close-popup {
+            display: flex;
+            justify-content: end;
+            color: #333;
+            font-size: 22px;
+            cursor: pointer;
+        }
+        .resource-list h3{
+            margin-bottom: 30px;
+        }
+
+        /* Media Queries */
+        @media(max-width: 768px) {
+            .subject-box {
+                width: 140px;
+                height: 140px;
+                border: 2px solid #2196F3;
+            }
+
+            .blog-posts {
+                gap: 35px;
+            }
+
+            .landing h1 {
+                font-size: 2.5rem;
+            }
+
+            .subjects h2 {
+                margin-bottom: 40px;
+            }
+
+            .subject-box p {
+                font-size: 1rem;
+            }
+
+            .blog-post {
+                width: 100%;
+            }
+
+            .popup-content iframe {
+                height: 300px;
+            }
+        }
+
+        @media(min-width: 1200px) {
+            .subjects-list {
+                gap: 100px;
+            }
+
+            .subject-box {
+                padding: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Landing Section -->
+    <section class="landing">
+        <h1>STEM 3D EDUCATION</h1>
+    </section>
+
+    <!-- Subjects Section -->
+    <section class="subjects">
+        <h2>Streams</h2>
+        <div class="subjects-list">
+            <div class="subject-box" data-subject="chemistry">
+                <p>Chemistry</p>
+            </div>
+            <div class="subject-box" data-subject="physics">
+                <p>Physics</p>
+            </div>
+            <div class="subject-box" data-subject="maths">
+                <p>Maths</p>
+            </div>
+            <div class="subject-box" data-subject="universe">
+                <p>Universe</p>
+            </div>
+            <div class="subject-box" data-subject="life">
+                <p>Life</p>
+            </div>
+            <div class="subject-box" data-subject="engineering">
+                <p>Engineering</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources">
+        <h2>Resources</h2>
+
+        <!-- Chemistry Resources -->
+        <div id="chemistry-resources" class="resource-list">
+            <h3>Chemistry 3D</h3>
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Chemistry Image">
+                    <div class="blog-content">
+                        <h4>Understanding Chemical Reactions</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 3-4</span>
+                            <span class="tag">Chemistry</span>
+                        </div>
+                        <p class="blog-desc">Learn the basics of chemical reactions, including types and examples.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Chemistry Image">
+                    <div class="blog-content">
+                        <h4>Understanding Chemical Reactions</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 3-4</span>
+                            <span class="tag">Chemistry</span>
+                        </div>
+                        <p class="blog-desc">Learn the basics of chemical reactions, including types and examples.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Chemistry Image">
+                    <div class="blog-content">
+                        <h4>Understanding Chemical Reactions</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 3-4</span>
+                            <span class="tag">Chemistry</span>
+                        </div>
+                        <p class="blog-desc">Learn the basics of chemical reactions, including types and examples.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Chemistry Image">
+                    <div class="blog-content">
+                        <h4>Understanding Chemical Reactions</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 3-4</span>
+                            <span class="tag">Chemistry</span>
+                        </div>
+                        <p class="blog-desc">Learn the basics of chemical reactions, including types and examples.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 5 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Chemistry Image">
+                    <div class="blog-content">
+                        <h4>Understanding Chemical Reactions</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 3-4</span>
+                            <span class="tag">Chemistry</span>
+                        </div>
+                        <p class="blog-desc">Learn the basics of chemical reactions, including types and examples.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Add more blog posts as needed -->
+            </div>
+        </div>
+
+        <!-- Physics Resources -->
+        <div id="physics-resources" class="resource-list">
+            <h3>Physics 3D</h3>
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Physics Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Physics</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Physics Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Physics</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Physics Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Physics</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Physics Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Physics</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 5 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Physics Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Physics</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Add more blog posts as needed -->
+            </div>
+        </div>
+
+        <!-- Maths Resources -->
+        <div id="maths-resources" class="resource-list">
+            <h3>Maths 3D</h3>
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <img src="smart1.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Barty</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 9-Higher Ed</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Investigate bay area rapid transit (BART) data to learn about traffic patterns and passenger use in the San Francisco Bay Area.</p>
+                        <a href="https://learn.concord.org/resources/1243/barty" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <img src="smart4.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Exponential Decay</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn to use exponential decay equations and interpret graphs of real-world situations.</p>
+                        <a href="https://learn.concord.org/resources/127/exponential-decay" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-post">
+                    <img src="smart3.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Describing Velocity</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-8</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn about velocity-time graphs and their connection to corresponding position-time graphs.</p>
+                        <a href="https://learn.concord.org/resources/119/describing-velocity" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="blog-post">
+                    <img src="smart5.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Exponential Growth</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn to use exponential functions to model several real-world situations.</p>
+                        <a href="https://learn.concord.org/resources/128/exponential-growth" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 5 -->
+                <div class="blog-post">
+                    <img src="smart2.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Community Survey</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 9-Higher Ed</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Use data from the American Community Survey to explore demographic trends of Californian.</p>
+                        <a href="https://learn.concord.org/resources/1240/california-american-community-survey-acs-data-portal" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 6 -->
+                <div class="blog-post">
+                    <img src="smart6.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Graphing Equations</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn to graph exponential functions by connecting ordered pairs.</p>
+                        <a href="https://learn.concord.org/resources/130/graphing-exponential-equations" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 7 -->
+                <div class="blog-post">
+                    <img src="smart7.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Graphing Quadratic</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn to identify the vertex of a parabola from the vertex form of a quadratic function equation, and then graph the parabola.</p>
+                        <a href="https://learn.concord.org/resources/131/graphing-quadratic-equations" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 8 -->
+                <div class="blog-post">
+                    <img src="smart8.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Inverses of Functions</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn to graph the inverses of a series of discrete and continuous functions.</p>
+                        <a href="https://learn.concord.org/resources/136/inverses-of-functions" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 9 -->
+                <div class="blog-post">
+                    <img src="smart9.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Linear Equations</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 9-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Given a word problem, students write the equation for a line, graph it and relate the equation and line to the problem.</p>
+                        <a href="https://learn.concord.org/resources/137/linear-equations-word-problems" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 10 -->
+                <div class="blog-post">
+                    <img src="smart10.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Points, Intercepts Etc</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Graph lines using the x- and y-intercepts of equations and when given an equation in point-slope form.</p>
+                        <a href="https://learn.concord.org/resources/138/linear-equations-points-intercepts-and-slopes-oh-my" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 11 -->
+                <div class="blog-post">
+                    <img src="smart11.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Ski Slope</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn about the numeric representation of the slope of a line, including using rise and run to graph lines with a given slope.</p>
+                        <a href="https://learn.concord.org/resources/139/linear-equations-ski-slope" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 12 -->
+                <div class="blog-post">
+                    <img src="smart12.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Y=mx+b</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Graph a line using slope and y-intercept and identify the slope and y-intercept from a linear equation.</p>
+                        <a href="https://learn.concord.org/resources/140/linear-equations-y-mx-b" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 13 -->
+                <div class="blog-post">
+                    <img src="smart13.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>NHANES</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 9-Higher Ed</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Use CODAP to access and explore data on health-related trends of U.S.</p>
+                        <a href="https://learn.concord.org/resources/1239/national-health-and-nutrition-examination-survey-nhanes-data-portal" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 14 -->
+                <div class="blog-post">
+                    <img src="smart14.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Quadratic Functions</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn to identify the vertex of a parabola from the vertex form of a quadratic function equation, and graph the parabola.</p>
+                        <a href="https://learn.concord.org/resources/156/quadratic-functions-in-vertex-form" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 15 -->
+                <div class="blog-post">
+                    <img src="smart15.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Quadratic Problem 1</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Students solve two problems involving the motion of projectile objects, modeling the motion using quadratic equations.</p>
+                        <a href="https://learn.concord.org/resources/157/quadratic-word-problems-part-1" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 16 -->
+                <div class="blog-post">
+                    <img src="smart16.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Quadratic Problem 2</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Students solve two problems involving the motion of projectile objects, modeling the motion using quadratic equations.</p>
+                        <a href="https://learn.concord.org/resources/158/quadratic-word-problems-part-2" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 17 -->
+                <div class="blog-post">
+                    <img src="smart17.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Systems Equations</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Write two equations using two variables, graph the equations, and relate their graph to the problem and the solution.</p>
+                        <a href="https://learn.concord.org/resources/143/solving-systems-of-equations" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 18 -->
+                <div class="blog-post">
+                    <img src="smart18.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Stella</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 9-Higher Ed</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">In Stella, you are an astronomer. Your telescope is pointing at the night sky so you can gather data about stars.</p>
+                        <a href="https://learn.concord.org/resources/1242/stella" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 19 -->
+                <div class="blog-post">
+                    <img src="smart19.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Systems Equations 2</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn to solve systems of linear equations while exploring two real-life scenarios.</p>
+                        <a href="https://learn.concord.org/resources/142/systems-of-equations-word-problems-1" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 20 -->
+                <div class="blog-post">
+                    <img src="smart20.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Systems Equations 3</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Learn to solve systems of linear equations while exploring two real-life scenarios.</p>
+                        <a href="https://learn.concord.org/resources/141/systems-of-equations-word-problems-2" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 21 -->
+                <div class="blog-post">
+                    <img src="smart21.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Transformation 1</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Explore transforming a function by translation and learn how changing the function equation changes the function graph.</p>
+                        <a href="https://learn.concord.org/resources/168/transformations-of-functions-1-translations" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 22 -->
+                <div class="blog-post">
+                    <img src="smart22.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Transformation 2</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Transform a function by dilation to see how changing the function changes the shape of the graph.</p>
+                        <a href="https://learn.concord.org/resources/169/transformations-of-functions-2-dilations" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 23 -->
+                <div class="blog-post">
+                    <img src="smart23.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Transformation 3</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 9-Higher Ed</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Transform a function and learn how changing the function equation changes the shape of the graph.</p>
+                        <a href="https://learn.concord.org/resources/170/transformations-of-functions-3-reflections" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 24 -->
+                <div class="blog-post">
+                    <img src="smart24.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Transformation 4</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Transform a function by changing its equation, and learn how changing a function equation changes.</p>
+                        <a href="https://learn.concord.org/resources/171/transformations-of-functions-4-all-transformations" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 25 -->
+                <div class="blog-post">
+                    <img src="smart25.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Diagnosis Game</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-Higher Ed</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">You’re a xenobiologist studying alien creatures. What causes their population to get sick?</p>
+                        <a href="https://learn.concord.org/resources/1241/trees-in-a-diagnosis-game" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 26 -->
+                <div class="blog-post">
+                    <img src="smart26.png" alt="Maths Image">
+                    <div class="blog-content">
+                        <h4>Was Galileo Right?</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-8</span>
+                            <span class="tag">Maths</span>
+                        </div>
+                        <p class="blog-desc">Explore the effect of gravity on objects of various mass during free fall.</p>
+                        <a href="https://learn.concord.org/resources/146/was-galileo-right" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Add more blog posts as needed -->
+            </div>
+        </div>
+
+        <!-- Universe Resources -->
+        <div id="universe-resources" class="resource-list">
+            <h3>Universe 3D</h3>
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Universe Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Universe</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Universe Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Universe</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Universe Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Universe</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Universe Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Universe</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 5 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Universe Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Universe</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Add more blog posts as needed -->
+            </div>
+        </div>
+
+        <!-- Life Resources -->
+        <div id="life-resources" class="resource-list">
+            <h3>Life 3D</h3>
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Life Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Life</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Life Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Life</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Life Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Life</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Life Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Life</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 5 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Life Image">
+                    <div class="blog-content">
+                        <h4>Newton's Laws of Motion</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 5-6</span>
+                            <span class="tag">Life</span>
+                        </div>
+                        <p class="blog-desc">Understand the fundamental laws that govern motion in our universe.</p>
+                        <button class="learn-more" data-embed="https://your-embed-code-for-chemistry-1">Open</button>
+                        <a href="https://google.com" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Add more blog posts as needed -->
+            </div>
+        </div>
+
+        <!-- Engineering Resources -->
+        <div id="engineering-resources" class="resource-list">
+            <h3>Engineering 3D</h3>
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Bridges</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade K-6</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">In this activity students will design, build, and test a bridge made with file folders to see which design is the strongest.</p>
+                        <a href="https://learn.concord.org/resources/635/bridges" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Bungee Jump</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade K-6</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">In this activity you will study and build a bungee jump that is safe and fun to use.</p>
+                        <a href="https://learn.concord.org/resources/636/building-a-bungee-jump" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Zip Line</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade K-6</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">In this activity you will study and build a zip line that is safe and fun to use.</p>
+                        <a href="https://learn.concord.org/resources/637/building-a-zip-line" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Earthquakes</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade K-6</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">Students build model buildings and test them for sturdiness using a shake table and a force sensor.</p>
+                        <a href="https://learn.concord.org/resources/638/buildings-and-earthquakes" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 5 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Ceramic Forces</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-Higher Ed</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">Explore what happens when a force is exerted on a ceramic material. There are many different types of materials.</p>
+                        <button class="learn-more" data-embed="https://lab.concord.org/embeddable.html#interactives/visual/recycling/1-ceramicforces.json">Open</button>
+                        <a href="https://learn.concord.org/resources/748/ceramic-forces" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 6 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Conduction</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">This model shows the combined effects of heat capacity and conductivity.</p>
+                        <button class="learn-more" data-embed="https://lab.concord.org/embeddable.html#interactives/energy2d/htb/S3E1.json">Open</button>
+                        <a href="https://learn.concord.org/resources/743/conduction-combine-heat-capacity-and-conductivity" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 7 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Conduction 2</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">The heat conductivity of a solid material defines how fast heat will flow through it.</p>
+                        <button class="learn-more" data-embed="https://lab.concord.org/embeddable.html#interactives/energy2d/htb/S3A1.json">Open</button>
+                        <a href="https://learn.concord.org/resources/750/conduction-heat-conduction-through-materials" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 8 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Conduction 3</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">The rate of heat flow between two objects is proportional to their difference in temperature.</p>
+                        <button class="learn-more" data-embed="https://lab.concord.org/embeddable.html#interactives/energy2d/htb/S3D1.json">Open</button>
+                        <a href="https://learn.concord.org/resources/751/conduction-the-effect-of-temperature-difference" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 9 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Conduction 4</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">The heat flows through solids at rates measured by their conductivity.</p>
+                        <button class="learn-more" data-embed="https://lab.concord.org/embeddable.html#interactives/energy2d/htb/S3C1.json">Open</button>
+                        <a href="https://learn.concord.org/resources/752/conduction-the-effect-of-wall-thickness-on-heat-conduction" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Blog Post 10 -->
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x180" alt="Engineering Image">
+                    <div class="blog-content">
+                        <h4>Convection Wind</h4>
+                        <div class="blog-tags">
+                            <span class="tag">Grade 7-12</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                        <p class="blog-desc">If there are air leaks in a house, you might expect that their effect would be magnified on a windy day.</p>
+                        <button class="learn-more" data-embed="https://lab.concord.org/embeddable.html#interactives/energy2d/htb/S4E1.json">Open</button>
+                        <a href="https://learn.concord.org/resources/753/convection-blowing-wind" target="_blank"><button class="learn-more1">Dive In</button></a>
+                    </div>
+                </div>
+                <!-- Add more blog posts as needed -->
+            </div>
+        </div>
+
+        <!-- Add similar resource sections for other subjects -->
+
+    </section>
+
+    <!-- Popup Section -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <iframe src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for subject selection
+        const subjectBoxes = document.querySelectorAll('.subject-box');
+        const resourceLists = document.querySelectorAll('.resource-list');
+
+        subjectBoxes.forEach(box => {
+            box.addEventListener('click', () => {
+                const subject = box.dataset.subject;
+
+                resourceLists.forEach(list => {
+                    list.classList.remove('active');
+                });
+
+                document.getElementById(`${subject}-resources`).classList.add('active');
+                window.scrollTo({
+                    top: document.querySelector('.resources').offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // JavaScript for "Learn More" buttons and popup
+        const learnMoreButtons = document.querySelectorAll('.learn-more');
+        const popup = document.getElementById('popup');
+        const popupContent = popup.querySelector('.popup-content');
+        const popupIframe = popup.querySelector('iframe');
+        const closePopup = popup.querySelector('.close-popup');
+
+        learnMoreButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const embedSrc = button.getAttribute('data-embed');
+                popupIframe.src = embedSrc;
+                popup.style.display = 'flex';
+            });
+        });
+
+        closePopup.addEventListener('click', () => {
+            popup.style.display = 'none';
+            popupIframe.src = '';
+        });
+
+        // Close popup when clicking outside the content
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) {
+                popup.style.display = 'none';
+                popupIframe.src = '';
+            }
+        });
+    </script>
+</body>
+
+</html>
