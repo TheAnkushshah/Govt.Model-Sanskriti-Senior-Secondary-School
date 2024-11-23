@@ -2117,18 +2117,13 @@ select{
   margin-top: 4.5%;
 }
 .final-developer-col video{
-  width: 92%;
+  width: 90%;
   border-radius: 20px;
-  margin-left: -25;
 }
 .final-developer-col img{
   border-radius: 20px;
-  width: 191%;
-  margin-left: -160;
-}
-.scannerqr{
-  margin-top: -322%;
-  margin-left: -16%;
+  width: 137%;
+  margin-left: -48%;
 }
 /*--Section 6th CSS Ends--*/
 /*--Blog Page CSS Ends--*/
