@@ -44,21 +44,21 @@ Prerequisites
 
 Now Follow these steps:
 
-2. **Clone the Repository:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
+1. **Clone the Repository:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
     ```
     git clone https://github.com/TheAnkushshah/Govt.Model-Sanskriti-Senior-Secondary-School.git
     ```
 
-3. **Navigate to the Project Directory:** Once cloned, navigate into the project directory using the `cd` command:
+2. **Navigate to the Project Directory:** Once cloned, navigate into the project directory using the `cd` command:
 
     ```
     cd Govt.Model-Sanskriti-Senior-Secondary-School
     ```
 
-4. **Start modifying:** Feel free to edit the files according to your requirements. 
+3. **Start modifying:** Feel free to edit the files according to your requirements. 
 
-5. **Deploy:** Finally, deploy the web application to your preferred hosting platform to make it accessible online.
+4. **Deploy:** Finally, deploy the web application to your preferred hosting platform to make it accessible online.
 
 ## <a name="contributors">Contributors & Main</a>
 
