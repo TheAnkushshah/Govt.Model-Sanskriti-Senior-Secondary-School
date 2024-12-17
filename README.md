@@ -56,7 +56,7 @@ Now Follow these steps:
 
 3. **Start modifying:** Feel free to edit the files according to your requirements. 
 
-4. **Deploy:** Finally, deploy the web application to your preferred hosting platform to make it accessible online.
+4. **Deployment:** Deploy the application to your preferred hosting platform to make it accessible online.
 
 ## <a name="contributors">Contributors & Main</a>
 
