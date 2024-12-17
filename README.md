@@ -2,7 +2,25 @@
 
 Welcome to our school web application project! This dynamic web application is designed to streamline interactions between students, teachers, and administrative staff. With a responsive user interface, users can seamlessly access information, interact, and perform various tasks.
 
-## Features
+## Preview
+
+![Preview Image](home.png)
+
+## <a name="table">Table of Contents</a>
+
+1. [Tech Stack](#tech-stack)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [Contributors](#contributors)
+5. [Feedback](#feedback)
+
+## <a name="tech-stack">Tech Stack</a>
+
+- HTML5
+- CSS
+- JavaScript
+
+## <a name="features">Features</a>
 
 - **Information Showcase:** The web application provides a platform to showcase all relevant information about the school, including events, news, academic programs, and more.
   
@@ -16,38 +34,38 @@ Welcome to our school web application project! This dynamic web application is d
   
 - **Online Gateway Application:** The web application incorporates an online payment gateway for various purposes such as fee payments, event registrations, and donations.
 
-## Preview
+## <a name="getting-started">Getting Started</a>
 
-![Preview Image](home.png)
+1. **Prerequisites**
 
-## How to Clone the Repository
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-To get started with the project, follow these steps:
+Follow these steps:
 
-1. **Clone the Repository:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
+2. **Clone the Repository:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
     ```
     git clone https://github.com/TheAnkushshah/Govt.Model-Sanskriti-Senior-Secondary-School.git
     ```
 
-2. **Navigate to the Project Directory:** Once cloned, navigate into the project directory using the `cd` command:
+3. **Navigate to the Project Directory:** Once cloned, navigate into the project directory using the `cd` command:
 
     ```
     cd Govt.Model-Sanskriti-Senior-Secondary-School
     ```
 
-3. **Open in Web Browser:** Open the `index.html` file in your preferred web browser to explore the web application locally.
-
-4. **Start Development:** If you wish to modify or contribute to the project, feel free to edit the HTML, CSS, and JavaScript files according to your requirements. 
+4. **Start modifying:** If you wish to modify or contribute to the project, feel free to edit the HTML, CSS, and JavaScript files according to your requirements. 
 
 5. **Deploy:** Finally, deploy the web application to your preferred hosting platform to make it accessible online.
 
-## Contributors & Main
+## <a name="contributors">Contributors & Main</a>
 
 - Ankush Shah (ankushsahvlogs@gmail.com) (Main)
 
-## Feedback
+## <a name="feedback">Feedback</a>
 
 We welcome any feedback or suggestions to improve our school web application. Feel free to open an issue on the GitHub repository or reach out to the contributors directly.
 
-Happy coding! 🚀
+Happy coding!
