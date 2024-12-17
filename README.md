@@ -36,13 +36,13 @@ Welcome to our school web application project! This dynamic web application is d
 
 ## <a name="getting-started">Getting Started</a>
 
-1. **Prerequisites**
+Prerequisites
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-Follow these steps:
+Now Follow these steps:
 
 2. **Clone the Repository:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
@@ -56,7 +56,7 @@ Follow these steps:
     cd Govt.Model-Sanskriti-Senior-Secondary-School
     ```
 
-4. **Start modifying:** If you wish to modify or contribute to the project, feel free to edit the HTML, CSS, and JavaScript files according to your requirements. 
+4. **Start modifying:** Feel free to edit the files according to your requirements. 
 
 5. **Deploy:** Finally, deploy the web application to your preferred hosting platform to make it accessible online.
 
