@@ -39,8 +39,6 @@ Welcome to our school web application project! This dynamic web application is d
 Prerequisites
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
 
 Now Follow these steps:
 
