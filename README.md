@@ -11,8 +11,8 @@ Welcome to our school web application project! This dynamic web application is d
 1. [Tech Stack](#tech-stack)
 2. [Features](#features)
 3. [Getting Started](#getting-started)
-4. [Contributors](#contributors)
-5. [Feedback](#feedback)
+4. [Feedback](#feedback)
+5. [Contributors](#contributors)
 
 ### <a name="tech-stack">Tech Stack</a>
 
@@ -159,12 +159,13 @@ Welcome to our school web application project! This dynamic web application is d
 
     **I will review your pull request and decide whether to merge your changes into my repository or not**
 
-## <a name="contributors">Contributors & Main</a>
-
-- Ankush Shah (ankushsahvlogs@gmail.com) (Main)
 
 ## <a name="feedback">Feedback</a>
 
 You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+
+## <a name="contributors">Contributors & Main</a>
+
+- Ankush Shah (ankushsahvlogs@gmail.com) (Main)
 
 Happy coding!
