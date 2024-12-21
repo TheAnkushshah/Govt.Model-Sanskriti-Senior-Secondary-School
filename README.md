@@ -42,7 +42,7 @@ Welcome to our school web application project! This dynamic web application is d
 
 ### Cloning
 
-1. **Clone the Repository:**
+1. **Cloning:**
 
     Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
@@ -50,7 +50,7 @@ Welcome to our school web application project! This dynamic web application is d
     git clone https://github.com/theankushshah/Govt.Model-Sanskriti-Senior-Secondary-School.git
     ```
 
-2. **Navigate to the Project Directory:**
+2. **Navigate to the Directory:**
 
     Once cloned, navigate into the project directory using the `cd` command:
 
@@ -73,6 +73,14 @@ Welcome to our school web application project! This dynamic web application is d
     ```
 
 ### Cloning & Download
+
+4. **Running:**
+
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
 1. **Start Coding:**
 
@@ -160,11 +168,11 @@ Welcome to our school web application project! This dynamic web application is d
     **I will review your pull request and decide whether to merge your changes into my repository or not**
 
 
-## <a name="feedback">Feedback</a>
+### <a name="feedback">Feedback</a>
 
 You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
 
-## <a name="contributors">Contributors & Main</a>
+### <a name="contributors">Contributors & Main</a>
 
 - Ankush Shah (ankushsahvlogs@gmail.com) (Main)
 
