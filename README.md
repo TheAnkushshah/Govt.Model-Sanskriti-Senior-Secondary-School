@@ -74,11 +74,11 @@ Welcome to our school web application project! This dynamic web application is d
 
 ### Cloning & Download
 
-4. **Running:**
+1. **Running:**
 
     Open any HTML file by F5 in your browser to view the project.
 
-1. **Start Coding:**
+2. **Start Coding:**
 
     Feel free to edit the code according to your requirements.
 
