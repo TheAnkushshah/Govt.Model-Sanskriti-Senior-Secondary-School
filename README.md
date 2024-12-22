@@ -46,7 +46,7 @@ Welcome to our school web application project! This dynamic web application is d
 
     Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
-    ```
+    ```bash
     git clone https://github.com/theankushshah/Govt.Model-Sanskriti-Senior-Secondary-School.git
     ```
 
@@ -54,7 +54,7 @@ Welcome to our school web application project! This dynamic web application is d
 
     Once cloned, navigate into the project directory using the `cd` command:
 
-    ```
+    ```bash
     cd Govt.Model-Sanskriti-Senior-Secondary-School
     ```
 
