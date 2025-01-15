@@ -1,6 +1,6 @@
 ### School Webapp
 
-Welcome to our school web application project! This dynamic web application is designed to streamline interactions between students, teachers, and administrative staff. With a responsive user interface, users can seamlessly access information, interact, and perform various tasks.
+Welcome to our school web application! This dynamic web application is designed to streamline interactions between students, teachers, and administrative staff. With a responsive user interface, users can seamlessly access information, interact, and perform various tasks.
 
 ### Preview
 
