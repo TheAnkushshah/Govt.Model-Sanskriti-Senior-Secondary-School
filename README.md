@@ -19,6 +19,7 @@ Welcome to our school web application! This dynamic web application is designed 
 - HTML5
 - CSS
 - JavaScript
+- Tailwind CSS
 
 ### <a name="features">Features</a>
 
@@ -162,7 +163,6 @@ Welcome to our school web application! This dynamic web application is designed 
 - Click "Create pull request"
 
     **I will review your pull request and decide whether to merge your changes into my repository or not**
-
 
 ### <a name="feedback">Feedback</a>
 
